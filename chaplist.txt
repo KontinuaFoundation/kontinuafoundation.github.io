@@ -1,0 +1,203 @@
+01
+	Introduction to the Kontinua Sequence
+	Matter and Energy
+	Units and Conversions
+	The Greek Alphabet
+	Atomic and Molecular Mass
+	Conservation of Mass and Energy
+	Force, Mass, and Acceleration
+	Work and Energy
+02
+	Chemical Reactions
+	Simple Machines
+	Buoyancy
+	Heat
+	Friction
+03
+	Basic Statistics
+	Basic Statistics in Spreadsheets
+	Introduction to Data Visualization
+	Introduction to Electricity
+	DC Circuit Analysis
+	Charge
+04
+	Fertilizer
+	Concrete
+	Metals
+	Angles
+	Introduction to Triangles
+05
+	Pythagorean Theorem
+	Congruence
+	Functions and Their Graphs
+	Trigometric Functions
+	Trigonometric Identities
+06
+	Parallel and Perpendicular
+	Circles
+	Volumes of Common Solids
+	Conic Sections
+	Manufacturing
+07
+	Falling Bodies
+	Kinematics
+	Projectile Motion
+	Free Body Diagrams
+	Vectors
+	Momentum
+08
+	The Dot Product
+	Boats
+	Sailboats
+	Airplanes
+	Quadcopters
+	Helicopters
+09
+	Atmospheric Pressure
+	Cognitive Biases 1
+	Solving Quadratics
+	Complex Numbers
+	Introduction to Sequences
+10
+	Exponents
+	Compound Interest
+	Logarithms
+	Exponential Decay
+	Inverse Trigonometric Functions
+11
+	Transforming Functions
+	Polar Coordinates
+	Sound
+12
+	Alternating Current
+	Electric Motor
+	Drag
+	Vector-valued Functions
+	Circular Motion
+13
+	Orbits
+	Rocketry
+	Simulation with Vectors
+	Longitude and Latitude
+14
+	Tides and Eclipses
+	Electromagnetic Waves
+	How Cameras Work
+	How Eyes Work
+	Reflection
+15
+	Refraction
+	Lenses
+	Images in Python
+	Introduction to Polynomials
+16
+	Python Lists
+	Adding and Subtracting Polynomials
+	Multiplying Polynomials
+	Multiplying Polynomials in Python
+	Differentiating Polynomials
+17
+	Python Classes
+	Common Polynomial Products
+	Factoring Polynomials
+	Partial Fractions
+	Practice with Polynomials
+18
+	Graphing Polynomials
+	Interpolating with Polynomials
+	Limits
+	Rational Functions
+19
+	Differentiation
+	Derivatives
+	Rules for Finding Derivatives
+	First and Second Derivatives and the Shape of a Function
+20
+	Optimization
+	Implicit Differentiation
+	Related Rates
+	Multivariate Functions
+21
+	Partial Derivatives and Gradients
+	Introduction to Linear Algebra
+	Vectors and Matrices
+	Linear Combinations of Vectors
+22
+	Vector Independence
+	Span
+	Matrices and Systems of Linear Equations
+	Matrices
+23
+	Projections
+	The Gram-Schmidt Process
+	Eigenvectors and Eigenvalues
+	Singular Value Decomposition
+24
+	Tackling Difficult Problems: Positive Semidefinite Matrices
+	Data Tables and pandas
+	Data tables in SQL
+	Representing Natural Numbers
+25
+	Making Web Requests with HTTP
+	Using and Creating APIs
+	Data Compression and Decompression
+	Dealing with JSON and XML
+26
+	HTML
+	Introduction to Text
+	Stop Words
+	Stemming and Lemmatization
+27
+	Alphabets and Accents
+	Making Plots with matplotlib
+	Geographical Data
+	Geocoding and Reverse Geocoding
+28
+	Making a Map
+	Introduction to Discrete Probability
+	Beginning Combinatorics
+	Permutations and Sorting
+29
+	Conditional Probability
+	Bayes' Theorem
+	Antiderivatives
+	Riemann Sums
+30
+	Definite Integrals
+	The Fundamental Theorem of Calculus
+	Arc Lengths
+	Continuous Probability Distributions
+31
+	The Physics of Gases
+	Kinetic Energy and Temperature of a Gas
+	Phases of Matter
+	The Piston Engine
+32
+	u-Substitution
+	Calculus with Polar Coordinates
+	Differential Equations
+	Slope Fields
+33
+	Euler's Method
+	Sequences in Calculus
+	Series
+	Convergence Tests for Series
+34
+	Power Series
+	Population Proportion Statistics
+	Change of Variables
+	Volumes with Integrals
+35
+	Double Integrals over Rectangular Regions
+	Double Integrals Over Non-Rectangular Regions
+	Applications of Double Integrals
+	Multivariate Distributions
+36
+	The Multivariate Normal Distribution
+	Numerical Double Integration
+	Sets and Logic
+	Introduction to Graphs
+	Dijkstra's Algorithm
+	Binary Search
+	Other Graph Algorithms
+	Bayesian Classifiers
