@@ -1,22 +1,24 @@
 01
 	Introduction to the Kontinua Sequence
 	Matter and Energy
+	Conservation of Mass and Energy
+	Mass, Weight, and Gravity
+	Introductory Motion Concepts
+	Force, Mass, and Acceleration
+	Friction
 	Units and Conversions
 	The Greek Alphabet
-	Atomic and Molecular Mass
-	Conservation of Mass and Energy
-	Force, Mass, and Acceleration
-	Work and Energy
 02
+	Atomic and Molecular Mass
 	Chemical Reactions
 	Simple Machines
 	Buoyancy
 	Heat
-	Friction
+	Work and Energy
 03
 	Basic Statistics
 	Basic Statistics in Spreadsheets
-	Introduction to Data Visualization
+	Introduction to Python
 	Introduction to Electricity
 	DC Circuit Analysis
 	Charge
@@ -26,27 +28,27 @@
 	Metals
 	Angles
 	Introduction to Triangles
-05
 	Pythagorean Theorem
+05
 	Congruence
-	Functions and Their Graphs
-	Trigometric Functions
-	Trigonometric Identities
-06
 	Parallel and Perpendicular
 	Circles
+	Functions and Their Graphs
+	Transforming Functions
+06
+	Trigometric Functions
+	Trigonometric Identities
 	Volumes of Common Solids
 	Conic Sections
-	Manufacturing
+	Vectors
 07
 	Falling Bodies
 	Kinematics
 	Projectile Motion
 	Free Body Diagrams
-	Vectors
+	Inclined planes
 	Momentum
 08
-	The Dot Product
 	Boats
 	Sailboats
 	Airplanes
@@ -65,48 +67,53 @@
 	Exponential Decay
 	Inverse Trigonometric Functions
 11
-	Transforming Functions
+	Introduction to Data Visualization
+	The Dot Product
+	Manufacturing
 	Polar Coordinates
 	Sound
 12
 	Alternating Current
+	Electromagnetic Induction
 	Electric Motor
 	Drag
 	Vector-valued Functions
 	Circular Motion
 13
+	Oscillations
 	Orbits
 	Rocketry
 	Simulation with Vectors
 	Longitude and Latitude
-14
 	Tides and Eclipses
+14
 	Electromagnetic Waves
-	How Cameras Work
-	How Eyes Work
 	Reflection
-15
 	Refraction
 	Lenses
+15
+	How Cameras Work
+	How Eyes Work
 	Images in Python
-	Introduction to Polynomials
+	Bitmaps
 16
+	Introduction to Polynomials
 	Python Lists
 	Adding and Subtracting Polynomials
 	Multiplying Polynomials
 	Multiplying Polynomials in Python
-	Differentiating Polynomials
 17
+	Differentiating Polynomials
 	Python Classes
 	Common Polynomial Products
 	Factoring Polynomials
-	Partial Fractions
 	Practice with Polynomials
 18
 	Graphing Polynomials
 	Interpolating with Polynomials
-	Limits
 	Rational Functions
+	Partial Fractions
+	Limits
 19
 	Differentiation
 	Derivatives
@@ -116,7 +123,7 @@
 	Optimization
 	Implicit Differentiation
 	Related Rates
-	Multivariate Functions
+	Multivariate Functions and Partial Derivatives
 21
 	Partial Derivatives and Gradients
 	Introduction to Linear Algebra
@@ -125,15 +132,16 @@
 22
 	Vector Independence
 	Span
-	Matrices and Systems of Linear Equations
+	Cross Product
+	Applications of Matrices and Systems of Linear Equations
 	Matrices
 23
 	Projections
 	The Gram-Schmidt Process
 	Eigenvectors and Eigenvalues
 	Singular Value Decomposition
-24
 	Tackling Difficult Problems: Positive Semidefinite Matrices
+24
 	Data Tables and pandas
 	Data tables in SQL
 	Representing Natural Numbers
@@ -185,6 +193,7 @@
 34
 	Power Series
 	Population Proportion Statistics
+	The Normal Distribution
 	Change of Variables
 	Volumes with Integrals
 35
