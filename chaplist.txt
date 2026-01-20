@@ -26,6 +26,7 @@
 	Fertilizer
 	Concrete
 	Metals
+	A deeper look at Python syntax
 	Angles
 	Introduction to Triangles
 	Pythagorean Theorem
@@ -80,21 +81,23 @@
 	Vector-valued Functions
 	Circular Motion
 13
-	Oscillations
-	Orbits
-	Rocketry
-	Simulation with Vectors
-	Longitude and Latitude
-	Tides and Eclipses
-14
 	Electromagnetic Waves
 	Reflection
 	Refraction
 	Lenses
+	Oscillations
+	Orbits
+14
+	Circular Motion, continued
+	Rocketry
+	Simulation with Vectors
+	Longitude and Latitude
+	Tides and Eclipses
 15
 	How Cameras Work
 	How Eyes Work
 	Images in Python
+	Representing Natural Numbers
 	Bitmaps
 16
 	Introduction to Polynomials
@@ -123,28 +126,31 @@
 	Optimization
 	Implicit Differentiation
 	Related Rates
+	Parametric Functions
 	Multivariate Functions and Partial Derivatives
-21
 	Partial Derivatives and Gradients
+21
 	Introduction to Linear Algebra
 	Vectors and Matrices
 	Linear Combinations of Vectors
+	Systems of Equations as Matrices
+	Linear Independence and Dependence
+	Subspaces
 22
-	Vector Independence
 	Span
+	Determinants and Inverse Matrices
+	Projections
 	Cross Product
 	Applications of Matrices and Systems of Linear Equations
-	Matrices
-23
-	Projections
-	The Gram-Schmidt Process
 	Eigenvectors and Eigenvalues
+23
+	The Gram-Schmidt Process
 	Singular Value Decomposition
 	Tackling Difficult Problems: Positive Semidefinite Matrices
 24
 	Data Tables and pandas
 	Data tables in SQL
-	Representing Natural Numbers
+	Diodes, Rectifiers, and Photovoltaics
 25
 	Making Web Requests with HTTP
 	Using and Creating APIs
