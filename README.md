@@ -31,9 +31,9 @@ This repository is a **generated, read-only view** of the Kontinua Foundation Se
 ## Who is this repository for?
 This repository is an open-source view of the open-source resources developed by the authors and writers of the Kontinua Foundation. Additionally,
 
-- **Students** students trying out the Sequence for the first time
+- **Students** trying out the Sequence for the first time
 - **Authors** reviewing the live rendered state of draft chapters
-- **Editors** writing and checking structure, flow, and progression
+- **Editors and Publishers** writing and checking structure, flow, and progression
 - **The public and interested communities** seeking transparency into the Kontinua Foundation Sequence
 
 ## Feedback & Issues
