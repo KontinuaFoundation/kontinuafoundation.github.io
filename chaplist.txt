@@ -139,7 +139,7 @@
 22
 	Span
 	Determinants and Inverse Matrices
-	Projections
+	Matrices as Transformations
 	Cross Product
 	Applications of Matrices and Systems of Linear Equations
 	Eigenvectors and Eigenvalues
