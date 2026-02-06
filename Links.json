@@ -4451,6 +4451,10 @@
     "title": "Row- and column-major order - Wikipedia",
     "date": "2026-02-02T11:00"
   },
+  "https://youtu.be/g4ecBFmvAYU": {
+    "title": "The deeper meaning of matrix transpose - YouTube",
+    "date": "2026-02-06T01:46"
+  },
   "https://en.wikipedia.org/wiki/Linear_combination": {
     "title": "Linear combination - Wikipedia",
     "date": "2026-01-19T19:13"
@@ -4506,6 +4510,26 @@
   "https://youtu.be/VNMjJ92rAw0": {
     "title": "Determine Basic (Leading) Variables and Free Variables Given a Matrix in RREF - YouTube",
     "date": "2026-01-19T19:38"
+  },
+  "https://www.geeksforgeeks.org/maths/real-life-application-of-matrices/": {
+    "title": "Application of Matrices - GeeksforGeeks",
+    "date": "2026-01-19T19:13"
+  },
+  "https://youtu.be/s0fm0NvZKXk": {
+    "title": "Math is Boring Without Real Life Application! - YouTube",
+    "date": "2026-01-19T19:13"
+  },
+  "https://youtu.be/rowWM-MijXU": {
+    "title": "The Applications of Matrices | What I wish my teachers told me way earlier - YouTube",
+    "date": "2026-01-19T19:13"
+  },
+  "https://www.youtube.com/watch?v=7Mo4S2wyMg4": {
+    "title": "Matrix vector products | Vectors and spaces | Linear Algebra | Khan Academy - YouTube",
+    "date": "2026-01-19T19:13"
+  },
+  "https://youtu.be/4csuTO7UTMo": {
+    "title": "Dear linear algebra students, This is what matrices (and matrix manipulation) really look like - YouTube",
+    "date": "2026-01-19T19:13"
   },
   "https://en.wikipedia.org/wiki/Linear_independence": {
     "title": "Linear independence - Wikipedia",
@@ -4743,25 +4767,21 @@
     "title": "Right-hand rule for vector cross product - YouTube",
     "date": "2026-01-19T19:13"
   },
-  "https://www.geeksforgeeks.org/maths/real-life-application-of-matrices/": {
-    "title": "Application of Matrices - GeeksforGeeks",
-    "date": "2026-01-19T19:13"
+  "https://en.wikipedia.org/wiki/Transformation_matrix": {
+    "title": "Transformation matrix - Wikipedia",
+    "date": "2026-02-06T01:46"
   },
-  "https://youtu.be/s0fm0NvZKXk": {
-    "title": "Math is Boring Without Real Life Application! - YouTube",
-    "date": "2026-01-19T19:13"
+  "https://youtu.be/is1cg5yhdds": {
+    "title": "Linear Transformations on Vector Spaces - YouTube",
+    "date": "2026-02-06T01:46"
   },
-  "https://youtu.be/rowWM-MijXU": {
-    "title": "The Applications of Matrices | What I wish my teachers told me way earlier - YouTube",
-    "date": "2026-01-19T19:13"
+  "https://youtu.be/4PCktDZJH8E": {
+    "title": "Linear transformations | Matrix transformations | Linear Algebra | Khan Academy - YouTube",
+    "date": "2026-02-06T01:46"
   },
-  "https://www.youtube.com/watch?v=7Mo4S2wyMg4": {
-    "title": "Matrix vector products | Vectors and spaces | Linear Algebra | Khan Academy - YouTube",
-    "date": "2026-01-19T19:13"
-  },
-  "https://youtu.be/4csuTO7UTMo": {
-    "title": "Dear linear algebra students, This is what matrices (and matrix manipulation) really look like - YouTube",
-    "date": "2026-01-19T19:13"
+  "https://youtu.be/rHLEWRxRGiM": {
+    "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra - YouTube",
+    "date": "2026-02-06T01:46"
   },
   "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors": {
     "title": "Eigenvalues and eigenvectors - Wikipedia",
@@ -4806,6 +4826,58 @@
   "https://www.youtube.com/watch?v=e50Bj7jn9IQ": {
     "title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra - YouTube",
     "date": "2026-01-19T19:13"
+  },
+  "https://en.wikipedia.org/wiki/Projection_(linear_algebra)": {
+    "title": "Projection (linear algebra) - Wikipedia",
+    "date": "2026-02-06T01:46"
+  },
+  "https://en.wikipedia.org/wiki/Vector_projection": {
+    "title": "Vector projection - Wikipedia",
+    "date": "2026-02-06T01:46"
+  },
+  "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Mathematics_for_Game_Developers_(Burzynski)/02:_Vectors_In_Two_Dimensions/2.06:_The_Vector_Projection_of_One_Vector_onto_Another": {
+    "title": "2.6: The Vector Projection of One Vector onto Another - Mathematics LibreTexts",
+    "date": "2026-02-06T01:46"
+  },
+  "https://en.wikipedia.org/wiki/Scalar_projection": {
+    "title": "Scalar projection - Wikipedia",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/27vT-NWuw0M": {
+    "title": "Introduction to projections | Matrix transformations | Linear Algebra | Khan Academy - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/Rw70zkvqEiE": {
+    "title": "Calculus 3 - Vector Projections & Orthogonal Components - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/5FO7gJ1um8s": {
+    "title": "Vector Projections | Vector Calculus #17 - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/LyGKycYT2v0": {
+    "title": "Dot products and duality | Chapter 9, Essence of linear algebra - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/Y_Ac6KiQ1t0": {
+    "title": "15. Projections onto Subspaces - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/t-n4a18AW08": {
+    "title": "Projection into Subspaces - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://www.youtube.com/watch?v=U0_ONQQ5ZNM": {
+    "title": "The Math behind (most) 3D games - Perspective Projection - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://youtu.be/fqPiDICPkj8": {
+    "title": "Vector Projections - YouTube",
+    "date": "2026-02-06T01:46"
+  },
+  "https://www.youtube.com/watch?v=OIFlsdKufcY": {
+    "title": "Vector Projections Are Just Shadows - YouTube",
+    "date": "2026-02-06T01:46"
   },
   "https://www.geeksforgeeks.org/machine-learning/gram-schmidt-process-for-ml/": {
     "title": "Gram Schmidt Process for ML - GeeksforGeeks",

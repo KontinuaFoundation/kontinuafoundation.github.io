@@ -134,15 +134,16 @@
 	Vectors and Matrices
 	Linear Combinations of Vectors
 	Systems of Equations as Matrices
+	Applications of Matrices and Systems of Linear Equations
 	Linear Independence and Dependence
 	Subspaces
 22
 	Span
 	Determinants and Inverse Matrices
-	Matrices as Transformations
 	Cross Product
-	Applications of Matrices and Systems of Linear Equations
+	Matrices as Transformations
 	Eigenvectors and Eigenvalues
+	Projections
 23
 	The Gram-Schmidt Process
 	Singular Value Decomposition
