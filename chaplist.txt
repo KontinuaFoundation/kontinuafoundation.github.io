@@ -11,10 +11,10 @@
 02
 	Atomic and Molecular Mass
 	Chemical Reactions
-	Simple Machines
 	Buoyancy
 	Heat
 	Work and Energy
+	Simple Machines
 03
 	Basic Statistics
 	Basic Statistics in Spreadsheets
@@ -134,7 +134,7 @@
 	Vectors and Matrices
 	Linear Combinations of Vectors
 	Systems of Equations as Matrices
-	Applications of Matrices and Systems of Linear Equations
+	Systems of Linear Equations
 	Linear Independence and Dependence
 	Subspaces
 22
