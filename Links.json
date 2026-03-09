@@ -727,6 +727,22 @@
     "title": "Python Tutorial",
     "date": "2026-03-01T23:33"
   },
+  "https://www.w3schools.com/python/python_intro.asp": {
+    "title": "Introduction to Python",
+    "date": "2026-03-01T23:33"
+  },
+  "https://www.w3schools.com/python/python_syntax.asp": {
+    "title": "Python Syntax",
+    "date": "2026-03-01T23:33"
+  },
+  "https://www.w3schools.com/python/python_reference.asp": {
+    "title": "Python Reference",
+    "date": "2026-03-01T23:33"
+  },
+  "https://codehs.com/textbook/intropython_textbook/": {
+    "title": "Textbook: Intro to Python Textbook | CodeHS",
+    "date": "2026-03-01T23:33"
+  },
   "https://youtu.be/fWjsdhR3z3c": {
     "title": "Learn Python in Less than 10 Minutes for Beginners (Fast & Easy) - YouTube",
     "date": "2026-03-01T23:33"
@@ -749,6 +765,26 @@
   },
   "https://youtu.be/Ro_MScTDfU4": {
     "title": "Learn Python in Only 30 Minutes (Beginner Tutorial) - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/x7X9w_GIm1s?si=sDkTG2-hZhoxLo47": {
+    "title": "Python in 100 Seconds - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/Gx5qb1uHss4?si=YTT8pzB4-y1OTfhP": {
+    "title": "10 Important Python Concepts In 20 Minutes - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/gOMW_n2-2Mw": {
+    "title": "Python lists, sets, and tuples explained \ud83c\udf4d - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://www.youtube.com/watch?v=PNSIWjWAA7o": {
+    "title": "All Python Syntax in 25 Minutes \u2013 Tutorial - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/K5KVEU3aaeQ": {
+    "title": "Python Full Course for Beginners - YouTube",
     "date": "2026-03-01T23:33"
   },
   "https://en.wikipedia.org/wiki/Insulator_(electricity)": {
@@ -877,26 +913,6 @@
   },
   "https://youtu.be/SYrOiQs3X2U?si=Hzx5IcMans0QThVb": {
     "title": "Resistors In Parallel - The Easy Way! - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://en.wikipedia.org/wiki/Electric_charge": {
-    "title": "Electric charge - Wikipedia",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/VFbyDCG_j18?si=UzSQMmKhtUt_wwTS": {
-    "title": "Electric Charge and Electric Fields - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/kCp5yYjo9zE?si=yn7H34Bxcn6KIlKq": {
-    "title": "Coulomb's Law - Net Electric Force & Point Charges - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://www.khanacademy.org/science/hs-physics/x215e29cb31244fa1:types-of-interactions/x215e29cb31244fa1:coulomb-s-law/v/coulombs-law": {
-    "title": "Khan Academy",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/MsINeZMeTMQ?si=mVydIC3n1ynxKPyL": {
-    "title": "Coulomb's law | Physics | Khan Academy - YouTube",
     "date": "2026-03-01T23:33"
   },
   "https://en.wikipedia.org/wiki/Fertilizer": {
@@ -1595,48 +1611,36 @@
     "title": "How To Find The Unit Vector - YouTube",
     "date": "2026-03-01T23:33"
   },
+  "https://en.wikipedia.org/wiki/Electric_charge": {
+    "title": "Electric charge - Wikipedia",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/VFbyDCG_j18?si=UzSQMmKhtUt_wwTS": {
+    "title": "Electric Charge and Electric Fields - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/kCp5yYjo9zE?si=yn7H34Bxcn6KIlKq": {
+    "title": "Coulomb's Law - Net Electric Force & Point Charges - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://www.khanacademy.org/science/hs-physics/x215e29cb31244fa1:types-of-interactions/x215e29cb31244fa1:coulomb-s-law/v/coulombs-law": {
+    "title": "Khan Academy",
+    "date": "2026-03-01T23:33"
+  },
+  "https://youtu.be/MsINeZMeTMQ?si=mVydIC3n1ynxKPyL": {
+    "title": "Coulomb's law | Physics | Khan Academy - YouTube",
+    "date": "2026-03-01T23:33"
+  },
+  "https://en.wikipedia.org/wiki/Electric_field": {
+    "title": "Electric field - Wikipedia",
+    "date": "2026-03-09T15:08"
+  },
   "https://en.wikipedia.org/wiki/Gravitational_acceleration": {
     "title": "Gravitational acceleration - Wikipedia",
     "date": "2026-03-01T23:33"
   },
   "https://youtu.be/BVgemK1Y2wA?si=J-bSghhuPjlMuup5": {
     "title": "Free Fall Physics Problems - Acceleration Due To Gravity - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://www.w3schools.com/python/python_intro.asp": {
-    "title": "Introduction to Python",
-    "date": "2026-03-01T23:33"
-  },
-  "https://www.w3schools.com/python/python_syntax.asp": {
-    "title": "Python Syntax",
-    "date": "2026-03-01T23:33"
-  },
-  "https://www.w3schools.com/python/python_reference.asp": {
-    "title": "Python Reference",
-    "date": "2026-03-01T23:33"
-  },
-  "https://codehs.com/textbook/intropython_textbook/": {
-    "title": "Textbook: Intro to Python Textbook | CodeHS",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/x7X9w_GIm1s?si=sDkTG2-hZhoxLo47": {
-    "title": "Python in 100 Seconds - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/Gx5qb1uHss4?si=YTT8pzB4-y1OTfhP": {
-    "title": "10 Important Python Concepts In 20 Minutes - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/gOMW_n2-2Mw": {
-    "title": "Python lists, sets, and tuples explained \ud83c\udf4d - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://www.youtube.com/watch?v=PNSIWjWAA7o": {
-    "title": "All Python Syntax in 25 Minutes \u2013 Tutorial - YouTube",
-    "date": "2026-03-01T23:33"
-  },
-  "https://youtu.be/K5KVEU3aaeQ": {
-    "title": "Python Full Course for Beginners - YouTube",
     "date": "2026-03-01T23:33"
   },
   "https://en.wikipedia.org/wiki/Kinematics#Kinematics_of_a_particle_trajectory_in_a_non-rotating_frame_of_reference": {
@@ -2618,6 +2622,34 @@
   "https://youtu.be/CR0ihuP-V8w": {
     "title": "Terminal velocity - YouTube",
     "date": "2026-03-01T23:33"
+  },
+  "https://en.wikipedia.org/wiki/Parametric_equation": {
+    "title": "Parametric equation - Wikipedia",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-equations-1": {
+    "title": "Khan Academy",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.youtube.com/watch?v=7g37UjuVYeU": {
+    "title": "AP Precalculus \u2013 4.1 Parametric Functions - YouTube",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.youtube.com/watch?v=qAn4wVIkH6c": {
+    "title": "AP Precalculus \u2013 4.2 Parametric Functions Modeling Planar Motion - YouTube",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.youtube.com/watch?v=97pe-QlSGqA": {
+    "title": "Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus - YouTube",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.youtube.com/watch?v=5BszZXMelVE": {
+    "title": "Introduction to Parametric Equations - Graphing and Eliminating the Parameter - YouTube",
+    "date": "2026-03-02T14:05"
+  },
+  "https://www.youtube.com/watch?v=yxXgK9hAPoQ": {
+    "title": "AP Precalculus \u2013 4.3 Parametric Functions and Rates of Change - YouTube",
+    "date": "2026-03-02T14:05"
   },
   "https://en.wikipedia.org/wiki/Vector-valued_function": {
     "title": "Vector-valued function - Wikipedia",
@@ -4242,34 +4274,6 @@
   "https://youtu.be/J27BZCX1OF8": {
     "title": "Understanding Differentiation Part 2: Rates of Change - YouTube",
     "date": "2026-03-01T23:33"
-  },
-  "https://en.wikipedia.org/wiki/Parametric_equation": {
-    "title": "Parametric equation - Wikipedia",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-equations-1": {
-    "title": "Khan Academy",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.youtube.com/watch?v=7g37UjuVYeU": {
-    "title": "AP Precalculus \u2013 4.1 Parametric Functions - YouTube",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.youtube.com/watch?v=qAn4wVIkH6c": {
-    "title": "AP Precalculus \u2013 4.2 Parametric Functions Modeling Planar Motion - YouTube",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.youtube.com/watch?v=97pe-QlSGqA": {
-    "title": "Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus - YouTube",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.youtube.com/watch?v=5BszZXMelVE": {
-    "title": "Introduction to Parametric Equations - Graphing and Eliminating the Parameter - YouTube",
-    "date": "2026-03-02T14:05"
-  },
-  "https://www.youtube.com/watch?v=yxXgK9hAPoQ": {
-    "title": "AP Precalculus \u2013 4.3 Parametric Functions and Rates of Change - YouTube",
-    "date": "2026-03-02T14:05"
   },
   "https://en.wikipedia.org/wiki/Multivariable_calculus": {
     "title": "Multivariable calculus - Wikipedia",

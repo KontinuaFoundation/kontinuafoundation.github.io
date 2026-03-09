@@ -21,7 +21,6 @@
 	Introduction to Python
 	Introduction to Electricity
 	DC Circuit Analysis
-	Charge
 04
 	Fertilizer
 	Concrete
@@ -42,6 +41,7 @@
 	Volumes of Common Solids
 	Conic Sections
 	Vectors
+	Charge
 07
 	Falling Bodies
 	Kinematics
@@ -78,6 +78,7 @@
 	Electromagnetic Induction
 	Electric Motor
 	Drag
+	Parametric Functions
 	Vector-valued Functions
 	Circular Motion
 13
@@ -126,7 +127,6 @@
 	Optimization
 	Implicit Differentiation
 	Related Rates
-	Parametric Functions
 	Multivariate Functions and Partial Derivatives
 	Partial Derivatives and Gradients
 21
