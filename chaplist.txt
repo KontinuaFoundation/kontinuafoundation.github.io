@@ -71,7 +71,6 @@
 	Introduction to Data Visualization
 	The Dot Product
 	Manufacturing
-	Polar Coordinates
 	Sound
 12
 	Alternating Current
@@ -88,6 +87,7 @@
 	Lenses
 	Oscillations
 	Orbits
+	Polar Coordinates
 14
 	Circular Motion, continued
 	Rocketry
