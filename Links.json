@@ -303,6 +303,18 @@
     "title": "U.S. customary and metric units | Ratios, proportions, units, and rates | Pre-Algebra | Khan Academy - YouTube",
     "date": "2026-03-01T23:33"
   },
+  "https://en.wikipedia.org/wiki/International_System_of_Units": {
+    "title": "International System of Units - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/8rZRYPoerPw": {
+    "title": "SI Base Units and Derived Units - Physics and Chemistry - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/hQpQ0hxVNTg": {
+    "title": "Unit Conversion & Significant Figures: Crash Course Chemistry #2 - YouTube",
+    "date": "2026-03-26T23:35"
+  },
   "https://en.wikipedia.org/wiki/Greek_alphabet": {
     "title": "Greek alphabet - Wikipedia",
     "date": "2026-03-01T23:33"
@@ -803,6 +815,10 @@
     "title": "Electrical conductor - Wikipedia",
     "date": "2026-03-01T23:33"
   },
+  "https://en.wikipedia.org/wiki/Superconductivity": {
+    "title": "Superconductivity - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
   "https://en.wikipedia.org/wiki/Coulomb#Conversions": {
     "title": "Coulomb - Wikipedia",
     "date": "2026-03-01T23:33"
@@ -863,6 +879,30 @@
     "title": "Introduction to circuits and Ohm's law | Circuits | Physics | Khan Academy - YouTube",
     "date": "2026-03-01T23:33"
   },
+  "https://en.wikipedia.org/wiki/Capacitor": {
+    "title": "Capacitor - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://www.youtube.com/watch?v=NPM3wSb7veU": {
+    "title": "What is a capacitor? Basics - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/X4EUwTwZ110": {
+    "title": "Capacitors Explained - The basics how capacitors work working principle - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/u-jigaMJT10": {
+    "title": "Capacitors and capacitance | Circuits | Physics | Khan Academy - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/5sluIFfocqY": {
+    "title": "How Capacitors Work - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/BimpNou0orc": {
+    "title": "Capacitors - Basic Introduction - Physics - YouTube",
+    "date": "2026-03-26T23:35"
+  },
   "https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Series_circuits": {
     "title": "Series and parallel circuits - Wikipedia",
     "date": "2026-03-01T23:33"
@@ -887,10 +927,6 @@
     "title": "Kirchhoff's circuit laws - Wikipedia",
     "date": "2026-03-01T23:33"
   },
-  "https://youtu.be/affa61AME68?si=XhCLNHOtNmz_dBWh&t=66": {
-    "title": "Kirchhoff's Laws - Electricity - A-level Physics - YouTube",
-    "date": "2026-03-01T23:33"
-  },
   "https://youtu.be/6F_rmZ1nXFQ?si=NzDyqmTZmm_Q98KL": {
     "title": "Kirchhoff's Voltage Law - KVL Circuits, Loop Rule & Ohm's Law - Series Circuits, Physics - YouTube",
     "date": "2026-03-01T23:33"
@@ -902,6 +938,18 @@
   "https://youtu.be/T68dOmtyar4?si=y_4czcYsf1Vm4u9q": {
     "title": "Circuits I: Kirchoff's Current Law (KCL) - YouTube",
     "date": "2026-03-01T23:33"
+  },
+  "https://www.youtube.com/watch?v=4rsswT_Rv1M": {
+    "title": "Resistivity and conductivity | Circuits | Physics | Khan Academy - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/affa61AME68": {
+    "title": "Kirchhoff's Laws - Electricity - A-level Physics - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/dgkaE7eiY5w": {
+    "title": "Solving Circuit Problems using Kirchhoff's Rules - YouTube",
+    "date": "2026-03-26T23:35"
   },
   "https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Parallel_circuits": {
     "title": "Series and parallel circuits - Wikipedia",
@@ -1615,6 +1663,10 @@
     "title": "Electric charge - Wikipedia",
     "date": "2026-03-01T23:33"
   },
+  "https://sharkphysics.weebly.com/electric-charges--fields.html": {
+    "title": "Electric Charges & Fields - AP Physics B\u00a0",
+    "date": "2026-03-26T23:35"
+  },
   "https://youtu.be/VFbyDCG_j18?si=UzSQMmKhtUt_wwTS": {
     "title": "Electric Charge and Electric Fields - YouTube",
     "date": "2026-03-01T23:33"
@@ -1650,6 +1702,62 @@
   "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/dipole.html": {
     "title": "Electric Dipole",
     "date": "2026-03-19T12:25"
+  },
+  "https://en.wikipedia.org/wiki/Gauss%27s_law#Definition": {
+    "title": "Gauss's law - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://en.wikipedia.org/wiki/Gaussian_surface": {
+    "title": "Gaussian surface - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05:_Electric_Charges_and_Fields/5.06:_Calculating_Electric_Fields_of_Charge_Distributions": {
+    "title": "5.6: Calculating Electric Fields of Charge Distributions - Physics LibreTexts",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/bt46cqO1epw": {
+    "title": "Charge density & continuous charge distribution | Electric charges & fields | Physics | Khan Academy - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/Zpns_8W5fXc": {
+    "title": "Continuous Charge Distributions - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/QS5_oJhcSRs": {
+    "title": "Continuous Charge Distributions - Review for AP Physics C: Electricity and Magnetism - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://en.wikipedia.org/wiki/Electric_potential": {
+    "title": "Electric potential - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://en.wikipedia.org/wiki/Electric_potential_energy": {
+    "title": "Electric potential energy - Wikipedia",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/LzKMQByFSLc": {
+    "title": "Electric Potential - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/KoZ61FujkRk": {
+    "title": "Electric Potential Energy - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/XWlZ9bfGIoI": {
+    "title": "Electric Potential, Current, and Resistance - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/j3GrOKre__0": {
+    "title": "What is an Electric Potential ? - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/hMoMw3NzCr8": {
+    "title": "Understanding Electric Potential - YouTube",
+    "date": "2026-03-26T23:35"
+  },
+  "https://youtu.be/ks1B1_umFk8": {
+    "title": "Electric potential at a point in space | Physics | Khan Academy - YouTube",
+    "date": "2026-03-26T23:35"
   },
   "https://en.wikipedia.org/wiki/Gravitational_acceleration": {
     "title": "Gravitational acceleration - Wikipedia",

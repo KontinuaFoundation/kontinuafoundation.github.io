@@ -134,7 +134,7 @@
 	Vectors and Matrices
 	Linear Combinations of Vectors
 	Systems of Equations as Matrices
-	Systems of Linear Equations
+	Applications of Matrices in System Form
 	Linear Independence and Dependence
 	Subspaces
 22
