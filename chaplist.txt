@@ -208,10 +208,12 @@
 	Double Integrals Over Non-Rectangular Regions
 	Applications of Double Integrals
 	Multivariate Distributions
+	Sets and Logic
+	Proofs
+	Paradoxes, Thought Experiments, and the Illusions
 36
 	The Multivariate Normal Distribution
 	Numerical Double Integration
-	Sets and Logic
 	Introduction to Graphs
 	Dijkstra's Algorithm
 	Binary Search
