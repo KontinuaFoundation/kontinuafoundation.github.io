@@ -1,0 +1,468 @@
+[
+  {
+    "requires": [
+      "grav",
+      "fma",
+      "acc",
+      "parabola-equation",
+      "python_basics"
+    ],
+    "title": "Falling Bodies",
+    "id": "falling_bodies",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "gravitational_acceleration",
+        "desc": "Understand acceleration due to gravity",
+        "videos": [
+          {
+            "link": "https://youtu.be/BVgemK1Y2wA?si=J-bSghhuPjlMuup5",
+            "title": "Free Fall Physics Problems - Acceleration Due To Gravity - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Gravitational_acceleration",
+            "title": "Gravitational acceleration - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "intro_integration",
+        "desc": "Basics of integration using physics concepts",
+        "videos": [
+          {
+            "link": "https://youtu.be/nUb7xfkc0Ac?si=quWkxyzlo1ek27cD",
+            "title": "Velocity Time Graphs, Acceleration & Position Time Graphs - Physics - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Kinematics#Kinematics_of_a_particle_trajectory_in_a_non-rotating_frame_of_reference",
+            "title": "Kinematics - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "calc_velocity",
+        "desc": "Calculating velocity given acceleration and initial velocity",
+        "videos": [
+          {
+            "link": "https://youtu.be/ybgEUwM3Lmc?si=-SbLWCSNkh_RcjBn",
+            "title": "Motion Graphs: Transforming Position to Velocity to Acceleration vs Time - YouTube"
+          },
+          {
+            "link": "https://youtu.be/1eRimU5befo?si=JOD1W5HpNjJvkK6A",
+            "title": "Projectile Motion: 3 methods to answer ALL questions! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sTp4cI9VyCU?si=uUGol4_s_aZqwMdG",
+            "title": "Total final velocity for projectile | Two-dimensional motion | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Velocity#Instantaneous_velocity",
+            "title": "Velocity - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "calc_accel",
+        "desc": "Calculating position given given a graph",
+        "videos": [
+          {
+            "link": "https://youtu.be/ybgEUwM3Lmc?si=-SbLWCSNkh_RcjBn",
+            "title": "Motion Graphs: Transforming Position to Velocity to Acceleration vs Time - YouTube"
+          },
+          {
+            "link": "https://youtu.be/1eRimU5befo?si=JOD1W5HpNjJvkK6A",
+            "title": "Projectile Motion: 3 methods to answer ALL questions! - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Acceleration#Instantaneous_acceleration",
+            "title": "Acceleration - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "air_resistance",
+        "desc": "Define air resistance (the video is a very good explanation)",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=S3E88rXqO1g",
+            "title": "Introduction to air resistance - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://ngpd.nikon.com/en/glossary/air-resistance.html",
+            "title": "Air Resistance\uff5cGlossary\uff5cDigital Manufacturing, Nikon Corporation"
+          }
+        ]
+      },
+      {
+        "id": "free_fall",
+        "desc": "Understand free fall as a force concept",
+        "videos": [
+          {
+            "link": "https://youtu.be/BVgemK1Y2wA?si=0fZwXIbum4B4IHCV",
+            "title": "Free Fall Physics Problems - Acceleration Due To Gravity - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Free_fall",
+            "title": "Free fall - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "acc",
+      "calc_velocity",
+      "calc_accel",
+      "gravitational_acceleration"
+    ],
+    "title": "Kinematics",
+    "id": "kinematics",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "kinematic-equations",
+        "desc": "Use kinematic equations",
+        "videos": [
+          {
+            "link": "https://youtu.be/hpWuZh6oTew?si=OW3TrqNC7mIOHKQD",
+            "title": "Kinematics Part 1: Horizontal Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/24x235Nputs?si=TL220ntmj4lll5g0",
+            "title": "The Kinematic Equations (Physics) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dHjWVlfNraM?si=7EkrVq8UMTuATUnp",
+            "title": "Kinematics In One Dimension - Physics - YouTube"
+          },
+          {
+            "link": "https://youtu.be/RDRDoBqYT7s?si=snIoLElsVNo9EHLq",
+            "title": "Equations of Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZT1pwB8FFsg?si=qikd2wEz_UHuBhgT",
+            "title": "How to Remember/Derive the Kinematics Equations - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Kinematics",
+            "title": "Kinematics - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "distance_displacement",
+        "desc": "Understand the distance between distance vs displacement",
+        "videos": [
+          {
+            "link": "https://youtu.be/Sy_7PkoTCtA?si=Q6pwMe40F3n30Qyp",
+            "title": "Motion problems with integrals: displacement vs. distance | AP Calculus AB | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://youtu.be/Sy_7PkoTCtA?si=Q6pwMe40F3n30Qyp",
+            "title": "Motion problems with integrals: displacement vs. distance | AP Calculus AB | Khan Academy - YouTube"
+          }
+        ]
+      }
+    ],
+    "start_page": 15
+  },
+  {
+    "requires": [
+      "angle",
+      "lawOfUnivGrav",
+      "trig_functions",
+      "sine",
+      "cosine",
+      "kinematic-equations"
+    ],
+    "title": "Projectile Motion",
+    "id": "projectiles",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "projectile_motion",
+        "desc": "Understand projectile motion and independence of motion. Topics include topics thrown horizontally, basic escape velocity and newton's cannon, and objects launched at an angle.",
+        "videos": [
+          {
+            "link": "https://youtu.be/aY8z2qO44WA",
+            "title": "Kinematics Part 3: Projectile Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/1eRimU5befo",
+            "title": "Projectile Motion: 3 methods to answer ALL questions! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8NLzuURxFwY",
+            "title": "Introduction to Projectile Motion - Formulas and Equations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GiiWsXtt5GE",
+            "title": "Introduction to Projectile Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tfItlGfPHyo",
+            "title": "How To Solve Projectile Motion Problems In Physics - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6SHT-SLvcxk",
+            "title": "Projectile Motion Example - How fast when it hits the ground - YouTube"
+          },
+          {
+            "link": "https://youtu.be/uEnUG_1TYxc",
+            "title": "introduction to projectile motion - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Projectile_motion",
+            "title": "Projectile motion - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Newton's_cannonball",
+            "title": "Newton's cannonball - Wikipedia"
+          },
+          {
+            "link": "https://www.khanacademy.org/science/in-in-class-11-physics-cbse-hindi/in-in-11-motion-in-a-plane-hindi/graphs-of-projectile-motion-hindi/a/projectile-motion-graphs-in-2d",
+            "title": "Khan Academy"
+          }
+        ]
+      }
+    ],
+    "start_page": 23
+  },
+  {
+    "requires": [
+      "fma",
+      "friction_intro",
+      "force",
+      "vectors",
+      "equal_but_opposite"
+    ],
+    "title": "Free Body Diagrams",
+    "id": "free_body_diagrams",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "fbd",
+        "desc": "Be able to understand, interpret, and draw free body diagrams. Review all digital resources videos!",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=KYz6HH9wZ8g",
+            "title": "Breaking down forces for free body diagrams | AP Physics 1 | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/52R61aSWHg0?si=T19wOM9dhG9s7k8Y",
+            "title": "Free Body Diagrams - Tension, Friction, Inclined Planes, & Net Force - YouTube"
+          },
+          {
+            "link": "https://youtu.be/29YPIvj1zjc?si=SBH8Ugevbsyk5PGZ",
+            "title": "Introduction to Free Body Diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/nDis6HbXxjg?si=epOxfWRX3bS-oino",
+            "title": "Free-Body Diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/MaabUHLIIXA?si=yhq0Y8DxbEUvYRX0",
+            "title": "Types of forces and free body diagrams | AP Physics 1 | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tL8akcL5eM0?si=zDqCEsGryzhftWdt",
+            "title": "Free body diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/KYz6HH9wZ8g?si=h3jFWiBqZmWnhZP2",
+            "title": "Breaking down forces for free body diagrams | AP Physics 1 | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/F5oqJ5t-pa4?si=tlDE5gkVJ5mTl3bI",
+            "title": "Tension Force Physics Problems - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pA9Uc_rJNiA?si=LeLn3OhVCdHVPnq6",
+            "title": "5 Steps to Help Solve any Free Body Diagram Problem - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.physicsclassroom.com/class/newtlaws/Lesson-2/Drawing-Free-Body-Diagrams",
+            "title": "\r\n\tDrawing Free-Body Diagrams\r\n"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Free_body_diagram",
+            "title": "Free body diagram - Wikipedia"
+          },
+          {
+            "link": "https://stickmanphysics.com/stickman-physics-home/forces/incline-planes/",
+            "title": "Incline Planes: Forces on Angled Surfaces - StickMan Physics"
+          }
+        ]
+      }
+    ],
+    "start_page": 33
+  },
+  {
+    "requires": [
+      "trig_functions",
+      "triangle",
+      "rad",
+      "fma",
+      "fbd",
+      "sim-mach",
+      "static_friction",
+      "kinetic_friction"
+    ],
+    "title": "Inclined planes",
+    "id": "inclines",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "inclines",
+        "desc": "Understand how to calculate force, acceleration, and kinematic variables for objects going up or down inclines. Understand how friction effects the net Force in both x and y.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=9yCRWwWdFBYm",
+            "title": "Physics Lesson 17   Incline Planes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ufgY237M5KQ",
+            "title": "Introduction to Inclined Planes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TC23wD34C7k",
+            "title": "Inclined plane force components | Forces and Newton's laws of motion | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Np_wqlUXrNY",
+            "title": "Inclined Planes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vWzjhKifwcU",
+            "title": "Introductory Static Friction on an Incline Problem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/eUpZ0yyFNyc",
+            "title": "Introductory Kinetic Friction on an Incline Problem - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://stickmanphysics.com/stickman-physics-home/forces/incline-planes/",
+            "title": "Incline Planes: Forces on Angled Surfaces - StickMan Physics"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Inclined_plane#Inclined_plane_with_friction",
+            "title": "Inclined plane - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 39
+  },
+  {
+    "requires": [
+      "consv_energy",
+      "kinetic_energy",
+      "vectors",
+      "COM"
+    ],
+    "title": "Momentum",
+    "id": "momentum",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "momentum",
+        "desc": "Define momentum",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=CEz3cpkno3Y",
+            "title": "Want to Understand Momentum? Here's An Easy And Fun Experiment To Try At Home! - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=EzNfvwPCFs0",
+            "title": "What Is Momentum? - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=UoIIwzHug9M",
+            "title": "Momentum | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Momentum",
+            "title": "Momentum - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "consv_momentum",
+        "desc": "Understand collisions and conservation of momentum",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=Kf0bBxmNeec",
+            "title": "Introduction to Conservation of Momentum with Demonstrations - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=w2zQJ8JMlBA",
+            "title": "What Is Conservation of Momentum? | Physics in Motion - YouTube"
+          },
+          {
+            "link": "https://youtube.com/shorts/nNQ96_KJ-8Y?si=Oc63S-WggipDOOxB",
+            "title": "Newton's Cradle - YouTube"
+          },
+          {
+            "link": "https://youtube.com/shorts/oyfBg_qWIM0?si=OdtY-TAZPWxkH3Vn",
+            "title": "Newton\u2019s Cradle Explained - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=vPkkCOlGND4",
+            "title": "Momentum: Ice skater throws a ball | Impacts and linear momentum | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Momentum#Application_to_collisions",
+            "title": "Momentum - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "com_explosions",
+        "desc": "Understand how momentum relates to the path of COM and how explosions effect that motion.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=MkJommMrIJc",
+            "title": "Momentum   Explosions - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=_DzgPB9646k",
+            "title": "Center of Mass and Projectile Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/nCDQtw-sK1g",
+            "title": "Conservation of Momentum & Explosions | A Level Physics - YouTube"
+          }
+        ]
+      }
+    ],
+    "start_page": 43
+  }
+]

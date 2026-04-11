@@ -1,0 +1,338 @@
+[
+  {
+    "requires": [
+      "math-function"
+    ],
+    "title": "Exponents",
+    "id": "exponents_review",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "exponents",
+        "desc": "Understand exponents",
+        "videos": [
+          {
+            "link": "https://youtu.be/7Ig6kVZaWoU?si=zTjEjxgCaZ1M2V2G",
+            "title": "Solving exponential equation | Exponential and logarithmic functions | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9tutJ5xrRwg?si=4B08i3cy31K2Kgy-",
+            "title": "Solving Exponential Equations - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Exponentiation",
+            "title": "Exponentiation - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "exponent_properties",
+        "desc": "Understand exponent properties",
+        "videos": [
+          {
+            "link": "https://youtu.be/etl9KKf6se0?si=OMT7Qrln5_5xQ5P2",
+            "title": "Solving exponential equations using exponent properties | High School Math | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.cuemath.com/algebra/exponent-rules/",
+            "title": "Exponent Rules | Laws of Exponents | Exponent Rules Chart"
+          }
+        ]
+      },
+      {
+        "id": "fractional_exponents",
+        "desc": "Understand fractional exponents",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=lZfXc4nHooo",
+            "title": "Basic fractional exponents | Exponent expressions and equations | Algebra I | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=GipavLCnke0",
+            "title": "Fractional Exponents - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.cuemath.com/algebra/fractional-exponents/",
+            "title": "Fractional Exponents - Rules, Method, Simplification, Examples"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "spreadsheet",
+      "exponents"
+    ],
+    "title": "Compound Interest",
+    "id": "compound_interest",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "compound_interest",
+        "desc": "Understand interest and compound interest",
+        "videos": [
+          {
+            "link": "https://youtu.be/Rm6UdfRs3gw?si=dC_0QINSgUTLALLr",
+            "title": "Compound interest introduction | Interest and debt | Finance & Capital Markets | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GtaoP0skPWc?si=NLpFKeR5lL1ItpaZ",
+            "title": "Introduction to interest | Interest and debt | Finance & Capital Markets | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/mec-QpjQMXY?si=TxjkxdswVLmpR9-G",
+            "title": "The rule of 72 for compound interest | Interest and debt | Finance & Capital Markets | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Compound_interest",
+            "title": "Compound interest - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "exponential_growth",
+        "desc": "Calculate exponential growth and understand exponents",
+        "videos": [
+          {
+            "link": "https://youtu.be/6WMZ7J0wwMI?si=uf0LGSHpe5avTeXZ",
+            "title": "Exponential growth functions | Exponential and logarithmic functions | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Kas0tIxDvrg?si=SK7HT51H6nllrGP5",
+            "title": "Exponential growth and epidemics - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Exponential_growth",
+            "title": "Exponential growth - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Exponential_function",
+            "title": "Exponential function - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 7
+  },
+  {
+    "requires": [
+      "exponents",
+      "exponent_properties",
+      "python_advanced",
+      "spreadsheet"
+    ],
+    "title": "Logarithms",
+    "id": "logs",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "logarithms",
+        "desc": "Understand how to use logarithms",
+        "videos": [
+          {
+            "link": "https://youtu.be/kqVpPSzkTYA?si=PSK_N1mGHGA6qhX2",
+            "title": "Logarithms - The Easy Way! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zzu2POfYv0Y?si=MPvGwTgF1DQjVbi2",
+            "title": "Logarithms, Explained - Steve Kelly - YouTube"
+          },
+          {
+            "link": "https://youtu.be/mQTWzLpCcW0?si=-VMNEuRoI2-nCZXE",
+            "title": "Introduction to Logarithms - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Logarithm",
+            "title": "Logarithm - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "log_properties",
+        "desc": "Understand how to use logarithm properties",
+        "videos": [
+          {
+            "link": "https://youtu.be/Jtv9Lnf7Zw8?si=Em29zy7oT8ezCYz4",
+            "title": "Properties of Logarithms - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Logarithm#Logarithmic_identities",
+            "title": "Logarithm - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "log_natural",
+        "desc": "Understand natural logs",
+        "videos": [
+          {
+            "link": "https://youtu.be/daUlTsnCNRQ?si=0WQE6BY59bRnm-k3",
+            "title": "Natural Logarithms - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Natural_logarithm",
+            "title": "Natural logarithm - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 11
+  },
+  {
+    "requires": [
+      "exponential_growth",
+      "compound_interest",
+      "exponents",
+      "exponent_properties",
+      "fractional_exponents",
+      "spreadsheet"
+    ],
+    "title": "Exponential Decay",
+    "id": "exponential_decay",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "exponential_decay",
+        "desc": "Understand and calculate exponential decay",
+        "videos": [
+          {
+            "link": "https://youtu.be/v4IdaXvyE7U?si=xp0NY-oT470YmVgm",
+            "title": "Introduction to exponential decay - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AXAMVxaxjDg?si=vcWgLF6NK2436PFj",
+            "title": "Exponential Decay Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/e5nwJKUc3bA?si=-YbXaW0dEb_KZETQ",
+            "title": "Exponential Growth and Decay Word Problems & Functions - Algebra & Precalculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/RVv0Jgi3Pbw?si=r8drHdxzp0wGP7NG",
+            "title": "Graphing exponential growth & decay | Mathematics I | High School Math | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Exponential_decay",
+            "title": "Exponential decay - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "half-life",
+        "desc": "Understand the concept of a half life",
+        "videos": [
+          {
+            "link": "https://youtu.be/WTQvfvoOF3g?si=zA4bQVaff7lsYX1R",
+            "title": "Half Life Chemistry Problems - Nuclear Radioactive Decay Calculations Practice Examples - YouTube"
+          },
+          {
+            "link": "https://youtu.be/opjJ-3Tkfyg?si=kylOlX2YGW9Scx2f",
+            "title": "Nuclear Half Life: Intro and Explanation - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Half-life",
+            "title": "Half-life - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 15
+  },
+  {
+    "requires": [
+      "trig_functions",
+      "right_triangle",
+      "math-invf",
+      "sine",
+      "cosine"
+    ],
+    "title": "Inverse Trigonometric Functions",
+    "id": "inv_trig_functions",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "inverse_trig",
+        "desc": "Understand and calculate all inverse trig functions",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=jt7p-mCC0ng",
+            "title": "Evaluating Inverse Trigonometric Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/HUHDwBBW_tM?si=Nu53BQYYVWK3_1vv",
+            "title": "Evaluate Inverse Trig Functions - Step by Step - YouTube"
+          },
+          {
+            "link": "https://youtu.be/YXWKpgmLgHk?si=ik764j8Ar7mF3IkC",
+            "title": "Inverse Trigonometric Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JGU74wbZMLg?si=Yp3akez7kmmIhW1o",
+            "title": "Inverse trig functions: arcsin | Trigonometry | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=eTDaJ4ebK28",
+            "title": "Inverse trig functions: arccos | Trigonometry | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=Idxeo49szW0",
+            "title": "Inverse trig functions: arctan | Trigonometry | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Inverse_trigonometric_functions",
+            "title": "Inverse trigonometric functions - Wikipedia"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-solve-for-an-angle/a/inverse-trig-functions-intro",
+            "title": "Khan Academy"
+          }
+        ]
+      },
+      {
+        "id": "inv_trig_derivatives",
+        "desc": "Know the inverse trig derivatives",
+        "videos": [
+          {
+            "link": "https://youtu.be/KbYW9FDm-Zk?si=MO9zG6XeITHv1HRz",
+            "title": "Derivatives of Inverse Trigonometric Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/wH3JYo8U2uM?si=mIkv2b_obLS8KCCH",
+            "title": "Inverse trig functions derivatives - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#In_calculus",
+            "title": "Inverse trigonometric functions - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 19
+  }
+]

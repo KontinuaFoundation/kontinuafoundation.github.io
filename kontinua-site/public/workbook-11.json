@@ -1,0 +1,342 @@
+[
+  {
+    "requires": [
+      "spreadsheet",
+      "math-graph",
+      "compound_interest"
+    ],
+    "title": "Introduction to Data Visualization",
+    "id": "intro_dataviz",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "bar_chart",
+        "desc": "Be able to graph and interpret a bar chart",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=kiQ6MUQZHSs",
+            "title": "Reading bar graphs | Applying mathematical reasoning | Pre-Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=woUQ9LLaees",
+            "title": "Creating a bar chart | Applying mathematical reasoning | Pre-Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=uftnBXB98l8",
+            "title": "Interpreting bar graphs (colors) | Math | 3rd grade | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Bar_chart",
+            "title": "Bar chart - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "line_graph",
+        "desc": "Be able to graph and interpret a line graph",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=36v2EXZRzUE",
+            "title": "Reading line graphs | Applying mathematical reasoning | Pre-Algebra | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Line_chart",
+            "title": "Line chart - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "pie_chart",
+        "desc": "Be able to graph and interpret a pie chart",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=4JqH55rLGKY",
+            "title": "Reading pie graphs (circle graphs) | Applying mathematical reasoning | Pre-Algebra | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Pie_chart",
+            "title": "Pie chart - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "scatterplot",
+        "desc": "Be able to graph and interpret a scatterplot",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=sHbX58y5D4U",
+            "title": "Constructing a scatter plot | Regression | Probability and Statistics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Scatter_plot",
+            "title": "Scatter plot - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "dataviz",
+        "desc": "Be able to understand graphs and data distributions",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=PUvUQMQ7xQk",
+            "title": "Density Curves | Modeling data distributions | AP Statistics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Infographic#Data_visualization",
+            "title": "Infographic - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "vectors",
+      "cosine",
+      "perpendicular",
+      "inverse_trig"
+    ],
+    "title": "The Dot Product",
+    "id": "dot",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "dot",
+        "desc": "Understand and multiply vectors using the dot product",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=0iNrGpwZwog",
+            "title": "The Vector Dot Product - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VzX8KJKFhlM?si=yNqkljSK2IQreEhJ",
+            "title": "Dot Product of Two Vectors - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Te8eL5r7aJs?si=kSX2TGG_wuI3P47i",
+            "title": "Calculus 3 - The Dot Product - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TBpDMLCC2uY?si=0KBZdpvHCZwBREDo",
+            "title": "The real world applications of the dot product - YouTube"
+          },
+          {
+            "link": "https://youtu.be/hho9a0_y7KY?si=QYTNgzLGdFWht7QA",
+            "title": "Physics 1 - Vectors (12 of 21) Product Of Vectors: Dot Product - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=5cWB52I-SF0",
+            "title": "Linear Algebra: Introduction to Vectors - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.mathsisfun.com/algebra/vectors-dot-product.html",
+            "title": "Dot Product"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Dot_product",
+            "title": "Dot product - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  },
+  {
+    "requires": [
+      "metals"
+    ],
+    "title": "Manufacturing",
+    "id": "manufacturing",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "manufacturing_methods",
+        "desc": "Understand various manufacturing methods and their benefits/drawbacks",
+        "videos": [
+          {
+            "link": "https://youtu.be/SIjUVCho_xU?si=BWyTQxoIrAPPvC_D",
+            "title": "How does laser cutting work? Basics explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Manufacturing",
+            "title": "Manufacturing - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Milling_(machining)",
+            "title": "Milling (machining) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Lathe",
+            "title": "Lathe - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/3D_printing",
+            "title": "3D printing - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Computer_numerical_control",
+            "title": "Computer numerical control - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Water_jet_cutter#Abrasive_waterjet",
+            "title": "Water jet cutter - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "subtractive_manufacturing",
+        "desc": "Understand subtractive processes (ie milling, lathing)",
+        "videos": [
+          {
+            "link": "https://youtu.be/SuPmh23HUGY?si=Fsm0hS-1nJdfwFjF",
+            "title": "construction and working principle of lathe machine animation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FNYEXjRmDtI?si=KrBVH6LCZWZvYX0E",
+            "title": "What is CNC Machining and How Does it Work? - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Machining",
+            "title": "Machining - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "additive_manufacturing",
+        "desc": "Understand additive processes (ie 3d Printing)",
+        "videos": [
+          {
+            "link": "https://youtu.be/f94CnlQ0eq4?si=lVURY7VLL2WAmlHZ",
+            "title": "How does a 3D Printer work? (A1 by Bambu Lab) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XTP-WBrAnPY?si=u8i1XqPUnL01zVWe",
+            "title": "3D PRINTING EXPLAINED - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/3D_printing",
+            "title": "3D printing - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 29
+  },
+  {
+    "requires": [
+      "chem_reaction",
+      "trig_functions"
+    ],
+    "title": "Sound",
+    "id": "sound",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "sound",
+        "desc": "Understand how sound and sound waves are made",
+        "videos": [
+          {
+            "link": "https://youtu.be/mevjV5pcITc?si=rHOXcppfFdsOAy7P",
+            "title": "Properties of Sound Waves Lesson Loudness Pitch and Quality - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0Rfushlee0U?si=aFHjAqYqOpX6_Vc-",
+            "title": "Standing Waves and Harmonics - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=m8V_TdibNts&list=PLT_--N4wea5ARjelK5X5GqITZQ1T3YRJP",
+            "title": "The Components of Sound | MED-EL - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=-_xZZt99MzY",
+            "title": "Sound Properties (Amplitude, Period, Frequency, Wavelength) | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=O43EBVnwNvo",
+            "title": "Circle of Fifths: Everything You Need to Know - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=XDsk6tZX55g",
+            "title": "The Physics of Music: Crash Course Physics #19 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Sound",
+            "title": "Sound - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "pitch",
+        "desc": "Define pitch of a sound wave. Videos above talk about pitch. ",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Pitch_(music)",
+            "title": "Pitch (music) - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "frequency",
+        "desc": "Define frequency of a sound wave. Videos above talk about frequency. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=ftpV9pkSadc",
+            "title": "The Overtone Series - The Foundation of Western Music Theory - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Frequency",
+            "title": "Frequency - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Audio_frequency",
+            "title": "Audio frequency - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Fundamental_frequency",
+            "title": "Fundamental frequency - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "acoustics",
+        "desc": "Understand the study of acoustics",
+        "videos": [
+          {
+            "link": "https://youtu.be/XLfQpv2ZRPU?si=vHwBnB-Vwm8H8-WS",
+            "title": "Understanding Sound Waves | MED-EL - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Acoustics",
+            "title": "Acoustics - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 39
+  }
+]

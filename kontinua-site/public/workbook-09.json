@@ -1,0 +1,302 @@
+[
+  {
+    "requires": [
+      "atom",
+      "fma",
+      "energy-forms",
+      "equal_but_opposite",
+      "buoyancy"
+    ],
+    "title": "Atmospheric Pressure",
+    "id": "atmopressure",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "atmos",
+        "desc": "Atmospheric pressure and altitude",
+        "videos": [
+          {
+            "link": "https://youtu.be/xJHJsA7bYGc?si=-GvNXz-qVjSrAIhd",
+            "title": "Atmospheric Pressure - YouTube"
+          },
+          {
+            "link": "http://youtube.com/watch?v=QLnpiDtWReU",
+            "title": "Deriving the Barometric Formula for Pressure - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=Pn5YEMwQb4Y",
+            "title": "Pressure and Pascal's principle (part 1) | Fluids | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=lWDtFHDVqqk",
+            "title": "Pressure and Pascal's principle (part 2) | Fluids | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Atmospheric_pressure",
+            "title": "Atmospheric pressure - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "siphon",
+        "desc": "Understand how a siphon works, and how it works in a toilet",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=CZmP0vsRBZ8",
+            "title": "The Siphon - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=o3-Acl_5U30",
+            "title": "How do Toilets Work? - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Siphon",
+            "title": "Siphon - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [],
+    "title": "Cognitive Biases 1",
+    "id": "biases1",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "biases",
+        "desc": "Understand types and influences of biases",
+        "videos": [
+          {
+            "link": "https://youtu.be/wEwGBIr_RIw?si=UUmv-gHamXE1WQ3Z",
+            "title": "12 Cognitive Biases Explained - How to Think Better and More Logically Removing Bias - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vKA4w2O61Xo?si=T4mPeF5pwWhUt4x9",
+            "title": "The Most Common Cognitive Bias - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Cognitive_bias#:~:text=A%20cognitive%20bias%20is%20a,their%20behavior%20in%20the%20world.",
+            "title": "Cognitive bias - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 15
+  },
+  {
+    "requires": [
+      "parabola-equation"
+    ],
+    "title": "Solving Quadratics",
+    "id": "solving_quadratics",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "solving_quadratics",
+        "desc": "Understanding how to solve quadratic equations",
+        "videos": [
+          {
+            "link": "https://youtu.be/RweAgQwLdMs",
+            "title": "Example: Solving simple quadratic | Quadratic equations | Algebra I | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/qeByhTF8WEw?si=vn9Ux6NUjTXHLb2Y",
+            "title": "How To Solve Quadratic Equations By Factoring - Quick & Simple! | Algebra Online Course - YouTube"
+          },
+          {
+            "link": "https://youtu.be/aUKaxKwOUvU?si=Xh1sCuXoT56n9XlE",
+            "title": "Quadratic Equations | Solve by factoring | Free Math Videos - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IlNAJl36-10?si=On1jsIMUHFcQcW4Z",
+            "title": "How To Solve Quadratic Equations Using The Quadratic Formula - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=05MdLfhmbyU",
+            "title": "Quadratic Word Problems (practice problems) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.khanacademy.org/test-prep/v2-sat-math/x0fcc98a58ba3bea7:advanced-math-easier/x0fcc98a58ba3bea7:solving-quadratic-equations-easier/a/v2-sat-lesson-solving-quadratic-equations",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Quadratic_equation",
+            "title": "Quadratic equation - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "quadratic_formula",
+        "desc": "Apply the quadratic formula to find the roots of the equation",
+        "videos": [
+          {
+            "link": "https://youtu.be/D6NYI41jnes?si=EJ4omga5PGI6cPNf",
+            "title": "Factoring vs  Completing the Square vs Quadratic Formula - YouTube"
+          },
+          {
+            "link": "https://youtu.be/i7idZfS8t8w?si=FBsGwexo8VetKgqz",
+            "title": "How to use the quadratic formula | Polynomial and rational functions | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ApzMwQ2yfUE?si=sr6qIUK0LAioIoY_",
+            "title": "How To Prove The Quadratic Formula By Completing The Square - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=VOXYMRcWbF8",
+            "title": "The Quadratic Formula Song - With Harmony - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Quadratic_formula",
+            "title": "Quadratic formula - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "factoring_quadratics",
+        "desc": "Be able to factor quadratics",
+        "videos": [
+          {
+            "link": "https://youtu.be/aUKaxKwOUvU?si=QYVEBRZsUa-rYPan",
+            "title": "Quadratic Equations | Solve by factoring | Free Math Videos - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GuwofNeT9ok?si=L6t2IoFNZMqwue7J",
+            "title": "Solving Quadratics by Factoring - YouTube"
+          },
+          {
+            "link": "https://youtu.be/1WpUUS3t_aI?si=ElCCTCctCa7QBeLf",
+            "title": "How to Factor - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Quadratic_equation#Factoring_by_inspection",
+            "title": "Quadratic equation - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 25
+  },
+  {
+    "requires": [
+      "solving_quadratics",
+      "quadratic_formula"
+    ],
+    "title": "Complex Numbers",
+    "id": "complex_numbers",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "complex_numbers",
+        "desc": "Understand and define complex numbers",
+        "videos": [
+          {
+            "link": "https://youtu.be/SP-YJe7Vldo?si=ijeGp7LzbNNpmTz2",
+            "title": "Introduction to complex numbers | Imaginary and complex numbers | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OQz1ydBcQSA?si=orx85WrbPclh1AJf",
+            "title": "Complex Numbers - Basic Operations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vRJqPo_zcnQ?si=vKi2Rnn3st6KIB_t",
+            "title": "Imaginary Numbers - Basic Introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/A_ESfuN1Pkg?si=spVu3MLYikxXqp-N",
+            "title": "Introduction to complex numbers | Imaginary and complex numbers | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=cWn6g8Qqvs4",
+            "title": "Multiplying complex numbers | Imaginary and complex numbers | Precalculus | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Complex_number",
+            "title": "Complex number - Wikipedia"
+          },
+          {
+            "link": "https://www.mathsisfun.com/numbers/complex-numbers.html",
+            "title": "Complex Numbers"
+          }
+        ]
+      }
+    ],
+    "start_page": 31
+  },
+  {
+    "requires": [],
+    "title": "Introduction to Sequences",
+    "id": "sequences",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "sequences1",
+        "desc": "Understand sequences. Define their properties, arithmetic vs geometric sequences, and how to find the common factor or difference.",
+        "videos": [
+          {
+            "link": "https://youtu.be/_cooC3yG_p0?si=6ur9unWfzoUxVldU",
+            "title": "Introduction to arithmetic sequences | Sequences, series and induction | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dIGLhLMsy2U?si=Ir2-FXCmGiVfwmA8",
+            "title": "Geometric sequences | Sequences, series and induction | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pXo0bG4iAyg?si=V1zP6jErGztfLRO_",
+            "title": "Introduction to geometric sequences | Sequences, series and induction | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IFHZQ6MaG6w?si=clvcDC44Ak2B5RFc",
+            "title": "Recursive Formulas For Sequences - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0OcUAjOXmFc?si=ZQXm0fmAFgDYOz_F",
+            "title": "Recursive Sequences - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zg-ddPbzcKM?si=fV1xQtVhMGXiutsE",
+            "title": "Stepping Through Recursive Fibonacci Function - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VG9ft4_dK24?si=vMXspDu2gxn_UqXv",
+            "title": "Introduction to sequences - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=iqEkmSGGIdU",
+            "title": "Algebra - Arithmetic and Geometric Sequences - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Arithmetic_progression",
+            "title": "Arithmetic progression - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Sequence#",
+            "title": "Sequence - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Geometric_progression",
+            "title": "Geometric progression - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 33
+  }
+]

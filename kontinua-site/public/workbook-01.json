@@ -1,0 +1,716 @@
+[
+  {
+    "requires": [],
+    "title": "Introduction to the Kontinua Sequence",
+    "id": "introduction",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "kont_intro",
+        "desc": "Introduction to Kontinua",
+        "videos": [
+          {
+            "link": "https://youtu.be/CuV_jd1PD3M?si=r4Ot1fl7p8TFnFcy",
+            "title": "The Kontinua Foundation Director's Cut - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://kontinua.org",
+            "title": "Kontinua \u2013 Kontinua"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [],
+    "title": "Matter and Energy",
+    "id": "matter_energy_intro",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "chem_reaction",
+        "desc": "Intro to chemical reactions",
+        "references": [
+          {
+            "link": "https://simple.wikipedia.org/wiki/Chemical_reaction",
+            "title": "Chemical reaction - Simple English Wikipedia, the free encyclopedia"
+          }
+        ]
+      },
+      {
+        "id": "atom",
+        "desc": "Able to define atom and a molecule",
+        "videos": [
+          {
+            "link": "https://youtu.be/DkAXO--BYEw",
+            "title": "Difference between an Atom, a Molecule and a Compound - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://manoa.hawaii.edu/exploringourfluidearth/chemical/chemistry-and-seawater/atoms-molecules-and-compounds",
+            "title": "Atoms, Molecules, and Compounds | manoa.hawaii.edu/ExploringOurFluidEarth"
+          }
+        ]
+      },
+      {
+        "id": "grav",
+        "desc": "Basic rules of gravity",
+        "videos": [
+          {
+            "link": "https://youtu.be/7gf6YpdvtE0",
+            "title": "Newtonian Gravity: Crash Course Physics #8 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Gravity",
+            "title": "Gravity - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "periodic_tbl",
+        "desc": "Introduction to the Periodic Table",
+        "videos": [
+          {
+            "link": "https://youtu.be/wXRHz5ZEIK0?si=Ys-Nk_7D0qVLzvP6",
+            "title": "The Periodic Table Explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Periodic_table",
+            "title": "Periodic table - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "lewis_dot",
+        "desc": "Able to create of the Lewis Dot Structure models.",
+        "videos": [
+          {
+            "link": "https://youtu.be/Sk7W2VgbhOg?si=lvbzcxOK9uWu3e_5",
+            "title": "Lewis Dot Structures - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Lewis_structure",
+            "title": "Lewis structure - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "bonds",
+        "desc": "Define polar, non-polar, and covalent bonds.",
+        "references": [
+          {
+            "link": "https://chemistrytalk.org/polar-vs-non-polar-bonds/",
+            "title": "Polar vs. Non-Polar Bonds & Molecules | ChemTalk"
+          }
+        ]
+      },
+      {
+        "id": "conservation_law",
+        "desc": "Law of Conservation of Mass",
+        "videos": [
+          {
+            "link": "https://youtu.be/2S6e11NBwiw?si=1vfDL_b3A8BOh35k",
+            "title": "The law of conservation of mass - Todd Ramsey - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conservation_law",
+            "title": "Conservation law - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "mass_eng_equiv",
+        "desc": "E=mc^2 equation",
+        "videos": [
+          {
+            "link": "https://youtu.be/OTK9JrKC6EY?si=Z-prgT1I2DI9exkm",
+            "title": "Conservation of Energy: Free Fall, Springs, and Pendulums - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+            "title": "Mass\u2013energy equivalence - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "molecules",
+        "desc": "be able to define a molecule"
+      },
+      {
+        "id": "compounds",
+        "desc": "Identify compounds",
+        "videos": [
+          {
+            "link": "https://tpt.pbslearningmedia.org/resource/compounds-science-trek/compounds-science-trek/",
+            "title": "Compounds: Compound Basics | Science Trek | PBS LearningMedia"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Chemical_compound",
+            "title": "Chemical compound - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 5
+  },
+  {
+    "requires": [
+      "chem_reaction",
+      "conservation_law"
+    ],
+    "title": "Conservation of Mass and Energy",
+    "id": "conservation_mass_energy",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "consv_mass",
+        "desc": "Law of Conservation of Mass",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conservation_law",
+            "title": "Conservation law - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "consv_energy",
+        "desc": "Conservation of Energy",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+            "title": "Mass\u2013energy equivalence - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "friction_intro",
+        "desc": "Define the basics of Friction",
+        "references": [
+          {
+            "link": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+            "title": "6.2 Friction - University Physics Volume 1 | OpenStax"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Friction",
+            "title": "Friction - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "systems",
+        "desc": "Able to define a system, open/closed systems, and isolated systems",
+        "videos": [
+          {
+            "link": "https://youtu.be/TFP6SvWPOQc?si=7IBhmxd55CUNG_d5",
+            "title": "Open System, Closed System and Isolated System - Thermodynamics & Physics - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/System#Engineering_and_physics",
+            "title": "System - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "eq_chem_reaction",
+        "desc": "Able to balance chemical reactions",
+        "videos": [
+          {
+            "link": "https://youtu.be/zmdxMlb88Fs?si=ZtzG3rhv-3iPtZUc",
+            "title": "How to Balance Chemical Equations in 5 Easy Steps: Balancing Equations Tutorial - YouTube"
+          }
+        ]
+      }
+    ],
+    "start_page": 15
+  },
+  {
+    "requires": [],
+    "title": "Mass, Weight, and Gravity",
+    "id": "mass_weight_gravity",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "mass",
+        "desc": "Understand the concept of mass versus weight. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/_Z0X0yE8Ioc",
+            "title": "The Difference Between Mass and Weight - YouTube"
+          },
+          {
+            "link": "https://youtu.be/57gKnA94Doc",
+            "title": "Mass vs. Weight and the Normal Force - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LB_WoV071vc",
+            "title": "Physics - What Is The Difference Between Mass and Weight? - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Mass",
+            "title": "Mass - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Mass_versus_weight",
+            "title": "Mass versus weight - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Weight",
+            "title": "Weight - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "lawOfUnivGrav",
+        "desc": "Be able to use newton's law of gravitation (F = G\\frac{m_1 m_2}{r^2})",
+        "videos": [
+          {
+            "link": "https://youtu.be/PIpnGilqefE",
+            "title": "Newton's law of gravitation | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7gf6YpdvtE0",
+            "title": "Newtonian Gravity: Crash Course Physics #8 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation",
+            "title": "Newton's law of universal gravitation - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "COM",
+        "desc": "Understand how to find the center of mass of an object",
+        "videos": [
+          {
+            "link": "https://youtu.be/nyJeaUe7wXM",
+            "title": "Center of Mass Introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ol1COj0LACs",
+            "title": "17.1 Definition of the Center of Mass - YouTube"
+          },
+          {
+            "link": "https://youtu.be/a4KhrJJvD3w",
+            "title": "Center of Mass - YouTube"
+          },
+          {
+            "link": "https://youtu.be/2uszSnvzBEU",
+            "title": "Center of Mass Physics Problems - Basic Introduction - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Center_of_mass",
+            "title": "Center of mass - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "gravitational-field",
+        "desc": "Be able to understand how larger masses form gravitational fields."
+      }
+    ],
+    "start_page": 25
+  },
+  {
+    "requires": [],
+    "title": "Introductory Motion Concepts",
+    "id": "intro_motion",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "pva",
+        "desc": "Understand the basics of position, velocity, and acceleration.",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Position_(geometry)",
+            "title": "Position (geometry) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Velocity",
+            "title": "Velocity - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Acceleration",
+            "title": "Acceleration - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "motion_diagrams",
+        "desc": "Understand how to read and create 1D motion diagrams",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=9bVVresSivk",
+            "title": "Motion diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6Z8j7yrzHJo",
+            "title": "Motion Diagram - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Motion_diagram",
+            "title": "Motion diagram - Wikipedia"
+          },
+          {
+            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/Spiral_Physics_-_Algebra_Based_(DAlessandris)/Spiral_Mechanics_(Algebra-Based)/Model_1:_1D_Constant-Force_Particle_Model/03._Kinematics/02._Drawing_Motion_Diagrams_in_1D",
+            "title": "02. Drawing Motion Diagrams in 1D - Physics LibreTexts"
+          }
+        ]
+      }
+    ],
+    "start_page": 35
+  },
+  {
+    "requires": [
+      "mass"
+    ],
+    "title": "Force, Mass, and Acceleration",
+    "id": "newtons_second_law",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "fma",
+        "desc": "The relationship between force, mass, and acceleration",
+        "videos": [
+          {
+            "link": "https://youtu.be/JGO_zDWmkvk",
+            "title": "Newton's 3 Laws, with a bicycle - Joshua Manley - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Force",
+            "title": "Force - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "acc",
+        "desc": "Able to calculate and define acceleration",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=FOkQszg1-j8",
+            "title": "Acceleration | One-dimensional motion | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FtcblX04CcA?si=90oUwhFpSMjEQUkh",
+            "title": "How to Solve for Acceleration (Easy) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.khanacademy.org/science/mechanics-essentials/xafb2c8d81b6e70e3:how-to-analyze-car-crashes-using-skid-mark-analysis/xafb2c8d81b6e70e3:how-to-find-the-acceleration-from-a-speedometer/v/acceleration#:~:text=Acceleration%20(a)%20is%20the%20change,includes%20both%20magnitude%20and%20direction.",
+            "title": "Khan Academy"
+          }
+        ]
+      },
+      {
+        "id": "force",
+        "desc": "Able to calculate and define force",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=ou9YMWlJgkE",
+            "title": "Newton's second law of motion | Forces and Newton's laws of motion | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Force",
+            "title": "Force - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "newton_meters",
+        "desc": "Relationship between Newtons, newton meters, and joules",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Newton-metre",
+            "title": "Newton-metre - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "equal_but_opposite",
+        "desc": "Understand and apply newtons third law",
+        "videos": [
+          {
+            "link": "https://youtu.be/y61_VPKH2B4",
+            "title": "Newton's Third Law of Motion: Action and Reaction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8bTdMmNZm2M",
+            "title": "Best Film on Newton's Third Law. Ever. - YouTube"
+          },
+          {
+            "link": "https://youtu.be/z1ywfX2PTcA",
+            "title": "Newton's Third Law - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JGO_zDWmkvk",
+            "title": "Newton's 3 Laws, with a bicycle - Joshua Manley - YouTube"
+          },
+          {
+            "link": "https://youtu.be/J8mLQQZeIH8",
+            "title": "Newton's third law | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/wmmjfbl7zG4",
+            "title": "A Common Misconception about Newton's Third Law Force Pairs (or Action-Reaction Pairs) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Xx9kiF00rts",
+            "title": "Newton's 3rd Law Explained with Skateboard, Rocket - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TxhESW6YtOg",
+            "title": "Newton's Third Law of Motion - Action and Reaction Forces - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "http://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+            "title": "Newton's laws of motion - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 39
+  },
+  {
+    "requires": [
+      "friction_intro",
+      "fma",
+      "equal_but_opposite"
+    ],
+    "title": "Friction",
+    "id": "friction",
+    "chap_num": 7,
+    "covers": [
+      {
+        "id": "normal_force",
+        "desc": "Define the normal force",
+        "videos": [
+          {
+            "link": "https://youtu.be/fRQq4_ry9-Q?si=aX3wwfDPmbHiJ7ka",
+            "title": "Physics - What Is a Normal Force? - YouTube"
+          },
+          {
+            "link": "https://youtube.com/shorts/qBAdyNVEi_c?si=WikQV1PoAeEGoKGZ",
+            "title": "Turning \"off\" friction by removing the normal force during a free fall - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Ui0YZv58DPc?si=bmOs3ymVMyPg_C_6",
+            "title": "Normal force || Visual Explanation || Types of forces || PART 3 ||  Physics || - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.khanacademy.org/science/mechanics-essentials/xafb2c8d81b6e70e3:could-a-coin-dropped-from-a-tall-building-kill-you/xafb2c8d81b6e70e3:why-do-you-feel-heavier-in-a-lift-when-it-starts-moving-up/a/what-is-normal-force",
+            "title": "Khan Academy"
+          }
+        ]
+      },
+      {
+        "id": "static_friction",
+        "desc": "Define static friction",
+        "videos": [
+          {
+            "link": "https://youtu.be/RIBeeW1DSZg?si=YVOuAtBaIFpmcAuy",
+            "title": "Static Friction and Kinetic Friction Physics Problems With Free Body Diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3EbUa5ZDybg?si=57y1t7992FbyBwa4",
+            "title": "Frictional Forces: Static and Kinetic - YouTube"
+          },
+          {
+            "link": "https://youtu.be/i-DdiI7gFoM?si=DdJ-09lddk7mNa5O&t=12",
+            "title": "Introduction to Static and Kinetic Friction by Bobby - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZA_D4O6l1lo?si=klnoN6aJXnUY1vwJ",
+            "title": "Static and kinetic friction example | Forces and Newton's laws of motion | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Friction",
+            "title": "Friction - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "kinetic_friction",
+        "desc": "Define Kinetic Friction",
+        "videos": [
+          {
+            "link": "https://youtu.be/RIBeeW1DSZg?si=YVOuAtBaIFpmcAuy",
+            "title": "Static Friction and Kinetic Friction Physics Problems With Free Body Diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3EbUa5ZDybg?si=57y1t7992FbyBwa4",
+            "title": "Frictional Forces: Static and Kinetic - YouTube"
+          },
+          {
+            "link": "https://youtu.be/i-DdiI7gFoM?si=DdJ-09lddk7mNa5O&t=12",
+            "title": "Introduction to Static and Kinetic Friction by Bobby - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZA_D4O6l1lo?si=klnoN6aJXnUY1vwJ",
+            "title": "Static and kinetic friction example | Forces and Newton's laws of motion | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Friction",
+            "title": "Friction - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 51
+  },
+  {
+    "requires": [],
+    "title": "Units and Conversions",
+    "id": "units_conversions",
+    "chap_num": 8,
+    "covers": [
+      {
+        "id": "conv_fac",
+        "desc": "Conversion factors",
+        "videos": [
+          {
+            "link": "https://youtu.be/HRe1mire4Gc?si=v5-VGfxf8YXDZFtE",
+            "title": "Unit Conversion the Easy Way (Dimensional Analysis) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/eK8gXP3pImU?si=av5fff3-EM3zRuln",
+            "title": "Converting Units With Conversion Factors - Metric System Review & Dimensional Analysis - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AMGRQR_ANCU?si=i69C0PpAeT4Fk57s",
+            "title": "How To Convert From Km/hr to m/s and m/s to Km/hr - With Shortcut! - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conversion_of_units",
+            "title": "Conversion of units - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "metric_pre",
+        "desc": "Prefixes of the metric system",
+        "videos": [
+          {
+            "link": "https://youtu.be/ZNX-a-5jGeM?si=-abx3YswAknQ4teG&t=209",
+            "title": "Math Antics - Intro to the Metric System - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Metric_prefix",
+            "title": "Metric prefix - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "unit_types",
+        "desc": "Types of common units",
+        "videos": [
+          {
+            "link": "https://youtu.be/ZNX-a-5jGeM?si=eLOthWquM7fqCH6a",
+            "title": "Math Antics - Intro to the Metric System - YouTube"
+          },
+          {
+            "link": "https://youtu.be/y2RHWA7t0WM?si=psLGyTsepD_fJeEz",
+            "title": "U.S. customary and metric units | Ratios, proportions, units, and rates | Pre-Algebra | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Unit_of_measurement",
+            "title": "Unit of measurement - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "si_units",
+        "desc": "Understand SI units and their importance",
+        "videos": [
+          {
+            "link": "https://youtu.be/8rZRYPoerPw",
+            "title": "SI Base Units and Derived Units - Physics and Chemistry - YouTube"
+          },
+          {
+            "link": "https://youtu.be/hQpQ0hxVNTg",
+            "title": "Unit Conversion & Significant Figures: Crash Course Chemistry #2 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/International_System_of_Units",
+            "title": "International System of Units - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 59
+  },
+  {
+    "requires": [],
+    "title": "The Greek Alphabet",
+    "id": "greek",
+    "chap_num": 9,
+    "covers": [
+      {
+        "id": "greek-alpha",
+        "desc": "Understand and notetate basic greek letters in capital and lowercase",
+        "videos": [
+          {
+            "link": "https://youtu.be/ZUrZHF_WBeI?si=tnmM_eh-nZGY5XOZ",
+            "title": "Greek Alphabet Song - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_AWZZP3J5Nw?si=SpUnIR0d83cHEUDQ",
+            "title": "Greek Alphabet Symbols List - College Math, Chemistry, & Physics - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Greek_alphabet",
+            "title": "Greek alphabet - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 65
+  }
+]

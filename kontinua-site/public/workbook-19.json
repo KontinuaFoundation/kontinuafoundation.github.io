@@ -1,0 +1,372 @@
+[
+  {
+    "requires": [
+      "limits",
+      "continuity"
+    ],
+    "title": "Differentiation",
+    "id": "differentiability",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "differentiation",
+        "desc": "Define a derivative as a slope of a tangent line using limits. Additionally, be able to find if a point is differentiable. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/ANyVpMS3HL4",
+            "title": "Derivative as slope of a tangent line | Taking derivatives | Differential Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ktOYbZ8CpLA",
+            "title": "Understanding Differentiation Part 1: The Slope of a Tangent Line - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=9vKqVkMQHKk",
+            "title": "The paradox of the derivative | Chapter 2, Essence of calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/N2PpRnFqnqY",
+            "title": "Derivative as a concept | Derivatives introduction | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fml0-ELYLaE",
+            "title": "Continuity and Differentiability - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pwh1dK3vTkM",
+            "title": "Differentiability at a point: graphical | Derivatives introduction | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=xuAiQOzIkWY",
+            "title": "Differentiability and continuity | Derivatives introduction | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=6yzaEpacZkg",
+            "title": "Alternate Form of The Limit Definition of the Derivative - Calculus - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Derivative#As_a_limit",
+            "title": "Derivative - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Derivative#Continuity_and_differentiability",
+            "title": "Derivative - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "differentiation",
+      "power_rule",
+      "IVT"
+    ],
+    "title": "Derivatives",
+    "id": "derivative_definition",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "lhopital_rule",
+        "desc": "Be able to apply l Hospital's rule to indeterminate forms",
+        "videos": [
+          {
+            "link": "https://youtu.be/Gh48aOvWcxw",
+            "title": "L'hopital's rule - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kfF40MiS7zA?t=593",
+            "title": "Limits, L'H\u00f4pital's rule, and epsilon delta definitions | Chapter 7, Essence of calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/g45quDrSA6g",
+            "title": "Understanding Limits and L'Hospital's Rule - YouTube"
+          },
+          {
+            "link": "https://youtu.be/thEnl_gCjXA",
+            "title": "L'hospital's Rule Indeterminate Forms, Limits at Infinity, Ln, Trig & Exponential Functions Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/oEEXnyupzdo",
+            "title": "Indeterminate Forms - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Zd7wd24jeok",
+            "title": "Calculus 2 Lecture 6.7:  Evaluating Limits of Indeterminate Forms - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/L'H%C3%B4pital's_rule",
+            "title": "L'H\u00f4pital's rule - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Indeterminate_form",
+            "title": "Indeterminate form - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "mvt",
+        "desc": "Be able to use the mean value theorem",
+        "videos": [
+          {
+            "link": "https://youtu.be/SL2RobwU_M4",
+            "title": "Mean Value Theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6hri9k_2R8o",
+            "title": "Mean value theorem | Existence theorems | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/qW89xdGfSzw",
+            "title": "Calculus 1 Lecture 3.2:  A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. - YouTube"
+          },
+          {
+            "link": "https://youtu.be/UUyAoEQtToI",
+            "title": "Conditions for MVT: table | Existence theorems | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=S_YIUXy-WFM",
+            "title": "Mean value theorem example: polynomial | Existence theorems | AP Calculus AB | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Mean_value_theorem",
+            "title": "Mean value theorem - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 7
+  },
+  {
+    "requires": [
+      "derivatives",
+      "differentiation",
+      "power_rule"
+    ],
+    "title": "Rules for Finding Derivatives",
+    "id": "derivative_rules",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "product",
+        "desc": "Apply the product rule to a function to find its derivative. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/17X5g9QArTc",
+            "title": "Product Rule For Derivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/h78GdGiRmpM",
+            "title": "Product rule | Taking derivatives | Differential Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/YG15m2VwSjA?t=253",
+            "title": "Visualizing the chain rule and product rule | Chapter 4, Essence of calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/79ngr0Bur38",
+            "title": "Product rule | Derivative rules | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8Qw2aPjqW9c",
+            "title": "Product Rule for Derivatives  (Calculus) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Product_rule",
+            "title": "Product rule - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/problems/calci/ProductQuotientRule.aspx",
+            "title": "\r\n\tCalculus I - Product and Quotient Rule (Practice Problems)\r\n"
+          }
+        ]
+      },
+      {
+        "id": "quotient",
+        "desc": "Apply the quotient rule to a function to find its derivative. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/8jVDEcQ0wXk",
+            "title": "Quotient Rule For Derivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WqzY3xibFL8",
+            "title": "Quotient rule | Derivative rules | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ho87DN9wO70",
+            "title": "Quotient rule from product & chain rules | Derivative rules | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AvCQQ3X4Nuc",
+            "title": "Calculus 1 Lecture 2.3:   The Product and Quotient Rules for Derivatives of Functions - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Quotient_rule",
+            "title": "Quotient rule - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/problems/calci/ProductQuotientRule.aspx",
+            "title": "\r\n\tCalculus I - Product and Quotient Rule (Practice Problems)\r\n"
+          }
+        ]
+      },
+      {
+        "id": "chain",
+        "desc": "Apply the chain rule to a function to find its derivative. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/HaHsqDjWMLU",
+            "title": "Chain Rule For Finding Derivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0T0QrHO56qg",
+            "title": "Chain rule | Derivative rules | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9yCtWfI_Vjg",
+            "title": "The Multi-Variable Chain Rule: Derivatives of Compositions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8dr1dZjfhmc",
+            "title": "Calculus 1 Lecture 2.6:  Discussion of the Chain Rule for Derivatives of Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/YG15m2VwSjA?t=521",
+            "title": "Visualizing the chain rule and product rule | Chapter 4, Essence of calculus - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Chain_rule",
+            "title": "Chain rule - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/problems/calci/ChainRule.aspx",
+            "title": "\r\n\tCalculus I - Chain Rule (Practice Problems)\r\n"
+          }
+        ]
+      }
+    ],
+    "start_page": 23
+  },
+  {
+    "requires": [
+      "derivatives",
+      "graphing_poly"
+    ],
+    "title": "First and Second Derivatives and the Shape of a Function",
+    "id": "deriv_graphshape",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "concavity",
+        "desc": "Understand how determine concavity, inflection points, and use the second derivative test. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/OhqNbQi9QPk",
+            "title": "Concavity, Inflection Points, and Second Derivative - YouTube"
+          },
+          {
+            "link": "https://youtu.be/15awMHeP1Yc",
+            "title": "Concavity, Inflection Points, Increasing Decreasing, First & Second Derivative - Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8IyPycrDTaA",
+            "title": "Find the intervals of concavity from the derivative graph - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dIE22eL6q90",
+            "title": "Inflection Points and Concavity Intuition - YouTube"
+          },
+          {
+            "link": "https://youtu.be/c1N8zyVhWxM",
+            "title": "\u2756 Concavity, Inflection Points and Second Derivatives \u2756 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Second_derivative#Concavity",
+            "title": "Second derivative - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Second_derivative#Inflection_points",
+            "title": "Second derivative - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Derivative_test#Second-derivative_test_(single_variable)",
+            "title": "Derivative test - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "minmax",
+        "desc": "Understand how to find local and global min/max values",
+        "videos": [
+          {
+            "link": "https://youtu.be/VZuJ4bGj2D0",
+            "title": "Absolute & Local Minimum and Maximum Values - Relative Extrema, Critical Numbers / Points Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/V239IIoGVT8",
+            "title": "Relative Extrema, Local Maximum and Minimum, First Derivative Test, Critical Points- Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WCq3sRzsJfs",
+            "title": "Finding Local Maximum and Minimum Values of a Function - Relative Extrema - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pvLj1s7SOtk",
+            "title": "Finding Local Maxima and Minima by Differentiation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3wrXDw5ETh4",
+            "title": "Finding Absolute Maximum and Minimum Values - Absolute Extrema - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Maximum_and_minimum",
+            "title": "Maximum and minimum - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "critval",
+        "desc": "Understand how to find critical values of a function",
+        "videos": [
+          {
+            "link": "https://youtu.be/Bp9EbV3COVA",
+            "title": "Finding Critical Numbers - YouTube"
+          },
+          {
+            "link": "https://youtu.be/lDY9JcFaRd4",
+            "title": "Critical points introduction | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/MUQfl385Yug",
+            "title": "Finding critical points | Using derivatives to analyze functions | AP Calculus AB | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Critical_point_(mathematics)",
+            "title": "Critical point (mathematics) - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 29
+  }
+]

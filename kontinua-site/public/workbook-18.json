@@ -1,0 +1,344 @@
+[
+  {
+    "requires": [
+      "polynomial",
+      "factoring",
+      "FOIL"
+    ],
+    "title": "Graphing Polynomials",
+    "id": "graphs_polynomials",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "graphing_poly",
+        "desc": "Understand how to graph polynomials",
+        "videos": [
+          {
+            "link": "https://youtu.be/a5x4lwnvHM0",
+            "title": "How To Graph Polynomial Functions Using End Behavior, Multiplicity & Zeros - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bb0seGYHUiQ",
+            "title": "How To Find The Polynomial Function From a Graph - YouTube"
+          },
+          {
+            "link": "https://youtube.com/playlist?list=PL0G-Nd0V5ZMrKn3ed9LXqp9n4avvpYwEd&si=ud-r-XBKeEN17-oq",
+            "title": "Graph a Polynomial Function - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CHEtGgTexHI",
+            "title": "Graphing Higher-Degree Polynomials: The Leading Coefficient Test and Finding Zeros - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Zero_of_a_function",
+            "title": "Zero of a function - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "factoring",
+      "polynomial"
+    ],
+    "title": "Interpolating with Polynomials",
+    "id": "interpolating_polynomials",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "interp_poly",
+        "desc": "Understand how to create a polynomial function given a set of points",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=n_04eJJQsp0",
+            "title": "Lagrange Polynomial Interpolation (Step-by-Step Example) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Polynomial_interpolation",
+            "title": "Polynomial interpolation - Wikipedia"
+          },
+          {
+            "link": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Numerical_Methods_%28Chasnov%29/05%3A_Interpolation/5.01%3A_Polynomial_Interpolation",
+            "title": "5.1: Polynomial Interpolation - Mathematics LibreTexts"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Lagrange_polynomial",
+            "title": "Lagrange polynomial - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 7
+  },
+  {
+    "requires": [
+      "math-function",
+      "math-graph",
+      "math-variable"
+    ],
+    "title": "Rational Functions",
+    "id": "rational_functions",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "rational_funcs",
+        "desc": "Understand how to graph and simplify rational functions. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/XE-Z2-F3oWw",
+            "title": "Graphing Rational Functions With Vertical, Horizontal & Slant Asymptotes, Holes, Domain & Range - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fy45qX8cUwQ",
+            "title": "Graphing Rational Functions and Their Asymptotes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/qGCKjuhA4eQ",
+            "title": "Horizontal and Vertical Asymptotes - Slant / Oblique - Holes - Rational Function - Domain & Range - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Rational_function",
+            "title": "Rational function - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "asymptotes",
+        "desc": "Understand asymptotes, how to identify them visually as well as in an equation.",
+        "videos": [
+          {
+            "link": "https://youtu.be/2N62v_63SBo",
+            "title": "Asymptotes of rational functions | Polynomial and rational functions | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kvhpu1TkSjI",
+            "title": "Horizontal Asymptotes and Slant Asymptotes of Rational Functions - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Asymptote",
+            "title": "Asymptote - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 13
+  },
+  {
+    "requires": [
+      "polynomial",
+      "rational_funcs"
+    ],
+    "title": "Partial Fractions",
+    "id": "partial_frac",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "pfd",
+        "desc": "Understand partial fraction decomposition and how to use it with factoring",
+        "videos": [
+          {
+            "link": "https://youtu.be/QKkdYW77xNI",
+            "title": "Partial Fraction Decomposion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/S-XKGBesRzk",
+            "title": "Partial fraction expansion 1 | Partial fraction expansion | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/DfTJOsqxIJ4",
+            "title": "Ultimate Partial Fraction Decomposition Study Guide (how setup) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/2bMndF92Oqo",
+            "title": "Partial Fraction Decomposition All Types - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fgPviiv_oZs",
+            "title": "the cover-up method & why it works! (for partial fractions decomposition) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Partial_fraction_decomposition",
+            "title": "Partial fraction decomposition - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  },
+  {
+    "requires": [
+      "math-graph",
+      "math-function"
+    ],
+    "title": "Limits",
+    "id": "limits",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "limits",
+        "desc": "Understand limits and how to find one, and how to find the end behavior of a function. Additionally, Understand how continuity relates to limits and behavior. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/YNstP0ESndU",
+            "title": "Calculus 1 - Introduction to Limits - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kfF40MiS7zA",
+            "title": "Limits, L'H\u00f4pital's rule, and epsilon delta definitions | Chapter 7, Essence of calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/riXcZT2ICjA",
+            "title": "Introduction to limits | Limits | Differential Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/wK8WuTEc0ns",
+            "title": "Limits and Limit Laws in Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/NmLljBAg82o",
+            "title": "How To Find The Limit At Infinity - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7Q2HwTHcxA0",
+            "title": "How To Evaluate Limits From a Graph - YouTube"
+          },
+          {
+            "link": "https://youtube.com/playlist?list=PLSQl0a2vh4HB2618hY4fyQ8gTgAnz8jr6&si=ZfLfqbqPpcEt7DHc",
+            "title": "Limits | Differential Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9brk313DjV8",
+            "title": "Limits and Continuity - YouTube"
+          },
+          {
+            "link": "https://youtu.be/xvFqomOpLrs",
+            "title": "Infinite Limits and Vertical Asymptotes - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=54_XRjHhZzI",
+            "title": "Calculus 1 Lecture 1.1:  An Introduction to Limits - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=VSqOZNULRjQ",
+            "title": "Calculus 1 Lecture 1.2:  Properties of Limits.  Techniques of Limit Computation - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Limit_of_a_function",
+            "title": "Limit of a function - Wikipedia"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Limit_(mathematics)",
+            "title": "Limit (mathematics) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Asymptote",
+            "title": "Asymptote - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "IVT",
+        "desc": "Understand the definition of the intermediate value theorem, and how to apply it. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/9wEHwFrUyOU",
+            "title": "Intermediate Value Theorem Explained - To Find Zeros, Roots or C value - Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4L9ffuwj4Lk",
+            "title": "Intermediate Value Theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9xgO-EJ3sr0",
+            "title": "Intermediate value theorem | Existence theorems | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/n3G1L3yqPI0",
+            "title": "Were you ever exactly 3 feet tall? The Intermediate Value Theorem - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Intermediate_value_theorem",
+            "title": "Intermediate value theorem - Wikipedia"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-16/a/intermediate-value-theorem-review",
+            "title": "Khan Academy"
+          }
+        ]
+      },
+      {
+        "id": "squeeze",
+        "desc": "Understand the purpose of the squeeze theorem. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/lVIb9iJ-rRI",
+            "title": "Squeeze Theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WvxKwRcHGHg",
+            "title": "Squeeze theorem or sandwich theorem | Limits | Differential Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/igJdDN-DPgA",
+            "title": "Squeeze theorem (sandwich theorem) | Limits | Differential Calculus | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Squeeze_theorem",
+            "title": "Squeeze theorem - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "continuity",
+        "desc": "Be able to define and determine continuity. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/9brk313DjV8",
+            "title": "Limits and Continuity - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WT7oxiiFYt8",
+            "title": "3 Step Continuity Test, Discontinuity, Piecewise Functions & Limits | Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/joewRl1CTL8",
+            "title": "Continuity Basic Introduction, Point, Infinite, & Jump Discontinuity, Removable & Nonremovable - YouTube"
+          },
+          {
+            "link": "https://youtu.be/HB8CzZEd4xw",
+            "title": "The BEST explanation of Limits and Continuity! - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Continuous_function",
+            "title": "Continuous function - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 29
+  }
+]
