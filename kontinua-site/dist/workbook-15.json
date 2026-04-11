@@ -1,0 +1,423 @@
+[
+  {
+    "requires": [
+      "emwaves",
+      "photon",
+      "reflection",
+      "lens"
+    ],
+    "title": "How Cameras Work",
+    "id": "camera",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "camera",
+        "desc": "Understand how photons from sunlight are transformed into a camera photo",
+        "videos": [
+          {
+            "link": "https://youtu.be/gWB2aAAMBnY",
+            "title": "How Do Cameras See Stuff??? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/B7Dopv6kzJA",
+            "title": "How does a camera work? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/W34sLbAsFhM",
+            "title": "How Does a DSLR Camera Work - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=jg5DQ54c15E",
+            "title": "The Physics Behind Digital Cameras - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JoxGEymA8ro",
+            "title": "The history of photography in 5 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ImkLfI5g4xk",
+            "title": "How Camera Sensor Works | Camera Sensor Explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Camera",
+            "title": "Camera - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Camera_phone",
+            "title": "Camera phone - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Digital_camera",
+            "title": "Digital camera - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/History_of_the_camera",
+            "title": "History of the camera - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Pinhole_camera",
+            "title": "Pinhole camera - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "rgb",
+        "desc": "Understand the origin of RGB values and what they represent",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=AF8d72mA41M",
+            "title": "Why It Was Almost Impossible to Make the Blue LED - YouTube"
+          },
+          {
+            "link": "https://youtu.be/15aqFQQVBWU",
+            "title": "Images, Pixels and RGB - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/RGB_color_model#Numeric_representations",
+            "title": "RGB color model - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/RGB_color_model",
+            "title": "RGB color model - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "aspect_ratio",
+        "desc": "Understand the basics of aspect ratios and where they come from",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=ixEXoHnPEOI",
+            "title": "The Ultimate Beginner's Guide to Aspect Ratio - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://techreviewadvisor.com/aspect-ratio-what-it-is-and-why-it-matters/",
+            "title": "Aspect Ratio: What It Is and Why It Matters"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "camera",
+      "rgb",
+      "photon"
+    ],
+    "title": "How Eyes Work",
+    "id": "eye",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "eye",
+        "desc": "Understand how the eye works",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=Z8asc2SfFHM",
+            "title": "Eye Works 1: Focusing: Cornea, Iris and Lens - YouTube"
+          },
+          {
+            "link": "https://youtu.be/o0DYP-u1rNM",
+            "title": "Vision: Crash Course Anatomy & Physiology #18 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XPDVmBg5DeE",
+            "title": "How does laser eye surgery work? - Dan Reinstein - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Eye",
+            "title": "Eye - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Eye_disease",
+            "title": "Eye disease - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Myopia",
+            "title": "Myopia - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "color",
+        "desc": "Understand how we see color",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=l8_fZPHasdo",
+            "title": "How we see color - Colm Kelleher - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/CMYK_color_model",
+            "title": "CMYK color model - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 13
+  },
+  {
+    "requires": [
+      "rgb"
+    ],
+    "title": "Images in Python",
+    "id": "py_images",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "py_image",
+        "desc": "Understand basic python image processing",
+        "references": [
+          {
+            "link": "https://www.geeksforgeeks.org/python/working-images-python/",
+            "title": "Working with Images in Python - GeeksforGeeks"
+          },
+          {
+            "link": "https://note.nkmk.me/en/python-numpy-image-processing/",
+            "title": "Image processing with Python, NumPy | note.nkmk.me"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  },
+  {
+    "requires": [
+      "rgb",
+      "camera"
+    ],
+    "title": "Representing Natural Numbers",
+    "id": "hexbinary",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "decint-rep",
+        "desc": "Understand the base-10 hindu-arabic representation of numbers",
+        "videos": [
+          {
+            "link": "https://youtu.be/FFDMzbrEXaE",
+            "title": "Number Systems Introduction - Decimal, Binary, Octal & Hexadecimal - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Hindu-Arabic_numeral_system",
+            "title": "Hindu\u2013Arabic numeral system - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Decimal",
+            "title": "Decimal - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "octal-rep",
+        "desc": "Understand the base-8 representation of the natural numbers",
+        "videos": [
+          {
+            "link": "https://youtu.be/FFDMzbrEXaE",
+            "title": "Number Systems Introduction - Decimal, Binary, Octal & Hexadecimal - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WkScocdUtbE",
+            "title": "Octal to Binary Conversion | Computer Science - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Octal",
+            "title": "Octal - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "hex-rep",
+        "desc": "Understand the base-16 representation of the natural numbers, and how base-16 can be used to create colors.",
+        "videos": [
+          {
+            "link": "https://youtu.be/FFDMzbrEXaE",
+            "title": "Number Systems Introduction - Decimal, Binary, Octal & Hexadecimal - YouTube"
+          },
+          {
+            "link": "https://youtu.be/c56x1aj2CPA",
+            "title": "How Do HEX Color Codes Work? (in 60 seconds) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bt4zavZCrLg",
+            "title": "Read and Write in Hexadecimal, The Easy Way! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/c56x1aj2CPA",
+            "title": "How Do HEX Color Codes Work? (in 60 seconds) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=6cJd7eyYBFs",
+            "title": "HEX CODE for Dummies (The Non-Technical Guide) (Base-16) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Hexadecimal",
+            "title": "Hexadecimal - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Web_colors",
+            "title": "Web colors - Wikipedia"
+          },
+          {
+            "link": "https://yizzle.com/whatthehex/?n=10",
+            "title": "What the Hex?"
+          }
+        ]
+      },
+      {
+        "id": "binary-rep",
+        "desc": "Understand the base-2 representation of the natural numbers. Define binary applications, addition, and be able to convert between the representation forms. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/LpuPe81bc2w",
+            "title": "Binary Numbers and Base Systems as Fast as Possible - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zDNaUi2cjv4",
+            "title": "Binary Explained in 01100100 Seconds - YouTube"
+          },
+          {
+            "link": "https://youtu.be/1GSjbWt0c9M",
+            "title": "Representing Numbers and Letters with Binary: Crash Course Computer Science #4 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Ieq8AR8krrA",
+            "title": "How to Read and Write Binary (In 5 Minutes) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=Xpk67YzOn5w",
+            "title": "Why Do Computers Use 1s and 0s? Binary and Transistors Explained. - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Binary_number",
+            "title": "Binary number - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "bits_bytes",
+        "desc": "Understand the basics of computer memory, bits and bytes, and how to translate bits into characters, integers, etc. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/TQCr9RV7twk",
+            "title": "Memory & Storage: Crash Course Computer Science #19 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/p3q5zWCw8J4",
+            "title": "How computer memory works - Kanawat Senanan - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cF6YkH-8vFk",
+            "title": "CS50 2019 - Lecture 4 - Memory - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fpnE6UAfbtU",
+            "title": "Registers and RAM: Crash Course Computer Science #6 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Bit",
+            "title": "Bit - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Bit_array",
+            "title": "Bit array - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Byte",
+            "title": "Byte - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Computer_memory",
+            "title": "Computer memory - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 27
+  },
+  {
+    "requires": [
+      "hex-rep"
+    ],
+    "title": "Bitmaps",
+    "id": "bitmap",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "bitmap",
+        "desc": "Understand how to construct a bitmap from hex colors in C++ and how to parse bitmaps in C++.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=kpHFFFu9qeU",
+            "title": "How Bitmap File Format Works (.bmp) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=vqT5j38bWGg",
+            "title": "Creating a Bitmap Image (.bmp) using C++ | Tutorial - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=13E0il2zxBA",
+            "title": "Making .BMP images from scratch - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
+            "title": "How to Read a Bitmap Image in C++ - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=ZXF9-KX4DIQ",
+            "title": "Create a bitmap image just using notepad! [RNDBITS-041] - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/BMP_file_format",
+            "title": "BMP file format - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Bitmap",
+            "title": "Bitmap - Wikipedia"
+          },
+          {
+            "link": "https://retrocomputing.stackexchange.com/questions/3023/why-bgr-color-order",
+            "title": "history - Why BGR color order - Retrocomputing Stack Exchange"
+          },
+          {
+            "link": "https://stackoverflow.com/questions/367449/what-exactly-is-bgr-color-space",
+            "title": "opencv - What exactly is BGR color space? - Stack Overflow"
+          }
+        ]
+      },
+      {
+        "id": "bitmap_transforms",
+        "desc": "Relate the idea of bitmap manipulation to the idea of transformations in linear algebra. Understand the very basics of vector manipulation.",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Transformation_matrix",
+            "title": "Transformation matrix - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 33
+  }
+]

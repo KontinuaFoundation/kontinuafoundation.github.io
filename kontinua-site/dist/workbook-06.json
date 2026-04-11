@@ -1,0 +1,698 @@
+[
+  {
+    "requires": [
+      "rad",
+      "right_triangle",
+      "math-function",
+      "math-graph",
+      "math-invf",
+      "pythagorean_theorem"
+    ],
+    "title": "Trigonometric Functions",
+    "id": "trig_functions",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "sine",
+        "desc": "Introduction to the sine function and its graph",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=Q55T6LeTvsA",
+            "title": "Sine Curve and the Unit Circle - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=yBw67Fb31Cs&t=830s",
+            "title": "Trigonometry fundamentals | Ep. 2 Lockdown live math - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Sine_and_cosine#Unit_circle_definition",
+            "title": "Sine and cosine - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "cosine",
+        "desc": "Introduction to the cosine function and its graph",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/live/yBw67Fb31Cs?si=zhE0I6tF8O-3_Hhy&t=909",
+            "title": "Trigonometry fundamentals | Ep. 2 Lockdown live math - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Sine_and_cosine#Unit_circle_definition",
+            "title": "Sine and cosine - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "trig_derivatives",
+        "desc": "Understand how to derive and use trig derivative functions, specifically with sin and cosine",
+        "videos": [
+          {
+            "link": "https://youtu.be/QYJx-ztCrE4?si=qYixgM_Y6tIN312U",
+            "title": "Derivative of Sine and Cosine Functions | Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_Zqcxbjzyxg?si=z58nWJwFAMPTZ9Mc",
+            "title": "Derivatives of Trigonometric Functions - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Differentiation_rules#Derivatives_of_trigonometric_functions",
+            "title": "Differentiation rules - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "trig_functions",
+        "desc": "Understand the relationships with all of the trig functions",
+        "videos": [
+          {
+            "link": "https://youtu.be/fDjLmYlweUA?si=A8n2SE3AGo5hL0rp",
+            "title": "All of Trigonometry Explained in 5 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WvoFgL4P_rw?si=gxi3PEQ5BP0U49TM",
+            "title": "The Six Trigonometric Functions, Basic Introduction, Trigonometry - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8oEjxGjAeQI?si=2GvLifi8Cu0TfOX1",
+            "title": "Graphing Trigonometric Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dUkCgTOOpQ0?si=P1NJ60PZbSE78-x2",
+            "title": "Trig Visualized: One Diagram to Rule them All (six trig functions in one diagram) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=mhd9FXYdf4s",
+            "title": "Trigonometry Concepts - Don't Memorize! Visualize! - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Trigonometric_functions#Unit-circle_definitions",
+            "title": "Trigonometric functions - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "trig_integrals",
+        "desc": "Understand the area under the curve as a trig integral, and integrate the trig functions",
+        "videos": [
+          {
+            "link": "https://youtu.be/3pXALn2ovIE?si=Ry_B0zS0hra_saBz",
+            "title": "Trigonometric Integrals - YouTube"
+          },
+          {
+            "link": "https://youtu.be/r86o36bC83E?si=QIeNI6hSF3wWrIUN",
+            "title": "Area under y = sin(x) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kgg5Rspf1Js?si=AFvQgt1S_TDppM0L",
+            "title": "Area Between Two Curves - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions",
+            "title": "List of integrals of trigonometric functions - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "sine",
+      "cosine",
+      "trig_functions",
+      "pythagorean_theorem",
+      "triangle"
+    ],
+    "title": "Trigonometric Identities",
+    "id": "trig_identities",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "sum_diff_formulas",
+        "desc": "Understand use of sum and difference formulas",
+        "videos": [
+          {
+            "link": "https://youtu.be/waDbbpib9cM?si=Y43ChqQN3zODbve1",
+            "title": "Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "double_half_angle_ids",
+        "desc": "Understand use of double angle and half angle identities",
+        "videos": [
+          {
+            "link": "https://youtu.be/waDbbpib9cM?si=Y43ChqQN3zODbve1",
+            "title": "Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=7Eo-fuy0f7g",
+            "title": "Using Double Angle Identities to Solve Equations, Example 1 - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "unit circle",
+        "desc": "Understand the unit circle, how to locate different coordinates on it, and how to find side length values on it",
+        "videos": [
+          {
+            "link": "https://youtu.be/1m9p9iubMLU?si=yr6kAp6xxFMRpOpn",
+            "title": "Introduction to the unit circle | Trigonometry | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/d12NQ0_1Sxw?si=X2SKrT7doq06lnUZ",
+            "title": "Evaluate a point of the unit circle for sine, cosine and tangent - YouTube"
+          },
+          {
+            "link": "https://youtu.be/57VrEiEPD1I?si=6bnRlHicPbvLs8IJ",
+            "title": "The Unit Circle, Basic Introduction, Trigonometry - YouTube"
+          },
+          {
+            "link": "https://youtu.be/KoYZErFpZ5Q?si=jPgiT4NcwwfMjyqs",
+            "title": "Solving triangle in unit circle | Trigonometry | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?app=desktop&v=ZsPyhyo16pg",
+            "title": "how to memorize unit circle in minutes!! - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=e7QjCL7lQM4&t=41s",
+            "title": "All the TRIG you need for calculus actually explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Unit_circle",
+            "title": "Unit circle - Wikipedia"
+          },
+          {
+            "link": "https://www.mathsisfun.com/geometry/unit-circle.html",
+            "title": "Unit Circle"
+          },
+          {
+            "link": "https://www.mathsisfun.com/algebra/trig-interactive-unit-circle.html",
+            "title": "Interactive Unit Circle"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Exact_trigonometric_values",
+            "title": "Exact trigonometric values - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 13
+  },
+  {
+    "requires": [],
+    "title": "Volumes of Common Solids",
+    "id": "volume_solids",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "volume-solids",
+        "desc": "Calculate the volume of different solids, including pyramids, cylinders, spheres, and unique shapes",
+        "videos": [
+          {
+            "link": "https://youtu.be/CI-G9_bTKuw?si=tKHOwMBeVXt_OePh",
+            "title": "Three-Dimensional Shapes Part 2: Calculating Volume - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VYGrZZEPq5Y?si=rE40tBxLrY9PKzZI",
+            "title": "Volume - YouTube"
+          },
+          {
+            "link": "https://youtu.be/qJwecTgce6c?si=neS-aYEsaXP9aLdr",
+            "title": "Math Antics - Volume - YouTube"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/cc-fifth-grade-math/5th-volume/volume-word-problems/v/volume-word-problem-example",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/solid-geometry-volume#:~:text=f...%E2%80%9D-,Hello!,Length%20x%20Width%20x%20Height).",
+            "title": "Khan Academy"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/List_of_formulas_in_elementary_geometry",
+            "title": "List of formulas in elementary geometry - Wikipedia"
+          },
+          {
+            "link": "https://www.andlearning.org/geometry-formulas/",
+            "title": "Geometry Formula | Basic Coordinate Distance Geometry Formulas, Equations"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Triangular_prism",
+            "title": "Triangular prism - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Rectangular_cuboid",
+            "title": "Rectangular cuboid - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Cylinder",
+            "title": "Cylinder - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Pyramid_(geometry)",
+            "title": "Pyramid (geometry) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Sphere",
+            "title": "Sphere - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 25
+  },
+  {
+    "requires": [
+      "volume-solids"
+    ],
+    "title": "Conic Sections",
+    "id": "conic_sections",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "conic-sections",
+        "desc": "Understand and calculate, and graph conic sections",
+        "videos": [
+          {
+            "link": "https://youtu.be/PLrgwD9TleU?si=sTYxcadsCWKtun8A",
+            "title": "Conic Sections - Circles, Ellipses, Parabolas, Hyperbola - How To Graph & Write In Standard Form - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_zCWzPS-i4I?si=Zyp6Zi0_51LpS_hz",
+            "title": "How to visualize conic sections with a paper model. - YouTube"
+          },
+          {
+            "link": "https://youtu.be/48ZZy9X60X8?si=kuXVmuUI67kd3L7_&t=101",
+            "title": "TeachNext | CBSE Grade 11 | Maths | Sections of a Cone - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0A7RR0oy2ho?si=mYNm0noGAsnt4KvT",
+            "title": "Introduction to conic sections | Conic sections | Algebra II | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conic_section",
+            "title": "Conic section - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Cone#Double",
+            "title": "Cone - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "circle-equation",
+        "desc": "Graph Circles",
+        "videos": [
+          {
+            "link": "https://www.khanacademy.org/math/geometry/xff63fac4:hs-geo-conic-sections/hs-geo-circle-standard-equation/v/radius-and-center-for-a-circle-equation-in-standard-form",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://youtu.be/cljdQ2tgIBY?si=Y4Ked5twwrcl37Tn",
+            "title": "Converting a circle into standard form and then graphing - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Circle",
+            "title": "Circle - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "ellipse-equation",
+        "desc": "Graph Ellipse",
+        "videos": [
+          {
+            "link": "https://youtu.be/OPSCKXXvWiM?si=EVVV4ZPQsGRpdvHm",
+            "title": "Writing Equations of Ellipses In Standard Form and Graphing Ellipses - Conic Sections - YouTube"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:conics/x9e81a4f98389efdf:ellipse-center-radii/v/ellipse-standard-equation-from-graph",
+            "title": "Khan Academy"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Ellipse",
+            "title": "Ellipse - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "hyperbola-equation",
+        "desc": "Graph Hyperbola",
+        "videos": [
+          {
+            "link": "https://youtu.be/Iu-4-fizlD4?si=sjf0Qa5_As0TCMXr",
+            "title": "Hyperbolas - Conic Sections - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Hyperbola",
+            "title": "Hyperbola - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "parabola-equation",
+        "desc": "Graph Parabola",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Parabola",
+            "title": "Parabola - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 35
+  },
+  {
+    "requires": [
+      "angle",
+      "intro_vectors",
+      "pythagorean_theorem",
+      "python_advanced"
+    ],
+    "title": "Vectors",
+    "id": "vectors",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "vectors",
+        "desc": "Understand a vector and its properties in depth",
+        "videos": [
+          {
+            "link": "https://youtu.be/iXdMpXMuEGI?si=9ABCQ_7ePDyUZKz5",
+            "title": "Vectors - Precalculus - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=Ej3ZVxljJfo",
+            "title": "Everything You Need to Know About VECTORS - YouTube"
+          },
+          {
+            "link": "https://youtu.be/xp6ibuI8UuQ?si=VztobtZ6P7WHIr7G",
+            "title": "Visualizing vectors in 2 dimensions | Two-dimensional motion | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+            "title": "Vectors | Chapter 1, Essence of linear algebra - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Euclidean_vector",
+            "title": "Euclidean vector - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "vector_add_sub",
+        "desc": "Able to do vector addition and subtraction",
+        "videos": [
+          {
+            "link": "https://youtu.be/8QihetGj3pg?si=0oniNt9MwejsqT1j",
+            "title": "Adding vectors | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=xS-gdFgZel0",
+            "title": "Addition of Vectors By Means of Components - Physics - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VgqsM-XdBD0?si=L85eFrt_1Hu1ckrY",
+            "title": "Adding and subtracting vectors - YouTube"
+          },
+          {
+            "link": "https://youtu.be/yFPfO_eHJdY?si=Zs_U1zMG1iYfvsMR",
+            "title": "Adding vectors in magnitude and direction form | Vectors | Precalculus | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Euclidean_vector#Addition_and_subtraction",
+            "title": "Euclidean vector - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "scalar_multiplication",
+        "desc": "Scalar multiplication with vectors",
+        "videos": [
+          {
+            "link": "https://youtu.be/OFBI_rNDZE0?si=em1oRaRtWqUaG6L8",
+            "title": "Scaling up a unit vector | Vectors | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZN7YaSbY3-w?si=QBaohVVSaAWdTzox",
+            "title": "Multiplying a vector by a scalar | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Euclidean_vector#Scalar_multiplication",
+            "title": "Euclidean vector - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "vector_magnitude",
+        "desc": "Calculate Vector Magnitude",
+        "videos": [
+          {
+            "link": "https://youtu.be/0t8W4JFpP2M?si=PDXCCuPsi3vjktP-",
+            "title": "Magnitude of vector sums | Vectors | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=mGcZGiUn39k",
+            "title": "Magnitude of a Vector - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Magnitude_(mathematics)#Vector_spaces",
+            "title": "Magnitude (mathematics) - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "unit_vector",
+        "desc": "Define a unit vector",
+        "videos": [
+          {
+            "link": "https://youtu.be/jCkhbKFZgLk?si=RsMl3xphYY6Z4Ecb",
+            "title": "Unit vectors | Vectors | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/f5DHYCKyVRo?si=P15vw3zqcu-tK99y",
+            "title": "How To Find The Unit Vector - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Unit_vector",
+            "title": "Unit vector - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 39
+  },
+  {
+    "requires": [
+      "coulomb_amps",
+      "systems",
+      "consv_energy",
+      "vector_add_sub",
+      "vectors",
+      "fma",
+      "lawOfUnivGrav",
+      "insulator",
+      "conductor",
+      "greek-alpha",
+      "grav_pot_energy",
+      "atom",
+      "exponent_properties"
+    ],
+    "title": "Charge",
+    "id": "charge",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "charge",
+        "desc": "Be able to define and understand the concept of charge. Use point charges to simulate different charges and charge fields within an area.",
+        "videos": [
+          {
+            "link": "https://youtu.be/VFbyDCG_j18?si=UzSQMmKhtUt_wwTS",
+            "title": "Electric Charge and Electric Fields - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TFlVWf8JX4A",
+            "title": "Electric Charge: Crash Course Physics #25 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Electric_charge",
+            "title": "Electric charge - Wikipedia"
+          },
+          {
+            "link": "https://sharkphysics.weebly.com/electric-charges--fields.html",
+            "title": "Electric Charges & Fields - AP Physics B\u00a0"
+          }
+        ]
+      },
+      {
+        "id": "law-coulomb",
+        "desc": "Define and use Coulomb's law",
+        "videos": [
+          {
+            "link": "https://youtu.be/kCp5yYjo9zE?si=yn7H34Bxcn6KIlKq",
+            "title": "Coulomb's Law - Net Electric Force & Point Charges - YouTube"
+          },
+          {
+            "link": "https://www.khanacademy.org/science/hs-physics/x215e29cb31244fa1:types-of-interactions/x215e29cb31244fa1:coulomb-s-law/v/coulombs-law",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://youtu.be/MsINeZMeTMQ?si=mVydIC3n1ynxKPyL",
+            "title": "Coulomb's law | Physics | Khan Academy - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "electric-field",
+        "desc": "Understand how an electric field generates, where it points, and how it relates to Coulomb's law.",
+        "videos": [
+          {
+            "link": "https://youtu.be/mdulzEfQXDE",
+            "title": "Electric Fields: Crash Course Physics #26 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VFbyDCG_j18",
+            "title": "Electric Charge and Electric Fields - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Electric_field",
+            "title": "Electric field - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "dipole",
+        "desc": "Be able to understand and define dipoles and dipole moments",
+        "references": [
+          {
+            "link": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/dipole.html",
+            "title": "Electric Dipole"
+          }
+        ]
+      },
+      {
+        "id": "law-gauss",
+        "desc": "Be able to understand Gauss's law. Find it simply without using the integral form",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Gauss%27s_law#Definition",
+            "title": "Gauss's law - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Gaussian_surface",
+            "title": "Gaussian surface - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "cont_charge_distribution",
+        "desc": "Define continuous charge distributions and use them to find charge and electric fields.",
+        "videos": [
+          {
+            "link": "https://youtu.be/bt46cqO1epw",
+            "title": "Charge density & continuous charge distribution | Electric charges & fields | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Zpns_8W5fXc",
+            "title": "Continuous Charge Distributions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/QS5_oJhcSRs",
+            "title": "Continuous Charge Distributions - Review for AP Physics C: Electricity and Magnetism - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05:_Electric_Charges_and_Fields/5.06:_Calculating_Electric_Fields_of_Charge_Distributions",
+            "title": "5.6: Calculating Electric Fields of Charge Distributions - Physics LibreTexts"
+          }
+        ]
+      },
+      {
+        "id": "electric-potential",
+        "desc": "Understand electric potential and electric potential energy, and how calculus could be used to alter it.",
+        "videos": [
+          {
+            "link": "https://youtu.be/LzKMQByFSLc",
+            "title": "Electric Potential - YouTube"
+          },
+          {
+            "link": "https://youtu.be/KoZ61FujkRk",
+            "title": "Electric Potential Energy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XWlZ9bfGIoI",
+            "title": "Electric Potential, Current, and Resistance - YouTube"
+          },
+          {
+            "link": "https://youtu.be/j3GrOKre__0",
+            "title": "What is an Electric Potential ? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/hMoMw3NzCr8",
+            "title": "Understanding Electric Potential - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ks1B1_umFk8",
+            "title": "Electric potential at a point in space | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ks1B1_umFk8",
+            "title": "Electric potential at a point in space | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Electric_potential",
+            "title": "Electric potential - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Electric_potential_energy",
+            "title": "Electric potential energy - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 51
+  }
+]

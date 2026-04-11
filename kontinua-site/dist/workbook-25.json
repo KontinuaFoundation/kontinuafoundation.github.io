@@ -1,0 +1,144 @@
+[
+  {
+    "requires": [],
+    "title": "Making Web Requests with HTTP",
+    "id": "http",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "http",
+        "desc": "Understand how HTTP requests work and their purpose. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=eesqK59rhGA",
+            "title": "The Http and the Web | Http Explained | Request-Response Cycle - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=iYM2zFP3Zn0&t=85s",
+            "title": "HTTP Crash Course & Exploration - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=keeqnciDVOo",
+            "title": "Computer Networking in 100 Seconds - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=UBUNrFtufWo",
+            "title": "Session vs Token Authentication in 100 Seconds - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/HTTP",
+            "title": "HTTP - Wikipedia"
+          },
+          {
+            "link": "https://www.w3schools.com/tags/ref_httpmethods.asp",
+            "title": "HTTP Methods GET vs POST"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "http"
+    ],
+    "title": "Using and Creating APIs",
+    "id": "api",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "api",
+        "desc": "The description of API chapter"
+      }
+    ],
+    "start_page": 5
+  },
+  {
+    "requires": [],
+    "title": "Data Compression and Decompression",
+    "id": "decompression",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "decompression",
+        "desc": "Understand how files are compressed and decompressed",
+        "videos": [
+          {
+            "link": "https://youtu.be/OtDxDvCpPL4",
+            "title": "Compression: Crash Course Computer Science #21 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/guo8if4Yxhw",
+            "title": "Data Compression as Fast As Possible - YouTube"
+          },
+          {
+            "link": "https://youtu.be/NLtt4S9ErIA",
+            "title": "gzip file compression in 100 Seconds - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Entropy_(information_theory)",
+            "title": "Entropy (information theory) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Data_compression",
+            "title": "Data compression - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 7
+  },
+  {
+    "requires": [],
+    "title": "Dealing with JSON and XML",
+    "id": "json_xml",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "json",
+        "desc": "Understand JSON file format",
+        "videos": [
+          {
+            "link": "https://youtu.be/iiADhChRriM",
+            "title": "Learn JSON in 10 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/N-4prIh7t38",
+            "title": "JSON API: Explained in 4 minutes (+ EXAMPLES) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/JSON",
+            "title": "JSON - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "xml",
+        "desc": "Understand XML file format",
+        "videos": [
+          {
+            "link": "https://youtu.be/1JblVElt5K0",
+            "title": "What is XML | XML Beginner Tutorial | Learn XML with Demo in 10 min - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/XML",
+            "title": "XML - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/XML_schema",
+            "title": "XML schema - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 9
+  }
+]

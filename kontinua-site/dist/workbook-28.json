@@ -1,0 +1,317 @@
+[
+  {
+    "requires": [
+      "long lat",
+      "python_advanced"
+    ],
+    "title": "Making a Map",
+    "id": "making_a_map",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "plotly",
+        "desc": "Use python to make a geographical world map and add locations of longitude and latitude on it. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/l9ZEsyNnKvg",
+            "title": "Plotly choropleth map animation - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://github.com/plotly/plotly.py",
+            "title": "GitHub - plotly/plotly.py: The interactive graphing library for Python :sparkles:"
+          },
+          {
+            "link": "https://plotly.com/python/",
+            "title": "\n    Plotly Python Graphing Library\n    \n"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Plotly",
+            "title": "Plotly - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "math-function",
+      "stats-histogram",
+      "stats-bell-curve",
+      "pylists"
+    ],
+    "title": "Introduction to Discrete Probability",
+    "id": "discrete_probability",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "probability_independent",
+        "desc": "Understand how to find probability of independent events. Understand that all probabilities must sum to 1. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=uzkc-qNVoOk",
+            "title": "Probability explained | Independent and dependent events | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/aVqmWW3xmdU",
+            "title": "Mutually Exclusive vs. Independent Events EXPLAINED in 4 minutes - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Probability",
+            "title": "Probability - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Probability#Independent_events",
+            "title": "Probability - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "probability_dependent",
+        "desc": "Understand the basis of conditional probability and how to find the probability of two dependent events . ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=R-NeYKSEqns",
+            "title": "Analyzing event probability for independence | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/lWAdPyvm400",
+            "title": "Probability - Independent and Dependent Events - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VjLEoo3hIoM",
+            "title": "Dependent probability introduction | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ibINrxJLvlM",
+            "title": "Intro to Conditional Probability - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dQ9r2S7NWLs",
+            "title": "2 Examples of Probability With & Without Replacement - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "title": "Conditional probability - Wikipedia"
+          },
+          {
+            "link": "https://www.math.ucdavis.edu/~gravner/MAT135A/resources/chpr.pdf",
+            "title": "chpr.pdf"
+          }
+        ]
+      },
+      {
+        "id": "correlation_causation",
+        "desc": "Understand the concept of \"correlation does not imply causation\". ",
+        "videos": [
+          {
+            "link": "https://youtu.be/dsyTQNUvqH0",
+            "title": "Introduction to Correlation (Statistics) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/rijqfllOq6g",
+            "title": "Correlation and Coefficient of Determination in 3 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ugd4k3dC_8Y",
+            "title": "The Correlation Coefficient - Explained in Three Steps - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ROpbdO-gRUo",
+            "title": "Correlation and causality | Statistical studies | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GtV-VYdNt_g",
+            "title": "Correlation Doesn't Equal Causation: Crash Course Statistics #8 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+            "title": "Correlation does not imply causation - Wikipedia"
+          },
+          {
+            "link": "https://www.tylervigen.com/spurious-correlations",
+            "title": "Spurious Correlations"
+          }
+        ]
+      },
+      {
+        "id": "uniform_distribution",
+        "desc": "Understand the concept of uniform distribution. Recall bell curve from previous chapters. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=Jua-KWBdzfU",
+            "title": "Python Roll the Dice Program - YouTube"
+          },
+          {
+            "link": "https://youtu.be/UC-CBUSQXAo",
+            "title": "Uniform Distribution EXPLAINED with Examples - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cyIEhL92wiw",
+            "title": "Discrete uniform distribution - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Discrete_uniform_distribution",
+            "title": "Discrete uniform distribution - Wikipedia"
+          },
+          {
+            "link": "https://pythoniseasytolearn.blogspot.com/2019/09/rolling-two-dice.html",
+            "title": "Rolling Two Dice ~ Python is easy to learn"
+          }
+        ]
+      }
+    ],
+    "start_page": 5
+  },
+  {
+    "requires": [
+      "exponents",
+      "polynomial",
+      "probability_dependent",
+      "pascal's_triangle"
+    ],
+    "title": "Beginning Combinatorics",
+    "id": "combinatorics",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "combinatorics",
+        "desc": "Understand how to complete combinatorics problems. Understand the binomial distribution. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=UGad0bvDw9Q",
+            "title": "1. Counting with tables | Crowds | Computer animation | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XJnIdRXUi7A",
+            "title": "Permutations and Combinations Tutorial - YouTube"
+          },
+          {
+            "link": "https://youtu.be/iKy-d5_erhI",
+            "title": "Introduction to combinations | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/p8vIcmr_Pqo",
+            "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=6YzrVUVO9M0",
+            "title": "Overexplaining the binomial distribution - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=iPwrDWQ7hPc",
+            "title": "Binomial theorem | Polynomial and rational functions | Algebra II | Khan Academy - YouTube"
+          },
+          {
+            "link": "http://youtube.com/watch?v=iKy-d5_erhI",
+            "title": "Introduction to combinations | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=p8vIcmr_Pqo",
+            "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Combinatorics",
+            "title": "Combinatorics - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Binomial_coefficient",
+            "title": "Binomial coefficient - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "factorial",
+        "desc": "Understand how the factorial operation works. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/pxh__ugRKz8",
+            "title": "Factorials Explained! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/v_HeaeUUOnc",
+            "title": "How to Take the Factorial of Any Number - YouTube"
+          },
+          {
+            "link": "http://youtube.com/watch?v=-FquswEIswk",
+            "title": "3. Calculating factorials | Crowds | Computer animation | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Factorial",
+            "title": "Factorial - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 15
+  },
+  {
+    "requires": [
+      "combinatorics",
+      "python_advanced",
+      "matrix",
+      "math-invf",
+      "factorial"
+    ],
+    "title": "Permutations and Sorting",
+    "id": "permutations",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "permutations",
+        "desc": "Understand the process of permutations, how to find them and how to apply them to sorting problems. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=bAk_7p5gAWc",
+            "title": "Easy Combinations and Permutations | BetterExplained - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tnF9f3zCCKI",
+            "title": "Permutations, Combinations & Probability (14 Word Problems) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/DROZVHObeko",
+            "title": "Permutation formula | Probability and combinatorics | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0ZsSRx0o0zE",
+            "title": "Theoretical Probability, Permutations and Combinations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/s_LfN4ItCs4",
+            "title": "The Counting Principle, Permutations, and Combinations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/NJB6eP4_Tks",
+            "title": "Permutations, Combinations, and Probability (15 Word Problems) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=p8vIcmr_Pqo",
+            "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Permutation",
+            "title": "Permutation - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 19
+  }
+]
