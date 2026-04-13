@@ -1,0 +1,428 @@
+[
+  {
+    "requires": [
+      "lin_combo",
+      "dependence",
+      "subspaces"
+    ],
+    "title": "Span",
+    "id": "span",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "span",
+        "desc": "Be able to determine the span of vectors in either a line, a plane, or all numbers",
+        "videos": [
+          {
+            "link": "https://youtu.be/Qm_OS-8COwU",
+            "title": "Linear combinations and span | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/k7RM-ot2NWY",
+            "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OpcznwRgUaY",
+            "title": "Linear Algebra Example: Span Questions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9kW6zFK5E5c",
+            "title": "Span and linear independence example | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/SzZaQnzstfE",
+            "title": "The Vector Space of Polynomials: Span, Linear Independence, and Basis - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_span",
+            "title": "Linear span - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "rref",
+      "dependence",
+      "lin_combo"
+    ],
+    "title": "Determinants and Inverse Matrices",
+    "id": "determinants_inverse",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "determinant",
+        "desc": "Be able to find the determinant and understand what different values of it mean",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=Ip3X9LOh2dk",
+            "title": "The determinant | Chapter 6, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3ROzG6n4yMc",
+            "title": "Determinant of 3x3 Matrices, 2x2 Matrix, Precalculus Video Tutorial - YouTube"
+          },
+          {
+            "link": "https://youtu.be/0c7dt2SQfLw",
+            "title": "3 x 3 determinant | Matrix transformations | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ER_96Mx-KEE",
+            "title": "Interpreting determinants in terms of area | Matrices | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OU9sWHk_dlw",
+            "title": "Finding the determinant of a 2x2 matrix | Matrices | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/srxexLishgY",
+            "title": "18. Properties of Determinants - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=55AoWKZZtww",
+            "title": "Properties of Determinants - YouTube"
+          },
+          {
+            "link": "https://youtu.be/PxkEoEbCJT8",
+            "title": "Determinants | MIT 18.02SC Multivariable Calculus, Fall 2010 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Determinant",
+            "title": "Determinant - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Leibniz_formula_for_determinants",
+            "title": "Leibniz formula for determinants - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Laplace_expansion",
+            "title": "Laplace expansion - Wikipedia"
+          },
+          {
+            "link": "https://www.3blue1brown.com/lessons/determinant#title",
+            "title": "3Blue1Brown - The determinant"
+          }
+        ]
+      },
+      {
+        "id": "lin_inverse_matrix",
+        "desc": "Be able to to find inverses of matrices, and use them for practical vector problems.",
+        "videos": [
+          {
+            "link": "https://youtu.be/kWorj5BBy9k",
+            "title": "Inverse Matrices and Their Properties - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/shorts/8ilFBUkac9c",
+            "title": "Inverse of a Matrix in Seconds | Gauss\u2013Jordan Method Explained - YouTube"
+          },
+          {
+            "link": "https://youtu.be/uQhTuRlWMxw",
+            "title": "Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zWxhmBCdvFs",
+            "title": "Inverse Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/r9aTLTN16V4",
+            "title": "Example of finding matrix inverse | Matrix transformations | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sT9IgHjjhiY",
+            "title": "Inverse matrix introduction | Matrices | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_OTHALdXLmc",
+            "title": "Inverse Matrix by Gauss-Jordan Elimination | Linear Algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vKBNzM3V-Rc",
+            "title": "Computing inverse matrices using Gaussian elimination | Lecture 12 | Matrix Algebra for Engineers - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Fg7_mv3izR0",
+            "title": "Inverse of a 3x3 Matrix - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=uG7N8YHy0-Q",
+            "title": "Introduction to Linear Algebra: The Inverse of a Matrix - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XovION4LqVE",
+            "title": "Understanding the Inverse of a Matrix: A Step-by-Step Tutorial - YouTube"
+          },
+          {
+            "link": "https://youtu.be/aja1jSY9lq4",
+            "title": "Inverse Matrices - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Invertible_matrix",
+            "title": "Invertible matrix - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 9
+  },
+  {
+    "requires": [
+      "dot",
+      "determinant",
+      "span"
+    ],
+    "title": "Cross Product",
+    "id": "cross",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "cross",
+        "desc": "Understand the cross product of two vectors",
+        "videos": [
+          {
+            "link": "https://youtu.be/eu6i7WJeinw",
+            "title": "Cross products | Chapter 10, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pWbOisq1MJU",
+            "title": "Cross Product of Two Vectors Explained! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9yFkrh7-igc",
+            "title": "30.2 Cross Product - YouTube"
+          },
+          {
+            "link": "https://youtu.be/E34CftP455k",
+            "title": "Dot vs. cross product | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/pJzmiywagfY",
+            "title": "Cross product introduction | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/qqfhgStQ-cA",
+            "title": "Calculus 3 Lecture 11.4:  The Cross Product - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zGyfiOqiR4s",
+            "title": "Right-hand rule for vector cross product - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Cross_product",
+            "title": "Cross product - Wikipedia"
+          },
+          {
+            "link": "https://betterexplained.com/articles/cross-product/",
+            "title": "Vector Calculus: Understanding the Cross Product \u2013 BetterExplained"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Orthogonality_(mathematics)",
+            "title": "Orthogonality (mathematics) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Triple_product#Vector_triple_product",
+            "title": "Triple product - Wikipedia"
+          },
+          {
+            "link": "https://www.3blue1brown.com/lessons/cross-products#title",
+            "title": "3Blue1Brown - Cross products"
+          }
+        ]
+      }
+    ],
+    "start_page": 23
+  },
+  {
+    "requires": [
+      "matrix",
+      "transformations",
+      "lin_inverse_matrix",
+      "determinant",
+      "bitmap_transforms"
+    ],
+    "title": "Matrices as Transformations",
+    "id": "transformations",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "matrices_transformations",
+        "desc": "Understand the idea that matrices can be represented as transformations. Be able to rotate, reflect, and scale basis or points with matrices. Begin thinking about eigenvectors.",
+        "videos": [
+          {
+            "link": "https://youtu.be/kYB8IZa5AuE",
+            "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/is1cg5yhdds",
+            "title": "Linear Transformations on Vector Spaces - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4PCktDZJH8E",
+            "title": "Linear transformations | Matrix transformations | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/rHLEWRxRGiM",
+            "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Transformation_matrix",
+            "title": "Transformation matrix - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 25
+  },
+  {
+    "requires": [
+      "vectors",
+      "determinant",
+      "lin_combo",
+      "dot",
+      "matrices_transformations"
+    ],
+    "title": "Eigenvectors and Eigenvalues",
+    "id": "eigen",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "eigen",
+        "desc": "Understand how to compute eigenvalues and eigenvectors",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=PhfbEr2btGQ",
+            "title": "Introduction to eigenvalues and eigenvectors | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/PFDu9oVAE-g",
+            "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TQvxWaQnrqI",
+            "title": "Finding Eigenvalues and Eigenvectors - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ue3yoeZvt8E",
+            "title": "What is an Eigenvector? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4wTHFmZPhT0",
+            "title": "What eigenvalues and eigenvectors mean geometrically - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cdZnhQjJu4I",
+            "title": "21. Eigenvalues and Eigenvectors - YouTube"
+          },
+          {
+            "link": "https://youtu.be/i8FukKfMKCI",
+            "title": "The applications of eigenvectors and eigenvalues | That thing you heard in Endgame has other uses - YouTube"
+          },
+          {
+            "link": "https://youtu.be/R13Cwgmpuxc",
+            "title": "Real life example of Eigen values and Eigen vectors - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=e50Bj7jn9IQ",
+            "title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "title": "Eigenvalues and eigenvectors - Wikipedia"
+          },
+          {
+            "link": "https://mathworld.wolfram.com/Eigenvalue.html",
+            "title": "Eigenvalue -- from Wolfram MathWorld"
+          }
+        ]
+      }
+    ],
+    "start_page": 47
+  },
+  {
+    "requires": [
+      "vectors",
+      "dot",
+      "unit_vector"
+    ],
+    "title": "Projections",
+    "id": "projections",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "projections",
+        "desc": "Understand vector projections, what they create, and how to calculate them using matrices",
+        "videos": [
+          {
+            "link": "https://youtu.be/27vT-NWuw0M",
+            "title": "Introduction to projections | Matrix transformations | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Rw70zkvqEiE",
+            "title": "Calculus 3 - Vector Projections & Orthogonal Components - YouTube"
+          },
+          {
+            "link": "https://youtu.be/5FO7gJ1um8s",
+            "title": "Vector Projections | Vector Calculus #17 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LyGKycYT2v0",
+            "title": "Dot products and duality | Chapter 9, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Y_Ac6KiQ1t0",
+            "title": "15. Projections onto Subspaces - YouTube"
+          },
+          {
+            "link": "https://youtu.be/t-n4a18AW08",
+            "title": "Projection into Subspaces - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=U0_ONQQ5ZNM",
+            "title": "The Math behind (most) 3D games - Perspective Projection - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fqPiDICPkj8",
+            "title": "Vector Projections - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=OIFlsdKufcY",
+            "title": "Vector Projections Are Just Shadows - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
+            "title": "Projection (linear algebra) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Vector_projection",
+            "title": "Vector projection - Wikipedia"
+          },
+          {
+            "link": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Mathematics_for_Game_Developers_(Burzynski)/02:_Vectors_In_Two_Dimensions/2.06:_The_Vector_Projection_of_One_Vector_onto_Another",
+            "title": "2.6: The Vector Projection of One Vector onto Another - Mathematics LibreTexts"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Scalar_projection",
+            "title": "Scalar projection - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 55
+  }
+]

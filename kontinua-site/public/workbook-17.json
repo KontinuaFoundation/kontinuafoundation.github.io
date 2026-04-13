@@ -1,0 +1,243 @@
+[
+  {
+    "requires": [
+      "monomial",
+      "polynomial",
+      "add_sub_polys"
+    ],
+    "title": "Differentiating Polynomials",
+    "id": "differentiating_polynomials",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "derivatives",
+        "desc": "Understand the concept of a derivative and how to find it",
+        "videos": [
+          {
+            "link": "https://youtu.be/N2PpRnFqnqY",
+            "title": "Derivative as a concept | Derivatives introduction | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EzePYR390dw",
+            "title": "Introduction to Calculus (Derivatives) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FLAm7Hqm-58",
+            "title": "Derivatives for Beginners - Basic Introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/5yfh5cf4-0w",
+            "title": "Calculus 1 - Derivatives - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Derivative",
+            "title": "Derivative - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "power_rule",
+        "desc": "Understand how to use the power rule",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=bRZmfc1YFsQ",
+            "title": "Power rule | Derivative rules | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9Yz-RCdS2Tg",
+            "title": "The Power Rule For Derivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/P7ZSricgAvY",
+            "title": "Derivatives - Power Rule - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.khanacademy.org/math/old-ap-calculus-ab/ab-derivative-rules/ab-diff-negative-fraction-powers/a/power-rule-review",
+            "title": "Khan Academy"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "power_rule",
+      "derivatives"
+    ],
+    "title": "Python Classes",
+    "id": "classes",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "pyclasses",
+        "desc": "Understand how to make a class in python and how to use them in Object Oriented Programming",
+        "videos": [
+          {
+            "link": "https://youtu.be/yYALsys-P_w",
+            "title": "Python Classes in 1 Minute! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/an6wd3dpEjA",
+            "title": "Python Class Inheritance - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZDa-Z5JzLYM",
+            "title": "Python OOP Tutorial 1: Classes and Instances - YouTube"
+          },
+          {
+            "link": "https://youtu.be/wfcWRAxRVBA",
+            "title": "Classes and Objects with Python - Part 1 (Python Tutorial #9) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/rLyYb7BFgQI",
+            "title": "Learn Python OOP in under 20 Minutes - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.w3schools.com/python/python_classes.asp",
+            "title": "Python Classes"
+          }
+        ]
+      }
+    ],
+    "start_page": 9
+  },
+  {
+    "requires": [
+      "polynomial",
+      "FOIL"
+    ],
+    "title": "Common Polynomial Products",
+    "id": "common_products_polynomials",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "poly_diff_squares",
+        "desc": "Understand how to use the difference of squares formula",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=uNweU6I4Icw",
+            "title": "Polynomial special products: difference of squares | Algebra 2 | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Difference_of_two_squares",
+            "title": "Difference of two squares - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "poly_perfect_squares",
+        "desc": "Understand how to factor perfect squares",
+        "videos": [
+          {
+            "link": "https://youtu.be/JX5Zvh6swmo",
+            "title": "Perfect square factorization intro | Mathematics II | High School Math | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/f6yhfmW41wI",
+            "title": "Factoring Perfect Square Trinomials - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4STGvuoBi5U",
+            "title": "Identifying perfect square form | Mathematics II | High School Math | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-perfect-squares/a/factoring-quadratics-perfect-squares",
+            "title": "Khan Academy"
+          }
+        ]
+      },
+      {
+        "id": "pascal's_triangle",
+        "desc": "Use pascals triangle to factor",
+        "videos": [
+          {
+            "link": "https://youtu.be/s19dWIHficY",
+            "title": "Binomial Theorem Expansion, Pascal's Triangle, Finding Terms & Coefficients, Combinations, Algebra 2 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XMriWTvPXHI",
+            "title": "The mathematical secrets of Pascal\u2019s triangle - Wajdi Mohamed Ratemi - YouTube"
+          },
+          {
+            "link": "https://youtu.be/v9Evg2tBdRk",
+            "title": "Pascal's triangle for binomial expansion | Algebra II | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Pascal's_triangle",
+            "title": "Pascal's triangle - Wikipedia"
+          },
+          {
+            "link": "https://www.mathsisfun.com/pascals-triangle.html",
+            "title": "Pascal's Triangle"
+          }
+        ]
+      }
+    ],
+    "start_page": 17
+  },
+  {
+    "requires": [
+      "poly_diff_squares",
+      "poly_perfect_squares",
+      "pascal's_triangle"
+    ],
+    "title": "Factoring Polynomials",
+    "id": "factoring_polynomials",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "factoring",
+        "desc": "Understand the process of factoring a polynomial",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=9MUDAr1PnlE",
+            "title": "Factoring Trinomials & Polynomials, Basic Introduction - Algebra - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=zheQq7Z7KRE",
+            "title": "Understand factoring expressions 6 different ways - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=FoTD41xzF5Q",
+            "title": "Factoring completely with a common factor | Algebra 1 | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.mathsisfun.com/algebra/factoring.html",
+            "title": "Factoring in Algebra"
+          }
+        ]
+      }
+    ],
+    "start_page": 23
+  },
+  {
+    "requires": [
+      "FOIL",
+      "poly_diff_squares",
+      "poly_perfect_squares",
+      "polynomial",
+      "factoring_quadratics",
+      "factoring"
+    ],
+    "title": "Practice with Polynomials",
+    "id": "practice_polynomials",
+    "chap_num": 5,
+    "covers": [],
+    "start_page": 27
+  }
+]

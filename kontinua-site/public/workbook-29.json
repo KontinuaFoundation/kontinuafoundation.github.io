@@ -1,0 +1,237 @@
+[
+  {
+    "requires": [
+      "probability_dependent"
+    ],
+    "title": "Conditional Probability",
+    "id": "conditional_prob",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "probability_conditional",
+        "desc": "Understand how to calculate conditional probability. Be able to use the chain rule for probability",
+        "videos": [
+          {
+            "link": "https://youtu.be/ibINrxJLvlM",
+            "title": "Intro to Conditional Probability - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sqDVrXq_eh0",
+            "title": "Conditional Probability With Venn Diagrams & Contingency Tables - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6xPkG2pA-TU",
+            "title": "Calculating conditional probability | Probability and Statistics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JGeTcRfKgBo",
+            "title": "Conditional Probability - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "title": "Conditional probability - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Chain_rule_(probability)",
+            "title": "Chain rule (probability) - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "probability_conditional"
+    ],
+    "title": "Bayes' Theorem",
+    "id": "bayes",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "bayes",
+        "desc": "Understand Bayes' theorem and be able to apply it to new information",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=XQoLVl31ZfQ",
+            "title": "Bayes' Theorem - The Simplest Case - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=k6Dw0on6NtM",
+            "title": "Bayes' Theorem - Example: A disjoint union - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=HaYbxQC61pw",
+            "title": "Bayes' Theorem Example: Surprising False Positives - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
+            "title": "Bayes theorem, the geometry of changing beliefs - YouTube"
+          },
+          {
+            "link": "https://youtu.be/U_85TaXbeIo",
+            "title": "The quick proof of Bayes' theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OByl4RJxnKA",
+            "title": "Bayes' Theorem of Probability With Tree Diagrams & Venn Diagrams - YouTube"
+          },
+          {
+            "link": "https://youtu.be/-s6ei_v_uOY",
+            "title": "Bayes Theorem in 3 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cqTwHnNbc8g",
+            "title": "Bayes' Theorem EXPLAINED with Examples - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Bayes'_theorem",
+            "title": "Bayes' theorem - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "monty-hall-prob",
+        "desc": "Understand the monty hall problem and the application of Bayes' theorem behind it. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=4Lb-6rxZxx0",
+            "title": "Monty Hall Problem - Numberphile - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=ugbWqWCcxrg&t=152s",
+            "title": "Monty Hall Problem (extended math version) - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=7u6kFlWZOWg",
+            "title": "Monty Hall Problem (best explanation) - Numberphile - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=CYyUuIXzGgI",
+            "title": "Game Theory Scene | 21(2008) | Now Playing - YouTube"
+          }
+        ]
+      }
+    ],
+    "start_page": 7
+  },
+  {
+    "requires": [
+      "derivatives"
+    ],
+    "title": "Antiderivatives",
+    "id": "antiderivatives",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "antiderivatives",
+        "desc": "Understand how to find general antiderivatives, inverse derivative rules, and find general solutions and specific solutions. Find indefinite integrals ",
+        "videos": [
+          {
+            "link": "https://youtu.be/xaCPDMEkbig",
+            "title": "Antiderivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6WUjbJEeJwM",
+            "title": "Calculus 1 - Integration & Antiderivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/MMv-027KEqU",
+            "title": "Antiderivatives and indefinite integrals | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=FnJqaIESC2s",
+            "title": "What does area have to do with slope? | Chapter 9, Essence of calculus - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Antiderivative",
+            "title": "Antiderivative - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/pdf/common_derivatives_integrals.pdf",
+            "title": "common_derivatives_integrals.pdf"
+          }
+        ]
+      }
+    ],
+    "start_page": 13
+  },
+  {
+    "requires": [
+      "antiderivatives",
+      "python_advanced"
+    ],
+    "title": "Riemann Sums",
+    "id": "riemann_sums",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "riemann",
+        "desc": "Understand how to calculate riemann sums and area under the curve.",
+        "videos": [
+          {
+            "link": "https://youtu.be/YTKQswb60Pw",
+            "title": "Riemann Sums - Left Endpoints and Right Endpoints - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CXCtqBlEZ7g",
+            "title": "Definite integral as the limit of a Riemann sum | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/F0uuW-I6icY",
+            "title": "Calculus 1 Lecture 4.3:  Area Under a Curve, Limit Approach, Riemann Sums - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FsC3do74UIo",
+            "title": "What is Integration? Finding the Area Under a Curve - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AkUa9Fkz2rw",
+            "title": "Riemann Sums - Midpoint, Left & Right Endpoints, Area, Definite Integral, Sigma Notation, Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ELWqePHYjCk",
+            "title": "Riemann sum | MIT 18.01SC Single Variable Calculus, Fall 2010 - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=__Uw1SXPW7s",
+            "title": "Introduction to integral calculus | Accumulation and Riemann sums | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/-tPFsrYX7f4",
+            "title": "Left, Right, & Midpoint Riemann Sum Formulas - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4vMJwKHMRx0",
+            "title": "\"Reverse\" Riemann Sums | Finding the Definite Integral Given a Sum - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Integral",
+            "title": "Integral - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Riemann_integral",
+            "title": "Riemann integral - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Partition_of_an_interval",
+            "title": "Partition of an interval - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Riemann_sum",
+            "title": "Riemann sum - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  }
+]

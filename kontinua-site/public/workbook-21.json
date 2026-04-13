@@ -1,0 +1,447 @@
+[
+  {
+    "requires": [
+      "dot",
+      "py_image",
+      "vector_add_sub",
+      "vector_function",
+      "vectors",
+      "rgb"
+    ],
+    "title": "Introduction to Linear Algebra",
+    "id": "linear_algebra_intro",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "linear_alg_intro",
+        "desc": "Understand the concept of linear algebra, matrices, multiplying vector quantities, etc",
+        "videos": [
+          {
+            "link": "https://youtu.be/0KmimFoalTI",
+            "title": "Bitmap Images - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kjBOesZCoqc",
+            "title": "Essence of linear algebra preview - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kYB8IZa5AuE",
+            "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/u1B_RA89Gxg",
+            "title": "How to compress an image with (basic) linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/csgNflj69-Y",
+            "title": "Introduction to Linear Algebra: Systems of Linear Equations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZKUqtErZCiU",
+            "title": "What's the big idea of Linear Algebra?    **Course Intro** - YouTube"
+          },
+          {
+            "link": "https://youtu.be/5cWB52I-SF0",
+            "title": "Linear Algebra: Introduction to Vectors - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sCzd7fXxFds",
+            "title": "Linear Algebra 11 | Matrices - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "title": "Linear algebra - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 5
+  },
+  {
+    "requires": [
+      "vector_add_sub",
+      "vectors",
+      "linear_alg_intro",
+      "dot",
+      "bitmap"
+    ],
+    "title": "Vectors and Matrices",
+    "id": "vectors_matrices",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "matrix",
+        "desc": "Understand matrices, vector representations of matrices, dimensions of matrices, scalar matrix multiplication, and the zero matrix and identity matrix.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=sCzd7fXxFds",
+            "title": "Linear Algebra 11 | Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/yRwQ7A6jVLk",
+            "title": "Intro to Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ZFVFtVbeerI",
+            "title": "Matrices Top 10 Must Knows (ultimate study guide) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vzt9c7iWPxs",
+            "title": "Multiplying Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/y6bVhgmy2rw",
+            "title": "Understanding Matrices and Matrix Notation - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=rowWM-MijXU",
+            "title": "The Applications of Matrices | What I wish my teachers told me way earlier - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+            "title": "Matrix (mathematics) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Diagonal_matrix#Scalar_matrix",
+            "title": "Diagonal matrix - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Dimension",
+            "title": "Dimension - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "matrix_oper",
+        "desc": "Understand how to add, subtract, and multiplication matrices",
+        "videos": [
+          {
+            "link": "https://youtu.be/p48uw2vFWQs",
+            "title": "Linear Algebra - Matrix Operations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/QXUbFzEd3Ww",
+            "title": "Adding and Subtracting Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WR9qCSXJlyY",
+            "title": "Matrix addition and subtraction | Matrices | Precalculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/2spTnAiQg4M",
+            "title": "How To Multiply Matrices - Quick & Easy! - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Matrix_multiplication",
+            "title": "Matrix multiplication - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Matrix_addition",
+            "title": "Matrix addition - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Zero_matrix",
+            "title": "Zero matrix - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "row_col_major",
+        "desc": "Understand the basics of how transposition can be simplified using row major or column major order. Relate this idea to computer memory",
+        "videos": [
+          {
+            "link": "https://youtu.be/g4ecBFmvAYU",
+            "title": "The deeper meaning of matrix transpose - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/In-place_matrix_transposition",
+            "title": "In-place matrix transposition - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Row-_and_column-major_order",
+            "title": "Row- and column-major order - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 19
+  },
+  {
+    "requires": [
+      "linear_alg_intro"
+    ],
+    "title": "Linear Combinations of Vectors",
+    "id": "linear_combo",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "lin_combo",
+        "desc": "Understand linear combinations of vectors. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=k7RM-ot2NWY",
+            "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Qm_OS-8COwU",
+            "title": "Linear combinations and span | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WJlQzgS_itI",
+            "title": "Introducing Linear Combinations & Span - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9kDpbZCK62Y",
+            "title": "Linear Independence - YouTube"
+          },
+          {
+            "link": "https://youtu.be/PfxKT7kYMYc",
+            "title": "What is a linear combination of your unit vectors - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=rfdVVxFbklM",
+            "title": "Linear Algebra - Lecture 7 - Linear Combinations and Vector Equations - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_combination",
+            "title": "Linear combination - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 35
+  },
+  {
+    "requires": [
+      "matrix"
+    ],
+    "title": "Systems of Equations as Matrices",
+    "id": "systems_matrices",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "rref",
+        "desc": "Transform systems of equations into matrices. Understand Gaussian and Gauss-Jordan Elimination, Row Echelon Form, and Reduced Row Echelon Form. Identify free variables, dimension, basics of basis.",
+        "videos": [
+          {
+            "link": "https://youtu.be/eDb6iugi6Uk",
+            "title": "Gaussian Elimination & Row Echelon Form - YouTube"
+          },
+          {
+            "link": "https://youtu.be/T2Gtt8WygiU",
+            "title": "Manipulating Matrices: Elementary Row Operations and Gauss-Jordan Elimination - YouTube"
+          },
+          {
+            "link": "https://youtu.be/seet9VyHo3Q",
+            "title": "A Guide to Gaussian Elimination Method (and Solving Systems of Equations) | Linear Algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4VAXv6yRULU",
+            "title": "Gaussian Elimination With 4 Variables Using Elementary Row Operations With Matrices - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_8EDhzFSez0",
+            "title": "Gaussian Elimination (4 examples) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VNMjJ92rAw0",
+            "title": "Determine Basic (Leading) Variables and Free Variables Given a Matrix in RREF - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.math.ucdavis.edu/~linear/old/notes3.pdf",
+            "title": "notes3.pdf"
+          }
+        ]
+      }
+    ],
+    "start_page": 43
+  },
+  {
+    "requires": [
+      "matrix",
+      "lin_combo",
+      "dot"
+    ],
+    "title": "Applications of Matrices in System Form",
+    "id": "matrices_applications",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "matrices_applied",
+        "desc": "Understand how to apply matrices and systems of linear equations to real life situations",
+        "videos": [
+          {
+            "link": "https://youtu.be/s0fm0NvZKXk",
+            "title": "Math is Boring Without Real Life Application! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/rowWM-MijXU",
+            "title": "The Applications of Matrices | What I wish my teachers told me way earlier - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=7Mo4S2wyMg4",
+            "title": "Matrix vector products | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4csuTO7UTMo",
+            "title": "Dear linear algebra students, This is what matrices (and matrix manipulation) really look like - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.geeksforgeeks.org/maths/real-life-application-of-matrices/",
+            "title": "Application of Matrices - GeeksforGeeks"
+          }
+        ]
+      }
+    ],
+    "start_page": 63
+  },
+  {
+    "requires": [
+      "matrices_applied",
+      "matrix",
+      "vector_add_sub",
+      "rref",
+      "lin_combo"
+    ],
+    "title": "Linear Independence and Dependence",
+    "id": "dependence",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "dependence",
+        "desc": "Determine whether a set of vectors are independent or independent. Understand the basics of a basis and span.",
+        "videos": [
+          {
+            "link": "https://youtu.be/9kDpbZCK62Y",
+            "title": "Linear Independence - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CrV1xCWdY-g",
+            "title": "Introduction to linear independence | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OFALIHBY5Bw",
+            "title": "Determining Linear Independence vs Linear Dependence - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_independence",
+            "title": "Linear independence - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 67
+  },
+  {
+    "requires": [
+      "dependence",
+      "rref"
+    ],
+    "title": "Subspaces",
+    "id": "subspaces",
+    "chap_num": 7,
+    "covers": [
+      {
+        "id": "subspaces",
+        "desc": "Be able to identify and understand the fundamental subspaces: nullspace, rowspace, and columnspace. ",
+        "videos": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Kernel_(linear_algebra)",
+            "title": "Kernel (linear algebra) - Wikipedia"
+          },
+          {
+            "link": "https://youtu.be/pMFv6liWK4M",
+            "title": "Linear subspaces | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tM4TDL9Hj8U",
+            "title": "Subspaces and Span - YouTube"
+          },
+          {
+            "link": "https://youtu.be/zntNi3-ybfQ",
+            "title": "Basis of a subspace | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/S8DQZjE4V8U",
+            "title": "Vector Subspaces - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_subspace",
+            "title": "Linear subspace - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_subspace",
+            "title": "Linear subspace - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Linear_subspace",
+            "title": "Linear subspace - Wikipedia"
+          },
+          {
+            "link": "https://textbooks.math.gatech.edu/ila/1553/subspaces.html",
+            "title": "Subspaces"
+          }
+        ]
+      },
+      {
+        "id": "nullspace",
+        "desc": "Understand what a nullspace is, its properties, how to find it, and what it can tell us about a matrix A.",
+        "videos": [
+          {
+            "link": "https://youtu.be/iApoNPcI5eI",
+            "title": "Find Null Space and Nullity of a Matrix | Linear Algebra - YouTube"
+          },
+          {
+            "link": "https://youtu.be/YQRioQ1XUck",
+            "title": "The Null Space & Column Space of a Matrix   | Algebraically & Geometrically - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_uTAdf_AsfQ",
+            "title": "Null space and column space basis | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8o5Cmfpeo6g",
+            "title": "6. Column Space and Nullspace - YouTube"
+          },
+          {
+            "link": "https://youtu.be/VwrSPtC6TcI",
+            "title": "No One Taught Rank, Column Space, Null Space and Nullity of a Matrix Like This - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FlUtXz2qEC0",
+            "title": "What is Null Space? Geometric Interpretation? [Passing Linear Algebra] - YouTube"
+          },
+          {
+            "link": "https://youtu.be/jCwRV1QL_Xs",
+            "title": "Introduction to the null space of a matrix | Vectors and spaces | Linear Algebra | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Kernel_(linear_algebra)",
+            "title": "Kernel (linear algebra) - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 75
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "requires": [
+      "differentiation",
+      "definite_integral",
+      "antiderivatives"
+    ],
+    "title": "u-Substitution",
+    "id": "u-substitution",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "usub",
+        "desc": "Understand how to integrate functions using u-sub. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/sdYdnpYn-1o",
+            "title": "How To Integrate Using U-Substitution - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3eWxzBbsS9o",
+            "title": "Understand u-substitution, the idea! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sci1pls4Lc8",
+            "title": "Integration Using The Substitution Rule - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7hCsQOKOYS8",
+            "title": "U-substitution with definite integral - YouTube"
+          },
+          {
+            "link": "https://youtu.be/b76wePnIBdU",
+            "title": "_-substitution intro | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/J-NC1M6obKo",
+            "title": "U-substitution and back substitution - YouTube"
+          },
+          {
+            "link": "https://youtu.be/oqCfqIcbE10",
+            "title": "_-substitution: multiplying by a constant | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IAbSeAk5RJU",
+            "title": "Another u-subsitution example - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Integration_by_substitution",
+            "title": "Integration by substitution - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "polar_coordinate",
+      "unit circle",
+      "inverse_trig",
+      "param_eq: overview",
+      "circular_motion"
+    ],
+    "title": "Calculus with Polar Coordinates",
+    "id": "polar_calc",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "polar_calc_derivative",
+        "desc": "Understand how to find slopes of polar functions.",
+        "videos": [
+          {
+            "link": "https://youtu.be/ImtzLh8KhIE",
+            "title": "Tangent Line Equations, Slope, & Derivatives In Polar Form | Calculus 2 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/xTCLmRZvSU4",
+            "title": "Slopes of Polar Curves in 4k - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ecD2zPOInf0",
+            "title": "Slope of line tangent to polar graph - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8mS9eDHf0fQ",
+            "title": "Polar functions derivatives | Advanced derivatives | AP Calculus BC | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Polar_coordinate_system#Differential_calculus",
+            "title": "Polar coordinate system - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "polar_calc_integrals",
+        "desc": "Understand how to find areas of general polar functions. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/qVn_Lfec-Ac",
+            "title": "Area bounded by polar curves | Applications of definite integrals | AP Calculus BC | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/KwR_ysrv3sg",
+            "title": "Worked example: Area between two polar graphs | AP Calculus BC | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GQ6cDvY8K9g",
+            "title": "Finding Area In Polar Coordinates - YouTube"
+          },
+          {
+            "link": "https://youtu.be/RrVEuywFhjg",
+            "title": "Finding Areas in Polar Coordinates - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Kh265EC11OI",
+            "title": "Calculus 2 Lecture 10.5:  Calculus of Polar Equations - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Polar_coordinate_system#Integral_calculus_(area)",
+            "title": "Polar coordinate system - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 11
+  },
+  {
+    "requires": [
+      "exponential_growth",
+      "partial_derivatves"
+    ],
+    "title": "Differential Equations",
+    "id": "diff_eqs",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "diff_eqs",
+        "desc": "Be able to solve ordinary differential equations, logistic DE's, and separable differential equations. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=QbkWlNf2Xtw",
+            "title": "Introduction to Differential Equations - YouTube"
+          },
+          {
+            "link": "https://youtu.be/6o7b9yyhH7k",
+            "title": "Differential equation introduction | First order differential equations | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/C7nuJcJriWM",
+            "title": "Separable First Order Differential Equations - Basic Introduction - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=p_di4Zn4wz4",
+            "title": "Differential equations, a tourist's guide | DE1 - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=4K8-PAX0VYQ",
+            "title": "Solving 8 Differential Equations using 8 methods - YouTube"
+          },
+          {
+            "link": "https://youtu.be/C7nuJcJriWM",
+            "title": "Separable First Order Differential Equations - Basic Introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/DL-ozRGDlkY",
+            "title": "Separable differential equations introduction | First order differential equations | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7Y-frhf-1Zk",
+            "title": "Separation of Variables //  Differential Equations - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://www.mathsisfun.com/calculus/differential-equations.html",
+            "title": "Differential Equations"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/classes/de/definitions.aspx",
+            "title": "\r\n\tDifferential Equations - Definitions\r\n"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Differential_equation",
+            "title": "Differential equation - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 25
+  },
+  {
+    "requires": [
+      "diff_eqs"
+    ],
+    "title": "Slope Fields",
+    "id": "slope_fields",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "slope_fields",
+        "desc": "Be able to work with slope fields, both graphing and identifying. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/Wr9VOum9Co0",
+            "title": "Slope Fields | Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ccDMpj2UK_M",
+            "title": "The Geometric Meaning of Differential Equations // Slope Fields, Integral Curves & Isoclines - YouTube"
+          },
+          {
+            "link": "https://youtu.be/8Amgakx5aII",
+            "title": "Creating a slope field | First order differential equations | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/m9Y8U9f9_Bw",
+            "title": "Introduction to Slope Fields (Differential Equations 9) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LoaagZPWvpM",
+            "title": "Slope field to visualize solutions | First order differential equations | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sU5MCM3npXU",
+            "title": "Differential equation from slope field | First order differential equations | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Slope_field",
+            "title": "Slope field - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 35
+  }
+]

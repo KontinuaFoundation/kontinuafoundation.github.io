@@ -1,0 +1,361 @@
+[
+  {
+    "requires": [],
+    "title": "Optimization",
+    "id": "optimization",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "programming-optimization",
+        "desc": "Optimizing a best possible solution given a problem with many variables. ",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=K7TL5NMlKIk",
+            "title": "Intro to Linear Programming - YouTube"
+          },
+          {
+            "link": "https://youtu.be/E72DWgKP_1Y",
+            "title": "The Art of Linear Programming - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Optimization_problem",
+            "title": "Optimization problem - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "differentiation",
+      "chain",
+      "product"
+    ],
+    "title": "Implicit Differentiation",
+    "id": "implicit_diff",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "implicit_diff",
+        "desc": "Understand how to use implicit differentiation to find derivatives with respect to x, vertical and horizontal tangents, and other rates of change. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/qb40J4N1fa4",
+            "title": "Implicit differentiation, what's going on here? | Chapter 6, Essence of calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LGY-DjFsALc",
+            "title": "Implicit Differentiation Explained - Product Rule, Quotient & Chain Rule - Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/M0SMSWM2oZA",
+            "title": "Implicit Differentiation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/xbviQHhU1rA",
+            "title": "Implicit Differentiation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/mSVrqKZDRF4",
+            "title": "Implicit differentiation | Advanced derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/RUS4mKo9tBk",
+            "title": "Calculus 1 Lecture 2.7:  Implicit Differentiation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sjcoTb3cMRY",
+            "title": "Implicit Differentiation |  Differentiation when you only have an equation, not an explicit function - YouTube"
+          },
+          {
+            "link": "https://youtu.be/A9CR6XOuQkk",
+            "title": "Implicit Differentiation Second Derivative Trig Functions & Examples- Calculus - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Implicit_function",
+            "title": "Implicit function - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/classes/calci/implicitdiff.aspx",
+            "title": "\r\n\tCalculus I - Implicit Differentiation\r\n"
+          },
+          {
+            "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-2/a/implicit-differentiation-review",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/problems/calci/ImplicitDiff.aspx",
+            "title": "\r\n\tCalculus I - Implicit Differentiation (Practice Problems)\r\n"
+          }
+        ]
+      }
+    ],
+    "start_page": 11
+  },
+  {
+    "requires": [
+      "differentiation",
+      "implicit_diff"
+    ],
+    "title": "Related Rates",
+    "id": "related_rates",
+    "chap_num": 3,
+    "covers": [
+      {
+        "id": "related_rates",
+        "desc": "Understand how to solve related rates problems using differentiation",
+        "videos": [
+          {
+            "link": "https://youtu.be/j6I3EXiKB2A",
+            "title": "Related Rates in Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/I9mVUo-bhM8",
+            "title": "Introduction to Related Rates - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ps-r4nti5Go",
+            "title": "Related Rates - Conical Tank, Ladder Angle & Shadow Problem, Circle & Sphere - Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kQF9pOqmS0U",
+            "title": "Related rates intro | Applications of derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/kBVDSu7v8os",
+            "title": "Related rates: Falling ladder | Applications of derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Xe6YlrCgkIo",
+            "title": "Related rates: water pouring into a cone | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_kbd6troMgA",
+            "title": "Related rates: balloon | Applications of derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Xe6YlrCgkIo",
+            "title": "Related rates: water pouring into a cone | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cPOjnyjii-4",
+            "title": "Related rates: shadow | Applications of derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/wV59XWLmv0c",
+            "title": "Related rates: Approaching cars | Applications of derivatives | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TX69hjJpBFk",
+            "title": "Analyzing related rates problems: expressions | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XwEGKNPLQfQ",
+            "title": "Analyzing related rates problems: equations (trig) | AP Calculus AB | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/J27BZCX1OF8",
+            "title": "Understanding Differentiation Part 2: Rates of Change - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Related_rates",
+            "title": "Related rates - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 17
+  },
+  {
+    "requires": [
+      "derivatives",
+      "differentiation"
+    ],
+    "title": "Multivariate Functions and Partial Derivatives",
+    "id": "multiv_func",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "multiv_func",
+        "desc": "Understand how to evaluate functions of several variables, and be able to take their limits to determine continuity and differentiablity",
+        "videos": [
+          {
+            "link": "https://youtu.be/TrcCbdWwCBc",
+            "title": "Multivariable functions | Multivariable calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/E1lMMBpz8YM",
+            "title": "Limits of Multivariable Functions - Calculus 3 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/hxrnjxth8sA",
+            "title": "Limits are...weird...for multi-variable functions | Limits along paths - YouTube"
+          },
+          {
+            "link": "https://youtu.be/UID893EosM8",
+            "title": "Local Extrema, Critical Points, & Saddle Points of Multivariable Functions - Calculus 3 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/TrcCbdWwCBc",
+            "title": "Multivariable functions | Multivariable calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/iBgOoaeLUcM",
+            "title": "Representing points in 3d | Multivariable calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/2DRmfxkH_VI",
+            "title": "Introduction to 3d graphs | Multivariable calculus | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Multivariable_calculus",
+            "title": "Multivariable calculus - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Function_of_several_real_variables",
+            "title": "Function of several real variables - Wikipedia"
+          },
+          {
+            "link": "https://www.geogebra.org/3d?lang=en",
+            "title": "3D Calculator - GeoGebra"
+          }
+        ]
+      }
+    ],
+    "start_page": 19
+  },
+  {
+    "requires": [
+      "multiv_func",
+      "chain",
+      "dot"
+    ],
+    "title": "Partial Derivatives and Gradients",
+    "id": "partial_deriv_grad",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "partial_derivatves",
+        "desc": "Understand how to calculate partial derivatves. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/AXqhWeUEtQU",
+            "title": "Partial derivatives, introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JAf_aSIJryg",
+            "title": "Partial Derivatives - Multivariable Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Kp7sSp5Kn7o",
+            "title": "Difference Between Partial and Total Derivative - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AXH9Xm6Rbfc",
+            "title": "Partial Derivatives and the Gradient of a Function - YouTube"
+          },
+          {
+            "link": "https://youtu.be/xnhz1Ngr4w8",
+            "title": "Learn Partial Derivatives In 2 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ly4S0oi3Yz8",
+            "title": "But what is a partial differential equation?  | DE2 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/JAf_aSIJryg",
+            "title": "Partial Derivatives - Multivariable Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EkZGBdY0vlg",
+            "title": "Calculus 3 Lecture 13.3:  Partial Derivatives (Derivatives of Multivariable Functions) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Partial_derivative",
+            "title": "Partial derivative - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "chain_partial",
+        "desc": "Understand how to use the chain rule for partial derivatives ",
+        "videos": [
+          {
+            "link": "https://youtu.be/XipB_uEexF0",
+            "title": "Chain Rule With Partial Derivatives - Multivariable Calculus - YouTube"
+          },
+          {
+            "link": "https://youtu.be/9yCtWfI_Vjg",
+            "title": "The Multi-Variable Chain Rule: Derivatives of Compositions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/NO3AqAaAE6o",
+            "title": "Multivariable chain rule - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Chain_rule#Multivariable_case",
+            "title": "Chain rule - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "gradient_directional",
+        "desc": "Understand gradient vectors and directional derivatives and their relation",
+        "videos": [
+          {
+            "link": "https://youtu.be/GJODOGq7cAY",
+            "title": "Directional Derivatives | What's the slope in any direction? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/N_ZRcLheNv0",
+            "title": "Directional derivative - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CnVes9TdnPo",
+            "title": "How To Find The Directional Derivative and The Gradient Vector - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4tdyIGIEtNU",
+            "title": "Directional derivatives and slope - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4RBkIJPG6Yo",
+            "title": "Directional derivative, formal definition - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GkB4vW16QHI",
+            "title": "Gradients and Partial Derivatives - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tDPp5uWSIiU",
+            "title": "Calculus 3 Lecture 13.6:  Finding Directional Derivatives and Gradients - YouTube"
+          },
+          {
+            "link": "https://youtu.be/2XraaWefBd8",
+            "title": "Lec 12: Gradient; directional derivative; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07 - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Gradient",
+            "title": "Gradient - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  }
+]

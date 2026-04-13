@@ -1,0 +1,427 @@
+[
+  {
+    "requires": [
+      "rad",
+      "angle",
+      "circular_motion",
+      "circular_arc_length",
+      "cross"
+    ],
+    "title": "Circular Motion, continued",
+    "id": "circular_2",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "torque",
+        "desc": "Understand the concept of torque of a rigid body around a pivot",
+        "videos": [
+          {
+            "link": "https://youtu.be/b-HZ1SZPaQw",
+            "title": "Torque: Crash Course Physics #12 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/jNc2SflUl9U",
+            "title": "Angular Motion and Torque - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Tu6e9_SrzBA",
+            "title": "Torque Introduction - YouTube"
+          },
+          {
+            "link": "https://youtu.be/T99yH_gw3p8",
+            "title": "What is Torque? - Torque basics explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Torque",
+            "title": "Torque - Wikipedia"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=QnqWByluDDA",
+            "title": "1.5-3:  Free body Diagrams with torque - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=LtXETk1mN9E",
+            "title": "Physics Unit 8.2 Multiple Torques and Sum of Torques - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "moment_of_inertia",
+        "desc": "Understand the moment of inertia, sometimes referred to as the moment",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=CHQOctEvtTY",
+            "title": "Rotational Inertia: The Race Between a Ring and a Disc - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=lNx0yPdl960",
+            "title": "Demonstrating Rotational Inertia (or Moment of Inertia) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FDvcIuNEgo0",
+            "title": "Rolling Down an Incline: Sphere vs. Disc vs. Ring - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=ECKkt9C72eA",
+            "title": "Torque Practice Problems (and how to solve them) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ECKkt9C72eA?si=Kw4_dafqoo_i2uHV",
+            "title": "Torque Practice Problems (and how to solve them) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/b-HZ1SZPaQw?si=4A2qy02tWLe47TmV",
+            "title": "Torque: Crash Course Physics #12 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/McvzTanQ0po?si=H31CELvywG2IhUCm",
+            "title": "Torque and  Angular Acceleration - YouTube"
+          },
+          {
+            "link": "https://youtu.be/jNc2SflUl9U?si=kMEb-VlhMOrFgU0k",
+            "title": "Angular Motion and Torque - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Moment_of_inertia",
+            "title": "Moment of inertia - Wikipedia"
+          },
+          {
+            "link": "http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html#cmi",
+            "title": "Moment of Inertia"
+          }
+        ]
+      },
+      {
+        "id": "rotNewt2ndLaw",
+        "desc": "Understand the rotational equivalent of newton's second law, relating torque, angular acceleration and moments"
+      },
+      {
+        "id": "parallelAxisTheorem",
+        "desc": "Understand the parallel axis theorem",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=r2Qb0vsxa8Y",
+            "title": "29.4 Parallel Axis Theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bjF1--cxgrA",
+            "title": "Parallel Axis Theorem Derivation - YouTube"
+          },
+          {
+            "link": "https://youtu.be/z7Qq5Map9gA",
+            "title": "Parallel Axis Theorem Example - YouTube"
+          },
+          {
+            "link": "https://youtu.be/cMu0hsvgkGk",
+            "title": "29.6 Deep Dive - Derivation of the Parallel Axis Theorem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CclbilxBr0I",
+            "title": "Proof of the Parallel Axis Theorem - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Parallel_axis_theorem",
+            "title": "Parallel axis theorem - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "angularMomentum",
+        "desc": "New",
+        "videos": [
+          {
+            "link": "https://youtu.be/k9IFb3g2e2M",
+            "title": "Conservation of Angular Momentum Theory and Worked Example | Doc Physics - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "rotationalKE",
+        "desc": "New"
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "equal_but_opposite",
+      "orbit",
+      "airplanes"
+    ],
+    "title": "Rocketry",
+    "id": "rocketry",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "rockets",
+        "desc": "Understand how rockets fly, how their engines work, their propulsion, and staging",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=lddKvb2JgHo",
+            "title": "What do Rockets push in Space, where there is no Air? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IJtOXekIQv4",
+            "title": "The How and Why of Rockets' Staging - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/shorts/6QjCXpfiOtw",
+            "title": "Estes Saturn V Launch - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you",
+            "title": "MOLD-A-RAMA Triceratops Machine at the Field Museum in Chicago - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Rocket",
+            "title": "Rocket - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Rocket_engine",
+            "title": "Rocket engine - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Multistage_rocket",
+            "title": "Multistage rocket - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 21
+  },
+  {
+    "requires": [
+      "vectors",
+      "orbit",
+      "lawOfUnivGrav",
+      "python_advanced",
+      "momentum"
+    ],
+    "title": "Simulation with Vectors",
+    "id": "vector_sim",
+    "chap_num": 3,
+    "covers": [],
+    "start_page": 31
+  },
+  {
+    "requires": [],
+    "title": "Longitude and Latitude",
+    "id": "long_lat_dist",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "long lat",
+        "desc": "Define longitude and latitude as measures of geographic coordinate system",
+        "videos": [
+          {
+            "link": "https://youtu.be/swKBi6hHHMA",
+            "title": "Latitude and Longitude - YouTube"
+          },
+          {
+            "link": "https://youtu.be/lUMlmRzkuuY",
+            "title": "How to read Latitude and Longitude Coordinates - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Geographic_coordinate_system",
+            "title": "Geographic coordinate system - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Latitude",
+            "title": "Latitude - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Longitude",
+            "title": "Longitude - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "haversine",
+        "desc": "Understand and use the haversine formula to find the distance between two points on a sphere",
+        "videos": [
+          {
+            "link": "https://youtu.be/a4L-coX4HLY",
+            "title": "Creating Geodesics on a Sphere - YouTube"
+          },
+          {
+            "link": "https://youtu.be/hcXbLRPq5vc",
+            "title": "Classical spherical trigonometry | Universal Hyperbolic Geometry 36 | NJ Wildberger - YouTube"
+          },
+          {
+            "link": "https://youtu.be/WcWbUIQMxXE",
+            "title": "Why Planes Don't Fly Straight - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Haversine_formula",
+            "title": "Haversine formula - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Earth_radius",
+            "title": "Earth radius - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Spherical_Earth",
+            "title": "Spherical Earth - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 47
+  },
+  {
+    "requires": [
+      "orbit",
+      "circular_motion"
+    ],
+    "title": "Tides and Eclipses",
+    "id": "tides",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "tides",
+        "desc": "Understand how the moon effects tide",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=dBwNadry-TU",
+            "title": "Neil deGrasse Tyson Explains the Tides - YouTube"
+          },
+          {
+            "link": "https://youtu.be/jKQbM8CzQl4",
+            "title": "How Tides and Waves Occur | Full Moon Effects - YouTube"
+          },
+          {
+            "link": "https://youtu.be/tcGEjzt_4is",
+            "title": "What Causes Tides? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3RdkXs8BibE",
+            "title": "Ocean's Tides Explained - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Barycenter_(astronomy)",
+            "title": "Barycenter (astronomy) - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Tide",
+            "title": "Tide - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "orbital_calendars",
+        "desc": "Understand how often different orbits occur, and the earth sun and moon triangle",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=3cJ3AemeUFM",
+            "title": "Does The Moon Really Orbit The Earth? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vIZyuXl-91U",
+            "title": "Why Aren't There Eclipses Every Month? - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=0r9Lc7oYq5M",
+            "title": "Seasons | The Earth-sun-moon system | Middle school Earth and space science | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=1sj2otIjZfM",
+            "title": "Phases of moon explained using an orrery - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=W47Wa7onrIQ",
+            "title": "Sun, Earth, Moon animation - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Orbital_period",
+            "title": "Orbital period - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Earth%27s_rotation",
+            "title": "Earth's rotation - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "eclipses_and_phases",
+        "desc": "Understand the moon's phases and eclipses",
+        "videos": [
+          {
+            "link": "https://youtu.be/PRgua7xceDA",
+            "title": "Eclipses: Crash Course Astronomy #5 - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=W7mVQ3kRPv8",
+            "title": "The LAST Eclipse in History - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=AQ5vty8f9Xc",
+            "title": "Moon Phases: Crash Course Astronomy #4 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/urgYWNCN-RA",
+            "title": "Greek Physics: Calculating the distance to the Sun and Moon - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Solar_eclipse",
+            "title": "Solar eclipse - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Lunar_eclipse",
+            "title": "Lunar eclipse - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "phases",
+        "desc": "Understand the phases of the moon",
+        "videos": [
+          {
+            "link": "https://youtu.be/Jip3BbZBpsM",
+            "title": "What Causes The Phases Of The Moon? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/3lrnNUqTmGU",
+            "title": "Moon Phases Explained (Animations and Timelapse) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LHD4Pk0D8_g",
+            "title": "Moon Phase Animation - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=6AviDjR9mmo",
+            "title": "Moon 101 | National Geographic - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Moon",
+            "title": "Moon - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Lunar_phase",
+            "title": "Lunar phase - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 53
+  }
+]

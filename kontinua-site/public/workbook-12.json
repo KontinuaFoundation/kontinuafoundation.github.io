@@ -1,0 +1,407 @@
+[
+  {
+    "requires": [
+      "dc",
+      "trig_functions",
+      "stats-rms"
+    ],
+    "title": "Alternating Current",
+    "id": "ac",
+    "chap_num": 1,
+    "covers": [
+      {
+        "id": "ac",
+        "desc": "Definition of Alternating Current",
+        "videos": [
+          {
+            "link": "https://youtu.be/qaz3gL3-vvY",
+            "title": "AC voltage applied to resistors | Alternating currents | Physics | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ERIToctYUcQ",
+            "title": "Alternating Current vs Direct Current - Rms Voltage, Peak Current & Average Power of AC Circuits - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OUcKJuMSSW4",
+            "title": "AC Basics: Learn All About Alternating Current - YouTube"
+          },
+          {
+            "link": "https://youtu.be/Jveer7vhjGo",
+            "title": "AC Circuits: Crash Course Physics #36 - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=fQcPEeoiUwU",
+            "title": "Alternating current, direct current & what is frequency? | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Alternating_current",
+            "title": "Alternating current - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "ac_transformer",
+        "desc": "Use of Transformer to Change Voltage of AC",
+        "videos": [
+          {
+            "link": "https://youtu.be/zf8vnCcETqM",
+            "title": "Transformers -  working & applications (step up and step down) | A.C. | Physics | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Transformer",
+            "title": "Transformer - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "ac_three_phase_system",
+        "desc": "Understand the purpose of the 3 phase system in AC",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=c9gm_NL7KyE",
+            "title": "How 3 Phase Power works: why 3 phases? - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Three-phase_electric_power",
+            "title": "Three-phase electric power - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 3
+  },
+  {
+    "requires": [
+      "ac",
+      "charge"
+    ],
+    "title": "Electromagnetic Induction",
+    "id": "induction",
+    "chap_num": 2,
+    "covers": [
+      {
+        "id": "electromagnetic_induction",
+        "desc": "Electromagnetic induction is the process by which a changing magnetic field induces an electromotive force (emf) in a conductor.",
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Electromagnetic_induction",
+            "title": "Electromagnetic induction - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 9
+  },
+  {
+    "requires": [
+      "electromagnetic_induction"
+    ],
+    "title": "Electric Motor",
+    "id": "electric_motors_generators",
+    "chap_num": 3,
+    "covers": [],
+    "start_page": 13
+  },
+  {
+    "requires": [
+      "drag",
+      "air_resistance",
+      "projectile_motion",
+      "trig_functions",
+      "fma",
+      "equal_but_opposite",
+      "fbd"
+    ],
+    "title": "Drag",
+    "id": "drag",
+    "chap_num": 4,
+    "covers": [
+      {
+        "id": "drag",
+        "desc": "Understand drag and wind resistance",
+        "videos": [
+          {
+            "link": "https://youtu.be/aY8z2qO44WA",
+            "title": "Kinematics Part 3: Projectile Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/OBq07mCMXlc",
+            "title": "Projectile Motion: Linear Drag - YouTube"
+          },
+          {
+            "link": "https://youtube.com/shorts/cqVY0adIBow?si=P9Pa1sklzS_JdG3W",
+            "title": "Projectile Motion demonstration By Prof. Walter Lewin #walterlewin #projectilemotion #physics - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Drag_(physics)",
+            "title": "Drag (physics) - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "terminal velocity",
+        "desc": "Understand and calculate terminal velocity",
+        "videos": [
+          {
+            "link": "https://youtu.be/DxnDkDwK3JA",
+            "title": "Terminal Velocity - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GVFi5Pvhq9g",
+            "title": "What is Terminal Velocity? How Do We Find It? - YouTube"
+          },
+          {
+            "link": "https://youtu.be/CR0ihuP-V8w",
+            "title": "Terminal velocity - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Terminal_velocity",
+            "title": "Terminal velocity - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 17
+  },
+  {
+    "requires": [
+      "math-graph",
+      "math-function",
+      "quadratic_formula",
+      "solving_quadratics",
+      "unit circle",
+      "derivatives",
+      "math-variable",
+      "python_advanced"
+    ],
+    "title": "Parametric Functions",
+    "id": "parametric",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "param_eq: overview",
+        "desc": "Understand how parametric equations describe curves using a parameter. ",
+        "videos": [
+          {
+            "link": "https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-equations-1",
+            "title": "Khan Academy"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=7g37UjuVYeU",
+            "title": "AP Precalculus \u2013 4.1 Parametric Functions - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Parametric_equation",
+            "title": "Parametric equation - Wikipedia"
+          }
+        ]
+      },
+      {
+        "id": "param_eq: interpret",
+        "desc": "Interpret x = f(t) and y = g(t) as a single curve in the plane.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=7g37UjuVYeU",
+            "title": "AP Precalculus \u2013 4.1 Parametric Functions - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=qAn4wVIkH6c",
+            "title": "AP Precalculus \u2013 4.2 Parametric Functions Modeling Planar Motion - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "param_eq: elim",
+        "desc": "Eliminate the parameter to convert parametric equations to rectangular form.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=97pe-QlSGqA",
+            "title": "Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "param_eq: sketch",
+        "desc": "Sketch parametric curves and determine direction of motion.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=5BszZXMelVE",
+            "title": "Introduction to Parametric Equations - Graphing and Eliminating the Parameter - YouTube"
+          }
+        ]
+      },
+      {
+        "id": "param_eq: restrict",
+        "desc": "Understand how restrictions on t affect the portion of the curve that is traced.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=yxXgK9hAPoQ",
+            "title": "AP Precalculus \u2013 4.3 Parametric Functions and Rates of Change - YouTube"
+          }
+        ]
+      }
+    ],
+    "start_page": 23
+  },
+  {
+    "requires": [
+      "vectors",
+      "vector_magnitude",
+      "terminal velocity",
+      "derivatives",
+      "param_eq: overview"
+    ],
+    "title": "Vector-valued Functions",
+    "id": "vector_functions",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "vector_function",
+        "desc": "Understand how to calculate vector valued functions",
+        "videos": [
+          {
+            "link": "https://youtu.be/40r56pX4mqA",
+            "title": "3D Curves and their Tangents | Intro to Vector-Valued Functions - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FThlJQMQ9f4",
+            "title": "Vector-Valued Functions (Introduction) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vcwvzUVLPw0",
+            "title": "Vector valued function derivative example | Multivariable Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FYMn61HLw1k",
+            "title": "Differential of a vector valued function | Multivariable Calculus | Khan Academy - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sBldw95xMD4",
+            "title": "Position vector valued functions | Multivariable Calculus | Khan Academy - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Vector-valued_function",
+            "title": "Vector-valued function - Wikipedia"
+          },
+          {
+            "link": "https://tutorial.math.lamar.edu/classes/calciii/VectorFunctions.aspx",
+            "title": "\r\n\tCalculus III - Vector Functions\r\n"
+          },
+          {
+            "link": "https://www.geogebra.org/3d?lang=en",
+            "title": "3D Calculator - GeoGebra"
+          }
+        ]
+      }
+    ],
+    "start_page": 37
+  },
+  {
+    "requires": [
+      "tangent",
+      "circles",
+      "projectile_motion",
+      "friction_intro"
+    ],
+    "title": "Circular Motion",
+    "id": "circular",
+    "chap_num": 7,
+    "covers": [
+      {
+        "id": "circular_motion",
+        "desc": "Understand the concepts of circular motion and their equations. Identify uniform circular motion and non-uniform circular motion.",
+        "videos": [
+          {
+            "link": "https://youtu.be/kLN9W73ASrQ",
+            "title": "Uniform Circular Motion - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bpFK2VCRHUs",
+            "title": "Uniform Circular Motion: Crash Course Physics #7 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/SZj6DuB0vvo",
+            "title": "Uniform Circular Motion and Centripetal Force - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IawY86XveQE",
+            "title": "Uniform Circular Motion Formulas and Equations - College Physics - YouTube"
+          },
+          {
+            "link": "https://youtu.be/lV3h2kpJzp8",
+            "title": "Circular Motion Everything You Need To Know! - YouTube"
+          },
+          {
+            "link": "https://youtu.be/vsSID5irx4o",
+            "title": "Flying Pig:  Uniform Circular Motion and Centripetal Force - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=ifAY5tbYDmQ",
+            "title": "Centripetal Force in the Gravitron Ride - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dMgyy95uJUg",
+            "title": "Static Friction, Centripetal Force, Circular Motion, Car Rounding Curve & Rotor Ride Physics Problem - YouTube"
+          },
+          {
+            "link": "https://youtu.be/95W_w33nkSY",
+            "title": "Nonuniform Circular Motion - Ball in a Vertical Circle - YouTube"
+          },
+          {
+            "link": "https://youtu.be/G0RikmNonoU",
+            "title": "Tetherball Physics Problem - Calculate Tension Force - YouTube"
+          },
+          {
+            "link": "https://youtu.be/AsRXFKLBRAE",
+            "title": "High School physics (Newton's Laws) tetherball problem - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=J2gpEgjy1qg",
+            "title": "1D10.50 Simple Harmonic Motion and Uniform Circular Motion - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=AL2Chc6p_Kk",
+            "title": "The Most Mind-Blowing Aspect of Circular Motion - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=9yZHwnh6lAE",
+            "title": "Nonuniform Circular Motion - Force of Tension in a Rope - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=0q0L7Fj4dk8",
+            "title": "Everything You Need To Know About Pendulums: Physics Help Room - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://courses.lumenlearning.com/suny-physics/chapter/6-1-rotation-angle-and-angular-velocity/",
+            "title": "Rotation Angle and Angular Velocity | Physics"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Circular_motion",
+            "title": "Circular motion - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Centripetal_force",
+            "title": "Centripetal force - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 41
+  }
+]
