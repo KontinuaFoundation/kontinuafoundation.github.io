@@ -2,6 +2,7 @@
   {
     "title": "Workbook 01",
     "href": "Workbook-01.html",
+    "pdf": "Workbook-01.pdf",
     "chapters": [
       {
         "id": "introduction",
@@ -53,6 +54,7 @@
   {
     "title": "Workbook 02",
     "href": "Workbook-02.html",
+    "pdf": "Workbook-02.pdf",
     "chapters": [
       {
         "id": "atomic_mass",
@@ -89,6 +91,7 @@
   {
     "title": "Workbook 03",
     "href": "Workbook-03.html",
+    "pdf": "Workbook-03.pdf",
     "chapters": [
       {
         "id": "basic_statistics",
@@ -130,6 +133,7 @@
   {
     "title": "Workbook 04",
     "href": "Workbook-04.html",
+    "pdf": "Workbook-04.pdf",
     "chapters": [
       {
         "id": "fertilizer",
@@ -171,6 +175,7 @@
   {
     "title": "Workbook 05",
     "href": "Workbook-05.html",
+    "pdf": "Workbook-05.pdf",
     "chapters": [
       {
         "id": "congruence",
@@ -202,6 +207,7 @@
   {
     "title": "Workbook 06",
     "href": "Workbook-06.html",
+    "pdf": "Workbook-06.pdf",
     "chapters": [
       {
         "id": "trig_functions",
@@ -238,6 +244,7 @@
   {
     "title": "Workbook 07",
     "href": "Workbook-07.html",
+    "pdf": "Workbook-07.pdf",
     "chapters": [
       {
         "id": "falling_bodies",
@@ -274,6 +281,7 @@
   {
     "title": "Workbook 08",
     "href": "Workbook-08.html",
+    "pdf": "Workbook-08.pdf",
     "chapters": [
       {
         "id": "boats",
@@ -305,6 +313,7 @@
   {
     "title": "Workbook 09",
     "href": "Workbook-09.html",
+    "pdf": "Workbook-09.pdf",
     "chapters": [
       {
         "id": "atmopressure",
@@ -336,6 +345,7 @@
   {
     "title": "Workbook 10",
     "href": "Workbook-10.html",
+    "pdf": "Workbook-10.pdf",
     "chapters": [
       {
         "id": "exponents_review",
@@ -367,6 +377,7 @@
   {
     "title": "Workbook 11",
     "href": "Workbook-11.html",
+    "pdf": "Workbook-11.pdf",
     "chapters": [
       {
         "id": "intro_dataviz",
@@ -387,12 +398,33 @@
         "id": "sound",
         "title": "Sound",
         "chap_num": 4
+      },
+      {
+        "id": "graphs",
+        "title": "Introduction to Graphs",
+        "chap_num": 5
+      },
+      {
+        "id": "dijkstra",
+        "title": "Dijkstra's Algorithm",
+        "chap_num": 6
+      },
+      {
+        "id": "binary_search",
+        "title": "Binary Search",
+        "chap_num": 7
+      },
+      {
+        "id": "graph_algorithms",
+        "title": "Other Graph Algorithms and Proofs",
+        "chap_num": 8
       }
     ]
   },
   {
     "title": "Workbook 12",
     "href": "Workbook-12.html",
+    "pdf": "Workbook-12.pdf",
     "chapters": [
       {
         "id": "ac",
@@ -434,6 +466,7 @@
   {
     "title": "Workbook 13",
     "href": "Workbook-13.html",
+    "pdf": "Workbook-13.pdf",
     "chapters": [
       {
         "id": "emwaves",
@@ -475,6 +508,7 @@
   {
     "title": "Workbook 14",
     "href": "Workbook-14.html",
+    "pdf": "Workbook-14.pdf",
     "chapters": [
       {
         "id": "circular_2",
@@ -506,6 +540,7 @@
   {
     "title": "Workbook 15",
     "href": "Workbook-15.html",
+    "pdf": "Workbook-15.pdf",
     "chapters": [
       {
         "id": "camera",
@@ -537,6 +572,7 @@
   {
     "title": "Workbook 16",
     "href": "Workbook-16.html",
+    "pdf": "Workbook-16.pdf",
     "chapters": [
       {
         "id": "polynomials_intro",
@@ -568,6 +604,7 @@
   {
     "title": "Workbook 17",
     "href": "Workbook-17.html",
+    "pdf": "Workbook-17.pdf",
     "chapters": [
       {
         "id": "differentiating_polynomials",
@@ -599,6 +636,7 @@
   {
     "title": "Workbook 18",
     "href": "Workbook-18.html",
+    "pdf": "Workbook-18.pdf",
     "chapters": [
       {
         "id": "graphs_polynomials",
@@ -630,6 +668,7 @@
   {
     "title": "Workbook 19",
     "href": "Workbook-19.html",
+    "pdf": "Workbook-19.pdf",
     "chapters": [
       {
         "id": "differentiability",
@@ -656,6 +695,7 @@
   {
     "title": "Workbook 20",
     "href": "Workbook-20.html",
+    "pdf": "Workbook-20.pdf",
     "chapters": [
       {
         "id": "optimization",
@@ -687,6 +727,7 @@
   {
     "title": "Workbook 21",
     "href": "Workbook-21.html",
+    "pdf": "Workbook-21.pdf",
     "chapters": [
       {
         "id": "linear_algebra_intro",
@@ -728,6 +769,7 @@
   {
     "title": "Workbook 22",
     "href": "Workbook-22.html",
+    "pdf": "Workbook-22.pdf",
     "chapters": [
       {
         "id": "span",
@@ -764,6 +806,7 @@
   {
     "title": "Workbook 23",
     "href": "Workbook-23.html",
+    "pdf": "Workbook-23.pdf",
     "chapters": [
       {
         "id": "gram-schmidt",
@@ -785,6 +828,7 @@
   {
     "title": "Workbook 24",
     "href": "Workbook-24.html",
+    "pdf": "Workbook-24.pdf",
     "chapters": [
       {
         "id": "pandas",
@@ -806,6 +850,7 @@
   {
     "title": "Workbook 25",
     "href": "Workbook-25.html",
+    "pdf": "Workbook-25.pdf",
     "chapters": [
       {
         "id": "http",
@@ -832,6 +877,7 @@
   {
     "title": "Workbook 26",
     "href": "Workbook-26.html",
+    "pdf": "Workbook-26.pdf",
     "chapters": [
       {
         "id": "html",
@@ -858,6 +904,7 @@
   {
     "title": "Workbook 27",
     "href": "Workbook-27.html",
+    "pdf": "Workbook-27.pdf",
     "chapters": [
       {
         "id": "accents_scripts",
@@ -884,6 +931,7 @@
   {
     "title": "Workbook 28",
     "href": "Workbook-28.html",
+    "pdf": "Workbook-28.pdf",
     "chapters": [
       {
         "id": "making_a_map",
@@ -910,6 +958,7 @@
   {
     "title": "Workbook 29",
     "href": "Workbook-29.html",
+    "pdf": "Workbook-29.pdf",
     "chapters": [
       {
         "id": "conditional_prob",
@@ -936,6 +985,7 @@
   {
     "title": "Workbook 30",
     "href": "Workbook-30.html",
+    "pdf": "Workbook-30.pdf",
     "chapters": [
       {
         "id": "definite_integral",
@@ -962,6 +1012,7 @@
   {
     "title": "Workbook 31",
     "href": "Workbook-31.html",
+    "pdf": "Workbook-31.pdf",
     "chapters": [
       {
         "id": "gas",
@@ -988,6 +1039,7 @@
   {
     "title": "Workbook 32",
     "href": "Workbook-32.html",
+    "pdf": "Workbook-32.pdf",
     "chapters": [
       {
         "id": "u-substitution",
@@ -1014,6 +1066,7 @@
   {
     "title": "Workbook 33",
     "href": "Workbook-33.html",
+    "pdf": "Workbook-33.pdf",
     "chapters": [
       {
         "id": "euler_method",
@@ -1040,6 +1093,7 @@
   {
     "title": "Workbook 34",
     "href": "Workbook-34.html",
+    "pdf": "Workbook-34.pdf",
     "chapters": [
       {
         "id": "power_series",
@@ -1071,6 +1125,7 @@
   {
     "title": "Workbook 35",
     "href": "Workbook-35.html",
+    "pdf": "Workbook-35.pdf",
     "chapters": [
       {
         "id": "volume_double_integral",
@@ -1102,6 +1157,7 @@
   {
     "title": "Workbook 36",
     "href": "Workbook-36.html",
+    "pdf": "Workbook-36.pdf",
     "chapters": [
       {
         "id": "multiv_normal",
@@ -1114,29 +1170,9 @@
         "chap_num": 2
       },
       {
-        "id": "graphs",
-        "title": "Introduction to Graphs",
-        "chap_num": 3
-      },
-      {
-        "id": "dijkstra",
-        "title": "Dijkstra's Algorithm",
-        "chap_num": 4
-      },
-      {
-        "id": "binary_search",
-        "title": "Binary Search",
-        "chap_num": 5
-      },
-      {
-        "id": "graph_algorithms",
-        "title": "Other Graph Algorithms",
-        "chap_num": 6
-      },
-      {
         "id": "bayes_classifier",
         "title": "Bayesian Classifiers",
-        "chap_num": 7
+        "chap_num": 3
       }
     ]
   }

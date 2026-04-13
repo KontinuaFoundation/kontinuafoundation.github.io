@@ -74,6 +74,10 @@
 	The Dot Product
 	Manufacturing
 	Sound
+	Introduction to Graphs
+	Dijkstra's Algorithm
+	Binary Search
+	Other Graph Algorithms and Proofs
 12
 	Alternating Current
 	Electromagnetic Induction
@@ -214,8 +218,4 @@
 36
 	The Multivariate Normal Distribution
 	Numerical Double Integration
-	Introduction to Graphs
-	Dijkstra's Algorithm
-	Binary Search
-	Other Graph Algorithms
 	Bayesian Classifiers

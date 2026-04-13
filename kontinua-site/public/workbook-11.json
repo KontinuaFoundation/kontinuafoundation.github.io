@@ -338,5 +338,211 @@
       }
     ],
     "start_page": 39
+  },
+  {
+    "requires": [
+      "python_advanced",
+      "dataviz"
+    ],
+    "title": "Introduction to Graphs",
+    "id": "graphs",
+    "chap_num": 5,
+    "covers": [
+      {
+        "id": "graphs-programming",
+        "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. Beginnings of Graph Theory.",
+        "videos": [
+          {
+            "link": "https://youtu.be/-VgHk7UMPP4",
+            "title": "Learn Graphs in 5 minutes \ud83c\udf10 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4jyESQDrpls",
+            "title": "Graphs: Edge List, Adjacency Matrix, Adjacency List, DFS, BFS - DSA Course in Python Lecture 11 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LFKZLXVO-Dg",
+            "title": "Introduction to Graph Theory: A Computer Science Perspective - YouTube"
+          },
+          {
+            "link": "https://youtu.be/DBRW8nwZV-g",
+            "title": "Graph Data Structure Intro (inc. adjacency list, adjacency matrix, incidence matrix) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/J21ZvWWrWwg",
+            "title": "Great Ideas in Theoretical Computer Science: Graphs: The Basics (Spring 2015) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Graph_theory",
+            "title": "Graph theory - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "title": "Graph (discrete mathematics) - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 47
+  },
+  {
+    "requires": [
+      "graphs-programming"
+    ],
+    "title": "Dijkstra's Algorithm",
+    "id": "dijkstra",
+    "chap_num": 6,
+    "covers": [
+      {
+        "id": "dijkstra",
+        "desc": "Understand how to use dikstra's algorithm to find the shortest path. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/_lHSawdgXpI",
+            "title": "Dijkstra's algorithm in 3 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EFg3u_E6eHU",
+            "title": "How Dijkstra's Algorithm Works - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GazC3A4OQTE",
+            "title": "Dijkstra's Algorithm - Computerphile - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bZkzH5x0SKU",
+            "title": "Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Dijkstra's_algorithm",
+            "title": "Dijkstra's algorithm - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 55
+  },
+  {
+    "requires": [
+      "dijkstra",
+      "python_basics",
+      "python_advanced"
+    ],
+    "title": "Binary Search",
+    "id": "binary_search",
+    "chap_num": 7,
+    "covers": [
+      {
+        "id": "binary_search",
+        "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/MFhxShGxHWc",
+            "title": "Binary Search Algorithm in 100 Seconds - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fDKIpRe8GW4",
+            "title": "Binary search in 4 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/eVuPCG5eIr4",
+            "title": "Binary Search Animated - YouTube"
+          },
+          {
+            "link": "https://youtu.be/P3YID7liBug",
+            "title": "Algorithms: Binary Search - YouTube"
+          },
+          {
+            "link": "https://youtu.be/T98PIp4omUA",
+            "title": "Binary Search - CS50 Shorts - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sSYQ1H9-Vks",
+            "title": "Linear search vs Binary search - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Binary_search",
+            "title": "Binary search - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 63
+  },
+  {
+    "requires": [
+      "dijkstra",
+      "binary_search",
+      "graphs-programming",
+      "recursion"
+    ],
+    "title": "Other Graph Algorithms and Proofs",
+    "id": "graph_algorithms",
+    "chap_num": 8,
+    "covers": [
+      {
+        "id": "graph_algorithms",
+        "desc": "Understand how the processes of DFS, Bellman-Ford, BFS, and Prim algorithms work. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/Urx87-NMm6c",
+            "title": "Depth-first search in 4 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/PMMc4VsIacU",
+            "title": "Depth First Search (DFS) Explained: Algorithm, Examples, and Code - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7fujbpJ0LB4",
+            "title": "Depth First Search Algorithm | Graph Theory - YouTube"
+          },
+          {
+            "link": "https://youtu.be/obWXjtg0L64",
+            "title": "Bellman-Ford in 5 minutes \u2014 Step by step example - YouTube"
+          },
+          {
+            "link": "https://youtu.be/j0OUwduDOS0",
+            "title": "Shortest Path Algorithms Explained (Dijkstra's & Bellman-Ford) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FtN3BYH2Zes",
+            "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EFg3u_E6eHU",
+            "title": "How Dijkstra's Algorithm Works - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_lHSawdgXpI",
+            "title": "Dijkstra's algorithm in 3 minutes - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=cplfcGZmX7I",
+            "title": "Prim's algorithm in 2 minutes - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/shorts/L1vGm2_cPU0",
+            "title": "Breadth and depth first search - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm",
+            "title": "Bellman\u2013Ford algorithm - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Depth-first_search",
+            "title": "Depth-first search - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "start_page": 69
   }
 ]

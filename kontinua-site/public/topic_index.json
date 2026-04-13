@@ -1695,6 +1695,38 @@
     "chap_num": 4,
     "chap_id": "sound"
   },
+  "graphs-programming": {
+    "id": "graphs-programming",
+    "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. Beginnings of Graph Theory.",
+    "book": "11",
+    "chap_title": "Introduction to Graphs",
+    "chap_num": 5,
+    "chap_id": "graphs"
+  },
+  "dijkstra": {
+    "desc": "Understand how to use dikstra's algorithm to find the shortest path. ",
+    "id": "dijkstra",
+    "book": "11",
+    "chap_title": "Dijkstra's Algorithm",
+    "chap_num": 6,
+    "chap_id": "dijkstra"
+  },
+  "binary_search": {
+    "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
+    "id": "binary_search",
+    "book": "11",
+    "chap_title": "Binary Search",
+    "chap_num": 7,
+    "chap_id": "binary_search"
+  },
+  "graph_algorithms": {
+    "id": "graph_algorithms",
+    "desc": "Understand how the processes of DFS, Bellman-Ford, BFS, and Prim algorithms work. ",
+    "book": "11",
+    "chap_title": "Other Graph Algorithms and Proofs",
+    "chap_num": 8,
+    "chap_id": "graph_algorithms"
+  },
   "ac": {
     "id": "ac",
     "desc": "Definition of Alternating Current",
@@ -3071,44 +3103,12 @@
     "chap_num": 2,
     "chap_id": "numerical_multi_int"
   },
-  "graphs-programming": {
-    "id": "graphs-programming",
-    "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. ",
-    "book": "36",
-    "chap_title": "Introduction to Graphs",
-    "chap_num": 3,
-    "chap_id": "graphs"
-  },
-  "dijkstra": {
-    "desc": "Understand how to use dikstra's algorithm to find the shortest path. ",
-    "id": "dijkstra",
-    "book": "36",
-    "chap_title": "Dijkstra's Algorithm",
-    "chap_num": 4,
-    "chap_id": "dijkstra"
-  },
-  "binary_search": {
-    "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
-    "id": "binary_search",
-    "book": "36",
-    "chap_title": "Binary Search",
-    "chap_num": 5,
-    "chap_id": "binary_search"
-  },
-  "graph_algorithms": {
-    "id": "graph_algorithms",
-    "desc": "Understand how the processes of DFS and Bellman-Ford algorithms work. ",
-    "book": "36",
-    "chap_title": "Other Graph Algorithms",
-    "chap_num": 6,
-    "chap_id": "graph_algorithms"
-  },
   "bayes_classifier": {
     "id": "bayes_classifier",
     "desc": "Understand how to use multivariate and Gaussian distributions to create bayes classifiers. ",
     "book": "36",
     "chap_title": "Bayesian Classifiers",
-    "chap_num": 7,
+    "chap_num": 3,
     "chap_id": "bayes_classifier"
   }
 }
