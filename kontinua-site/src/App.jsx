@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import GraphView from "./Graph";
 
 export default function App() {
   const [workbooks, setWorkbooks] = useState([]);
@@ -11,6 +12,8 @@ export default function App() {
 
   return (
     <main>
+      <h1>Graph</h1>
+      <GraphView />
       <h1>Table of Contents for Digital Resources</h1>
 
       {workbooks.map((wb) => (

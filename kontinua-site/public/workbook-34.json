@@ -1,12 +1,5 @@
 [
   {
-    "requires": [
-      "series_calc",
-      "series_tests"
-    ],
-    "title": "Power Series",
-    "id": "power_series",
-    "chap_num": 1,
     "covers": [
       {
         "id": "power_series",
@@ -41,6 +34,13 @@
         ]
       }
     ],
+    "requires": [
+      "series_calc",
+      "series_tests"
+    ],
+    "title": "Power Series",
+    "id": "power_series",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -49,9 +49,6 @@
       "combinatorics",
       "bayes"
     ],
-    "title": "Population Proportion Statistics",
-    "id": "pop_prop",
-    "chap_num": 2,
     "covers": [
       {
         "id": "pop_prop",
@@ -82,6 +79,9 @@
         ]
       }
     ],
+    "title": "Population Proportion Statistics",
+    "id": "pop_prop",
+    "chap_num": 2,
     "start_page": 13
   },
   {
@@ -89,9 +89,6 @@
       "stats-bell-curve",
       "cdf_pdf"
     ],
-    "title": "The Normal Distribution",
-    "id": "normal_t",
-    "chap_num": 3,
     "covers": [
       {
         "id": "normal_distribution",
@@ -122,6 +119,9 @@
         ]
       }
     ],
+    "title": "The Normal Distribution",
+    "id": "normal_t",
+    "chap_num": 3,
     "start_page": 19
   },
   {
@@ -129,25 +129,20 @@
       "stats-bell-curve",
       "cdf_pdf"
     ],
-    "title": "Change of Variables",
-    "id": "change_var",
-    "chap_num": 4,
     "covers": [
       {
         "id": "change_var",
-        "desc": "Understand how changing variables effects a PDF and CDF"
+        "desc": "Understand how changing variables effects a PDF and CDF",
+        "videos": [],
+        "references": []
       }
     ],
+    "title": "Change of Variables",
+    "id": "change_var",
+    "chap_num": 4,
     "start_page": 25
   },
   {
-    "requires": [
-      "volume-solids",
-      "definite_integral"
-    ],
-    "title": "Volumes with Integrals",
-    "id": "volume_single_integral",
-    "chap_num": 5,
     "covers": [
       {
         "id": "volume_single_int",
@@ -214,6 +209,13 @@
         ]
       }
     ],
+    "requires": [
+      "volume-solids",
+      "definite_integral"
+    ],
+    "title": "Volumes with Integrals",
+    "id": "volume_single_integral",
+    "chap_num": 5,
     "start_page": 31
   }
 ]

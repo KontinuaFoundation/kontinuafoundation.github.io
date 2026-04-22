@@ -1,15 +1,5 @@
 [
   {
-    "requires": [
-      "atom",
-      "fma",
-      "energy-forms",
-      "equal_but_opposite",
-      "buoyancy"
-    ],
-    "title": "Atmospheric Pressure",
-    "id": "atmopressure",
-    "chap_num": 1,
     "covers": [
       {
         "id": "atmos",
@@ -60,13 +50,19 @@
         ]
       }
     ],
+    "requires": [
+      "atom",
+      "fma",
+      "energy-forms",
+      "equal_but_opposite",
+      "buoyancy"
+    ],
+    "title": "Atmospheric Pressure",
+    "id": "atmopressure",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [],
-    "title": "Cognitive Biases 1",
-    "id": "biases1",
-    "chap_num": 2,
     "covers": [
       {
         "id": "biases",
@@ -89,15 +85,13 @@
         ]
       }
     ],
+    "requires": [],
+    "title": "Cognitive Biases 1",
+    "id": "biases1",
+    "chap_num": 2,
     "start_page": 15
   },
   {
-    "requires": [
-      "parabola-equation"
-    ],
-    "title": "Solving Quadratics",
-    "id": "solving_quadratics",
-    "chap_num": 3,
     "covers": [
       {
         "id": "solving_quadratics",
@@ -188,16 +182,15 @@
         ]
       }
     ],
+    "requires": [
+      "parabola-equation"
+    ],
+    "title": "Solving Quadratics",
+    "id": "solving_quadratics",
+    "chap_num": 3,
     "start_page": 25
   },
   {
-    "requires": [
-      "solving_quadratics",
-      "quadratic_formula"
-    ],
-    "title": "Complex Numbers",
-    "id": "complex_numbers",
-    "chap_num": 4,
     "covers": [
       {
         "id": "complex_numbers",
@@ -236,13 +229,17 @@
         ]
       }
     ],
+    "requires": [
+      "solving_quadratics",
+      "quadratic_formula"
+    ],
+    "title": "Complex Numbers",
+    "id": "complex_numbers",
+    "chap_num": 4,
     "start_page": 31
   },
   {
     "requires": [],
-    "title": "Introduction to Sequences",
-    "id": "sequences",
-    "chap_num": 5,
     "covers": [
       {
         "id": "sequences1",
@@ -297,6 +294,9 @@
         ]
       }
     ],
+    "title": "Introduction to Sequences",
+    "id": "sequences",
+    "chap_num": 5,
     "start_page": 33
   }
 ]

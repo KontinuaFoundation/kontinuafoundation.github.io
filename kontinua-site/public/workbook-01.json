@@ -1,9 +1,6 @@
 [
   {
     "requires": [],
-    "title": "Introduction to the Kontinua Sequence",
-    "id": "introduction",
-    "chap_num": 1,
     "covers": [
       {
         "id": "kont_intro",
@@ -22,17 +19,17 @@
         ]
       }
     ],
+    "title": "Introduction to the Kontinua Sequence",
+    "id": "introduction",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [],
-    "title": "Matter and Energy",
-    "id": "matter_energy_intro",
-    "chap_num": 2,
     "covers": [
       {
         "id": "chem_reaction",
         "desc": "Intro to chemical reactions",
+        "videos": [],
         "references": [
           {
             "link": "https://simple.wikipedia.org/wiki/Chemical_reaction",
@@ -107,10 +104,11 @@
       {
         "id": "bonds",
         "desc": "Define polar, non-polar, and covalent bonds.",
+        "videos": [],
         "references": [
           {
             "link": "https://chemistrytalk.org/polar-vs-non-polar-bonds/",
-            "title": "Polar vs. Non-Polar Bonds & Molecules | ChemTalk"
+            "title": "???"
           }
         ]
       },
@@ -148,7 +146,9 @@
       },
       {
         "id": "molecules",
-        "desc": "be able to define a molecule"
+        "desc": "be able to define a molecule",
+        "videos": [],
+        "references": []
       },
       {
         "id": "compounds",
@@ -156,7 +156,7 @@
         "videos": [
           {
             "link": "https://tpt.pbslearningmedia.org/resource/compounds-science-trek/compounds-science-trek/",
-            "title": "Compounds: Compound Basics | Science Trek | Grades 6-8 Science Teaching and Lesson Resources"
+            "title": "Compounds: Compound Basics | Science Trek | Grades 6-8 Chemical Reactions Teaching and Lesson Resources"
           }
         ],
         "references": [
@@ -167,20 +167,18 @@
         ]
       }
     ],
+    "requires": [],
+    "title": "Matter and Energy",
+    "id": "matter_energy_intro",
+    "chap_num": 2,
     "start_page": 5
   },
   {
-    "requires": [
-      "chem_reaction",
-      "conservation_law"
-    ],
-    "title": "Conservation of Mass and Energy",
-    "id": "conservation_mass_energy",
-    "chap_num": 3,
     "covers": [
       {
         "id": "consv_mass",
         "desc": "Law of Conservation of Mass",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Conservation_law",
@@ -191,6 +189,7 @@
       {
         "id": "consv_energy",
         "desc": "Conservation of Energy",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
@@ -201,6 +200,7 @@
       {
         "id": "friction_intro",
         "desc": "Define the basics of Friction",
+        "videos": [],
         "references": [
           {
             "link": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
@@ -236,16 +236,21 @@
             "link": "https://youtu.be/zmdxMlb88Fs?si=ZtzG3rhv-3iPtZUc",
             "title": "How to Balance Chemical Equations in 5 Easy Steps: Balancing Equations Tutorial - YouTube"
           }
-        ]
+        ],
+        "references": []
       }
     ],
+    "requires": [
+      "chem_reaction",
+      "conservation_law"
+    ],
+    "title": "Conservation of Mass and Energy",
+    "id": "conservation_mass_energy",
+    "chap_num": 3,
     "start_page": 15
   },
   {
     "requires": [],
-    "title": "Mass, Weight, and Gravity",
-    "id": "mass_weight_gravity",
-    "chap_num": 4,
     "covers": [
       {
         "id": "mass",
@@ -329,20 +334,22 @@
       },
       {
         "id": "gravitational-field",
-        "desc": "Be able to understand how larger masses form gravitational fields."
+        "desc": "Be able to understand how larger masses form gravitational fields.",
+        "videos": [],
+        "references": []
       }
     ],
+    "title": "Mass, Weight, and Gravity",
+    "id": "mass_weight_gravity",
+    "chap_num": 4,
     "start_page": 25
   },
   {
-    "requires": [],
-    "title": "Introductory Motion Concepts",
-    "id": "intro_motion",
-    "chap_num": 5,
     "covers": [
       {
         "id": "pva",
         "desc": "Understand the basics of position, velocity, and acceleration.",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Position_(geometry)",
@@ -383,15 +390,16 @@
         ]
       }
     ],
+    "requires": [],
+    "title": "Introductory Motion Concepts",
+    "id": "intro_motion",
+    "chap_num": 5,
     "start_page": 35
   },
   {
     "requires": [
       "mass"
     ],
-    "title": "Force, Mass, and Acceleration",
-    "id": "newtons_second_law",
-    "chap_num": 6,
     "covers": [
       {
         "id": "fma",
@@ -448,6 +456,7 @@
       {
         "id": "newton_meters",
         "desc": "Relationship between Newtons, newton meters, and joules",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Newton-metre",
@@ -500,6 +509,9 @@
         ]
       }
     ],
+    "title": "Force, Mass, and Acceleration",
+    "id": "newtons_second_law",
+    "chap_num": 6,
     "start_page": 39
   },
   {
@@ -508,9 +520,6 @@
       "fma",
       "equal_but_opposite"
     ],
-    "title": "Friction",
-    "id": "friction",
-    "chap_num": 7,
     "covers": [
       {
         "id": "normal_force",
@@ -593,13 +602,13 @@
         ]
       }
     ],
+    "title": "Friction",
+    "id": "friction",
+    "chap_num": 7,
     "start_page": 51
   },
   {
     "requires": [],
-    "title": "Units and Conversions",
-    "id": "units_conversions",
-    "chap_num": 8,
     "covers": [
       {
         "id": "conv_fac",
@@ -682,13 +691,13 @@
         ]
       }
     ],
+    "title": "Units and Conversions",
+    "id": "units_conversions",
+    "chap_num": 8,
     "start_page": 59
   },
   {
     "requires": [],
-    "title": "The Greek Alphabet",
-    "id": "greek",
-    "chap_num": 9,
     "covers": [
       {
         "id": "greek-alpha",
@@ -711,6 +720,9 @@
         ]
       }
     ],
+    "title": "The Greek Alphabet",
+    "id": "greek",
+    "chap_num": 9,
     "start_page": 65
   }
 ]

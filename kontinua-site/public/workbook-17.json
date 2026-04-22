@@ -1,13 +1,5 @@
 [
   {
-    "requires": [
-      "monomial",
-      "polynomial",
-      "add_sub_polys"
-    ],
-    "title": "Differentiating Polynomials",
-    "id": "differentiating_polynomials",
-    "chap_num": 1,
     "covers": [
       {
         "id": "derivatives",
@@ -62,16 +54,17 @@
         ]
       }
     ],
+    "requires": [
+      "monomial",
+      "polynomial",
+      "add_sub_polys"
+    ],
+    "title": "Differentiating Polynomials",
+    "id": "differentiating_polynomials",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "power_rule",
-      "derivatives"
-    ],
-    "title": "Python Classes",
-    "id": "classes",
-    "chap_num": 2,
     "covers": [
       {
         "id": "pyclasses",
@@ -106,6 +99,13 @@
         ]
       }
     ],
+    "requires": [
+      "power_rule",
+      "derivatives"
+    ],
+    "title": "Python Classes",
+    "id": "classes",
+    "chap_num": 2,
     "start_page": 9
   },
   {
@@ -113,9 +113,6 @@
       "polynomial",
       "FOIL"
     ],
-    "title": "Common Polynomial Products",
-    "id": "common_products_polynomials",
-    "chap_num": 3,
     "covers": [
       {
         "id": "poly_diff_squares",
@@ -186,6 +183,9 @@
         ]
       }
     ],
+    "title": "Common Polynomial Products",
+    "id": "common_products_polynomials",
+    "chap_num": 3,
     "start_page": 17
   },
   {
@@ -194,9 +194,6 @@
       "poly_perfect_squares",
       "pascal's_triangle"
     ],
-    "title": "Factoring Polynomials",
-    "id": "factoring_polynomials",
-    "chap_num": 4,
     "covers": [
       {
         "id": "factoring",
@@ -223,6 +220,9 @@
         ]
       }
     ],
+    "title": "Factoring Polynomials",
+    "id": "factoring_polynomials",
+    "chap_num": 4,
     "start_page": 23
   },
   {
@@ -234,10 +234,10 @@
       "factoring_quadratics",
       "factoring"
     ],
+    "covers": [],
     "title": "Practice with Polynomials",
     "id": "practice_polynomials",
     "chap_num": 5,
-    "covers": [],
     "start_page": 27
   }
 ]

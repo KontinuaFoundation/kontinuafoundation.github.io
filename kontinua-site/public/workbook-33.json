@@ -3,9 +3,6 @@
     "requires": [
       "diff_eqs"
     ],
-    "title": "Euler's Method",
-    "id": "euler_method",
-    "chap_num": 1,
     "covers": [
       {
         "id": "euler_method",
@@ -32,6 +29,9 @@
         ]
       }
     ],
+    "title": "Euler's Method",
+    "id": "euler_method",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -40,9 +40,6 @@
       "limits",
       "recursion"
     ],
-    "title": "Sequences in Calculus",
-    "id": "seq_calc",
-    "chap_num": 2,
     "covers": [
       {
         "id": "sequences2",
@@ -77,16 +74,12 @@
         ]
       }
     ],
+    "title": "Sequences in Calculus",
+    "id": "seq_calc",
+    "chap_num": 2,
     "start_page": 11
   },
   {
-    "requires": [
-      "sequences1",
-      "sequences2"
-    ],
-    "title": "Series",
-    "id": "series",
-    "chap_num": 3,
     "covers": [
       {
         "id": "series_calc",
@@ -125,6 +118,13 @@
         ]
       }
     ],
+    "requires": [
+      "sequences1",
+      "sequences2"
+    ],
+    "title": "Series",
+    "id": "series",
+    "chap_num": 3,
     "start_page": 23
   },
   {
@@ -132,9 +132,6 @@
       "sequences2",
       "series_calc"
     ],
-    "title": "Convergence Tests for Series",
-    "id": "series_tests",
-    "chap_num": 4,
     "covers": [
       {
         "id": "series_tests",
@@ -197,6 +194,9 @@
         ]
       }
     ],
+    "title": "Convergence Tests for Series",
+    "id": "series_tests",
+    "chap_num": 4,
     "start_page": 37
   }
 ]

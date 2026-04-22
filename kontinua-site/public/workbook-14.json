@@ -7,9 +7,6 @@
       "circular_arc_length",
       "cross"
     ],
-    "title": "Circular Motion, continued",
-    "id": "circular_2",
-    "chap_num": 1,
     "covers": [
       {
         "id": "torque",
@@ -97,7 +94,9 @@
       },
       {
         "id": "rotNewt2ndLaw",
-        "desc": "Understand the rotational equivalent of newton's second law, relating torque, angular acceleration and moments"
+        "desc": "Understand the rotational equivalent of newton's second law, relating torque, angular acceleration and moments",
+        "videos": [],
+        "references": []
       },
       {
         "id": "parallelAxisTheorem",
@@ -139,24 +138,22 @@
             "link": "https://youtu.be/k9IFb3g2e2M",
             "title": "Conservation of Angular Momentum Theory and Worked Example | Doc Physics - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "rotationalKE",
-        "desc": "New"
+        "desc": "New",
+        "videos": [],
+        "references": []
       }
     ],
+    "title": "Circular Motion, continued",
+    "id": "circular_2",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "equal_but_opposite",
-      "orbit",
-      "airplanes"
-    ],
-    "title": "Rocketry",
-    "id": "rocketry",
-    "chap_num": 2,
     "covers": [
       {
         "id": "rockets",
@@ -195,9 +192,18 @@
         ]
       }
     ],
+    "requires": [
+      "equal_but_opposite",
+      "orbit",
+      "airplanes"
+    ],
+    "title": "Rocketry",
+    "id": "rocketry",
+    "chap_num": 2,
     "start_page": 21
   },
   {
+    "covers": [],
     "requires": [
       "vectors",
       "orbit",
@@ -208,14 +214,9 @@
     "title": "Simulation with Vectors",
     "id": "vector_sim",
     "chap_num": 3,
-    "covers": [],
     "start_page": 31
   },
   {
-    "requires": [],
-    "title": "Longitude and Latitude",
-    "id": "long_lat_dist",
-    "chap_num": 4,
     "covers": [
       {
         "id": "long lat",
@@ -278,6 +279,10 @@
         ]
       }
     ],
+    "requires": [],
+    "title": "Longitude and Latitude",
+    "id": "long_lat_dist",
+    "chap_num": 4,
     "start_page": 47
   },
   {
@@ -285,9 +290,6 @@
       "orbit",
       "circular_motion"
     ],
-    "title": "Tides and Eclipses",
-    "id": "tides",
-    "chap_num": 5,
     "covers": [
       {
         "id": "tides",
@@ -422,6 +424,9 @@
         ]
       }
     ],
+    "title": "Tides and Eclipses",
+    "id": "tides",
+    "chap_num": 5,
     "start_page": 53
   }
 ]

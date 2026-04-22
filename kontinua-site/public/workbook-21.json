@@ -8,9 +8,6 @@
       "vectors",
       "rgb"
     ],
-    "title": "Introduction to Linear Algebra",
-    "id": "linear_algebra_intro",
-    "chap_num": 1,
     "covers": [
       {
         "id": "linear_alg_intro",
@@ -57,19 +54,12 @@
         ]
       }
     ],
+    "title": "Introduction to Linear Algebra",
+    "id": "linear_algebra_intro",
+    "chap_num": 1,
     "start_page": 5
   },
   {
-    "requires": [
-      "vector_add_sub",
-      "vectors",
-      "linear_alg_intro",
-      "dot",
-      "bitmap"
-    ],
-    "title": "Vectors and Matrices",
-    "id": "vectors_matrices",
-    "chap_num": 2,
     "covers": [
       {
         "id": "matrix",
@@ -172,15 +162,22 @@
         ]
       }
     ],
+    "requires": [
+      "vector_add_sub",
+      "vectors",
+      "linear_alg_intro",
+      "dot",
+      "bitmap"
+    ],
+    "title": "Vectors and Matrices",
+    "id": "vectors_matrices",
+    "chap_num": 2,
     "start_page": 19
   },
   {
     "requires": [
       "linear_alg_intro"
     ],
-    "title": "Linear Combinations of Vectors",
-    "id": "linear_combo",
-    "chap_num": 3,
     "covers": [
       {
         "id": "lin_combo",
@@ -219,15 +216,15 @@
         ]
       }
     ],
+    "title": "Linear Combinations of Vectors",
+    "id": "linear_combo",
+    "chap_num": 3,
     "start_page": 35
   },
   {
     "requires": [
       "matrix"
     ],
-    "title": "Systems of Equations as Matrices",
-    "id": "systems_matrices",
-    "chap_num": 4,
     "covers": [
       {
         "id": "rref",
@@ -266,6 +263,9 @@
         ]
       }
     ],
+    "title": "Systems of Equations as Matrices",
+    "id": "systems_matrices",
+    "chap_num": 4,
     "start_page": 43
   },
   {
@@ -274,9 +274,6 @@
       "lin_combo",
       "dot"
     ],
-    "title": "Applications of Matrices in System Form",
-    "id": "matrices_applications",
-    "chap_num": 5,
     "covers": [
       {
         "id": "matrices_applied",
@@ -307,19 +304,12 @@
         ]
       }
     ],
+    "title": "Applications of Matrices in System Form",
+    "id": "matrices_applications",
+    "chap_num": 5,
     "start_page": 63
   },
   {
-    "requires": [
-      "matrices_applied",
-      "matrix",
-      "vector_add_sub",
-      "rref",
-      "lin_combo"
-    ],
-    "title": "Linear Independence and Dependence",
-    "id": "dependence",
-    "chap_num": 6,
     "covers": [
       {
         "id": "dependence",
@@ -346,6 +336,16 @@
         ]
       }
     ],
+    "requires": [
+      "matrices_applied",
+      "matrix",
+      "vector_add_sub",
+      "rref",
+      "lin_combo"
+    ],
+    "title": "Linear Independence and Dependence",
+    "id": "dependence",
+    "chap_num": 6,
     "start_page": 67
   },
   {
@@ -353,9 +353,6 @@
       "dependence",
       "rref"
     ],
-    "title": "Subspaces",
-    "id": "subspaces",
-    "chap_num": 7,
     "covers": [
       {
         "id": "subspaces",
@@ -442,6 +439,9 @@
         ]
       }
     ],
+    "title": "Subspaces",
+    "id": "subspaces",
+    "chap_num": 7,
     "start_page": 75
   }
 ]

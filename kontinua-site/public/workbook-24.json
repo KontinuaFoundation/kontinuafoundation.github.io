@@ -1,44 +1,6 @@
 [
   {
-    "requires": [
-      "python_advanced"
-    ],
-    "title": "Data Tables and pandas",
-    "id": "pandas",
-    "chap_num": 1,
-    "covers": [
-      {
-        "id": "pandas",
-        "desc": "Understand how to use pandas to parse a CSV file in python",
-        "videos": [
-          {
-            "link": "https://youtu.be/KHoEbRH46Zk",
-            "title": "NumPy vs Pandas - YouTube"
-          },
-          {
-            "link": "https://youtu.be/dcqPhpY7tWk",
-            "title": "What is Pandas? Why and How to Use Pandas in Python - YouTube"
-          }
-        ],
-        "references": [
-          {
-            "link": "https://en.wikipedia.org/wiki/Pandas_(software)",
-            "title": "pandas (software) - Wikipedia"
-          },
-          {
-            "link": "https://pandas.pydata.org/docs/",
-            "title": "pandas documentation \u2014 pandas 3.0.2 documentation"
-          }
-        ]
-      }
-    ],
-    "start_page": 3
-  },
-  {
     "requires": [],
-    "title": "Data tables in SQL",
-    "id": "sql_1",
-    "chap_num": 2,
     "covers": [
       {
         "id": "sql",
@@ -77,13 +39,214 @@
         ]
       }
     ],
-    "start_page": 11
+    "title": "Data tables in SQL",
+    "id": "sql_1",
+    "chap_num": 1,
+    "start_page": 3
   },
   {
     "title": "Diodes, Rectifiers, and Photovoltaics",
     "id": "diodes",
-    "chap_num": 3,
+    "chap_num": 2,
     "covers": [],
+    "start_page": 9
+  },
+  {
+    "requires": [
+      "recursion",
+      "graphs-programming"
+    ],
+    "covers": [
+      {
+        "id": "trees",
+        "desc": "Understand the basics of trees, a subset of graphs",
+        "videos": [],
+        "references": []
+      }
+    ],
+    "title": "Trees",
+    "id": "trees",
+    "chap_num": 3,
     "start_page": 17
+  },
+  {
+    "title": "Tree Traversal",
+    "id": "tree_traversal",
+    "chap_num": 4,
+    "covers": [],
+    "start_page": 19
+  },
+  {
+    "title": "Finding Shortest Paths",
+    "id": "shortest_path",
+    "chap_num": 5,
+    "covers": [],
+    "start_page": 21
+  },
+  {
+    "requires": [
+      "graphs-programming",
+      "trees"
+    ],
+    "covers": [
+      {
+        "id": "dijkstra",
+        "desc": "Understand how to use dikstra's algorithm to find the shortest path. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/_lHSawdgXpI",
+            "title": "Dijkstra's algorithm in 3 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EFg3u_E6eHU",
+            "title": "How Dijkstra's Algorithm Works - YouTube"
+          },
+          {
+            "link": "https://youtu.be/GazC3A4OQTE",
+            "title": "Dijkstra's Algorithm - Computerphile - YouTube"
+          },
+          {
+            "link": "https://youtu.be/bZkzH5x0SKU",
+            "title": "Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Dijkstra's_algorithm",
+            "title": "Dijkstra's algorithm - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "title": "Dijkstra's Algorithm",
+    "id": "dijkstra",
+    "chap_num": 6,
+    "start_page": 23
+  },
+  {
+    "title": "Priority Queues",
+    "id": "priority_queues",
+    "chap_num": 7,
+    "covers": [],
+    "start_page": 31
+  },
+  {
+    "covers": [
+      {
+        "id": "binary_search",
+        "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/MFhxShGxHWc",
+            "title": "Binary Search Algorithm in 100 Seconds - YouTube"
+          },
+          {
+            "link": "https://youtu.be/fDKIpRe8GW4",
+            "title": "Binary search in 4 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/eVuPCG5eIr4",
+            "title": "Binary Search Animated - YouTube"
+          },
+          {
+            "link": "https://youtu.be/P3YID7liBug",
+            "title": "Algorithms: Binary Search - YouTube"
+          },
+          {
+            "link": "https://youtu.be/T98PIp4omUA",
+            "title": "Binary Search - CS50 Shorts - YouTube"
+          },
+          {
+            "link": "https://youtu.be/sSYQ1H9-Vks",
+            "title": "Linear search vs Binary search - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Binary_search",
+            "title": "Binary search - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "requires": [
+      "dijkstra",
+      "python_basics",
+      "python_advanced"
+    ],
+    "title": "Binary Search",
+    "id": "binary_search",
+    "chap_num": 8,
+    "start_page": 33
+  },
+  {
+    "requires": [
+      "dijkstra",
+      "binary_search",
+      "graphs-programming",
+      "recursion"
+    ],
+    "covers": [
+      {
+        "id": "graph_algorithms",
+        "desc": "Understand how the processes of DFS, Bellman-Ford, BFS, and Prim algorithms work. ",
+        "videos": [
+          {
+            "link": "https://youtu.be/Urx87-NMm6c",
+            "title": "Depth-first search in 4 minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/PMMc4VsIacU",
+            "title": "Depth First Search (DFS) Explained: Algorithm, Examples, and Code - YouTube"
+          },
+          {
+            "link": "https://youtu.be/7fujbpJ0LB4",
+            "title": "Depth First Search Algorithm | Graph Theory - YouTube"
+          },
+          {
+            "link": "https://youtu.be/obWXjtg0L64",
+            "title": "Bellman-Ford in 5 minutes \u2014 Step by step example - YouTube"
+          },
+          {
+            "link": "https://youtu.be/j0OUwduDOS0",
+            "title": "Shortest Path Algorithms Explained (Dijkstra's & Bellman-Ford) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/FtN3BYH2Zes",
+            "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming - YouTube"
+          },
+          {
+            "link": "https://youtu.be/EFg3u_E6eHU",
+            "title": "How Dijkstra's Algorithm Works - YouTube"
+          },
+          {
+            "link": "https://youtu.be/_lHSawdgXpI",
+            "title": "Dijkstra's algorithm in 3 minutes - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=cplfcGZmX7I",
+            "title": "Prim's algorithm in 2 minutes - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/shorts/L1vGm2_cPU0",
+            "title": "Breadth and depth first search - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm",
+            "title": "Bellman\u2013Ford algorithm - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Depth-first_search",
+            "title": "Depth-first search - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "title": "Other Graph Algorithms and Proofs",
+    "id": "graph_algorithms",
+    "chap_num": 9,
+    "start_page": 39
   }
 ]

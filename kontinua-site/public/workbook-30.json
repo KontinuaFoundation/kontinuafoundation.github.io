@@ -1,12 +1,5 @@
 [
   {
-    "requires": [
-      "riemann",
-      "antiderivatives"
-    ],
-    "title": "Definite Integrals",
-    "id": "definite_integral",
-    "chap_num": 1,
     "covers": [
       {
         "id": "definite_integral",
@@ -49,13 +42,17 @@
         ]
       }
     ],
+    "requires": [
+      "riemann",
+      "antiderivatives"
+    ],
+    "title": "Definite Integrals",
+    "id": "definite_integral",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [],
-    "title": "The Fundamental Theorem of Calculus",
-    "id": "ftc",
-    "chap_num": 2,
     "covers": [
       {
         "id": "ftc_avg_val",
@@ -106,16 +103,12 @@
         ]
       }
     ],
+    "title": "The Fundamental Theorem of Calculus",
+    "id": "ftc",
+    "chap_num": 2,
     "start_page": 17
   },
   {
-    "requires": [
-      "definite_integral",
-      "pythagorean_theorem"
-    ],
-    "title": "Arc Lengths",
-    "id": "arc_length",
-    "chap_num": 3,
     "covers": [
       {
         "id": "arc_length",
@@ -166,6 +159,13 @@
         ]
       }
     ],
+    "requires": [
+      "definite_integral",
+      "pythagorean_theorem"
+    ],
+    "title": "Arc Lengths",
+    "id": "arc_length",
+    "chap_num": 3,
     "start_page": 27
   },
   {
@@ -177,9 +177,6 @@
       "uniform_distribution",
       "definite_integral"
     ],
-    "title": "Continuous Probability Distributions",
-    "id": "cdf_uniform",
-    "chap_num": 4,
     "covers": [
       {
         "id": "cdf_pdf",
@@ -242,6 +239,9 @@
         ]
       }
     ],
+    "title": "Continuous Probability Distributions",
+    "id": "cdf_uniform",
+    "chap_num": 4,
     "start_page": 35
   }
 ]

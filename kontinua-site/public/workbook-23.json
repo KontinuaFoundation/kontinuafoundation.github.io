@@ -1,12 +1,5 @@
 [
   {
-    "requires": [
-      "projections",
-      "unit_vector"
-    ],
-    "title": "The Gram-Schmidt Process",
-    "id": "gram-schmidt",
-    "chap_num": 1,
     "covers": [
       {
         "id": "gram-schmidt",
@@ -53,15 +46,16 @@
         ]
       }
     ],
+    "requires": [
+      "projections",
+      "unit_vector"
+    ],
+    "title": "The Gram-Schmidt Process",
+    "id": "gram-schmidt",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "eigen"
-    ],
-    "title": "Singular Value Decomposition",
-    "id": "decomposition",
-    "chap_num": 2,
     "covers": [
       {
         "id": "svd",
@@ -88,6 +82,12 @@
         ]
       }
     ],
+    "requires": [
+      "eigen"
+    ],
+    "title": "Singular Value Decomposition",
+    "id": "decomposition",
+    "chap_num": 2,
     "start_page": 9
   },
   {
@@ -95,9 +95,6 @@
       "matrix_oper",
       "matrix"
     ],
-    "title": "Tackling Difficult Problems: Positive Semidefinite Matrices",
-    "id": "positive-semidefinite",
-    "chap_num": 3,
     "covers": [
       {
         "id": "positive-semidefinite",
@@ -128,6 +125,9 @@
         ]
       }
     ],
+    "title": "Tackling Difficult Problems: Positive Semidefinite Matrices",
+    "id": "positive-semidefinite",
+    "chap_num": 3,
     "start_page": 17
   }
 ]

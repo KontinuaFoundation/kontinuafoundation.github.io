@@ -5,9 +5,6 @@
       "factoring",
       "FOIL"
     ],
-    "title": "Graphing Polynomials",
-    "id": "graphs_polynomials",
-    "chap_num": 1,
     "covers": [
       {
         "id": "graphing_poly",
@@ -38,6 +35,9 @@
         ]
       }
     ],
+    "title": "Graphing Polynomials",
+    "id": "graphs_polynomials",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -45,9 +45,6 @@
       "factoring",
       "polynomial"
     ],
-    "title": "Interpolating with Polynomials",
-    "id": "interpolating_polynomials",
-    "chap_num": 2,
     "covers": [
       {
         "id": "interp_poly",
@@ -74,6 +71,9 @@
         ]
       }
     ],
+    "title": "Interpolating with Polynomials",
+    "id": "interpolating_polynomials",
+    "chap_num": 2,
     "start_page": 7
   },
   {
@@ -82,9 +82,6 @@
       "math-graph",
       "math-variable"
     ],
-    "title": "Rational Functions",
-    "id": "rational_functions",
-    "chap_num": 3,
     "covers": [
       {
         "id": "rational_funcs",
@@ -131,6 +128,9 @@
         ]
       }
     ],
+    "title": "Rational Functions",
+    "id": "rational_functions",
+    "chap_num": 3,
     "start_page": 13
   },
   {
@@ -138,9 +138,6 @@
       "polynomial",
       "rational_funcs"
     ],
-    "title": "Partial Fractions",
-    "id": "partial_frac",
-    "chap_num": 4,
     "covers": [
       {
         "id": "pfd",
@@ -175,16 +172,12 @@
         ]
       }
     ],
-    "start_page": 21
+    "title": "Partial Fractions",
+    "id": "partial_frac",
+    "chap_num": 4,
+    "start_page": 23
   },
   {
-    "requires": [
-      "math-graph",
-      "math-function"
-    ],
-    "title": "Limits",
-    "id": "limits",
-    "chap_num": 5,
     "covers": [
       {
         "id": "limits",
@@ -339,6 +332,13 @@
         ]
       }
     ],
-    "start_page": 29
+    "requires": [
+      "math-graph",
+      "math-function"
+    ],
+    "title": "Limits",
+    "id": "limits",
+    "chap_num": 5,
+    "start_page": 31
   }
 ]

@@ -1,16 +1,10 @@
 [
   {
-    "requires": [
-      "greek-alpha",
-      "ascii"
-    ],
-    "title": "Alphabets and Accents",
-    "id": "accents_scripts",
-    "chap_num": 1,
     "covers": [
       {
         "id": "accents",
         "desc": "Understand how different texts work with alphabets and different languages with symbolic letters. Differentiate between encodings versus alphabets. ",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Greek_diacritics",
@@ -27,13 +21,17 @@
         ]
       }
     ],
+    "requires": [
+      "greek-alpha",
+      "ascii"
+    ],
+    "title": "Alphabets and Accents",
+    "id": "accents_scripts",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [],
-    "title": "Making Plots with matplotlib",
-    "id": "matplotlib",
-    "chap_num": 2,
     "covers": [
       {
         "id": "matplotlib",
@@ -68,14 +66,10 @@
         ]
       }
     ],
+    "title": "Making Plots with matplotlib",
+    "id": "matplotlib",
+    "chap_num": 2,
     "start_page": 5
-  },
-  {
-    "title": "Geographical Data",
-    "id": "geographical_data",
-    "chap_num": 3,
-    "covers": [],
-    "start_page": 7
   },
   {
     "requires": [
@@ -84,9 +78,6 @@
       "http",
       "api"
     ],
-    "title": "Geocoding and Reverse Geocoding",
-    "id": "geocoding",
-    "chap_num": 4,
     "covers": [
       {
         "id": "geocoding",
@@ -113,6 +104,9 @@
         ]
       }
     ],
-    "start_page": 9
+    "title": "Geocoding and Reverse Geocoding",
+    "id": "geocoding",
+    "chap_num": 3,
+    "start_page": 7
   }
 ]

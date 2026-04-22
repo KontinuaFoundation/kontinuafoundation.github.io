@@ -1,13 +1,5 @@
 [
   {
-    "requires": [
-      "buoyancy",
-      "grav",
-      "equal_but_opposite"
-    ],
-    "title": "Boats",
-    "id": "boats",
-    "chap_num": 1,
     "covers": [
       {
         "id": "boat_terminology",
@@ -70,16 +62,17 @@
         ]
       }
     ],
+    "requires": [
+      "buoyancy",
+      "grav",
+      "equal_but_opposite"
+    ],
+    "title": "Boats",
+    "id": "boats",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "boat_terminology",
-      "center_of_mass"
-    ],
-    "title": "Sailboats",
-    "id": "sailing",
-    "chap_num": 2,
     "covers": [
       {
         "id": "sails",
@@ -110,6 +103,13 @@
         ]
       }
     ],
+    "requires": [
+      "boat_terminology",
+      "center_of_mass"
+    ],
+    "title": "Sailboats",
+    "id": "sailing",
+    "chap_num": 2,
     "start_page": 11
   },
   {
@@ -120,9 +120,6 @@
       "equal_but_opposite",
       "rudder"
     ],
-    "title": "Airplanes",
-    "id": "airplanes",
-    "chap_num": 3,
     "covers": [
       {
         "id": "drag",
@@ -225,20 +222,58 @@
         ]
       }
     ],
+    "title": "Airplanes",
+    "id": "airplanes",
+    "chap_num": 3,
     "start_page": 23
+  },
+  {
+    "requires": [
+      "python_advanced"
+    ],
+    "covers": [
+      {
+        "id": "pandas",
+        "desc": "Understand how to use pandas to parse a CSV file in python",
+        "videos": [
+          {
+            "link": "https://youtu.be/KHoEbRH46Zk",
+            "title": "NumPy vs Pandas - YouTube"
+          },
+          {
+            "link": "https://youtu.be/dcqPhpY7tWk",
+            "title": "What is Pandas? Why and How to Use Pandas in Python - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Pandas_(software)",
+            "title": "pandas (software) - Wikipedia"
+          },
+          {
+            "link": "https://pandas.pydata.org/docs/",
+            "title": "pandas documentation \u2014 pandas 3.0.2 documentation"
+          }
+        ]
+      }
+    ],
+    "title": "Data Tables and pandas",
+    "id": "pandas",
+    "chap_num": 4,
+    "start_page": 29
   },
   {
     "title": "Quadcopters",
     "id": "quadcopters",
-    "chap_num": 4,
+    "chap_num": 5,
     "covers": [],
-    "start_page": 29
+    "start_page": 37
   },
   {
     "title": "Helicopters",
     "id": "helicopters",
-    "chap_num": 5,
+    "chap_num": 6,
     "covers": [],
-    "start_page": 31
+    "start_page": 39
   }
 ]

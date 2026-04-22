@@ -4,9 +4,6 @@
       "long lat",
       "python_advanced"
     ],
-    "title": "Making a Map",
-    "id": "making_a_map",
-    "chap_num": 1,
     "covers": [
       {
         "id": "plotly",
@@ -33,6 +30,9 @@
         ]
       }
     ],
+    "title": "Making a Map",
+    "id": "making_a_map",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -42,9 +42,6 @@
       "stats-bell-curve",
       "pylists"
     ],
-    "title": "Introduction to Discrete Probability",
-    "id": "discrete_probability",
-    "chap_num": 2,
     "covers": [
       {
         "id": "probability_independent",
@@ -171,6 +168,9 @@
         ]
       }
     ],
+    "title": "Introduction to Discrete Probability",
+    "id": "discrete_probability",
+    "chap_num": 2,
     "start_page": 5
   },
   {
@@ -180,9 +180,6 @@
       "probability_dependent",
       "pascal's_triangle"
     ],
-    "title": "Beginning Combinatorics",
-    "id": "combinatorics",
-    "chap_num": 3,
     "covers": [
       {
         "id": "combinatorics",
@@ -257,19 +254,12 @@
         ]
       }
     ],
+    "title": "Beginning Combinatorics",
+    "id": "combinatorics",
+    "chap_num": 3,
     "start_page": 15
   },
   {
-    "requires": [
-      "combinatorics",
-      "python_advanced",
-      "matrix",
-      "math-invf",
-      "factorial"
-    ],
-    "title": "Permutations and Sorting",
-    "id": "permutations",
-    "chap_num": 4,
     "covers": [
       {
         "id": "permutations",
@@ -312,6 +302,16 @@
         ]
       }
     ],
+    "requires": [
+      "combinatorics",
+      "python_advanced",
+      "matrix",
+      "math-invf",
+      "factorial"
+    ],
+    "title": "Permutations and Sorting",
+    "id": "permutations",
+    "chap_num": 4,
     "start_page": 19
   }
 ]

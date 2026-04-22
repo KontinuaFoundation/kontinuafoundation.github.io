@@ -1,13 +1,5 @@
 [
   {
-    "requires": [
-      "differentiation",
-      "definite_integral",
-      "antiderivatives"
-    ],
-    "title": "u-Substitution",
-    "id": "u-substitution",
-    "chap_num": 1,
     "covers": [
       {
         "id": "usub",
@@ -54,6 +46,14 @@
         ]
       }
     ],
+    "requires": [
+      "differentiation",
+      "definite_integral",
+      "antiderivatives"
+    ],
+    "title": "u-Substitution",
+    "id": "u-substitution",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -64,9 +64,6 @@
       "param_eq: overview",
       "circular_motion"
     ],
-    "title": "Calculus with Polar Coordinates",
-    "id": "polar_calc",
-    "chap_num": 2,
     "covers": [
       {
         "id": "polar_calc_derivative",
@@ -129,6 +126,9 @@
         ]
       }
     ],
+    "title": "Calculus with Polar Coordinates",
+    "id": "polar_calc",
+    "chap_num": 2,
     "start_page": 11
   },
   {
@@ -136,9 +136,6 @@
       "exponential_growth",
       "partial_derivatves"
     ],
-    "title": "Differential Equations",
-    "id": "diff_eqs",
-    "chap_num": 3,
     "covers": [
       {
         "id": "diff_eqs",
@@ -193,15 +190,12 @@
         ]
       }
     ],
+    "title": "Differential Equations",
+    "id": "diff_eqs",
+    "chap_num": 3,
     "start_page": 25
   },
   {
-    "requires": [
-      "diff_eqs"
-    ],
-    "title": "Slope Fields",
-    "id": "slope_fields",
-    "chap_num": 4,
     "covers": [
       {
         "id": "slope_fields",
@@ -240,6 +234,12 @@
         ]
       }
     ],
+    "requires": [
+      "diff_eqs"
+    ],
+    "title": "Slope Fields",
+    "id": "slope_fields",
+    "chap_num": 4,
     "start_page": 35
   }
 ]

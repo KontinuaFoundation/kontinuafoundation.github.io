@@ -1,18 +1,5 @@
 [
   {
-    "requires": [
-      "atom",
-      "fma",
-      "mole",
-      "energy-forms",
-      "atmos",
-      "kinetic_energy",
-      "cdf_pdf",
-      "stats-rms"
-    ],
-    "title": "The Physics of Gases",
-    "id": "gas",
-    "chap_num": 1,
     "covers": [
       {
         "id": "gas-temp",
@@ -123,15 +110,25 @@
         ]
       }
     ],
+    "requires": [
+      "atom",
+      "fma",
+      "mole",
+      "energy-forms",
+      "atmos",
+      "kinetic_energy",
+      "cdf_pdf",
+      "stats-rms"
+    ],
+    "title": "The Physics of Gases",
+    "id": "gas",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [
       "ideal-gas-law"
     ],
-    "title": "Kinetic Energy and Temperature of a Gas",
-    "id": "temp_kinetic",
-    "chap_num": 2,
     "covers": [
       {
         "id": "temp kinetic",
@@ -174,31 +171,29 @@
         ]
       }
     ],
+    "title": "Kinetic Energy and Temperature of a Gas",
+    "id": "temp_kinetic",
+    "chap_num": 2,
     "start_page": 13
   },
   {
     "requires": [
       "temp kinetic"
     ],
-    "title": "Phases of Matter",
-    "id": "phase_change",
-    "chap_num": 3,
     "covers": [
       {
         "id": "phasesMatter",
-        "desc": "New"
+        "desc": "New",
+        "videos": [],
+        "references": []
       }
     ],
+    "title": "Phases of Matter",
+    "id": "phase_change",
+    "chap_num": 3,
     "start_page": 25
   },
   {
-    "requires": [
-      "rockets",
-      "ideal-gas-law"
-    ],
-    "title": "The Piston Engine",
-    "id": "engine",
-    "chap_num": 4,
     "covers": [
       {
         "id": "engine",
@@ -220,7 +215,7 @@
           },
           {
             "link": "https://auto.howstuffworks.com/engine.htm",
-            "title": "How Car Engines Work | HowStuffWorks"
+            "title": "https://auto.howstuffworks.com/engine.htm"
           },
           {
             "link": "https://en.wikipedia.org/wiki/Reciprocating_motion",
@@ -233,6 +228,13 @@
         ]
       }
     ],
+    "requires": [
+      "rockets",
+      "ideal-gas-law"
+    ],
+    "title": "The Piston Engine",
+    "id": "engine",
+    "chap_num": 4,
     "start_page": 35
   }
 ]

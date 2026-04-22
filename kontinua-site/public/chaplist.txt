@@ -43,7 +43,6 @@
 	Volumes of Common Solids
 	Conic Sections
 	Vectors
-	Charge
 07
 	Falling Bodies
 	Kinematics
@@ -55,6 +54,7 @@
 	Boats
 	Sailboats
 	Airplanes
+	Data Tables and pandas
 	Quadcopters
 	Helicopters
 09
@@ -69,16 +69,16 @@
 	Logarithms
 	Exponential Decay
 	Inverse Trigonometric Functions
+	Introduction to Graphs
+	Laws, Paradoxes, Thought Experiments, and the Illusions
 11
 	Introduction to Data Visualization
 	The Dot Product
 	Manufacturing
 	Sound
-	Introduction to Graphs
-	Dijkstra's Algorithm
-	Binary Search
-	Other Graph Algorithms and Proofs
+	Applying Numerical Methods to Bivariate Data
 12
+	Charge
 	Alternating Current
 	Electromagnetic Induction
 	Electric Motor
@@ -155,9 +155,15 @@
 	Singular Value Decomposition
 	Tackling Difficult Problems: Positive Semidefinite Matrices
 24
-	Data Tables and pandas
 	Data tables in SQL
 	Diodes, Rectifiers, and Photovoltaics
+	Trees
+	Tree Traversal
+	Finding Shortest Paths
+	Dijkstra's Algorithm
+	Priority Queues
+	Binary Search
+	Other Graph Algorithms and Proofs
 25
 	Making Web Requests with HTTP
 	Using and Creating APIs
@@ -171,7 +177,6 @@
 27
 	Alphabets and Accents
 	Making Plots with matplotlib
-	Geographical Data
 	Geocoding and Reverse Geocoding
 28
 	Making a Map
@@ -214,7 +219,6 @@
 	Double Integrals Over Non-Rectangular Regions
 	Applications of Double Integrals
 	Multivariate Distributions
-	Paradoxes, Thought Experiments, and the Illusions
 36
 	The Multivariate Normal Distribution
 	Numerical Double Integration

@@ -3,13 +3,11 @@
     "requires": [
       "math-function"
     ],
-    "title": "Introduction to Polynomials",
-    "id": "polynomials_intro",
-    "chap_num": 1,
     "covers": [
       {
         "id": "monomial",
         "desc": "Define a monomial",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Monomial",
@@ -50,15 +48,15 @@
         ]
       }
     ],
+    "title": "Introduction to Polynomials",
+    "id": "polynomials_intro",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [
       "polynomial"
     ],
-    "title": "Python Lists",
-    "id": "pylists",
-    "chap_num": 2,
     "covers": [
       {
         "id": "pylists",
@@ -81,16 +79,12 @@
         ]
       }
     ],
+    "title": "Python Lists",
+    "id": "pylists",
+    "chap_num": 2,
     "start_page": 7
   },
   {
-    "requires": [
-      "polynomial",
-      "pylists"
-    ],
-    "title": "Adding and Subtracting Polynomials",
-    "id": "add_subtract_polynomials",
-    "chap_num": 3,
     "covers": [
       {
         "id": "add_sub_polys",
@@ -141,16 +135,16 @@
         ]
       }
     ],
+    "requires": [
+      "polynomial",
+      "pylists"
+    ],
+    "title": "Adding and Subtracting Polynomials",
+    "id": "add_subtract_polynomials",
+    "chap_num": 3,
     "start_page": 15
   },
   {
-    "requires": [
-      "polynomial",
-      "monomial"
-    ],
-    "title": "Multiplying Polynomials",
-    "id": "multiplying_polynomials",
-    "chap_num": 4,
     "covers": [
       {
         "id": "mult_mono",
@@ -225,9 +219,17 @@
         ]
       }
     ],
+    "requires": [
+      "polynomial",
+      "monomial"
+    ],
+    "title": "Multiplying Polynomials",
+    "id": "multiplying_polynomials",
+    "chap_num": 4,
     "start_page": 21
   },
   {
+    "covers": [],
     "requires": [
       "mult_mono",
       "mult_poly"
@@ -235,7 +237,6 @@
     "title": "Multiplying Polynomials in Python",
     "id": "pymultpoly",
     "chap_num": 5,
-    "covers": [],
     "start_page": 27
   }
 ]

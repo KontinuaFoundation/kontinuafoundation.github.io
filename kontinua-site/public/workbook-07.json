@@ -1,15 +1,5 @@
 [
   {
-    "requires": [
-      "grav",
-      "fma",
-      "acc",
-      "parabola-equation",
-      "python_basics"
-    ],
-    "title": "Falling Bodies",
-    "id": "falling_bodies",
-    "chap_num": 1,
     "covers": [
       {
         "id": "gravitational_acceleration",
@@ -120,18 +110,19 @@
         ]
       }
     ],
+    "requires": [
+      "grav",
+      "fma",
+      "acc",
+      "parabola-equation",
+      "python_basics"
+    ],
+    "title": "Falling Bodies",
+    "id": "falling_bodies",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "acc",
-      "calc_velocity",
-      "calc_accel",
-      "gravitational_acceleration"
-    ],
-    "title": "Kinematics",
-    "id": "kinematics",
-    "chap_num": 2,
     "covers": [
       {
         "id": "kinematic-equations",
@@ -182,6 +173,15 @@
         ]
       }
     ],
+    "requires": [
+      "acc",
+      "calc_velocity",
+      "calc_accel",
+      "gravitational_acceleration"
+    ],
+    "title": "Kinematics",
+    "id": "kinematics",
+    "chap_num": 2,
     "start_page": 15
   },
   {
@@ -193,9 +193,6 @@
       "cosine",
       "kinematic-equations"
     ],
-    "title": "Projectile Motion",
-    "id": "projectiles",
-    "chap_num": 3,
     "covers": [
       {
         "id": "projectile_motion",
@@ -246,19 +243,12 @@
         ]
       }
     ],
+    "title": "Projectile Motion",
+    "id": "projectiles",
+    "chap_num": 3,
     "start_page": 23
   },
   {
-    "requires": [
-      "fma",
-      "friction_intro",
-      "force",
-      "vectors",
-      "equal_but_opposite"
-    ],
-    "title": "Free Body Diagrams",
-    "id": "free_body_diagrams",
-    "chap_num": 4,
     "covers": [
       {
         "id": "fbd",
@@ -317,6 +307,16 @@
         ]
       }
     ],
+    "requires": [
+      "fma",
+      "friction_intro",
+      "force",
+      "vectors",
+      "equal_but_opposite"
+    ],
+    "title": "Free Body Diagrams",
+    "id": "free_body_diagrams",
+    "chap_num": 4,
     "start_page": 33
   },
   {
@@ -330,9 +330,6 @@
       "static_friction",
       "kinetic_friction"
     ],
-    "title": "Inclined planes",
-    "id": "inclines",
-    "chap_num": 5,
     "covers": [
       {
         "id": "inclines",
@@ -375,18 +372,12 @@
         ]
       }
     ],
+    "title": "Inclined planes",
+    "id": "inclines",
+    "chap_num": 5,
     "start_page": 39
   },
   {
-    "requires": [
-      "consv_energy",
-      "kinetic_energy",
-      "vectors",
-      "COM"
-    ],
-    "title": "Momentum",
-    "id": "momentum",
-    "chap_num": 6,
     "covers": [
       {
         "id": "momentum",
@@ -460,9 +451,24 @@
             "link": "https://youtu.be/nCDQtw-sK1g",
             "title": "Conservation of Momentum & Explosions | A Level Physics - YouTube"
           }
+        ],
+        "references": [
+          {
+            "link": "https://physics.bu.edu/~duffy/semester1/c12_cofm_motion.html",
+            "title": "https://physics.bu.edu/~duffy/semester1/c12_cofm_motion.html"
+          }
         ]
       }
     ],
+    "requires": [
+      "consv_energy",
+      "kinetic_energy",
+      "vectors",
+      "COM"
+    ],
+    "title": "Momentum",
+    "id": "momentum",
+    "chap_num": 6,
     "start_page": 43
   }
 ]

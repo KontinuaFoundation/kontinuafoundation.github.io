@@ -3,9 +3,6 @@
     "requires": [
       "math-function"
     ],
-    "title": "Exponents",
-    "id": "exponents_review",
-    "chap_num": 1,
     "covers": [
       {
         "id": "exponents",
@@ -64,6 +61,9 @@
         ]
       }
     ],
+    "title": "Exponents",
+    "id": "exponents_review",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -71,9 +71,6 @@
       "spreadsheet",
       "exponents"
     ],
-    "title": "Compound Interest",
-    "id": "compound_interest",
-    "chap_num": 2,
     "covers": [
       {
         "id": "compound_interest",
@@ -124,18 +121,12 @@
         ]
       }
     ],
+    "title": "Compound Interest",
+    "id": "compound_interest",
+    "chap_num": 2,
     "start_page": 7
   },
   {
-    "requires": [
-      "exponents",
-      "exponent_properties",
-      "python_advanced",
-      "spreadsheet"
-    ],
-    "title": "Logarithms",
-    "id": "logs",
-    "chap_num": 3,
     "covers": [
       {
         "id": "logarithms",
@@ -194,6 +185,15 @@
         ]
       }
     ],
+    "requires": [
+      "exponents",
+      "exponent_properties",
+      "python_advanced",
+      "spreadsheet"
+    ],
+    "title": "Logarithms",
+    "id": "logs",
+    "chap_num": 3,
     "start_page": 11
   },
   {
@@ -205,9 +205,6 @@
       "fractional_exponents",
       "spreadsheet"
     ],
-    "title": "Exponential Decay",
-    "id": "exponential_decay",
-    "chap_num": 4,
     "covers": [
       {
         "id": "exponential_decay",
@@ -258,19 +255,12 @@
         ]
       }
     ],
+    "title": "Exponential Decay",
+    "id": "exponential_decay",
+    "chap_num": 4,
     "start_page": 15
   },
   {
-    "requires": [
-      "trig_functions",
-      "right_triangle",
-      "math-invf",
-      "sine",
-      "cosine"
-    ],
-    "title": "Inverse Trigonometric Functions",
-    "id": "inv_trig_functions",
-    "chap_num": 5,
     "covers": [
       {
         "id": "inverse_trig",
@@ -333,6 +323,166 @@
         ]
       }
     ],
+    "requires": [
+      "trig_functions",
+      "right_triangle",
+      "math-invf",
+      "sine",
+      "cosine"
+    ],
+    "title": "Inverse Trigonometric Functions",
+    "id": "inv_trig_functions",
+    "chap_num": 5,
     "start_page": 19
+  },
+  {
+    "requires": [
+      "python_advanced",
+      "dataviz"
+    ],
+    "covers": [
+      {
+        "id": "graphs-programming",
+        "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. Beginnings of Graph Theory.",
+        "videos": [
+          {
+            "link": "https://youtu.be/-VgHk7UMPP4",
+            "title": "Learn Graphs in 5 minutes \ud83c\udf10 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/4jyESQDrpls",
+            "title": "Graphs: Edge List, Adjacency Matrix, Adjacency List, DFS, BFS - DSA Course in Python Lecture 11 - YouTube"
+          },
+          {
+            "link": "https://youtu.be/LFKZLXVO-Dg",
+            "title": "Introduction to Graph Theory: A Computer Science Perspective - YouTube"
+          },
+          {
+            "link": "https://youtu.be/DBRW8nwZV-g",
+            "title": "Graph Data Structure Intro (inc. adjacency list, adjacency matrix, incidence matrix) - YouTube"
+          },
+          {
+            "link": "https://youtu.be/J21ZvWWrWwg",
+            "title": "Great Ideas in Theoretical Computer Science: Graphs: The Basics (Spring 2015) - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Graph_theory",
+            "title": "Graph theory - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "title": "Graph (discrete mathematics) - Wikipedia"
+          }
+        ]
+      }
+    ],
+    "title": "Introduction to Graphs",
+    "id": "graphs",
+    "chap_num": 6,
+    "start_page": 21
+  },
+  {
+    "covers": [
+      {
+        "id": "paradoxes",
+        "desc": "Understand what a paradox is, why they cause problems, and learn about a few types of paradoxes.",
+        "videos": [
+          {
+            "link": "https://www.youtube.com/watch?v=ebEkn-BiW5k",
+            "title": "Simpson's Paradox - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=vqKdLF_VzZE",
+            "title": "Simpson's Paradox Explained in One Minute - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=t-Ci3FosqZs",
+            "title": "How SIMPSON'S PARADOX explains weird COVID19 statistics - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=OUQVhnuTMVU ",
+            "title": "Closer Look at the Birthday Paradox - Numberphile - YouTube"
+          },
+          {
+            "link": "https://youtu.be/mZBwsm6B280",
+            "title": "Bertrand's Paradox (with 3blue1brown) - Numberphile - YouTube"
+          },
+          {
+            "link": "https://youtube.com/shorts/xIMlJUwB1m8?si=km5aB73bhdGkAXmx",
+            "title": "The medical test paradox (well \"paradox\") - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=BjLzIfDpGhs",
+            "title": "Every Paradox in 8 Minutes - YouTube"
+          },
+          {
+            "link": "https://youtu.be/mS5eEhLN57s",
+            "title": "Can you solve the troll\u2019s paradox riddle? - Dan Finkel - YouTube"
+          },
+          {
+            "link": "https://youtu.be/XayNKY944lY",
+            "title": "Solution to the Grandfather Paradox - YouTube"
+          },
+          {
+            "link": "https://youtu.be/h8GqaAp3cGs",
+            "title": "Einstein's twin paradox explained - Amber Stuver - YouTube"
+          },
+          {
+            "link": "https://youtu.be/ofTb57aZHZs",
+            "title": "The Birthday Paradox - YouTube"
+          },
+          {
+            "link": "https://youtu.be/IOYyCHGWJq4",
+            "title": "Schr\u00f6dinger's Cat - YouTube"
+          }
+        ],
+        "references": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Simpson%27s_paradox",
+            "title": "Simpson's paradox - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Monty_Hall_problem",
+            "title": "Monty Hall problem - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
+            "title": "Zeno's paradoxes - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Birthday_problem",
+            "title": "Birthday problem - Wikipedia"
+          },
+          {
+            "link": "https://betterexplained.com/articles/understanding-the-birthday-paradox/",
+            "title": "Understanding the Birthday Paradox \u2013 BetterExplained"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Coastline_paradox",
+            "title": "Coastline paradox - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes#Arrow_paradox",
+            "title": "Zeno's paradoxes - Wikipedia"
+          },
+          {
+            "link": "https://www.ibm.com/think/topics/artificial-intelligence-types",
+            "title": "Types of Artificial Intelligence | IBM"
+          }
+        ]
+      }
+    ],
+    "requires": [
+      "sets_logic",
+      "python_advanced",
+      "pandas",
+      "proofs"
+    ],
+    "title": "Laws, Paradoxes, Thought Experiments, and the Illusions",
+    "id": "paradoxes",
+    "chap_num": 7,
+    "start_page": 29
   }
 ]

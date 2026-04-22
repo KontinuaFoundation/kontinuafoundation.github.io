@@ -1,16 +1,5 @@
 [
   {
-    "requires": [
-      "rad",
-      "right_triangle",
-      "math-function",
-      "math-graph",
-      "math-invf",
-      "pythagorean_theorem"
-    ],
-    "title": "Trigonometric Functions",
-    "id": "trig_functions",
-    "chap_num": 1,
     "covers": [
       {
         "id": "sine",
@@ -125,6 +114,17 @@
         ]
       }
     ],
+    "requires": [
+      "rad",
+      "right_triangle",
+      "math-function",
+      "math-graph",
+      "math-invf",
+      "pythagorean_theorem"
+    ],
+    "title": "Trigonometric Functions",
+    "id": "trig_functions",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -135,9 +135,6 @@
       "pythagorean_theorem",
       "triangle"
     ],
-    "title": "Trigonometric Identities",
-    "id": "trig_identities",
-    "chap_num": 2,
     "covers": [
       {
         "id": "sum_diff_formulas",
@@ -147,7 +144,8 @@
             "link": "https://youtu.be/waDbbpib9cM?si=Y43ChqQN3zODbve1",
             "title": "Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "double_half_angle_ids",
@@ -161,7 +159,8 @@
             "link": "https://www.youtube.com/watch?v=7Eo-fuy0f7g",
             "title": "Using Double Angle Identities to Solve Equations, Example 1 - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "unit circle",
@@ -212,13 +211,13 @@
         ]
       }
     ],
+    "title": "Trigonometric Identities",
+    "id": "trig_identities",
+    "chap_num": 2,
     "start_page": 13
   },
   {
     "requires": [],
-    "title": "Volumes of Common Solids",
-    "id": "volume_solids",
-    "chap_num": 3,
     "covers": [
       {
         "id": "volume-solids",
@@ -277,15 +276,15 @@
         ]
       }
     ],
+    "title": "Volumes of Common Solids",
+    "id": "volume_solids",
+    "chap_num": 3,
     "start_page": 25
   },
   {
     "requires": [
       "volume-solids"
     ],
-    "title": "Conic Sections",
-    "id": "conic_sections",
-    "chap_num": 4,
     "covers": [
       {
         "id": "conic-sections",
@@ -378,6 +377,7 @@
       {
         "id": "parabola-equation",
         "desc": "Graph Parabola",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Parabola",
@@ -386,6 +386,9 @@
         ]
       }
     ],
+    "title": "Conic Sections",
+    "id": "conic_sections",
+    "chap_num": 4,
     "start_page": 35
   },
   {
@@ -395,9 +398,6 @@
       "pythagorean_theorem",
       "python_advanced"
     ],
-    "title": "Vectors",
-    "id": "vectors",
-    "chap_num": 5,
     "covers": [
       {
         "id": "vectors",
@@ -516,183 +516,9 @@
         ]
       }
     ],
+    "title": "Vectors",
+    "id": "vectors",
+    "chap_num": 5,
     "start_page": 39
-  },
-  {
-    "requires": [
-      "coulomb_amps",
-      "systems",
-      "consv_energy",
-      "vector_add_sub",
-      "vectors",
-      "fma",
-      "lawOfUnivGrav",
-      "insulator",
-      "conductor",
-      "greek-alpha",
-      "grav_pot_energy",
-      "atom",
-      "exponent_properties"
-    ],
-    "title": "Charge",
-    "id": "charge",
-    "chap_num": 6,
-    "covers": [
-      {
-        "id": "charge",
-        "desc": "Be able to define and understand the concept of charge. Use point charges to simulate different charges and charge fields within an area.",
-        "videos": [
-          {
-            "link": "https://youtu.be/VFbyDCG_j18?si=UzSQMmKhtUt_wwTS",
-            "title": "Electric Charge and Electric Fields - YouTube"
-          },
-          {
-            "link": "https://youtu.be/TFlVWf8JX4A",
-            "title": "Electric Charge: Crash Course Physics #25 - YouTube"
-          }
-        ],
-        "references": [
-          {
-            "link": "https://en.wikipedia.org/wiki/Electric_charge",
-            "title": "Electric charge - Wikipedia"
-          },
-          {
-            "link": "https://sharkphysics.weebly.com/electric-charges--fields.html",
-            "title": "Electric Charges & Fields - AP Physics B\u00a0"
-          }
-        ]
-      },
-      {
-        "id": "law-coulomb",
-        "desc": "Define and use Coulomb's law",
-        "videos": [
-          {
-            "link": "https://youtu.be/kCp5yYjo9zE?si=yn7H34Bxcn6KIlKq",
-            "title": "Coulomb's Law - Net Electric Force & Point Charges - YouTube"
-          },
-          {
-            "link": "https://www.khanacademy.org/science/hs-physics/x215e29cb31244fa1:types-of-interactions/x215e29cb31244fa1:coulomb-s-law/v/coulombs-law",
-            "title": "Khan Academy"
-          },
-          {
-            "link": "https://youtu.be/MsINeZMeTMQ?si=mVydIC3n1ynxKPyL",
-            "title": "Coulomb's law | Physics | Khan Academy - YouTube"
-          }
-        ]
-      },
-      {
-        "id": "electric-field",
-        "desc": "Understand how an electric field generates, where it points, and how it relates to Coulomb's law.",
-        "videos": [
-          {
-            "link": "https://youtu.be/mdulzEfQXDE",
-            "title": "Electric Fields: Crash Course Physics #26 - YouTube"
-          },
-          {
-            "link": "https://youtu.be/VFbyDCG_j18",
-            "title": "Electric Charge and Electric Fields - YouTube"
-          }
-        ],
-        "references": [
-          {
-            "link": "https://en.wikipedia.org/wiki/Electric_field",
-            "title": "Electric field - Wikipedia"
-          }
-        ]
-      },
-      {
-        "id": "dipole",
-        "desc": "Be able to understand and define dipoles and dipole moments",
-        "references": [
-          {
-            "link": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/dipole.html",
-            "title": "Electric Dipole"
-          }
-        ]
-      },
-      {
-        "id": "law-gauss",
-        "desc": "Be able to understand Gauss's law. Find it simply without using the integral form",
-        "references": [
-          {
-            "link": "https://en.wikipedia.org/wiki/Gauss%27s_law#Definition",
-            "title": "Gauss's law - Wikipedia"
-          },
-          {
-            "link": "https://en.wikipedia.org/wiki/Gaussian_surface",
-            "title": "Gaussian surface - Wikipedia"
-          }
-        ]
-      },
-      {
-        "id": "cont_charge_distribution",
-        "desc": "Define continuous charge distributions and use them to find charge and electric fields.",
-        "videos": [
-          {
-            "link": "https://youtu.be/bt46cqO1epw",
-            "title": "Charge density & continuous charge distribution | Electric charges & fields | Physics | Khan Academy - YouTube"
-          },
-          {
-            "link": "https://youtu.be/Zpns_8W5fXc",
-            "title": "Continuous Charge Distributions - YouTube"
-          },
-          {
-            "link": "https://youtu.be/QS5_oJhcSRs",
-            "title": "Continuous Charge Distributions - Review for AP Physics C: Electricity and Magnetism - YouTube"
-          }
-        ],
-        "references": [
-          {
-            "link": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05:_Electric_Charges_and_Fields/5.06:_Calculating_Electric_Fields_of_Charge_Distributions",
-            "title": "5.6: Calculating Electric Fields of Charge Distributions - Physics LibreTexts"
-          }
-        ]
-      },
-      {
-        "id": "electric-potential",
-        "desc": "Understand electric potential and electric potential energy, and how calculus could be used to alter it.",
-        "videos": [
-          {
-            "link": "https://youtu.be/LzKMQByFSLc",
-            "title": "Electric Potential - YouTube"
-          },
-          {
-            "link": "https://youtu.be/KoZ61FujkRk",
-            "title": "Electric Potential Energy - YouTube"
-          },
-          {
-            "link": "https://youtu.be/XWlZ9bfGIoI",
-            "title": "Electric Potential, Current, and Resistance - YouTube"
-          },
-          {
-            "link": "https://youtu.be/j3GrOKre__0",
-            "title": "What is an Electric Potential ? - YouTube"
-          },
-          {
-            "link": "https://youtu.be/hMoMw3NzCr8",
-            "title": "Understanding Electric Potential - YouTube"
-          },
-          {
-            "link": "https://youtu.be/ks1B1_umFk8",
-            "title": "Electric potential at a point in space | Physics | Khan Academy - YouTube"
-          },
-          {
-            "link": "https://youtu.be/ks1B1_umFk8",
-            "title": "Electric potential at a point in space | Physics | Khan Academy - YouTube"
-          }
-        ],
-        "references": [
-          {
-            "link": "https://en.wikipedia.org/wiki/Electric_potential",
-            "title": "Electric potential - Wikipedia"
-          },
-          {
-            "link": "https://en.wikipedia.org/wiki/Electric_potential_energy",
-            "title": "Electric potential energy - Wikipedia"
-          }
-        ]
-      }
-    ],
-    "start_page": 51
   }
 ]

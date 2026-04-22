@@ -5,9 +5,6 @@
       "dependence",
       "subspaces"
     ],
-    "title": "Span",
-    "id": "span",
-    "chap_num": 1,
     "covers": [
       {
         "id": "span",
@@ -42,6 +39,9 @@
         ]
       }
     ],
+    "title": "Span",
+    "id": "span",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -50,9 +50,6 @@
       "dependence",
       "lin_combo"
     ],
-    "title": "Determinants and Inverse Matrices",
-    "id": "determinants_inverse",
-    "chap_num": 2,
     "covers": [
       {
         "id": "determinant",
@@ -106,7 +103,7 @@
           },
           {
             "link": "https://www.3blue1brown.com/lessons/determinant#title",
-            "title": "3Blue1Brown - The determinant"
+            "title": "The determinant | 3Blue1Brown"
           }
         ]
       },
@@ -171,6 +168,9 @@
         ]
       }
     ],
+    "title": "Determinants and Inverse Matrices",
+    "id": "determinants_inverse",
+    "chap_num": 2,
     "start_page": 9
   },
   {
@@ -179,9 +179,6 @@
       "determinant",
       "span"
     ],
-    "title": "Cross Product",
-    "id": "cross",
-    "chap_num": 3,
     "covers": [
       {
         "id": "cross",
@@ -235,24 +232,17 @@
           },
           {
             "link": "https://www.3blue1brown.com/lessons/cross-products#title",
-            "title": "3Blue1Brown - Cross products"
+            "title": "Cross products | 3Blue1Brown"
           }
         ]
       }
     ],
+    "title": "Cross Product",
+    "id": "cross",
+    "chap_num": 3,
     "start_page": 23
   },
   {
-    "requires": [
-      "matrix",
-      "transformations",
-      "lin_inverse_matrix",
-      "determinant",
-      "bitmap_transforms"
-    ],
-    "title": "Matrices as Transformations",
-    "id": "transformations",
-    "chap_num": 4,
     "covers": [
       {
         "id": "matrices_transformations",
@@ -283,6 +273,16 @@
         ]
       }
     ],
+    "requires": [
+      "matrix",
+      "transformations",
+      "lin_inverse_matrix",
+      "determinant",
+      "bitmap_transforms"
+    ],
+    "title": "Matrices as Transformations",
+    "id": "transformations",
+    "chap_num": 4,
     "start_page": 25
   },
   {
@@ -293,9 +293,6 @@
       "dot",
       "matrices_transformations"
     ],
-    "title": "Eigenvectors and Eigenvalues",
-    "id": "eigen",
-    "chap_num": 5,
     "covers": [
       {
         "id": "eigen",
@@ -350,17 +347,12 @@
         ]
       }
     ],
+    "title": "Eigenvectors and Eigenvalues",
+    "id": "eigen",
+    "chap_num": 5,
     "start_page": 47
   },
   {
-    "requires": [
-      "vectors",
-      "dot",
-      "unit_vector"
-    ],
-    "title": "Projections",
-    "id": "projections",
-    "chap_num": 6,
     "covers": [
       {
         "id": "projections",
@@ -423,6 +415,14 @@
         ]
       }
     ],
+    "requires": [
+      "vectors",
+      "dot",
+      "unit_vector"
+    ],
+    "title": "Projections",
+    "id": "projections",
+    "chap_num": 6,
     "start_page": 55
   }
 ]

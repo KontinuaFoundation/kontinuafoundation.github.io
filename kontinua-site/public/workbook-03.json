@@ -1,13 +1,11 @@
 [
   {
     "requires": [],
-    "title": "Basic Statistics",
-    "id": "basic_statistics",
-    "chap_num": 1,
     "covers": [
       {
         "id": "stats_sample",
         "desc": "Identify what a sample is in statistics",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Sampling_(statistics)",
@@ -192,17 +190,12 @@
         ]
       }
     ],
+    "title": "Basic Statistics",
+    "id": "basic_statistics",
+    "chap_num": 1,
     "start_page": 5
   },
   {
-    "requires": [
-      "stats-std-dev",
-      "stats-histogram",
-      "stats-bell-curve"
-    ],
-    "title": "Basic Statistics in Spreadsheets",
-    "id": "stat_spreadsheets",
-    "chap_num": 2,
     "covers": [
       {
         "id": "csv",
@@ -237,13 +230,18 @@
         ]
       }
     ],
+    "requires": [
+      "stats-std-dev",
+      "stats-histogram",
+      "stats-bell-curve"
+    ],
+    "title": "Basic Statistics in Spreadsheets",
+    "id": "stat_spreadsheets",
+    "chap_num": 2,
     "start_page": 15
   },
   {
     "requires": [],
-    "title": "Introduction to Python",
-    "id": "intro_python1",
-    "chap_num": 3,
     "covers": [
       {
         "id": "python_basics",
@@ -318,13 +316,13 @@
         ]
       }
     ],
+    "title": "Introduction to Python",
+    "id": "intro_python1",
+    "chap_num": 3,
     "start_page": 29
   },
   {
     "requires": [],
-    "title": "Sets and Logic",
-    "id": "sets",
-    "chap_num": 4,
     "covers": [
       {
         "id": "sets_logic",
@@ -349,21 +347,29 @@
             "title": "Set (mathematics) - Wikipedia"
           },
           {
+            "link": "https://en.wikipedia.org/wiki/Set_theory#Formalized_set_theory",
+            "title": "Set theory - Wikipedia"
+          },
+          {
             "link": "https://en.wikipedia.org/wiki/Cardinality",
             "title": "Cardinality - Wikipedia"
+          },
+          {
+            "link": "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory",
+            "title": "Zermelo\u2013Fraenkel set theory - Wikipedia"
           }
         ]
       }
     ],
+    "title": "Sets and Logic",
+    "id": "sets",
+    "chap_num": 4,
     "start_page": 53
   },
   {
     "requires": [
       "sets_logic"
     ],
-    "title": "Proofs",
-    "id": "proofs",
-    "chap_num": 5,
     "covers": [
       {
         "id": "proofs",
@@ -406,21 +412,12 @@
         ]
       }
     ],
+    "title": "Proofs",
+    "id": "proofs",
+    "chap_num": 5,
     "start_page": 67
   },
   {
-    "requires": [
-      "energy-forms",
-      "electric_energy",
-      "greek-alpha",
-      "stats-rms",
-      "abs-zero",
-      "si_units",
-      "greek-alpha"
-    ],
-    "title": "Introduction to Electricity",
-    "id": "dc1",
-    "chap_num": 6,
     "covers": [
       {
         "id": "insulator",
@@ -538,7 +535,8 @@
             "link": "https://youtu.be/x6jajfprWZo?si=vqlnxizaqpQk4Nz2",
             "title": "Resistors Explained & Ohm's Law Made Simple! | What Are Resistors? & How Do Resistors Work? - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "volts",
@@ -552,11 +550,13 @@
             "link": "https://youtu.be/bb_BiksCiMw?si=185XzHYCIhWYChpW",
             "title": "What are Volts? Amps? Ohms? Watts? - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "dc",
         "desc": "Define the basics of a direct current",
+        "videos": [],
         "references": [
           {
             "link": "https://youtu.be/syaGf_XUMxA?si=O-Yk_xvd408GvfM_",
@@ -637,20 +637,20 @@
         ]
       }
     ],
+    "requires": [
+      "energy-forms",
+      "electric_energy",
+      "greek-alpha",
+      "stats-rms",
+      "si_units",
+      "greek-alpha"
+    ],
+    "title": "Introduction to Electricity",
+    "id": "dc1",
+    "chap_num": 6,
     "start_page": 75
   },
   {
-    "requires": [
-      "resistance",
-      "coulomb_amps",
-      "dc",
-      "closed_circuit",
-      "law_ohm",
-      "conservation_energy"
-    ],
-    "title": "DC Circuit Analysis",
-    "id": "dc_circuits",
-    "chap_num": 7,
     "covers": [
       {
         "id": "resistors-series",
@@ -745,6 +745,17 @@
         ]
       }
     ],
+    "requires": [
+      "resistance",
+      "coulomb_amps",
+      "dc",
+      "closed_circuit",
+      "law_ohm",
+      "conservation_energy"
+    ],
+    "title": "DC Circuit Analysis",
+    "id": "dc_circuits",
+    "chap_num": 7,
     "start_page": 85
   }
 ]

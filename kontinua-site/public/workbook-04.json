@@ -3,9 +3,6 @@
     "requires": [
       "compounds"
     ],
-    "title": "Fertilizer",
-    "id": "fertilizer",
-    "chap_num": 1,
     "covers": [
       {
         "id": "fertilizer",
@@ -35,18 +32,19 @@
             "link": "https://youtu.be/5mXS-MTjSiw?si=GuvcSmQjzTUd1wYI",
             "title": "The Haber-Bosch Process: Industrial Ammonia Synthesis - YouTube"
           }
-        ]
+        ],
+        "references": []
       }
     ],
+    "title": "Fertilizer",
+    "id": "fertilizer",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [
       "compounds"
     ],
-    "title": "Concrete",
-    "id": "concrete",
-    "chap_num": 2,
     "covers": [
       {
         "id": "concrete",
@@ -73,18 +71,12 @@
         ]
       }
     ],
+    "title": "Concrete",
+    "id": "concrete",
+    "chap_num": 2,
     "start_page": 7
   },
   {
-    "requires": [
-      "compounds",
-      "periodic_tbl",
-      "read-periodic",
-      "electric_energy"
-    ],
-    "title": "Metals",
-    "id": "metals",
-    "chap_num": 3,
     "covers": [
       {
         "id": "metals",
@@ -131,16 +123,18 @@
         ]
       }
     ],
+    "requires": [
+      "compounds",
+      "periodic_tbl",
+      "read-periodic",
+      "electric_energy"
+    ],
+    "title": "Metals",
+    "id": "metals",
+    "chap_num": 3,
     "start_page": 9
   },
   {
-    "requires": [
-      "python_basics",
-      "proofs"
-    ],
-    "title": "A deeper look at Python syntax",
-    "id": "intro_python2",
-    "chap_num": 4,
     "covers": [
       {
         "id": "python_advanced",
@@ -199,13 +193,17 @@
         ]
       }
     ],
+    "requires": [
+      "python_basics",
+      "proofs"
+    ],
+    "title": "A deeper look at Python syntax",
+    "id": "intro_python2",
+    "chap_num": 4,
     "start_page": 13
   },
   {
     "requires": [],
-    "title": "Angles",
-    "id": "angles",
-    "chap_num": 5,
     "covers": [
       {
         "id": "angle",
@@ -284,6 +282,9 @@
         ]
       }
     ],
+    "title": "Angles",
+    "id": "angles",
+    "chap_num": 5,
     "start_page": 35
   },
   {
@@ -291,9 +292,6 @@
       "angle",
       "types-angle"
     ],
-    "title": "Introduction to Triangles",
-    "id": "triangles",
-    "chap_num": 6,
     "covers": [
       {
         "id": "triangle",
@@ -348,15 +346,12 @@
         ]
       }
     ],
+    "title": "Introduction to Triangles",
+    "id": "triangles",
+    "chap_num": 6,
     "start_page": 39
   },
   {
-    "requires": [
-      "triangle"
-    ],
-    "title": "Pythagorean Theorem",
-    "id": "pythagorean_theorem",
-    "chap_num": 7,
     "covers": [
       {
         "id": "pythagorean_theorem",
@@ -413,6 +408,7 @@
       {
         "id": "hypotenuse",
         "desc": "Identify the hypotenuse of a triangle",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Hypotenuse",
@@ -441,6 +437,12 @@
         ]
       }
     ],
+    "requires": [
+      "triangle"
+    ],
+    "title": "Pythagorean Theorem",
+    "id": "pythagorean_theorem",
+    "chap_num": 7,
     "start_page": 45
   }
 ]

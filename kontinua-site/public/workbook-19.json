@@ -1,12 +1,5 @@
 [
   {
-    "requires": [
-      "limits",
-      "continuity"
-    ],
-    "title": "Differentiation",
-    "id": "differentiability",
-    "chap_num": 1,
     "covers": [
       {
         "id": "differentiation",
@@ -57,6 +50,13 @@
         ]
       }
     ],
+    "requires": [
+      "limits",
+      "continuity"
+    ],
+    "title": "Differentiation",
+    "id": "differentiability",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -65,9 +65,6 @@
       "power_rule",
       "IVT"
     ],
-    "title": "Derivatives",
-    "id": "derivative_definition",
-    "chap_num": 2,
     "covers": [
       {
         "id": "lhopital_rule",
@@ -142,6 +139,9 @@
         ]
       }
     ],
+    "title": "Derivatives",
+    "id": "derivative_definition",
+    "chap_num": 2,
     "start_page": 7
   },
   {
@@ -150,9 +150,6 @@
       "differentiation",
       "power_rule"
     ],
-    "title": "Rules for Finding Derivatives",
-    "id": "derivative_rules",
-    "chap_num": 3,
     "covers": [
       {
         "id": "product",
@@ -259,6 +256,9 @@
         ]
       }
     ],
+    "title": "Rules for Finding Derivatives",
+    "id": "derivative_rules",
+    "chap_num": 3,
     "start_page": 23
   },
   {
@@ -266,9 +266,6 @@
       "derivatives",
       "graphing_poly"
     ],
-    "title": "First and Second Derivatives and the Shape of a Function",
-    "id": "deriv_graphshape",
-    "chap_num": 4,
     "covers": [
       {
         "id": "concavity",
@@ -367,6 +364,9 @@
         ]
       }
     ],
+    "title": "First and Second Derivatives and the Shape of a Function",
+    "id": "deriv_graphshape",
+    "chap_num": 4,
     "start_page": 29
   }
 ]

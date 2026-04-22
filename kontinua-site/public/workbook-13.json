@@ -1,11 +1,5 @@
 [
   {
-    "requires": [
-      "sound"
-    ],
-    "title": "Electromagnetic Waves",
-    "id": "emwaves",
-    "chap_num": 1,
     "covers": [
       {
         "id": "ghg",
@@ -52,6 +46,12 @@
         ]
       }
     ],
+    "requires": [
+      "sound"
+    ],
+    "title": "Electromagnetic Waves",
+    "id": "emwaves",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -61,9 +61,6 @@
       "pythagorean_theorem",
       "conservation_energy"
     ],
-    "title": "Reflection and Photons",
-    "id": "reflection",
-    "chap_num": 2,
     "covers": [
       {
         "id": "photon",
@@ -166,15 +163,15 @@
         ]
       }
     ],
+    "title": "Reflection and Photons",
+    "id": "reflection",
+    "chap_num": 2,
     "start_page": 9
   },
   {
     "requires": [
       "reflection"
     ],
-    "title": "Refraction",
-    "id": "refraction",
-    "chap_num": 3,
     "covers": [
       {
         "id": "refraction",
@@ -217,16 +214,12 @@
         ]
       }
     ],
+    "title": "Refraction",
+    "id": "refraction",
+    "chap_num": 3,
     "start_page": 29
   },
   {
-    "requires": [
-      "refraction",
-      "reflection"
-    ],
-    "title": "Lenses",
-    "id": "lens",
-    "chap_num": 4,
     "covers": [
       {
         "id": "convex_concave",
@@ -236,7 +229,8 @@
             "link": "https://www.youtube.com/watch?v=sMDUOkCqCmA",
             "title": "Light reflection off concave vs convex mirrors video - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "lens",
@@ -257,6 +251,7 @@
       {
         "id": "focal_length",
         "desc": "Define focal length",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Focal_length",
@@ -267,6 +262,7 @@
       {
         "id": "refractive_index",
         "desc": "Understand the purpose of a refractive index and calculate it",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Refractive_index",
@@ -275,6 +271,13 @@
         ]
       }
     ],
+    "requires": [
+      "refraction",
+      "reflection"
+    ],
+    "title": "Lenses",
+    "id": "lens",
+    "chap_num": 4,
     "start_page": 31
   },
   {
@@ -287,9 +290,6 @@
       "param_eq: overview",
       "stats-rms"
     ],
-    "title": "Oscillations",
-    "id": "oscillations",
-    "chap_num": 5,
     "covers": [
       {
         "id": "oscillations-springs",
@@ -344,6 +344,9 @@
         ]
       }
     ],
+    "title": "Oscillations",
+    "id": "oscillations",
+    "chap_num": 5,
     "start_page": 33
   },
   {
@@ -353,9 +356,6 @@
       "lawOfUnivGrav",
       "ellipses"
     ],
-    "title": "Orbits",
-    "id": "orbits",
-    "chap_num": 6,
     "covers": [
       {
         "id": "orbit",
@@ -412,6 +412,7 @@
       {
         "id": "kepler",
         "desc": "Understand Kelper's laws",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion",
@@ -420,21 +421,12 @@
         ]
       }
     ],
+    "title": "Orbits",
+    "id": "orbits",
+    "chap_num": 6,
     "start_page": 53
   },
   {
-    "requires": [
-      "math-function",
-      "math-graph",
-      "rad",
-      "unit circle",
-      "inverse_trig",
-      "param_eq: overview",
-      "circular_motion"
-    ],
-    "title": "Polar Coordinates",
-    "id": "polar_coord",
-    "chap_num": 7,
     "covers": [
       {
         "id": "polar_coordinate",
@@ -465,6 +457,18 @@
         ]
       }
     ],
+    "requires": [
+      "math-function",
+      "math-graph",
+      "rad",
+      "unit circle",
+      "inverse_trig",
+      "param_eq: overview",
+      "circular_motion"
+    ],
+    "title": "Polar Coordinates",
+    "id": "polar_coord",
+    "chap_num": 7,
     "start_page": 61
   }
 ]

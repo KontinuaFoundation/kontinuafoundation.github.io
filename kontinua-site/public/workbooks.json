@@ -233,11 +233,6 @@
         "id": "vectors",
         "title": "Vectors",
         "chap_num": 5
-      },
-      {
-        "id": "charge",
-        "title": "Charge",
-        "chap_num": 6
       }
     ]
   },
@@ -299,14 +294,19 @@
         "chap_num": 3
       },
       {
+        "id": "pandas",
+        "title": "Data Tables and pandas",
+        "chap_num": 4
+      },
+      {
         "id": "quadcopters",
         "title": "Quadcopters",
-        "chap_num": 4
+        "chap_num": 5
       },
       {
         "id": "helicopters",
         "title": "Helicopters",
-        "chap_num": 5
+        "chap_num": 6
       }
     ]
   },
@@ -371,6 +371,16 @@
         "id": "inv_trig_functions",
         "title": "Inverse Trigonometric Functions",
         "chap_num": 5
+      },
+      {
+        "id": "graphs",
+        "title": "Introduction to Graphs",
+        "chap_num": 6
+      },
+      {
+        "id": "paradoxes",
+        "title": "Laws, Paradoxes, Thought Experiments, and the Illusions",
+        "chap_num": 7
       }
     ]
   },
@@ -400,24 +410,9 @@
         "chap_num": 4
       },
       {
-        "id": "graphs",
-        "title": "Introduction to Graphs",
+        "id": "num_methods_2",
+        "title": "Applying Numerical Methods to Bivariate Data",
         "chap_num": 5
-      },
-      {
-        "id": "dijkstra",
-        "title": "Dijkstra's Algorithm",
-        "chap_num": 6
-      },
-      {
-        "id": "binary_search",
-        "title": "Binary Search",
-        "chap_num": 7
-      },
-      {
-        "id": "graph_algorithms",
-        "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 8
       }
     ]
   },
@@ -427,39 +422,44 @@
     "pdf": "Workbook-12.pdf",
     "chapters": [
       {
+        "id": "charge",
+        "title": "Charge",
+        "chap_num": 1
+      },
+      {
         "id": "ac",
         "title": "Alternating Current",
-        "chap_num": 1
+        "chap_num": 2
       },
       {
         "id": "induction",
         "title": "Electromagnetic Induction",
-        "chap_num": 2
+        "chap_num": 3
       },
       {
         "id": "electric_motors_generators",
         "title": "Electric Motor",
-        "chap_num": 3
+        "chap_num": 4
       },
       {
         "id": "drag",
         "title": "Drag",
-        "chap_num": 4
+        "chap_num": 5
       },
       {
         "id": "parametric",
         "title": "Parametric Functions",
-        "chap_num": 5
+        "chap_num": 6
       },
       {
         "id": "vector_functions",
         "title": "Vector-valued Functions",
-        "chap_num": 6
+        "chap_num": 7
       },
       {
         "id": "circular",
         "title": "Circular Motion",
-        "chap_num": 7
+        "chap_num": 8
       }
     ]
   },
@@ -831,19 +831,49 @@
     "pdf": "Workbook-24.pdf",
     "chapters": [
       {
-        "id": "pandas",
-        "title": "Data Tables and pandas",
-        "chap_num": 1
-      },
-      {
         "id": "sql_1",
         "title": "Data tables in SQL",
-        "chap_num": 2
+        "chap_num": 1
       },
       {
         "id": "diodes",
         "title": "Diodes, Rectifiers, and Photovoltaics",
+        "chap_num": 2
+      },
+      {
+        "id": "trees",
+        "title": "Trees",
         "chap_num": 3
+      },
+      {
+        "id": "tree_traversal",
+        "title": "Tree Traversal",
+        "chap_num": 4
+      },
+      {
+        "id": "shortest_path",
+        "title": "Finding Shortest Paths",
+        "chap_num": 5
+      },
+      {
+        "id": "dijkstra",
+        "title": "Dijkstra's Algorithm",
+        "chap_num": 6
+      },
+      {
+        "id": "priority_queues",
+        "title": "Priority Queues",
+        "chap_num": 7
+      },
+      {
+        "id": "binary_search",
+        "title": "Binary Search",
+        "chap_num": 8
+      },
+      {
+        "id": "graph_algorithms",
+        "title": "Other Graph Algorithms and Proofs",
+        "chap_num": 9
       }
     ]
   },
@@ -917,14 +947,9 @@
         "chap_num": 2
       },
       {
-        "id": "geographical_data",
-        "title": "Geographical Data",
-        "chap_num": 3
-      },
-      {
         "id": "geocoding",
         "title": "Geocoding and Reverse Geocoding",
-        "chap_num": 4
+        "chap_num": 3
       }
     ]
   },
@@ -1146,11 +1171,6 @@
         "id": "multiv_dist",
         "title": "Multivariate Distributions",
         "chap_num": 4
-      },
-      {
-        "id": "paradoxes",
-        "title": "Paradoxes, Thought Experiments, and the Illusions",
-        "chap_num": 5
       }
     ]
   },

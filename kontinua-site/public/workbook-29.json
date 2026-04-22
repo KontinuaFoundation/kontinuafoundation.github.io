@@ -1,11 +1,5 @@
 [
   {
-    "requires": [
-      "probability_dependent"
-    ],
-    "title": "Conditional Probability",
-    "id": "conditional_prob",
-    "chap_num": 1,
     "covers": [
       {
         "id": "probability_conditional",
@@ -40,15 +34,18 @@
         ]
       }
     ],
+    "requires": [
+      "probability_dependent"
+    ],
+    "title": "Conditional Probability",
+    "id": "conditional_prob",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [
       "probability_conditional"
     ],
-    "title": "Bayes' Theorem",
-    "id": "bayes",
-    "chap_num": 2,
     "covers": [
       {
         "id": "bayes",
@@ -114,18 +111,16 @@
             "link": "https://www.youtube.com/watch?v=CYyUuIXzGgI",
             "title": "Game Theory Scene | 21(2008) | Now Playing - YouTube"
           }
-        ]
+        ],
+        "references": []
       }
     ],
+    "title": "Bayes' Theorem",
+    "id": "bayes",
+    "chap_num": 2,
     "start_page": 7
   },
   {
-    "requires": [
-      "derivatives"
-    ],
-    "title": "Antiderivatives",
-    "id": "antiderivatives",
-    "chap_num": 3,
     "covers": [
       {
         "id": "antiderivatives",
@@ -160,6 +155,12 @@
         ]
       }
     ],
+    "requires": [
+      "derivatives"
+    ],
+    "title": "Antiderivatives",
+    "id": "antiderivatives",
+    "chap_num": 3,
     "start_page": 13
   },
   {
@@ -167,9 +168,6 @@
       "antiderivatives",
       "python_advanced"
     ],
-    "title": "Riemann Sums",
-    "id": "riemann_sums",
-    "chap_num": 4,
     "covers": [
       {
         "id": "riemann",
@@ -232,6 +230,9 @@
         ]
       }
     ],
+    "title": "Riemann Sums",
+    "id": "riemann_sums",
+    "chap_num": 4,
     "start_page": 21
   }
 ]

@@ -1,12 +1,5 @@
 [
   {
-    "requires": [
-      "triangle",
-      "angle"
-    ],
-    "title": "Congruence",
-    "id": "congruence",
-    "chap_num": 1,
     "covers": [
       {
         "id": "congruence",
@@ -65,6 +58,13 @@
         ]
       }
     ],
+    "requires": [
+      "triangle",
+      "angle"
+    ],
+    "title": "Congruence",
+    "id": "congruence",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -72,9 +72,6 @@
       "right_triangle",
       "angle"
     ],
-    "title": "Parallel and Perpendicular",
-    "id": "parallel_perpendicular",
-    "chap_num": 2,
     "covers": [
       {
         "id": "intro_vectors",
@@ -125,6 +122,9 @@
         ]
       }
     ],
+    "title": "Parallel and Perpendicular",
+    "id": "parallel_perpendicular",
+    "chap_num": 2,
     "start_page": 9
   },
   {
@@ -133,9 +133,6 @@
       "degrees",
       "angle"
     ],
-    "title": "Circles",
-    "id": "circles",
-    "chap_num": 3,
     "covers": [
       {
         "id": "circles",
@@ -222,15 +219,15 @@
         ]
       }
     ],
+    "title": "Circles",
+    "id": "circles",
+    "chap_num": 3,
     "start_page": 11
   },
   {
     "requires": [
       "transformations"
     ],
-    "title": "Functions and Their Graphs",
-    "id": "functions",
-    "chap_num": 4,
     "covers": [
       {
         "id": "math-function",
@@ -397,6 +394,9 @@
         ]
       }
     ],
+    "title": "Functions and Their Graphs",
+    "id": "functions",
+    "chap_num": 4,
     "start_page": 23
   },
   {
@@ -406,9 +406,6 @@
       "transformations",
       "math-eo"
     ],
-    "title": "Transforming Functions",
-    "id": "transforms",
-    "chap_num": 5,
     "covers": [
       {
         "id": "scaling",
@@ -434,9 +431,13 @@
             "link": "https://youtu.be/Tmdrjs9xufc?si=qoEyYz-Tmhq7nltr&t=401",
             "title": "Transformations of Functions | Precalculus - YouTube"
           }
-        ]
+        ],
+        "references": []
       }
     ],
+    "title": "Transforming Functions",
+    "id": "transforms",
+    "chap_num": 5,
     "start_page": 39
   }
 ]

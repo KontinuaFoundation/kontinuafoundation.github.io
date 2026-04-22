@@ -5,9 +5,6 @@
       "periodic_tbl",
       "molecules"
     ],
-    "title": "Atomic and Molecular Mass",
-    "id": "atomic_mass",
-    "chap_num": 1,
     "covers": [
       {
         "id": "atomic-mass",
@@ -37,7 +34,8 @@
             "link": "https://youtu.be/_jmKgdi3jjQ?si=qmEW5BdGIDz5860_",
             "title": "What's the Difference between Mass Number and Atomic Weight? - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "mass-number",
@@ -51,7 +49,8 @@
             "link": "https://www.youtube.com/watch?v=m15DWkkGe_0",
             "title": "What's the Difference between Mass Number and Atomic Mass? - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "mole",
@@ -111,11 +110,14 @@
       },
       {
         "id": "atomic-number",
-        "desc": "Define atomic number, importance in isotopes, and locate it on an element on the periodic table"
+        "desc": "Define atomic number, importance in isotopes, and locate it on an element on the periodic table",
+        "videos": [],
+        "references": []
       },
       {
         "id": "chemical-symbols",
         "desc": "Be able to write simple chemical symbols.",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Chemical_symbol",
@@ -124,15 +126,15 @@
         ]
       }
     ],
+    "title": "Atomic and Molecular Mass",
+    "id": "atomic_mass",
+    "chap_num": 1,
     "start_page": 3
   },
   {
     "requires": [
       "chem_reaction"
     ],
-    "title": "Chemical Reactions",
-    "id": "chemical_reactions",
-    "chap_num": 2,
     "covers": [
       {
         "id": "endo",
@@ -167,13 +169,13 @@
         ]
       }
     ],
+    "title": "Chemical Reactions",
+    "id": "chemical_reactions",
+    "chap_num": 2,
     "start_page": 17
   },
   {
     "requires": [],
-    "title": "Buoyancy",
-    "id": "buoyancy",
-    "chap_num": 3,
     "covers": [
       {
         "id": "buoyancy",
@@ -216,15 +218,15 @@
         ]
       }
     ],
+    "title": "Buoyancy",
+    "id": "buoyancy",
+    "chap_num": 3,
     "start_page": 19
   },
   {
     "requires": [
       "consv_energy"
     ],
-    "title": "Heat",
-    "id": "heat",
-    "chap_num": 4,
     "covers": [
       {
         "id": "energy_heat_trans",
@@ -234,7 +236,8 @@
             "link": "https://youtu.be/bRZwzy0xvhM?si=3x5mCkkTCmxbnOwZ",
             "title": "Heat Transfer - Conduction, Convection, and Radiation - YouTube"
           }
-        ]
+        ],
+        "references": []
       },
       {
         "id": "thermal_eq",
@@ -273,17 +276,12 @@
         ]
       }
     ],
+    "title": "Heat",
+    "id": "heat",
+    "chap_num": 4,
     "start_page": 23
   },
   {
-    "requires": [
-      "fma",
-      "force",
-      "conservation_law"
-    ],
-    "title": "Work and Energy",
-    "id": "work_energy",
-    "chap_num": 5,
     "covers": [
       {
         "id": "energy-forms",
@@ -444,6 +442,7 @@
       {
         "id": "efficiency_power",
         "desc": "Define efficiency and power",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Efficiency#In_physics",
@@ -472,15 +471,20 @@
         ]
       }
     ],
+    "requires": [
+      "fma",
+      "force",
+      "conservation_law"
+    ],
+    "title": "Work and Energy",
+    "id": "work_energy",
+    "chap_num": 5,
     "start_page": 27
   },
   {
     "requires": [
       "work"
     ],
-    "title": "Simple Machines",
-    "id": "simple_machines",
-    "chap_num": 6,
     "covers": [
       {
         "id": "sim-mach",
@@ -627,6 +631,9 @@
         ]
       }
     ],
+    "title": "Simple Machines",
+    "id": "simple_machines",
+    "chap_num": 6,
     "start_page": 43
   }
 ]

@@ -6,9 +6,6 @@
       "reflection",
       "lens"
     ],
-    "title": "How Cameras Work",
-    "id": "camera",
-    "chap_num": 1,
     "covers": [
       {
         "id": "camera",
@@ -37,6 +34,10 @@
           {
             "link": "https://youtu.be/ImkLfI5g4xk",
             "title": "How Camera Sensor Works | Camera Sensor Explained - YouTube"
+          },
+          {
+            "link": "https://www.youtube.com/playlist?list=PLjHf9jaFs8XXcmtNSUxoaENoWX4GD9oHB",
+            "title": "How Photography Works - YouTube"
           }
         ],
         "references": [
@@ -103,17 +104,12 @@
         ]
       }
     ],
+    "title": "How Cameras Work",
+    "id": "camera",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "camera",
-      "rgb",
-      "photon"
-    ],
-    "title": "How Eyes Work",
-    "id": "eye",
-    "chap_num": 2,
     "covers": [
       {
         "id": "eye",
@@ -164,19 +160,25 @@
         ]
       }
     ],
+    "requires": [
+      "camera",
+      "rgb",
+      "photon"
+    ],
+    "title": "How Eyes Work",
+    "id": "eye",
+    "chap_num": 2,
     "start_page": 13
   },
   {
     "requires": [
       "rgb"
     ],
-    "title": "Images in Python",
-    "id": "py_images",
-    "chap_num": 3,
     "covers": [
       {
         "id": "py_image",
         "desc": "Understand basic python image processing",
+        "videos": [],
         "references": [
           {
             "link": "https://www.geeksforgeeks.org/python/working-images-python/",
@@ -189,6 +191,9 @@
         ]
       }
     ],
+    "title": "Images in Python",
+    "id": "py_images",
+    "chap_num": 3,
     "start_page": 21
   },
   {
@@ -196,9 +201,6 @@
       "rgb",
       "camera"
     ],
-    "title": "Representing Natural Numbers",
-    "id": "hexbinary",
-    "chap_num": 4,
     "covers": [
       {
         "id": "decint-rep",
@@ -353,15 +355,15 @@
         ]
       }
     ],
+    "title": "Representing Natural Numbers",
+    "id": "hexbinary",
+    "chap_num": 4,
     "start_page": 27
   },
   {
     "requires": [
       "hex-rep"
     ],
-    "title": "Bitmaps",
-    "id": "bitmap",
-    "chap_num": 5,
     "covers": [
       {
         "id": "bitmap",
@@ -381,7 +383,7 @@
           },
           {
             "link": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
-            "title": "How to Read a Bitmap Image in C++ - YouTube"
+            "title": " - YouTube"
           },
           {
             "link": "https://www.youtube.com/watch?v=ZXF9-KX4DIQ",
@@ -410,6 +412,7 @@
       {
         "id": "bitmap_transforms",
         "desc": "Relate the idea of bitmap manipulation to the idea of transformations in linear algebra. Understand the very basics of vector manipulation.",
+        "videos": [],
         "references": [
           {
             "link": "https://en.wikipedia.org/wiki/Transformation_matrix",
@@ -418,6 +421,9 @@
         ]
       }
     ],
+    "title": "Bitmaps",
+    "id": "bitmap",
+    "chap_num": 5,
     "start_page": 33
   }
 ]

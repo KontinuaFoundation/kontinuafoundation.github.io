@@ -1,9 +1,6 @@
 [
   {
     "requires": [],
-    "title": "Optimization",
-    "id": "optimization",
-    "chap_num": 1,
     "covers": [
       {
         "id": "programming-optimization",
@@ -26,6 +23,9 @@
         ]
       }
     ],
+    "title": "Optimization",
+    "id": "optimization",
+    "chap_num": 1,
     "start_page": 3
   },
   {
@@ -34,9 +34,6 @@
       "chain",
       "product"
     ],
-    "title": "Implicit Differentiation",
-    "id": "implicit_diff",
-    "chap_num": 2,
     "covers": [
       {
         "id": "implicit_diff",
@@ -95,16 +92,12 @@
         ]
       }
     ],
+    "title": "Implicit Differentiation",
+    "id": "implicit_diff",
+    "chap_num": 2,
     "start_page": 11
   },
   {
-    "requires": [
-      "differentiation",
-      "implicit_diff"
-    ],
-    "title": "Related Rates",
-    "id": "related_rates",
-    "chap_num": 3,
     "covers": [
       {
         "id": "related_rates",
@@ -171,6 +164,13 @@
         ]
       }
     ],
+    "requires": [
+      "differentiation",
+      "implicit_diff"
+    ],
+    "title": "Related Rates",
+    "id": "related_rates",
+    "chap_num": 3,
     "start_page": 17
   },
   {
@@ -178,9 +178,6 @@
       "derivatives",
       "differentiation"
     ],
-    "title": "Multivariate Functions and Partial Derivatives",
-    "id": "multiv_func",
-    "chap_num": 4,
     "covers": [
       {
         "id": "multiv_func",
@@ -231,6 +228,9 @@
         ]
       }
     ],
+    "title": "Multivariate Functions and Partial Derivatives",
+    "id": "multiv_func",
+    "chap_num": 4,
     "start_page": 19
   },
   {
@@ -239,9 +239,6 @@
       "chain",
       "dot"
     ],
-    "title": "Partial Derivatives and Gradients",
-    "id": "partial_deriv_grad",
-    "chap_num": 5,
     "covers": [
       {
         "id": "partial_derivatves",
@@ -356,6 +353,9 @@
         ]
       }
     ],
+    "title": "Partial Derivatives and Gradients",
+    "id": "partial_deriv_grad",
+    "chap_num": 5,
     "start_page": 21
   }
 ]

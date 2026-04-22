@@ -1,11 +1,5 @@
 [
   {
-    "requires": [
-      "http"
-    ],
-    "title": "HTML",
-    "id": "html",
-    "chap_num": 1,
     "covers": [
       {
         "id": "html",
@@ -92,16 +86,15 @@
         ]
       }
     ],
+    "requires": [
+      "http"
+    ],
+    "title": "HTML",
+    "id": "html",
+    "chap_num": 1,
     "start_page": 3
   },
   {
-    "requires": [
-      "bits_bytes",
-      "binary-rep"
-    ],
-    "title": "Introduction to Text",
-    "id": "intro_text",
-    "chap_num": 2,
     "covers": [
       {
         "id": "ascii",
@@ -172,6 +165,13 @@
         ]
       }
     ],
+    "requires": [
+      "bits_bytes",
+      "binary-rep"
+    ],
+    "title": "Introduction to Text",
+    "id": "intro_text",
+    "chap_num": 2,
     "start_page": 19
   },
   {
@@ -183,9 +183,6 @@
   },
   {
     "requires": [],
-    "title": "Stemming and Lemmatization",
-    "id": "stemming_lemmatization",
-    "chap_num": 4,
     "covers": [
       {
         "id": "stemming_lemmatization",
@@ -208,6 +205,9 @@
         ]
       }
     ],
+    "title": "Stemming and Lemmatization",
+    "id": "stemming_lemmatization",
+    "chap_num": 4,
     "start_page": 23
   }
 ]
