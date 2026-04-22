@@ -12,10 +12,13 @@ This repository is auto-deployed via a Python and Bash script run by authors in 
 ├─ sequence/                       # Source-of-truth authoring repository
 │  ├─ Build/
 │  │  └─ deploy_to_kontinua.py                 # Script that generates, builds, and transfers content
-│  ├─ Chapters/
-│  └─ ...
+│  ├─ kontinua-site/
+|  |  └─ src/ 
+│  |  └─ public/ # Where all workbooks, html files, and chapter pdfs are transfered
 └─ kontinuafoundation.github.io/   # Generated GitHub Pages repository
 ```
+
+The repository is actively being transitioned to a React/Vite front end so that loading, processing, and updating is much easier and only files that need to be updated are.
 
 ## Editing & Source of Truth
 
