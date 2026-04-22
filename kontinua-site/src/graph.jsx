@@ -4,50 +4,54 @@ import Sigma from "sigma";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import graphData from "./graphData";
 
-
 export default function GraphView() {
   const containerRef = useRef(null);
+
   useEffect(() => {
     const graph = new Graph();
 
     // add all nodes
-    // Object.keys(graphData).forEach((key) => {
-    //   graph.addNode(key, {
-    //     label: key,
-    //     x: Math.random(),
-    //     y: Math.random(),
-    //     size: 8,
-    //     color: "#666",
-    //   });
-    // });
+    Object.entries(graphData).forEach(([key, value]) => {
+      graph.addNode(key, {
+        label: key.replaceAll("_", " "),
+        workbook: value.workbook,
+        url: `/Workbook-${value.workbook}.html#${key}`,
+        x: (Math.random() - 0.5) * 100,
+        y: (Math.random() - 0.5) * 100,
+        size: Math.sqrt(value.prereqs.length) * 4,
+        color: value.prereqs.length === 0 ? "#2ecc71" : "#3498db",
+      });
+    });
 
     // add edges from prereq -> topic
-    Object.entries(graphData).forEach(([topic, prereqs]) => {
-      graph.addNode(topic, {
-        label: topic.replaceAll("_", " "),
-        x: Math.random(),
-        y: Math.random(),
-        size: prereqs.length,
-        color: prereqs.length === 0 ? "#2ecc71" : "#3498db",
-      });
-
-      prereqs.forEach((prereq) => {
-        if (graph.hasNode(prereq) && graph.hasNode(topic)) {
-          graph.addEdge(prereq, topic);
+    Object.entries(graphData).forEach(([topic, value]) => {
+      value.prereqs.forEach((prereq) => {
+        const edgeId = `${prereq}->${topic}`;
+        if (
+          graph.hasNode(prereq) &&
+          graph.hasNode(topic) &&
+          !graph.hasEdge(edgeId)
+        ) {
+          graph.addEdgeWithKey(edgeId, prereq, topic);
         }
       });
     });
 
     forceAtlas2.assign(graph, {
-      iterations: 200,
-      settings: {
-        scalingRatio: 15,   // ↑ BIGGEST factor (try 10–50)
-        gravity: 0.35,      
-        strongGravityMode: false,
-      },
+      iterations: 300, settings: {
+  scalingRatio: 60,
+  gravity: 0.2,
+  adjustSizes: true,
+  strongGravityMode: false,
+},
     });
 
     const renderer = new Sigma(graph, containerRef.current);
+
+    renderer.on("clickNode", ({ node }) => {
+      const url = graph.getNodeAttribute(node, "url");
+      if (url) window.location.href = url;
+    });
 
     return () => renderer.kill();
   }, []);
