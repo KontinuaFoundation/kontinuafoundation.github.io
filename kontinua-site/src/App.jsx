@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import GraphView from "./Graph";
+import GraphView from "./graph";
 
 export default function App() {
   const [workbooks, setWorkbooks] = useState([]);
