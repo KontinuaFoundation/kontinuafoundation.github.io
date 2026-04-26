@@ -1,49 +1,47 @@
-This repository contains the live state of the Kontinua Foundation Sequence.
+# Svelte + TS + Vite
 
-The Kontinua Foundation Sequence is a structured, four-year learning curriculum designed to be completed sequentially. Each workbook builds on the previous ones, reinforcing foundational concepts while progressively reaching different topics and levels of depth. See [Sequence](https://github.com/KontinuaFoundation/sequence) for more.
+This template should help get you started developing with Svelte and TypeScript in Vite.
 
-This repository is a GitHub page that students and authors alike can access to see the state of all workbooks, a live preview of each draft chapter, and all included digital resources (YouTube videos, Wikipedia articles, etc). This live state can be viewed [here](https://kontinuafoundation.github.io/).
+## Recommended IDE Setup
 
-## How is this built?
-This repository is auto-deployed via a Python and Bash script run by authors in the Sequence Repository. Running that script requires this repository to be cloned in the same folder, such that the structure is as follows:
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-```perl
-<workspace>/
-├─ sequence/                       # Source-of-truth authoring repository
-│  ├─ Build/
-│  │  └─ deploy_to_kontinua.py                 # Script that generates, builds, and transfers content
-│  ├─ kontinua-site/
-|  |  └─ src/ 
-│  |  └─ public/ # Where all workbooks, html files, and chapter pdfs are transfered
-└─ kontinuafoundation.github.io/   # Generated GitHub Pages repository
+## Need an official Svelte framework?
+
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+
+## Technical considerations
+
+**Why use this over SvelteKit?**
+
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+
+This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+
+**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+
+Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+
+**Why include `.vscode/extensions.json`?**
+
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+
+**Why enable `allowJs` in the TS template?**
+
+While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+
+**Why is HMR not preserving my local component state?**
+
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+
+```ts
+// store.ts
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
 ```
-
-The repository is actively being transitioned to a React/Vite front end so that loading, processing, and updating is much easier and only files that need to be updated are.
-
-## Editing & Source of Truth
-
-This repository is a **generated, read-only view** of the Kontinua Foundation Sequence.
-
-- **Do not edit content directly in this repository**
-- All authored content lives in the [Sequence repository](https://github.com/KontinuaFoundation/sequence)
-- Changes are propagated here automatically via the build and deployment scripts in Sequence
-
-> ⚠️ Note: This repository reflects an active, evolving curriculum.  
-> Content may change at any time as chapters are drafted, revised, or reorganized.
-
-## Who is this repository for?
-This repository is an open-source view of the open-source resources developed by the authors and writers of the Kontinua Foundation. Additionally,
-
-- **Students** trying out the Sequence for the first time
-- **Authors** reviewing the live rendered state of draft chapters
-- **Editors and Publishers** writing and checking structure, flow, and progression
-- **The public and interested communities** seeking transparency into the Kontinua Foundation Sequence
-
-## Feedback & Issues
-
-If an issue of the live state is found, please create a GitHub issue as this helps our organization greatly, addressing issues as they come up. Specifically
-- Report broken links or rendering errors
-- Flag inconsistencies between source and live content
-- Design, style, and frontend code improvements
-
-_Curriculum design feedback should be directed to the main Sequence repository._

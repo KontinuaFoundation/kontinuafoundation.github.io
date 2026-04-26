@@ -25,25 +25,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 20
-          cache: npm
-      - name: Install
-        run: npm ci
-        working-directory: kontinua-site
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
 
       - name: Build
-        run: npm run build
-        working-directory: kontinua-site
+        run: bun run build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./kontinua-site/dist
+          path: ./dist
 
       - name: Deploy
         id: deployment
