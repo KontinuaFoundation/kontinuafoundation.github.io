@@ -7,7 +7,17 @@
   type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
 
   let container: HTMLDivElement;
+  let wrapper: HTMLDivElement;
   let renderer: Sigma | null = null;
+  let active = false;
+
+  function activate() {
+    active = true;
+  }
+
+  function deactivate() {
+    active = false;
+  }
 
   onMount(() => {
     fetch('/graph.json')
@@ -71,4 +81,51 @@
   });
 </script>
 
-<div bind:this={container} style="width: 100%; height: 500px;"></div>
+<div class="graph-wrapper" bind:this={wrapper} on:mouseleave={deactivate}>
+  <div bind:this={container} class="graph-canvas"></div>
+  {#if !active}
+    <div class="graph-overlay" on:click={activate} role="button" tabindex="0" on:keydown={(e) => e.key === 'Enter' && activate()}>
+      <span>Click to interact</span>
+    </div>
+  {/if}
+</div>
+
+<style>
+  .graph-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+
+  .graph-canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .graph-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .graph-overlay:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .graph-overlay span {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    pointer-events: none;
+  }
+</style>
