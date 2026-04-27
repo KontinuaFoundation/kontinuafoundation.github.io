@@ -22,6 +22,9 @@
 </script>
 
 <main>
+  <header>
+    <img src="./color_spiral.svg" alt="Kontinua logo" width="100" />
+  </header>
   <h1>Graph</h1>
   <Graph />
   <h1>Table of Contents for Digital Resources</h1>
