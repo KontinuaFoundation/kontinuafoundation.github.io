@@ -81,7 +81,7 @@
   });
 </script>
 
-<div class="graph-wrapper" bind:this={wrapper} on:mouseleave={deactivate}>
+<div class="graph-wrapper" bind:this={wrapper} on:mouseleave={deactivate} role="application" aria-label="Topic dependency graph">
   <div bind:this={container} class="graph-canvas"></div>
   {#if !active}
     <div class="graph-overlay" on:click={activate} role="button" tabindex="0" on:keydown={(e) => e.key === 'Enter' && activate()}>

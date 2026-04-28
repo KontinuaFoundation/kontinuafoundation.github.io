@@ -70,7 +70,7 @@
 </script>
 
 <header class="site-header">
-  <a href="#" class="brand">
+  <a href="#/" class="brand">
     <img src="./color_spiral.svg" alt="Kontinua logo" class="site-logo" />
     <div class="site-title">
       <h1>Kontinua</h1>
@@ -79,7 +79,7 @@
   </a>
   {#if currentWorkbook}
     <nav class="breadcrumb">
-      <a href="#">← All Workbooks</a>
+      <a href="#/">← All Workbooks</a>
     </nav>
   {/if}
 </header>
