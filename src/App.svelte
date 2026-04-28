@@ -1,70 +1,138 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import Graph from './lib/Graph.svelte';
-
-  interface Workbook {
-    title: string;
-    href: string;
-    pdf: string;
-    chapters: Array<{
-      id: string;
-      title: string;
-      chap_num: number;
-    }>;
-  }
+  import WorkbookDetail from './lib/WorkbookDetail.svelte';
+  import type { Workbook, TopicMeta } from './lib/types';
 
   let workbooks: Workbook[] = [];
+  let currentWorkbookNum: string | null = null;
+  let anchor: string | null = null;
+
+  $: currentWorkbook = workbooks.find((wb) => wb.num === currentWorkbookNum) ?? null;
+
+  $: topicIndex = buildTopicIndex(workbooks);
+
+  function buildTopicIndex(wbs: Workbook[]): Record<string, TopicMeta> {
+    const index: Record<string, TopicMeta> = {};
+    for (const wb of wbs) {
+      for (const ch of wb.chapters) {
+        for (const topic of ch.covers) {
+          index[topic.id] = {
+            workbookNum: wb.num,
+            chapterNum: ch.chap_num,
+            chapterTitle: ch.title,
+            desc: topic.desc,
+          };
+        }
+      }
+    }
+    return index;
+  }
+
+  function parseHash() {
+    // Hash format: #workbook/01  or  #workbook/01#topic-id
+    // window.location.hash gives e.g. "#workbook/01"
+    // A second # within the hash value isn't possible in URLs, so we use
+    // the format #workbook/01/topic/stats_mean for topic deep-links
+    const raw = window.location.hash.slice(1);
+    const topicMatch = raw.match(/^workbook\/(\d+)\/topic\/(.+)$/);
+    const wbMatch = raw.match(/^workbook\/(\d+)/);
+    if (topicMatch) {
+      currentWorkbookNum = topicMatch[1];
+      anchor = topicMatch[2];
+    } else if (wbMatch) {
+      currentWorkbookNum = wbMatch[1];
+      anchor = null;
+    } else {
+      currentWorkbookNum = null;
+      anchor = null;
+    }
+  }
+
+  function scrollToAnchor(id: string) {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 
   onMount(async () => {
     const res = await fetch('./workbooks.json');
     workbooks = await res.json();
+    parseHash();
+    window.addEventListener('hashchange', () => {
+      parseHash();
+      window.scrollTo(0, 0);
+    });
   });
+
+  $: if (currentWorkbook && anchor) {
+    setTimeout(() => scrollToAnchor(anchor!), 50);
+  }
 </script>
 
 <header class="site-header">
-  <img src="./color_spiral.svg" alt="Kontinua logo" class="site-logo" />
-  <div class="site-title">
-    <h1>Kontinua</h1>
-    <p>Open curriculum for science and mathematics</p>
-  </div>
+  <a href="#" class="brand">
+    <img src="./color_spiral.svg" alt="Kontinua logo" class="site-logo" />
+    <div class="site-title">
+      <h1>Kontinua</h1>
+      <p>Open curriculum for science and mathematics</p>
+    </div>
+  </a>
+  {#if currentWorkbook}
+    <nav class="breadcrumb">
+      <a href="#">← All Workbooks</a>
+    </nav>
+  {/if}
 </header>
 
 <main>
-  <section class="graph-section">
-    <h2>Topic Graph</h2>
-    <Graph />
-  </section>
+  {#if currentWorkbook}
+    <WorkbookDetail workbook={currentWorkbook} {topicIndex} />
+  {:else}
+    <section class="graph-section">
+      <h2>Topic Graph</h2>
+      <Graph />
+    </section>
 
-  <section class="toc-section">
-    <h2>Table of Contents</h2>
-    <div class="workbook-grid">
-      {#each workbooks as wb (wb.href)}
-        <div class="workbook-card">
-          <h3>
-            <a href={wb.href}>{wb.title}</a>
-          </h3>
-          <ol>
-            {#each wb.chapters as ch (ch.id)}
-              <li>
-                <a href={`${wb.href}#${ch.id}`}>{ch.title}</a>
-              </li>
-            {/each}
-          </ol>
-        </div>
-      {/each}
-    </div>
-  </section>
+    <section class="toc-section">
+      <h2>Table of Contents</h2>
+      <div class="workbook-grid">
+        {#each workbooks as wb (wb.num)}
+          <div class="workbook-card">
+            <h3>
+              <a href="#workbook/{wb.num}">{wb.title}</a>
+            </h3>
+            <ol>
+              {#each wb.chapters as ch (ch.id)}
+                <li>
+                  <a href="#workbook/{wb.num}/topic/{ch.id}">{ch.title}</a>
+                </li>
+              {/each}
+            </ol>
+          </div>
+        {/each}
+      </div>
+    </section>
+  {/if}
 </main>
 
 <style>
   .site-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
     padding: 1.5rem 2rem;
     border-bottom: 2px solid var(--sdkblue);
     max-width: var(--width-content);
     margin: 0 auto;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-weight: normal;
   }
 
   .site-logo {
@@ -83,6 +151,17 @@
     margin: 0.2rem 0 0;
     color: var(--color-text-secondary);
     font-size: 0.9rem;
+  }
+
+  .breadcrumb a {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-link);
   }
 
   .graph-section,
@@ -141,7 +220,6 @@
   .workbook-card h3 a {
     font-weight: bold;
     color: var(--sdkblue);
-    text-decoration: none;
   }
 
   .workbook-card h3 a:hover {

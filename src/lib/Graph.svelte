@@ -29,7 +29,7 @@
           graph.addNode(key, {
             label: key.replaceAll('_', ' '),
             workbook: value.workbook,
-            url: `/Workbook-${value.workbook}.html#${key}`,
+            url: `#workbook/${String(value.workbook).padStart(2, '0')}/topic/${key}`,
             x: (Math.random() - 0.5) * 200,
             y: (Math.random() - 0.5) * 200,
             size: value.prereqs.length * 1.75,
@@ -68,7 +68,7 @@
 
         renderer.on('clickNode', ({ node }) => {
           const url = graph.getNodeAttribute(node, 'url') as string;
-          if (url) window.location.href = url;
+          if (url) window.location.hash = url.slice(1); // strip leading #
         });
       })
       .catch((err) => {
