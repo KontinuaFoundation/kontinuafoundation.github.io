@@ -198,13 +198,26 @@
 
   .workbook-card ol {
     margin: 0;
-    padding-left: 1.2rem;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: item;
   }
 
   .workbook-card li {
     font-size: 0.85rem;
     line-height: 1.6;
+    display: flex;
+    gap: 0.3rem;
   }
+
+  .workbook-card li::before {
+    content: counter(item) ".";
+    counter-increment: item;
+    flex-shrink: 0;
+    color: var(--color-text-secondary);
+  }
+
+
 
   .workbook-card a {
     font-weight: normal;
