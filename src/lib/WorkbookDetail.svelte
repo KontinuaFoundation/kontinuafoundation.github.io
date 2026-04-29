@@ -7,7 +7,7 @@
   function favicon(url: string): string {
     try {
       const { hostname } = new URL(url);
-      return `https://www.google.com/s2/favicons?domain=${hostname}&sz=16`;
+      return `https://www.google.com/s2/favicons?domain=${hostname}&sz=64`;
     } catch {
       return '';
     }
