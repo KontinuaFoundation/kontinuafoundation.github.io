@@ -155,15 +155,22 @@
   }
 
   .chapter-pdf-link {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--sdkblue);
     text-decoration: none;
-    font-weight: normal;
     white-space: nowrap;
+    border: 1.5px solid var(--sdkblue);
+    border-radius: 4px;
+    padding: 0.1rem 0.45rem;
+    opacity: 0.75;
+    transition: opacity 0.15s, background 0.15s, color 0.15s;
   }
 
   .chapter-pdf-link:hover {
-    color: var(--color-link);
+    opacity: 1;
+    background: var(--sdkblue);
+    color: #fff;
   }
 
   .section {
