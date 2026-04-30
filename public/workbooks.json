@@ -1825,8 +1825,7 @@
           "electric_energy",
           "greek-alpha",
           "stats-rms",
-          "si_units",
-          "greek-alpha"
+          "si_units"
         ],
         "covers": [
           {
@@ -5745,10 +5744,6 @@
               {
                 "url": "https://youtu.be/ks1B1_umFk8",
                 "title": "Electric potential at a point in space | Physics | Khan Academy"
-              },
-              {
-                "url": "https://youtu.be/ks1B1_umFk8",
-                "title": "Electric potential at a point in space | Physics | Khan Academy"
               }
             ],
             "references": [
@@ -7420,10 +7415,6 @@
                 "title": "Read and Write in Hexadecimal, The Easy Way!"
               },
               {
-                "url": "https://youtu.be/c56x1aj2CPA",
-                "title": "How Do HEX Color Codes Work? (in 60 seconds)"
-              },
-              {
                 "url": "https://www.youtube.com/watch?v=6cJd7eyYBFs",
                 "title": "HEX CODE for Dummies (The Non-Technical Guide) (Base-16)"
               }
@@ -8999,10 +8990,6 @@
                 "title": "Related rates: balloon | Applications of derivatives | AP Calculus AB | Khan Academy"
               },
               {
-                "url": "https://youtu.be/Xe6YlrCgkIo",
-                "title": "Related rates: water pouring into a cone | AP Calculus AB | Khan Academy"
-              },
-              {
                 "url": "https://youtu.be/cPOjnyjii-4",
                 "title": "Related rates: shadow | Applications of derivatives | AP Calculus AB | Khan Academy"
               },
@@ -9061,10 +9048,6 @@
               {
                 "url": "https://youtu.be/UID893EosM8",
                 "title": "Local Extrema, Critical Points, & Saddle Points of Multivariable Functions - Calculus 3"
-              },
-              {
-                "url": "https://youtu.be/TrcCbdWwCBc",
-                "title": "Multivariable functions | Multivariable calculus | Khan Academy"
               },
               {
                 "url": "https://youtu.be/iBgOoaeLUcM",
@@ -9130,10 +9113,6 @@
               {
                 "url": "https://youtu.be/ly4S0oi3Yz8",
                 "title": "But what is a partial differential equation?  | DE2"
-              },
-              {
-                "url": "https://youtu.be/JAf_aSIJryg",
-                "title": "Partial Derivatives - Multivariable Calculus"
               },
               {
                 "url": "https://youtu.be/EkZGBdY0vlg",
@@ -9621,14 +9600,6 @@
               }
             ],
             "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Linear_subspace",
-                "title": "Linear subspace - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Linear_subspace",
-                "title": "Linear subspace - Wikipedia"
-              },
               {
                 "url": "https://en.wikipedia.org/wiki/Linear_subspace",
                 "title": "Linear subspace - Wikipedia"
@@ -12321,10 +12292,6 @@
               {
                 "url": "https://www.youtube.com/watch?v=4K8-PAX0VYQ",
                 "title": "Solving 8 Differential Equations using 8 methods"
-              },
-              {
-                "url": "https://youtu.be/C7nuJcJriWM",
-                "title": "Separable First Order Differential Equations - Basic Introduction"
               },
               {
                 "url": "https://youtu.be/DL-ozRGDlkY",

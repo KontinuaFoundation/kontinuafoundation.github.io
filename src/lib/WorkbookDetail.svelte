@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Workbook, TopicMeta } from './types';
+  import type { Workbook, TopicMeta, VideoRef } from './types';
 
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
@@ -11,6 +11,19 @@
     } catch {
       return '';
     }
+  }
+
+  function dedupByUrl(arr: VideoRef[]): VideoRef[] {
+    const seen = new Set<string>();
+    return arr.filter(item => {
+      if (seen.has(item.url)) return false;
+      seen.add(item.url);
+      return true;
+    });
+  }
+
+  function dedupStrings(arr: string[]): string[] {
+    return [...new Set(arr)];
   }
 </script>
 
@@ -53,13 +66,13 @@
               <p class="topic-desc">{topic.desc || topic.id}</p>
               {#if topic.videos.length > 0 || topic.references.length > 0}
                 <ul class="link-list">
-                  {#each topic.videos as v (v.url)}
+                  {#each dedupByUrl(topic.videos) as v (v.url)}
                     <li>
                       <img src={favicon(v.url)} alt="" class="favicon" />
                       <a href={v.url} target="_blank" rel="noopener">{v.title}</a>
                     </li>
                   {/each}
-                  {#each topic.references as r (r.url)}
+                  {#each dedupByUrl(topic.references) as r (r.url)}
                     <li>
                       <img src={favicon(r.url)} alt="" class="favicon" />
                       <a href={r.url} target="_blank" rel="noopener">{r.title}</a>
@@ -76,7 +89,7 @@
         <div class="section prereqs">
           <h3>Prerequisites</h3>
           <ul class="prereq-list">
-            {#each chapter.requires as topicId (topicId)}
+            {#each dedupStrings(chapter.requires) as topicId (topicId)}
               {#if topicIndex[topicId]}
                 {@const meta = topicIndex[topicId]}
                 <li>
