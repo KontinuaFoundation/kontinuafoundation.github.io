@@ -4,6 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/color_spiral.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <script>
+      (() => {
+        const key = 'kontinua-theme';
+        const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        let theme = preferredTheme;
+
+        try {
+          const stored = window.localStorage.getItem(key);
+          if (stored === 'dark' || stored === 'light') {
+            theme = stored;
+          }
+        } catch (error) {
+          console.warn('Unable to read saved theme preference.', error);
+        }
+
+        document.documentElement.dataset.theme = theme;
+        const themeMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeMeta) {
+          themeMeta.content = theme === 'dark' ? '#0e1220' : '#ffffff';
+        }
+      })();
+    </script>
     <title>kontinuafoundation.github.io</title>
   </head>
   <body>

@@ -1,12 +1,20 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import MoonStar from 'lucide-svelte/icons/moon-star';
+  import Sun from 'lucide-svelte/icons/sun';
   import Graph from './lib/Graph.svelte';
   import WorkbookDetail from './lib/WorkbookDetail.svelte';
   import type { Workbook, TopicMeta } from './lib/types';
 
+  type ThemeMode = 'light' | 'dark';
+  const THEME_STORAGE_KEY = 'kontinua-theme';
+  const THEME_META_SELECTOR = 'meta[name="theme-color"]';
+
   let workbooks: Workbook[] = [];
   let currentWorkbookNum: string | null = null;
   let anchor: string | null = null;
+  let theme: ThemeMode = 'light';
+  let followsSystemTheme = true;
 
   $: currentWorkbook = workbooks.find((wb) => wb.num === currentWorkbookNum) ?? null;
 
@@ -54,14 +62,83 @@
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  onMount(async () => {
-    const res = await fetch('./workbooks.json');
-    workbooks = await res.json();
-    parseHash();
-    window.addEventListener('hashchange', () => {
+  function updateBrowserThemeColor(nextTheme: ThemeMode) {
+    const meta = document.querySelector<HTMLMetaElement>(THEME_META_SELECTOR);
+    if (meta) meta.content = nextTheme === 'dark' ? '#0e1220' : '#ffffff';
+  }
+
+  function applyTheme(nextTheme: ThemeMode) {
+    theme = nextTheme;
+    document.documentElement.dataset.theme = nextTheme;
+    updateBrowserThemeColor(nextTheme);
+  }
+
+  function readStoredTheme(): ThemeMode | null {
+    try {
+      const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+      return stored === 'dark' || stored === 'light' ? stored : null;
+    } catch (error) {
+      console.warn('Unable to read saved theme preference.', error);
+      return null;
+    }
+  }
+
+  function persistTheme(nextTheme: ThemeMode) {
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+    } catch (error) {
+      console.warn('Unable to store theme preference.', error);
+    }
+  }
+
+  function applySystemTheme(prefersDark?: boolean) {
+    const shouldUseDark = prefersDark ?? window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(shouldUseDark ? 'dark' : 'light');
+  }
+
+  function toggleTheme() {
+    followsSystemTheme = false;
+    const nextTheme: ThemeMode = theme === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme);
+    persistTheme(nextTheme);
+  }
+
+  onMount(() => {
+    const storedTheme = readStoredTheme();
+    followsSystemTheme = storedTheme === null;
+    if (storedTheme) {
+      applyTheme(storedTheme);
+    } else {
+      applySystemTheme();
+    }
+
+    const systemThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    const onSystemThemeChange = (event: MediaQueryListEvent) => {
+      if (followsSystemTheme) {
+        applySystemTheme(event.matches);
+      }
+    };
+    systemThemeMediaQuery.addEventListener('change', onSystemThemeChange);
+
+    const onHashChange = () => {
       parseHash();
       window.scrollTo(0, 0);
+    };
+    window.addEventListener('hashchange', onHashChange);
+
+    const loadWorkbooks = async () => {
+      const res = await fetch('./workbooks.json');
+      workbooks = await res.json();
+      parseHash();
+    };
+    void loadWorkbooks().catch((error) => {
+      console.error('Failed to load workbook data:', error);
     });
+
+    return () => {
+      window.removeEventListener('hashchange', onHashChange);
+      systemThemeMediaQuery.removeEventListener('change', onSystemThemeChange);
+    };
   });
 
   $: if (currentWorkbook && anchor) {
@@ -77,11 +154,27 @@
       <p>Open curriculum for science and mathematics</p>
     </div>
   </a>
-  {#if currentWorkbook}
-    <nav class="breadcrumb">
-      <a href="#/">← All Workbooks</a>
-    </nav>
-  {/if}
+  <div class="header-actions">
+    {#if currentWorkbook}
+      <nav class="breadcrumb">
+        <a href="#/">← All Workbooks</a>
+      </nav>
+    {/if}
+    <button
+      type="button"
+      class="theme-toggle"
+      aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+      title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+      aria-pressed={theme === 'dark'}
+      on:click={toggleTheme}
+    >
+      {#if theme === 'dark'}
+        <Sun />
+      {:else}
+        <MoonStar />
+      {/if}
+    </button>
+  </div>
 </header>
 
 <main>
@@ -153,15 +246,65 @@
     font-size: 0.9rem;
   }
 
+  .header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    flex-wrap: nowrap;
+  }
+
+  .breadcrumb {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
   .breadcrumb a {
     font-size: 0.9rem;
     color: var(--color-text-secondary);
     text-decoration: none;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
   }
 
   .breadcrumb a:hover {
     color: var(--color-link);
+  }
+
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: 50%;
+    background: var(--color-bg);
+    color: var(--color-text);
+    box-shadow: 0 10px 24px -20px var(--color-link);
+    transition: none;
+  }
+
+  .theme-toggle:hover {
+    border-color: var(--color-bg-secondary);
+    box-shadow: 0 10px 24px -20px var(--color-link);
+  }
+
+  .theme-toggle:focus-visible {
+    outline: 3px solid var(--color-link);
+    outline-offset: 2px;
+  }
+
+  .theme-toggle :global(svg) {
+    width: 1.1rem;
+    height: 1.1rem;
+    flex-shrink: 0;
+    transition: none;
   }
 
   .graph-section,
@@ -237,5 +380,18 @@
 
   .workbook-card h3 a:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 700px) {
+    .site-header {
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 1.2rem 1.2rem 1rem;
+    }
+
+    .header-actions {
+      width: 100%;
+      justify-content: space-between;
+    }
   }
 </style>
