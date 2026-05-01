@@ -80,7 +80,7 @@
                         graph!.addNode(key, {
                             label: key.replaceAll("_", " "),
                             workbook: value.workbook,
-                            url: `/Workbook-${value.workbook}.html#${key}`,
+                            url: `/workbook/${value.workbook}/topic/${key}`,
                             x: (Math.random() - 0.5) * 300,
                             y: (Math.random() - 0.5) * 200,
                             size: 6,
