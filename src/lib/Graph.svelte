@@ -1,282 +1,288 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import Sigma from 'sigma';
-  import { DirectedGraph } from 'graphology';
+    import { onMount, onDestroy } from "svelte";
+    import Sigma from "sigma";
+    import { DirectedGraph } from "graphology";
+    import type { EdgeDisplayData, NodeDisplayData } from "sigma/types";
+    import FA2Layout from "graphology-layout-forceatlas2/worker";
+    import forceAtlas2 from "graphology-layout-forceatlas2";
 
-  type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
-  type ThemeColors = {
-    topicNode: string;
-    foundationNode: string;
-    edge: string;
-    label: string;
-  };
-  type HoverNodeData = {
-    x: number;
-    y: number;
-    size: number;
-    label?: string | null;
-    hoverable?: boolean;
-  };
+    type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
 
-  let container: HTMLDivElement;
-  let renderer: Sigma | null = null;
-  let graph: DirectedGraph | null = null;
-  let active = false;
+    let container: HTMLDivElement;
+    let wrapper: HTMLDivElement;
+    let renderer: Sigma | null = null;
+    let graph: DirectedGraph | null = null;
+    let active = false;
+    let layout: ForceSupervisor | null = null;
 
-  function activate() {
-    active = true;
-  }
-
-  function deactivate() {
-    active = false;
-  }
-
-  function cssVar(name: string, fallback: string): string {
-    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
-  }
-
-  function getThemeColors(): ThemeColors {
-    return {
-      topicNode: cssVar('--graph-node-topic', '#3498db'),
-      foundationNode: cssVar('--graph-node-foundation', '#2ecc71'),
-      edge: cssVar('--graph-edge', '#d0d0d0'),
-      label: cssVar('--graph-label', '#0f172a'),
-    };
-  }
-
-  function drawGraphNodeHover(
-    context: CanvasRenderingContext2D,
-    data: HoverNodeData,
-    settings: { labelSize: number; labelFont: string; labelWeight: string | number },
-  ) {
-    if (data.hoverable === false) return;
-
-    const hoverBg = cssVar('--color-bg', '#ffffff');
-    const hoverText = cssVar('--sdkblue', '#005FC6');
-    const size = settings.labelSize;
-    const font = settings.labelFont;
-    const weight = settings.labelWeight;
-    const padding = 2;
-
-    context.font = `${weight} ${size}px ${font}`;
-    context.fillStyle = hoverBg;
-    context.shadowOffsetX = 0;
-    context.shadowOffsetY = 0;
-    context.shadowBlur = 8;
-    context.shadowColor = '#000';
-
-    if (typeof data.label === 'string') {
-      const textWidth = context.measureText(data.label).width;
-      const boxWidth = Math.round(textWidth + 5);
-      const boxHeight = Math.round(size + 2 * padding);
-      const radius = Math.max(data.size, size / 2) + padding;
-      const angleRadian = Math.asin(boxHeight / 2 / radius);
-      const xDeltaCoord = Math.sqrt(Math.abs(radius ** 2 - (boxHeight / 2) ** 2));
-
-      context.beginPath();
-      context.moveTo(data.x + xDeltaCoord, data.y + boxHeight / 2);
-      context.lineTo(data.x + radius + boxWidth, data.y + boxHeight / 2);
-      context.lineTo(data.x + radius + boxWidth, data.y - boxHeight / 2);
-      context.lineTo(data.x + xDeltaCoord, data.y - boxHeight / 2);
-      context.arc(data.x, data.y, radius, angleRadian, -angleRadian);
-      context.closePath();
-      context.fill();
-    } else {
-      context.beginPath();
-      context.arc(data.x, data.y, data.size + padding, 0, Math.PI * 2);
-      context.closePath();
-      context.fill();
+    // https://www.sigmajs.org/storybook/?path=/story/use-reducers--story
+    interface State {
+        hoveredNode?: string;
+        searchQuery: string;
+        selectedNode?: string;
+        suggestions?: Set<string>;
+        hoveredNeighbors?: Set<string>;
     }
 
-    context.shadowOffsetX = 0;
-    context.shadowOffsetY = 0;
-    context.shadowBlur = 0;
+    const state: State = { searchQuery: "" };
+    // https://www.sigmajs.org/storybook/?path=/story/use-reducers--story
+    function setHoveredNode(node?: string) {
+        if (!graph || !renderer) return;
 
-    if (typeof data.label === 'string') {
-      context.fillStyle = hoverText;
-      context.fillText(data.label, data.x + data.size + 3, data.y + size / 3);
-    }
-  }
+        if (node) {
+            state.hoveredNode = node;
+            state.hoveredNeighbors = new Set(graph.neighbors(node));
+        } else {
+            state.hoveredNode = undefined;
+            state.hoveredNeighbors = undefined;
+        }
 
-  function applyGraphTheme() {
-    if (!graph || !renderer) return;
-
-    const colors = getThemeColors();
-    graph.forEachNode((node, attributes) => {
-      if (node.startsWith('workbook-')) return;
-      const hasPrerequisites = Boolean(attributes.hasPrerequisites);
-      graph!.setNodeAttribute(node, 'color', hasPrerequisites ? colors.topicNode : colors.foundationNode);
-    });
-
-    graph.forEachEdge((edge) => {
-      graph!.setEdgeAttribute(edge, 'color', colors.edge);
-    });
-
-    renderer.setSetting('labelColor', { attribute: 'default', color: colors.label });
-    renderer.refresh();
-  }
-
-  onMount(() => {
-    const onThemeChange = () => applyGraphTheme();
-    const themeObserver = new MutationObserver(onThemeChange);
-    themeObserver.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['data-theme'],
-    });
-
-    const systemThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    systemThemeMediaQuery.addEventListener('change', onThemeChange);
-
-    fetch('/graph.json')
-      .then((res) => res.json())
-      .then((graphData: GraphData) => {
-        graph = new DirectedGraph();
-        const colors = getThemeColors();
-
-        const X_SPACING = 180;
-        const Y_SPACING = 240;
-        const byWorkbook = new Map<number, Array<[string, GraphData[string]]>>();
-
-        Object.entries(graphData).forEach(([key, value]) => {
-          if (!byWorkbook.has(value.workbook)) {
-            byWorkbook.set(value.workbook, []);
-          }
-          byWorkbook.get(value.workbook)!.push([key, value]);
+        renderer.refresh({
+            skipIndexation: true,
         });
+    }
 
-        for (const [workbook, chapters] of byWorkbook) {
-          const mid = (chapters.length - 1) / 2;
+    function activate() {
+        active = true;
+    }
 
-          chapters.forEach(([key, value], index) => {
-            graph!.addNode(key, {
-              label: key.replaceAll('_', ' '),
-              workbook: value.workbook,
-              hasPrerequisites: value.prereqs.length > 0,
-              hoverable: true,
-              url: `#workbook/${String(value.workbook).padStart(2, '0')}/topic/${key}`,
-              x: (workbook - 1) * X_SPACING,
-              y: (index - mid) * -Y_SPACING,
-              size: 5,
-              color: value.prereqs.length === 0 ? colors.foundationNode : colors.topicNode,
+    function deactivate() {
+        active = false;
+    }
+
+    onMount(() => {
+        fetch("/graph.json")
+            .then((res) => res.json())
+            .then((graphData: GraphData) => {
+                graph = new DirectedGraph();
+
+                const X_SPACING = 180;
+                const Y_SPACING = 240;
+
+                const byWorkbook = new Map<
+                    number,
+                    Array<[string, GraphData[string]]>
+                >();
+
+                Object.entries(graphData).forEach(([key, value]) => {
+                    if (!byWorkbook.has(value.workbook)) {
+                        byWorkbook.set(value.workbook, []);
+                    }
+                    byWorkbook.get(value.workbook)!.push([key, value]);
+                });
+
+                for (const [workbook, chapters] of byWorkbook) {
+                    const chaps = chapters.length;
+
+                    // const mid = (chaps - 1) / 2;
+
+                    chapters.forEach(([key, value], index) => {
+                        graph!.addNode(key, {
+                            label: key.replaceAll("_", " "),
+                            workbook: value.workbook,
+                            url: `/Workbook-${value.workbook}.html#${key}`,
+                            x: (Math.random() - 0.5) * 300,
+                            y: (Math.random() - 0.5) * 200,
+                            size: 6,
+                            color:
+                                value.prereqs.length === 0
+                                    ? "#2ecc71"
+                                    : "#3498db",
+                        });
+                    });
+                }
+
+                Object.entries(graphData).forEach(([key, value]) => {
+                    value.prereqs.forEach((prereq) => {
+                        const prereqNode = graphData[prereq];
+                        if (!prereqNode) return;
+
+                        if (prereqNode.workbook !== value.workbook) {
+                            graph!.addEdge(prereq, key, {
+                                color: "#d0d0d0",
+                                size: 0.1,
+                            });
+                        }
+                    });
+                });
+
+                const maxY = Math.max(
+                    ...graph
+                        .nodes()
+                        .map((n) => graph!.getNodeAttribute(n, "y") as number),
+                );
+
+                // // WORKBOOK NUMBER ICON NODES
+                // const sdkBlue = getComputedStyle(document.documentElement)
+                //     .getPropertyValue("--sdkblue")
+                //     .trim();
+
+                // const WORKBOOK_ICON_Y = maxY + 120;
+
+                // for (const [workbook] of byWorkbook) {
+                //     graph.addNode(`workbook-${workbook}`, {
+                //         label: `${String(workbook).padStart(2, "0")}`,
+                //         url: `#workbook/${String(workbook).padStart(2, "0")}`,
+
+                //         x: (workbook - 1) * X_SPACING,
+                //         y: WORKBOOK_ICON_Y,
+                //         size: 10,
+                //         color: "rgba(0,0,0,0)",
+                //         kind: "workbook",
+                //     });
+                // }
+
+                // renderer.setSetting("labelColor", {
+                //     color: sdkBlue,
+                // });
+
+                renderer = new Sigma(graph, container, {
+                    labelFont: "Inter, system-ui, sans-serif",
+                    labelSize: 12,
+                    labelWeight: "500",
+                });
+                
+                const sensibleSettings = forceAtlas2.inferSettings(graph);
+
+                layout = new FA2Layout(graph, {
+                    settings: {
+                        ...sensibleSettings,
+                        gravity: 1.5,
+                        scalingRatio: 8,
+                        strongGravityMode: true,
+                        slowDown: 2,
+                    },
+                });
+
+                layout.start();
+                // this is what hides other nodes and edges
+                renderer.setSetting("nodeReducer", (node, data) => {
+                    const res: Partial<NodeDisplayData> = { ...data };
+
+                    const kind = graph!.getNodeAttribute(node, "kind");
+
+                    // Keep workbook labels always visible and unaffected:
+                    if (graph!.getNodeAttribute(node, "kind") === "workbook") {
+                        res.color = "rgba(0,0,0,0)"; // no circle
+                        res.forceLabel = true; // always show label
+                    }
+
+                    if (
+                        state.hoveredNeighbors &&
+                        !state.hoveredNeighbors.has(node) &&
+                        state.hoveredNode !== node
+                    ) {
+                        res.hidden = true;
+                    }
+
+                    return res;
+                });
+
+                renderer.setSetting("edgeReducer", (edge, data) => {
+                    const res: Partial<EdgeDisplayData> = { ...data };
+
+                    if (
+                        state.hoveredNode &&
+                        !graph!
+                            .extremities(edge)
+                            .every(
+                                (n) =>
+                                    n === state.hoveredNode ||
+                                    graph!.areNeighbors(n, state.hoveredNode!),
+                            )
+                    ) {
+                        res.hidden = true;
+                    }
+
+                    return res;
+                });
+
+                renderer.on("enterNode", ({ node }) => {
+                    if (graph!.getNodeAttribute(node, "kind") === "workbook")
+                        return;
+                    setHoveredNode(node);
+                });
+
+                renderer.on("leaveNode", () => {
+                    setHoveredNode(undefined);
+                });
+
+                renderer.on("clickNode", ({ node }) => {
+                    const url = graph!.getNodeAttribute(node, "url") as
+                        | string
+                        | undefined;
+                    if (url) window.location.hash = url.slice(1);
+                });
+            })
+
+            .catch((err) => {
+                console.error("Failed to load graph.json:", err);
             });
-          });
-        }
+    });
 
-        Object.entries(graphData).forEach(([key, value]) => {
-          value.prereqs.forEach((prereq) => {
-            const prereqNode = graphData[prereq];
-            if (!prereqNode) return;
-
-            if (prereqNode.workbook !== value.workbook) {
-              graph!.addEdge(prereq, key, {
-                color: colors.edge,
-                size: 0.25,
-              });
-            }
-          });
-        });
-
-        const maxY = Math.max(...graph.nodes().map((node) => graph!.getNodeAttribute(node, 'y')));
-        const workbookLabelY = maxY + 120;
-
-        for (const [workbook] of byWorkbook) {
-          graph.addNode(`workbook-${workbook}`, {
-            label: `${String(workbook).padStart(2, '0')}`,
-            hoverable: false,
-            x: (workbook - 1) * X_SPACING - 120,
-            y: workbookLabelY,
-            size: 10,
-            color: 'rgba(0,0,0,0)',
-          });
-        }
-
-        renderer = new Sigma(graph, container, {
-          labelFont: 'Inter, system-ui, sans-serif',
-          labelSize: 12,
-          labelWeight: '500',
-          labelColor: { attribute: 'default', color: colors.label },
-          defaultDrawNodeHover: drawGraphNodeHover,
-        });
-
-        renderer.on('clickNode', ({ node }) => {
-          const url = graph!.getNodeAttribute(node, 'url') as string;
-          if (url) window.location.hash = url.slice(1);
-        });
-
-        applyGraphTheme();
-      })
-      .catch((error) => {
-        console.error('Failed to load graph.json:', error);
-      });
-
-    return () => {
-      themeObserver.disconnect();
-      systemThemeMediaQuery.removeEventListener('change', onThemeChange);
-      renderer?.kill();
-      renderer = null;
-      graph = null;
-    };
-  });
+    onDestroy(() => {
+        layout?.kill();
+        renderer?.kill();
+    });
 </script>
 
-<div class="graph-wrapper" on:mouseleave={deactivate} role="application" aria-label="Topic dependency graph">
-  <div bind:this={container} class="graph-canvas"></div>
-  {#if !active}
-    <div
-      class="graph-overlay"
-      on:click={activate}
-      role="button"
-      tabindex="0"
-      on:keydown={(event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          activate();
-        }
-      }}
-    >
-      <span>Click to interact</span>
-    </div>
-  {/if}
+<div
+    class="graph-wrapper"
+    bind:this={wrapper}
+    on:mouseleave={deactivate}
+    role="application"
+    aria-label="Topic dependency graph"
+>
+    <div bind:this={container} class="graph-canvas"></div>
+    {#if !active}
+        <div
+            class="graph-overlay"
+            on:click={activate}
+            role="button"
+            tabindex="0"
+            on:keydown={(e) => e.key === "Enter" && activate()}
+        >
+            <span>Click to interact</span>
+        </div>
+    {/if}
 </div>
 
 <style>
-  .graph-wrapper {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    border: 1px solid var(--color-bg-secondary);
-    border-radius: var(--border-radius);
-    background: var(--color-bg);
-    overflow: hidden;
-  }
+    .graph-wrapper {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        border: 1px solid var(--color-bg-secondary);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+    }
 
-  .graph-canvas {
-    width: 100%;
-    height: 100%;
-  }
+    .graph-canvas {
+        width: 100%;
+        height: 100%;
+    }
 
-  .graph-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--graph-overlay);
-    cursor: pointer;
-    transition: background 0.15s ease;
-  }
+    .graph-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.15);
+        cursor: pointer;
+        transition: background 0.15s;
+    }
 
-  .graph-overlay:hover {
-    background: var(--graph-overlay-hover);
-  }
+    .graph-overlay:hover {
+        background: rgba(255, 255, 255, 0.05);
+    }
 
-  .graph-overlay span {
-    background: var(--graph-overlay-badge-bg);
-    color: var(--graph-overlay-badge-text);
-    font-size: 0.85rem;
-    padding: 0.45rem 0.9rem;
-    border-radius: 999px;
-    border: 1px solid var(--color-bg-secondary);
-    pointer-events: none;
-  }
+    .graph-overlay span {
+        background: rgba(0, 0, 0, 0.55);
+        color: #fff;
+        font-size: 0.85rem;
+        padding: 0.4rem 0.9rem;
+        border-radius: 999px;
+        pointer-events: none;
+    }
 </style>

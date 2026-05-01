@@ -1,5 +1,6 @@
 /* Based on MVP.css v1.12 - https://github.com/andybrewer/mvp */
 
+/* light mode settings */
 :root {
     --active-brightness: 0.85;
     --border-radius: 5px;
@@ -36,6 +37,7 @@
     color-scheme: light;
 }
 
+/* dark mode settings */
 :root[data-theme='dark'] {
     --color-accent: #7cb8ff1f;
     --color-bg: #0e1220;
