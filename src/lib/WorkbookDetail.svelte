@@ -1,21 +1,24 @@
 <script lang="ts">
-  import type { Workbook, TopicMeta, VideoRef } from './types';
+  import Graph from "./Graph.svelte";
+  import type { Workbook, TopicMeta, VideoRef } from "./types";
 
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
+
+  let activeGraphChapter: string | null = null;
 
   function favicon(url: string): string {
     try {
       const { hostname } = new URL(url);
       return `https://www.google.com/s2/favicons?domain=${hostname}&sz=64`;
     } catch {
-      return '';
+      return "";
     }
   }
 
   function dedupByUrl(arr: VideoRef[]): VideoRef[] {
     const seen = new Set<string>();
-    return arr.filter(item => {
+    return arr.filter((item) => {
       if (seen.has(item.url)) return false;
       seen.add(item.url);
       return true;
@@ -41,7 +44,12 @@
     <div class="chapter-card" id={chapter.id}>
       <div class="chapter-header">
         <h2>Chapter {chapter.chap_num}: {chapter.title}</h2>
-        <a href="{chapter.id}.pdf" target="_blank" rel="noopener" class="chapter-pdf-link">PDF</a>
+        <a
+          href={`${chapter.id}.pdf`}
+          target="_blank"
+          rel="noopener"
+          class="chapter-pdf-link">PDF</a
+        >
       </div>
 
       {#if chapter.files.length > 0}
@@ -51,7 +59,9 @@
             {#each chapter.files as file (file.path)}
               <li>
                 <img src={favicon(file.link)} alt="" class="favicon" />
-                <a href={file.link} target="_blank" rel="noopener">{file.desc}</a>
+                <a href={file.link} target="_blank" rel="noopener"
+                  >{file.desc}</a
+                >
               </li>
             {/each}
           </ul>
@@ -69,13 +79,17 @@
                   {#each dedupByUrl(topic.videos) as v (v.url)}
                     <li>
                       <img src={favicon(v.url)} alt="" class="favicon" />
-                      <a href={v.url} target="_blank" rel="noopener">{v.title}</a>
+                      <a href={v.url} target="_blank" rel="noopener"
+                        >{v.title}</a
+                      >
                     </li>
                   {/each}
                   {#each dedupByUrl(topic.references) as r (r.url)}
                     <li>
                       <img src={favicon(r.url)} alt="" class="favicon" />
-                      <a href={r.url} target="_blank" rel="noopener">{r.title}</a>
+                      <a href={r.url} target="_blank" rel="noopener"
+                        >{r.title}</a
+                      >
                     </li>
                   {/each}
                 </ul>
@@ -93,7 +107,9 @@
               {#if topicIndex[topicId]}
                 {@const meta = topicIndex[topicId]}
                 <li>
-                  <a href="#workbook/{meta.workbookNum}/topic/{topicId}">{meta.desc}</a>
+                  <a href="#workbook/{meta.workbookNum}/topic/{topicId}"
+                    >{meta.desc}</a
+                  >
                   <span class="prereq-source">
                     — Ch. {meta.chapterNum}: "{meta.chapterTitle}", Workbook {meta.workbookNum}
                   </span>
@@ -105,6 +121,18 @@
           </ul>
         </div>
       {/if}
+      <div class="chapter-graph">
+        <h3>Chapter Graph</h3>
+
+        {#if activeGraphChapter === chapter.id}
+          <Graph originChapter={chapter.id} maxDepth={1} />
+          <!-- maxDepth could be changed to 2 for greater prerequisite visualization -->
+        {:else}
+          <button on:click={() => (activeGraphChapter = chapter.id)}>
+            Load graph
+          </button>
+        {/if}
+      </div>
     </div>
   {/each}
 </div>
@@ -177,7 +205,10 @@
     border-radius: 4px;
     padding: 0.1rem 0.45rem;
     opacity: 0.75;
-    transition: opacity 0.15s, background 0.15s, color 0.15s;
+    transition:
+      opacity 0.15s,
+      background 0.15s,
+      color 0.15s;
   }
 
   .chapter-pdf-link:hover {
@@ -278,5 +309,19 @@
   .missing {
     color: var(--color-text-secondary);
     font-size: 0.85rem;
+  }
+
+  .chapter-graph {
+    border-top: 1px solid var(--color-bg-secondary);
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+  }
+  .chapter-graph h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    margin: 0 0 0.4rem;
+    text-indent: 0;
   }
 </style>

@@ -5,15 +5,17 @@
     import type { EdgeDisplayData, NodeDisplayData } from "sigma/types";
     import FA2Layout from "graphology-layout-forceatlas2/worker";
     import forceAtlas2 from "graphology-layout-forceatlas2";
+    import { get } from "svelte/store";
 
     type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
-
+    export let originChapter: string | null = null;
+    export let maxDepth = 1;
     let container: HTMLDivElement;
     let wrapper: HTMLDivElement;
     let renderer: Sigma | null = null;
     let graph: DirectedGraph | null = null;
     let active = false;
-    let layout: ForceSupervisor | null = null;
+    let layout: FA2Layout | null = null;
 
     // https://www.sigmajs.org/storybook/?path=/story/use-reducers--story
     interface State {
@@ -46,6 +48,46 @@
             .getPropertyValue(name)
             .trim();
     }
+    function createSubgraph(
+        graphData: GraphData,
+        root: string | null,
+        maxDepth: number,
+    ): GraphData {
+        if (!root) return graphData;
+        if (!graphData[root]) return graphData;
+
+        const allowed = new Set<string>();
+        const queue: Array<{ key: string; depth: number }> = [
+            { key: root, depth: 0 },
+        ];
+
+        while (queue.length) {
+            const { key, depth } = queue.shift()!;
+            if (allowed.has(key)) continue;
+            if (!graphData[key]) continue;
+
+            allowed.add(key);
+
+            if (depth < maxDepth) {
+                for (const prereq of graphData[key].prereqs) {
+                    if (graphData[prereq] && !allowed.has(prereq)) {
+                        queue.push({ key: prereq, depth: depth + 1 });
+                    }
+                }
+            }
+        }
+
+        const filtered: GraphData = {};
+
+        for (const key of allowed) {
+            filtered[key] = {
+                ...graphData[key],
+                prereqs: graphData[key].prereqs.filter((p) => allowed.has(p)),
+            };
+        }
+
+        return filtered;
+    }
     function activate() {
         active = true;
     }
@@ -57,11 +99,14 @@
     onMount(() => {
         fetch("/graph.json")
             .then((res) => res.json())
-            .then((graphData: GraphData) => {
-                graph = new DirectedGraph();
+            .then((rawGraphData: GraphData) => {
+                const graphData = createSubgraph(
+                    rawGraphData,
+                    originChapter,
+                    maxDepth,
+                );
 
-                const X_SPACING = 180;
-                const Y_SPACING = 240;
+                graph = new DirectedGraph();
 
                 const byWorkbook = new Map<
                     number,
@@ -98,23 +143,21 @@
 
                 Object.entries(graphData).forEach(([key, value]) => {
                     value.prereqs.forEach((prereq) => {
-                        const prereqNode = graphData[prereq];
-                        if (!prereqNode) return;
+                        if (!graphData[prereq]) return;
+                        if (graph!.hasEdge(prereq, key)) return;
 
-                        if (prereqNode.workbook !== value.workbook) {
-                            graph!.addEdge(prereq, key, {
-                                color: "#d0d0d0",
-                                size: 0.1,
-                            });
-                        }
+                        graph!.addEdge(prereq, key, {
+                            color: getCSSVar("--graph-edge"),
+                            size: 1.5,
+                        });
                     });
                 });
 
-                const maxY = Math.max(
-                    ...graph
-                        .nodes()
-                        .map((n) => graph!.getNodeAttribute(n, "y") as number),
-                );
+                // const maxY = Math.max(
+                //     ...graph
+                //         .nodes()
+                //         .map((n) => graph!.getNodeAttribute(n, "y") as number),
+                // );
 
                 // // WORKBOOK NUMBER ICON NODES
                 // const sdkBlue = getComputedStyle(document.documentElement)
@@ -159,6 +202,11 @@
                 });
 
                 layout.start();
+                setTimeout(() => {
+                    layout?.stop();
+                    renderer?.refresh();
+                }, 500);
+                
                 // this is what hides other nodes and edges
                 renderer.setSetting("nodeReducer", (node, data) => {
                     const res: Partial<NodeDisplayData> = { ...data };
