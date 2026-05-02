@@ -125,8 +125,8 @@
         <h3>Chapter Graph</h3>
 
         {#if activeGraphChapter === chapter.id}
-          <Graph originChapter={chapter.id} maxDepth={1} />
-          <!-- maxDepth could be changed to 2 for greater prerequisite visualization -->
+          <Graph originChapter={chapter.id} maxDepth={2} scalingRatio={100} heightPx={200} />
+          <!-- maxDepth could be changed to 1 for simpler prerequisite visualization -->
         {:else}
           <button on:click={() => (activeGraphChapter = chapter.id)}>
             Load graph

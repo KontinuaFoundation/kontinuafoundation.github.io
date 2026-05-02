@@ -8,8 +8,11 @@
     import { get } from "svelte/store";
 
     type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
+    // props
     export let originChapter: string | null = null;
     export let maxDepth = 1;
+    export let scalingRatio = 8; // default of 8
+    export let heightPx = 500; // default height
     let container: HTMLDivElement;
     let wrapper: HTMLDivElement;
     let renderer: Sigma | null = null;
@@ -195,7 +198,7 @@
                     settings: {
                         ...sensibleSettings,
                         gravity: 1.5,
-                        scalingRatio: 8,
+                        scalingRatio: scalingRatio,
                         strongGravityMode: true,
                         slowDown: 2,
                     },
@@ -206,7 +209,7 @@
                     layout?.stop();
                     renderer?.refresh();
                 }, 500);
-                
+
                 // this is what hides other nodes and edges
                 renderer.setSetting("nodeReducer", (node, data) => {
                     const res: Partial<NodeDisplayData> = { ...data };
@@ -280,6 +283,7 @@
 
 <div
     class="graph-wrapper"
+    style={`height: ${heightPx}px`}
     bind:this={wrapper}
     on:mouseleave={deactivate}
     role="application"
@@ -303,12 +307,10 @@
     .graph-wrapper {
         position: relative;
         width: 100%;
-        height: 500px;
         border: 1px solid var(--color-bg-secondary);
         border-radius: var(--border-radius);
         overflow: hidden;
     }
-
     .graph-canvas {
         width: 100%;
         height: 100%;
