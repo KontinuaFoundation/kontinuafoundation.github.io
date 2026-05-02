@@ -179,11 +179,11 @@
 
 <main>
   {#if currentWorkbook}
-    <WorkbookDetail workbook={currentWorkbook} {topicIndex} />
+    <WorkbookDetail workbook={currentWorkbook} {topicIndex} {theme} />
   {:else}
     <section class="graph-section">
       <h2>Topic Graph</h2>
-      <Graph />
+      <Graph {theme} />
     </section>
 
     <section class="toc-section">

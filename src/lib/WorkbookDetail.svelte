@@ -4,6 +4,7 @@
 
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
+  export let theme: "light" | "dark" = "light";
 
   let activeGraphChapter: string | null = null;
 
@@ -125,7 +126,7 @@
         <h3>Chapter Graph</h3>
 
         {#if activeGraphChapter === chapter.id}
-          <Graph originChapter={chapter.id} maxDepth={2} scalingRatio={100} heightPx={200} />
+          <Graph {theme} originChapter={chapter.id} maxDepth={2} scalingRatio={100} heightPx={200} />
           <!-- maxDepth could be changed to 1 for simpler prerequisite visualization -->
         {:else}
           <button on:click={() => (activeGraphChapter = chapter.id)}>
