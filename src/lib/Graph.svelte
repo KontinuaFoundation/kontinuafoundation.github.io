@@ -41,7 +41,11 @@
             skipIndexation: true,
         });
     }
-
+    function getCSSVar(name: string) {
+        return getComputedStyle(document.documentElement)
+            .getPropertyValue(name)
+            .trim();
+    }
     function activate() {
         active = true;
     }
@@ -86,8 +90,8 @@
                             size: 6,
                             color:
                                 value.prereqs.length === 0
-                                    ? "#2ecc71"
-                                    : "#3498db",
+                                    ? getCSSVar("--graph-node-foundation")
+                                    : getCSSVar("--graph-node-topic"),
                         });
                     });
                 }
@@ -141,7 +145,7 @@
                     labelSize: 12,
                     labelWeight: "500",
                 });
-                
+
                 const sensibleSettings = forceAtlas2.inferSettings(graph);
 
                 layout = new FA2Layout(graph, {
