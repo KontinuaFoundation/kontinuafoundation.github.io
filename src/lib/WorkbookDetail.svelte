@@ -129,7 +129,7 @@
           <!-- maxDepth could be changed to 1 for simpler prerequisite visualization -->
         {:else}
           <button on:click={() => (activeGraphChapter = chapter.id)}>
-            Load graph
+            Load Chapter Graph
           </button>
         {/if}
       </div>
