@@ -13,6 +13,7 @@
     import forceAtlas2 from "graphology-layout-forceatlas2";
 
     type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
+    type GraphPositions = Record<string, { x: number; y: number }>;
     type ThemeMode = "light" | "dark";
     // props
     export let theme: ThemeMode = "light";
@@ -142,7 +143,10 @@
     }
     function drawThemeNodeHover(
         context: CanvasRenderingContext2D,
-        data: PartialButFor<NodeDisplayData, "x" | "y" | "size" | "label" | "color">,
+        data: PartialButFor<
+            NodeDisplayData,
+            "x" | "y" | "size" | "label" | "color"
+        >,
         settings: Settings,
     ) {
         const size = settings.labelSize;
@@ -150,8 +154,7 @@
         const weight = settings.labelWeight;
         context.font = `${weight} ${size}px ${font}`;
 
-        context.fillStyle =
-            theme === "dark" ? "rgba(8, 12, 20, 0.92)" : "#FFF";
+        context.fillStyle = theme === "dark" ? "rgba(8, 12, 20, 0.92)" : "#FFF";
         context.shadowOffsetX = 0;
         context.shadowOffsetY = 0;
         context.shadowBlur = 8;
@@ -264,9 +267,11 @@
     }
 
     onMount(() => {
-        fetch("/graph.json")
-            .then((res) => res.json())
-            .then((rawGraphData: GraphData) => {
+        Promise.all([
+            fetch("/graph.json").then((res) => res.json()),
+            fetch("/graph-positions.json").then((res) => res.json()), // FIXME graph-positions.json will not be updated 
+        ])
+            .then(([rawGraphData, positions]: [GraphData, GraphPositions]) => {
                 const graphData = createSubgraph(
                     rawGraphData,
                     originChapter,
@@ -284,15 +289,22 @@
                     if (!byWorkbook.has(value.workbook)) {
                         byWorkbook.set(value.workbook, []);
                     }
+
                     byWorkbook.get(value.workbook)!.push([key, value]);
                 });
 
-                for (const [workbook, chapters] of byWorkbook) {
-                    const chaps = chapters.length;
+                for (const [, chapters] of byWorkbook) {
+                    chapters.forEach(([key, value]) => {
+                        const pos = positions[key];
 
-                    // const mid = (chaps - 1) / 2;
+                        if (
+                            typeof pos?.x !== "number" ||
+                            typeof pos?.y !== "number"
+                        ) {
+                            console.warn(`Missing position for node: ${key}`);
+                            return;
+                        }
 
-                    chapters.forEach(([key, value], index) => {
                         graph!.addNode(key, {
                             label: key.replaceAll("_", " "),
                             workbook: value.workbook,
@@ -301,8 +313,8 @@
                                     ? "foundation"
                                     : "topic",
                             url: `/workbook/${value.workbook}/topic/${key}`,
-                            x: (Math.random() - 0.5) * 300,
-                            y: (Math.random() - 0.5) * 200,
+                            x: pos.x,
+                            y: pos.y,
                             size: 6,
                             color:
                                 value.prereqs.length === 0
@@ -313,8 +325,10 @@
                 }
 
                 Object.entries(graphData).forEach(([key, value]) => {
+                    if (!graph!.hasNode(key)) return;
+
                     value.prereqs.forEach((prereq) => {
-                        if (!graphData[prereq]) return;
+                        if (!graph!.hasNode(prereq)) return;
                         if (graph!.hasEdge(prereq, key)) return;
 
                         graph!.addEdge(prereq, key, {
@@ -324,42 +338,13 @@
                     });
                 });
 
-                // const maxY = Math.max(
-                //     ...graph
-                //         .nodes()
-                //         .map((n) => graph!.getNodeAttribute(n, "y") as number),
-                // );
-
-                // // WORKBOOK NUMBER ICON NODES
-                // const sdkBlue = getComputedStyle(document.documentElement)
-                //     .getPropertyValue("--sdkblue")
-                //     .trim();
-
-                // const WORKBOOK_ICON_Y = maxY + 120;
-
-                // for (const [workbook] of byWorkbook) {
-                //     graph.addNode(`workbook-${workbook}`, {
-                //         label: `${String(workbook).padStart(2, "0")}`,
-                //         url: `#workbook/${String(workbook).padStart(2, "0")}`,
-
-                //         x: (workbook - 1) * X_SPACING,
-                //         y: WORKBOOK_ICON_Y,
-                //         size: 10,
-                //         color: "rgba(0,0,0,0)",
-                //         kind: "workbook",
-                //     });
-                // }
-
-                // renderer.setSetting("labelColor", {
-                //     color: sdkBlue,
-                // });
-
                 renderer = new Sigma(graph, container, {
                     labelFont: "Inter, system-ui, sans-serif",
                     labelSize: 12,
                     labelWeight: "500",
                     defaultDrawNodeHover: drawThemeNodeHover,
                 });
+
                 applyThemeColors();
 
                 const sensibleSettings = forceAtlas2.inferSettings(graph);
@@ -368,26 +353,37 @@
                     settings: {
                         ...sensibleSettings,
                         gravity: 1.5,
-                        scalingRatio: scalingRatio,
+                        scalingRatio,
                         strongGravityMode: true,
                         slowDown: 2,
                     },
                 });
 
                 layout.start();
+
                 setTimeout(() => {
                     layout?.stop();
-                    renderer?.refresh();
-                }, 500);
 
-                // this is what hides other nodes and edges
+                    const nextPositions: GraphPositions = {};
+
+                    graph!.forEachNode((node) => {
+                        nextPositions[node] = {
+                            x: graph!.getNodeAttribute(node, "x") as number,
+                            y: graph!.getNodeAttribute(node, "y") as number,
+                        };
+                    });
+
+                    console.log(JSON.stringify(nextPositions, null, 2));
+
+                    renderer?.refresh();
+                }, 2000);
+
                 renderer.setSetting("nodeReducer", (node, data) => {
                     const res: Partial<NodeDisplayData> = { ...data };
 
-                    // Keep workbook labels always visible and unaffected:
                     if (graph!.getNodeAttribute(node, "kind") === "workbook") {
-                        res.color = "rgba(0,0,0,0)"; // no circle
-                        res.forceLabel = true; // always show label
+                        res.color = "rgba(0,0,0,0)";
+                        res.forceLabel = true;
                     }
 
                     if (
@@ -399,8 +395,10 @@
                             0,
                             1 - hoverFocus * HOVER_FADE_RATE,
                         );
+
                         res.color = colorWithAlpha(data.color, alpha);
                         res.hidden = hoverFocus > HIDE_THRESHOLD;
+
                         if (hoverFocus > HIDE_THRESHOLD) res.label = null;
                     }
 
@@ -424,6 +422,7 @@
                             0,
                             1 - hoverFocus * HOVER_FADE_RATE,
                         );
+
                         res.color = colorWithAlpha(data.color, alpha);
                         res.hidden = hoverFocus > HIDE_THRESHOLD;
                     }
@@ -434,6 +433,7 @@
                 renderer.on("enterNode", ({ node }) => {
                     if (graph!.getNodeAttribute(node, "kind") === "workbook")
                         return;
+
                     setHoveredNode(node);
                 });
 
@@ -445,12 +445,12 @@
                     const url = graph!.getNodeAttribute(node, "url") as
                         | string
                         | undefined;
+
                     if (url) window.location.hash = url.slice(1);
                 });
             })
-
             .catch((err) => {
-                console.error("Failed to load graph.json:", err);
+                console.error("Failed to load graph:", err);
             });
     });
 
