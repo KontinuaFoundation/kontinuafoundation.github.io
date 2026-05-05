@@ -6,6 +6,29 @@
     let failed = false;
     let lastUrl = "";
 
+    function getHostname(url: string): string | null {
+        try {
+            const normalized = url.startsWith("http") ? url : `https://${url}`;
+            return new URL(normalized).hostname;
+        } catch {
+            return null;
+        }
+    }
+
+    function getMainIcons(hostname: string | null): string | null {
+        if (!hostname) return null;
+
+        if (hostname.includes("youtube.com") || hostname.includes("youtu.be")) {
+            return "fa-brands fa-youtube";
+        }
+
+        if (hostname.includes("wikipedia.org")) {
+            return "fa-brands fa-wikipedia-w";
+        }
+
+        return null;
+    }
+
     function favicon(url: string): string {
         try {
             const normalized = url.startsWith("http") ? url : `https://${url}`;
@@ -16,6 +39,9 @@
         }
     }
 
+    $: hostname = getHostname(url);
+    $: mainIcons = getMainIcons(hostname);
+
     $: if (url !== lastUrl) {
         failed = false;
         lastUrl = url;
@@ -24,14 +50,14 @@
     $: src = favicon(url);
 </script>
 
-{#if src && !failed}
+{#if mainIcons}
+    <i class={mainIcons + " favicon fallback-icon"} aria-hidden="true"></i>
+{:else if src && !failed}
     <img
         src={src}
         alt=""
         class="favicon"
-        on:error={() => {
-            failed = true;
-        }}
+        on:error={() => (failed = true)}
     />
 {:else}
     <i class="fa-solid fa-book favicon fallback-icon" aria-hidden="true"></i>
