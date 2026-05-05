@@ -2,12 +2,16 @@
   import Graph from "./Graph.svelte";
   import type { Workbook, TopicMeta, VideoRef } from "./types";
   import ResourceIcon from "./ResourceIcon.svelte";
+  import * as pdfjsLib from "pdfjs-dist";
+  import pdfWorker from "pdfjs-dist/build/pdf.worker.mjs?url";
+
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
   export let theme: "light" | "dark" = "light";
 
   let activeGraphChapter: string | null = null;
-
+  let chapterPages: Record<string, number> = {};
+  let workbookPages: number | null = null;
 
   function dedupByUrl(arr: VideoRef[]): VideoRef[] {
     const seen = new Set<string>();
@@ -21,12 +25,50 @@
   function dedupStrings(arr: string[]): string[] {
     return [...new Set(arr)];
   }
+
+  pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorker;
+
+  async function getPdfPageCount(url: string): Promise<number> {
+    const pdf = await pdfjsLib.getDocument(url).promise;
+    return pdf.numPages;
+  }
+
+  async function loadPageCounts() {
+    // chapters
+    const chapterEntries = await Promise.all(
+      workbook.chapters.map(async (chapter) => {
+        try {
+          const pages = await getPdfPageCount(`${chapter.id}.pdf`);
+          return [chapter.id, pages] as const;
+        } catch {
+          return [chapter.id, 0] as const;
+        }
+      }),
+    );
+
+    chapterPages = Object.fromEntries(chapterEntries);
+
+    // full workbook
+    try {
+      workbookPages = await getPdfPageCount(workbook.pdf);
+    } catch {
+      workbookPages = null;
+    }
+  }
+  $: if (workbook) {
+    loadPageCounts();
+  }
 </script>
 
 <div class="workbook-detail">
   <div class="workbook-header">
     <div>
       <h1>{workbook.title}</h1>
+      <div class="title-row">
+        {#if workbookPages}
+          <span class="page-count">{workbookPages} pages</span>
+        {/if}
+      </div>
     </div>
     <a href={workbook.pdf} target="_blank" rel="noopener" class="pdf-btn">
       Download PDF
@@ -41,8 +83,14 @@
           href={`${chapter.id}.pdf`}
           target="_blank"
           rel="noopener"
-          class="chapter-pdf-link">PDF</a
+          class="chapter-pdf-link"
         >
+          PDF
+        </a>
+
+        {#if chapterPages[chapter.id]}
+          <span class="page-count">{chapterPages[chapter.id]} pages</span>
+        {/if}
       </div>
 
       {#if chapter.files.length > 0}
@@ -315,5 +363,17 @@
     color: var(--color-text-secondary);
     margin: 0 0 0.4rem;
     text-indent: 0;
+  }
+  .title-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem; 
+  }
+
+  .page-count {
+    font-size: 0.8rem;
+    margin-top: 0.5rem; 
+    color: var(--color-text-secondary);
+    white-space: nowrap;
   }
 </style>
