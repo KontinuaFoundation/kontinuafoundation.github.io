@@ -19,6 +19,7 @@
     "vite": "^8.0.10"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
     "graphology": "^0.26.0",
     "graphology-layout-forceatlas2": "^0.10.1",
     "lucide-svelte": "^1.0.1",

@@ -1,21 +1,13 @@
 <script lang="ts">
   import Graph from "./Graph.svelte";
   import type { Workbook, TopicMeta, VideoRef } from "./types";
-
+  import ResourceIcon from "./ResourceIcon.svelte";
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
   export let theme: "light" | "dark" = "light";
 
   let activeGraphChapter: string | null = null;
 
-  function favicon(url: string): string {
-    try {
-      const { hostname } = new URL(url);
-      return `https://www.google.com/s2/favicons?domain=${hostname}&sz=64`;
-    } catch {
-      return "";
-    }
-  }
 
   function dedupByUrl(arr: VideoRef[]): VideoRef[] {
     const seen = new Set<string>();
@@ -59,7 +51,7 @@
           <ul class="link-list">
             {#each chapter.files as file (file.path)}
               <li>
-                <img src={favicon(file.link)} alt="" class="favicon" />
+                <ResourceIcon url={file.link}></ResourceIcon>
                 <a href={file.link} target="_blank" rel="noopener"
                   >{file.desc}</a
                 >
@@ -79,7 +71,7 @@
                 <ul class="link-list">
                   {#each dedupByUrl(topic.videos) as v (v.url)}
                     <li>
-                      <img src={favicon(v.url)} alt="" class="favicon" />
+                      <ResourceIcon url={v.url}></ResourceIcon>
                       <a href={v.url} target="_blank" rel="noopener"
                         >{v.title}</a
                       >
@@ -87,7 +79,7 @@
                   {/each}
                   {#each dedupByUrl(topic.references) as r (r.url)}
                     <li>
-                      <img src={favicon(r.url)} alt="" class="favicon" />
+                      <ResourceIcon url={r.url}></ResourceIcon>
                       <a href={r.url} target="_blank" rel="noopener"
                         >{r.title}</a
                       >
@@ -126,7 +118,13 @@
         <h3>Chapter Graph</h3>
 
         {#if activeGraphChapter === chapter.id}
-          <Graph {theme} originChapter={chapter.id} maxDepth={2} scalingRatio={100} heightPx={200} />
+          <Graph
+            {theme}
+            originChapter={chapter.id}
+            maxDepth={2}
+            scalingRatio={100}
+            heightPx={200}
+          />
           <!-- maxDepth could be changed to 1 for simpler prerequisite visualization -->
         {:else}
           <button on:click={() => (activeGraphChapter = chapter.id)}>
@@ -255,13 +253,6 @@
     font-size: 0.85rem;
     line-height: 1.7;
     padding-left: 0.5rem;
-  }
-
-  .favicon {
-    width: 14px;
-    height: 14px;
-    flex-shrink: 0;
-    opacity: 0.8;
   }
 
   .link-list a {

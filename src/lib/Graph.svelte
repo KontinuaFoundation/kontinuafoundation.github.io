@@ -373,7 +373,7 @@
                         };
                     });
 
-                    console.log(JSON.stringify(nextPositions, null, 2));
+                    // console.log(JSON.stringify(nextPositions, null, 2));
 
                     renderer?.refresh();
                 }, 2000);
