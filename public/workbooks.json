@@ -10347,14 +10347,68 @@
         "files": [],
         "requires": [
           "recursion",
-          "graphs-programming"
+          "graphs-programming",
+          "proofs"
         ],
         "covers": [
           {
             "id": "trees",
             "desc": "Understand the basics of trees, a subset of graphs",
             "videos": [],
-            "references": []
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Tree_(abstract_data_type)",
+                "title": "Tree (abstract data type) - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Tree_(graph_theory)",
+                "title": "Tree (graph theory) - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "file_systems",
+            "desc": "Understand the structure of file systems",
+            "videos": [
+              {
+                "url": "https://youtu.be/42iQKuQodW4",
+                "title": "Linux Directories Explained in 100 Seconds"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/File_system",
+                "title": "File system - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Hierarchical_file_system",
+                "title": "Hierarchical file system - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Directory_(computing)",
+                "title": "Directory (computing) - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "binary_search_trees",
+            "desc": "Understand binary search trees, how to read them, and different operations on them",
+            "videos": [
+              {
+                "url": "https://youtu.be/K1a2Bk8NrYQ",
+                "title": "Understanding B-Trees: The Data Structure Behind Modern Databases"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Binary_tree",
+                "title": "Binary tree - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Binary_search_tree",
+                "title": "Binary search tree - Wikipedia"
+              }
+            ]
           }
         ]
       },
@@ -10363,8 +10417,18 @@
         "title": "Tree Traversal",
         "chap_num": 4,
         "files": [],
-        "requires": [],
-        "covers": []
+        "requires": [
+          "binary_search_trees",
+          "trees"
+        ],
+        "covers": [
+          {
+            "id": "breadth-first-search",
+            "desc": "Understand Breadth First Search (BFS) and level order traversals of trees or graphs",
+            "videos": [],
+            "references": []
+          }
+        ]
       },
       {
         "id": "shortest_path",
