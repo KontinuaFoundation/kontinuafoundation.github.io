@@ -2386,6 +2386,10 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
                 "title": "Recursion (computer science) - Wikipedia"
+              },
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/search/binary_search.py",
+                "title": "dsa/search/binary_search.py at master · msambol/dsa · GitHub"
               }
             ]
           }
@@ -10268,6 +10272,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": "intro_c",
+        "title": "Introduction to C",
+        "chap_num": 4,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "c-basics",
+            "desc": "Understand the basics of c programming.",
+            "videos": [],
+            "references": []
+          }
+        ]
       }
     ]
   },
@@ -10419,14 +10438,42 @@
         "files": [],
         "requires": [
           "binary_search_trees",
-          "trees"
+          "trees",
+          "stacks",
+          "queues"
         ],
         "covers": [
           {
             "id": "breadth-first-search",
             "desc": "Understand Breadth First Search (BFS) and level order traversals of trees or graphs",
-            "videos": [],
-            "references": []
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=HZ5YTanv5QE",
+                "title": "Breadth-first search in 4 minutes"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/search/breadth_first_search.py",
+                "title": "dsa/search/breadth_first_search.py at master · msambol/dsa · GitHub"
+              }
+            ]
+          },
+          {
+            "id": "depth-first-search",
+            "desc": "Understand Depth First Search (DFS) and its 3 orders of pre-order, post-order, and in-order traversals.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=Urx87-NMm6c",
+                "title": "Depth-first search in 4 minutes"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/search/depth_first_search.py",
+                "title": "dsa/search/depth_first_search.py at master · msambol/dsa · GitHub"
+              }
+            ]
           }
         ]
       },

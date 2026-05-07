@@ -154,6 +154,7 @@
 	The Gram-Schmidt Process
 	Singular Value Decomposition
 	Tackling Difficult Problems: Positive Semidefinite Matrices
+	Introduction to C
 24
 	Data tables in SQL
 	Diodes, Rectifiers, and Photovoltaics
