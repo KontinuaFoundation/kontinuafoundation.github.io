@@ -9,6 +9,9 @@
   export let topicIndex: Record<string, TopicMeta>;
   export let theme: "light" | "dark" = "light";
 
+  const n = Number(workbook.num);
+  const curr = Math.min(36, Math.max(1, Number.isNaN(n) ? 1 : n));
+
   let activeGraphChapter: string | null = null;
   let chapterPages: Record<string, number> = {};
   let workbookPages: number | null = null;
@@ -71,7 +74,7 @@
       </div>
     </div>
     <a href={workbook.pdf} target="_blank" rel="noopener" class="pdf-btn">
-      Download PDF
+      Download Workbook PDF
     </a>
   </div>
 
@@ -175,13 +178,38 @@
           />
           <!-- maxDepth could be changed to 1 for simpler prerequisite visualization -->
         {:else}
-          <button on:click={() => (activeGraphChapter = chapter.id)}>
+          <button
+            class="chapter-graph-button"
+            on:click={() => (activeGraphChapter = chapter.id)}
+          >
             Load Chapter Graph
           </button>
         {/if}
       </div>
     </div>
   {/each}
+  <!-- next workbook buttons here :) -->
+  <div class="workbook-nav">
+    <a
+      href={curr > 1 ? `/#workbook/${curr - 1}` : "#"}
+      aria-disabled={curr === 1}
+      target="_blank"
+      rel="noopener"
+      class="next-workbook-href"
+    >
+      ← Previous Workbook
+    </a>
+
+    <a
+      href={curr < 36 ? `/#workbook/${curr + 1}` : "#"}
+      target="_blank"
+      aria-disabled={curr === 36}
+      rel="noopener"
+      class="next-workbook-href"
+    >
+      Next Workbook →
+    </a>
+  </div>
 </div>
 
 <style>
@@ -204,7 +232,8 @@
     color: var(--sdkblue);
   }
 
-  .pdf-btn {
+  /* Changed to be consistent with other buttons, here is the previous css */
+  /* .pdf-btn {
     display: inline-block;
     padding: 0.4rem 1rem;
     background: var(--sdkblue);
@@ -219,6 +248,36 @@
 
   .pdf-btn:hover {
     filter: brightness(1.15);
+  } */
+  .pdf-btn {
+    appearance: none;
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+
+    display: inline-block;
+    padding: 0.1rem 0.45rem;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.8rem; 
+    font-weight: 600;
+    color: var(--sdkblue);
+    white-space: nowrap;
+    text-decoration: none;
+
+    border: 2px solid var(--sdkblue);
+    border-radius: 6px;
+
+    opacity: 0.75;
+    transition:
+      opacity 0.15s,
+      background 0.15s,
+      color 0.15s;
+  }
+
+  .pdf-btn:hover {
+    opacity: 1;
+    background: var(--sdkblue);
+    color: #fff;
   }
 
   .chapter-card {
@@ -364,15 +423,66 @@
     margin: 0 0 0.4rem;
     text-indent: 0;
   }
+  .chapter-graph-button {
+    appearance: none;
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--sdkblue);
+    white-space: nowrap;
+    border: 1.5px solid var(--sdkblue);
+    border-radius: 4px;
+    padding: 0.1rem 0.45rem;
+    opacity: 0.75;
+    transition:
+      opacity 0.15s,
+      background 0.15s,
+      color 0.15s;
+  }
+
+  .chapter-graph-button:hover {
+    opacity: 1;
+    background: var(--sdkblue);
+    color: #fff;
+  }
+
+  .workbook-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .next-workbook-href {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--sdkblue);
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1.5px solid var(--sdkblue);
+    border-radius: 4px;
+    padding: 0.1rem 0.45rem;
+    opacity: 0.75;
+    transition:
+      opacity 0.15s,
+      background 0.15s,
+      color 0.15s;
+  }
+  .next-workbook-href:hover {
+    opacity: 1;
+    background: var(--sdkblue);
+    color: #fff;
+  }
   .title-row {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem; 
+    gap: 0.3rem;
   }
 
   .page-count {
     font-size: 0.8rem;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
     color: var(--color-text-secondary);
     white-space: nowrap;
   }
