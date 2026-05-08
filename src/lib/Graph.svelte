@@ -12,8 +12,14 @@
     import FA2Layout from "graphology-layout-forceatlas2/worker";
     import forceAtlas2 from "graphology-layout-forceatlas2";
 
-    type GraphData = Record<string, { workbook: number; prereqs: string[] }>;
-    type GraphPositions = Record<string, { x: number; y: number }>;
+    type GraphNode = {
+        workbook: number;
+        prereqs: string[];
+        x: number;
+        y: number;
+    };
+
+    type GraphData = Record<string, GraphNode>;
     type ThemeMode = "light" | "dark";
     // props
     export let theme: ThemeMode = "light";
@@ -269,9 +275,8 @@
     onMount(() => {
         Promise.all([
             fetch("/graph.json").then((res) => res.json()),
-            fetch("/graph-positions.json").then((res) => res.json()), // FIXME graph-positions.json will not be updated 
         ])
-            .then(([rawGraphData, positions]: [GraphData, GraphPositions]) => {
+            .then(([rawGraphData]: [GraphData]) => {
                 const graphData = createSubgraph(
                     rawGraphData,
                     originChapter,
@@ -295,15 +300,8 @@
 
                 for (const [, chapters] of byWorkbook) {
                     chapters.forEach(([key, value]) => {
-                        const pos = positions[key];
-
-                        if (
-                            typeof pos?.x !== "number" ||
-                            typeof pos?.y !== "number"
-                        ) {
-                            console.warn(`Missing position for node: ${key}`);
-                            return;
-                        }
+                        const x = typeof value.x === "number" ? value.x : Math.random() * 140 - 70;
+                        const y = typeof value.y === "number" ? value.y : Math.random() * 140 - 70;
 
                         graph!.addNode(key, {
                             label: key.replaceAll("_", " "),
@@ -313,8 +311,8 @@
                                     ? "foundation"
                                     : "topic",
                             url: `/workbook/${value.workbook}/topic/${key}`,
-                            x: pos.x,
-                            y: pos.y,
+                            x: x,
+                            y: y,
                             size: 6,
                             color:
                                 value.prereqs.length === 0
@@ -364,7 +362,7 @@
                 setTimeout(() => {
                     layout?.stop();
 
-                    const nextPositions: GraphPositions = {};
+                    const nextPositions: Record<string, { x: number; y: number }> = {};
 
                     graph!.forEachNode((node) => {
                         nextPositions[node] = {
