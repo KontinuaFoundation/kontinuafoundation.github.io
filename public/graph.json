@@ -1,257 +1,341 @@
 {
   "introduction": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": 55.98957515206429,
+    "y": 10.551213528443242
   },
   "matter_energy_intro": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": -53.66998976737646,
+    "y": 46.57407935177575
   },
   "conservation_mass_energy": {
     "workbook": "01",
     "prereqs": [
       "matter_energy_intro"
-    ]
+    ],
+    "x": -5.855020943032514,
+    "y": 2.292725852800814
   },
   "mass_weight_gravity": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": -43.786625003929984,
+    "y": 23.103722821575502
   },
   "intro_motion": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": 45.49388347598759,
+    "y": -14.94011705579505
   },
   "newtons_second_law": {
     "workbook": "01",
     "prereqs": [
       "mass_weight_gravity"
-    ]
+    ],
+    "x": 22.83917931755802,
+    "y": 7.8944109842459795
   },
   "friction": {
     "workbook": "01",
     "prereqs": [
-      "newtons_second_law",
-      "conservation_mass_energy"
-    ]
+      "conservation_mass_energy",
+      "newtons_second_law"
+    ],
+    "x": 19.178979230781195,
+    "y": -51.68617589672347
   },
   "units_conversions": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": 66.87190152943376,
+    "y": -6.5511600391552065
   },
   "greek": {
     "workbook": "01",
-    "prereqs": []
+    "prereqs": [],
+    "x": -42.00056795387787,
+    "y": -56.123007392654884
   },
   "atomic_mass": {
     "workbook": "02",
     "prereqs": [
       "matter_energy_intro"
-    ]
+    ],
+    "x": -56.21184326867734,
+    "y": 42.627534127020155
   },
   "chemical_reactions": {
     "workbook": "02",
     "prereqs": [
       "matter_energy_intro"
-    ]
+    ],
+    "x": 5.840907668829061,
+    "y": -14.835779374128165
   },
   "buoyancy": {
     "workbook": "02",
-    "prereqs": []
+    "prereqs": [],
+    "x": -48.71565324237555,
+    "y": -47.91972284392277
   },
   "heat": {
     "workbook": "02",
     "prereqs": [
       "conservation_mass_energy"
-    ]
+    ],
+    "x": 46.986925135467416,
+    "y": 23.612861262774572
   },
   "work_energy": {
     "workbook": "02",
     "prereqs": [
-      "newtons_second_law",
-      "matter_energy_intro"
-    ]
+      "matter_energy_intro",
+      "newtons_second_law"
+    ],
+    "x": 15.038093195217442,
+    "y": 40.53009443573944
   },
   "simple_machines": {
     "workbook": "02",
     "prereqs": [
       "work_energy"
-    ]
+    ],
+    "x": -23.73253153363884,
+    "y": -7.606968694613414
   },
   "basic_statistics": {
     "workbook": "03",
-    "prereqs": []
+    "prereqs": [],
+    "x": -55.05573179528455,
+    "y": 42.726619498151365
   },
   "stat_spreadsheets": {
     "workbook": "03",
     "prereqs": [
       "basic_statistics"
-    ]
+    ],
+    "x": -61.157750768537156,
+    "y": 30.475208492836586
   },
   "intro_python1": {
     "workbook": "03",
-    "prereqs": []
+    "prereqs": [],
+    "x": 44.066935471151396,
+    "y": 12.62921189799087
   },
   "sets": {
     "workbook": "03",
-    "prereqs": []
+    "prereqs": [],
+    "x": 4.192659615245333,
+    "y": -16.958128860037377
   },
   "proofs": {
     "workbook": "03",
     "prereqs": [
       "sets"
-    ]
+    ],
+    "x": 62.78923746715148,
+    "y": 54.73424639675345
   },
   "dc1": {
     "workbook": "03",
     "prereqs": [
-      "units_conversions",
-      "work_energy",
       "basic_statistics",
-      "greek"
-    ]
+      "greek",
+      "units_conversions",
+      "work_energy"
+    ],
+    "x": -34.00933003826674,
+    "y": -53.45443172070422
   },
   "dc_circuits": {
     "workbook": "03",
     "prereqs": [
-      "work_energy",
-      "dc1"
-    ]
+      "dc1",
+      "work_energy"
+    ],
+    "x": 5.423652188699293,
+    "y": -28.92234283206686
   },
   "fertilizer": {
     "workbook": "04",
     "prereqs": [
       "matter_energy_intro"
-    ]
+    ],
+    "x": 65.30033630463296,
+    "y": -64.40204072145823
   },
   "concrete": {
     "workbook": "04",
     "prereqs": [
       "matter_energy_intro"
-    ]
+    ],
+    "x": -12.918865268833756,
+    "y": -64.45457150222873
   },
   "metals": {
     "workbook": "04",
     "prereqs": [
-      "work_energy",
       "atomic_mass",
-      "matter_energy_intro"
-    ]
+      "matter_energy_intro",
+      "work_energy"
+    ],
+    "x": 9.084005573573492,
+    "y": -16.767973729857694
   },
   "intro_python2": {
     "workbook": "04",
     "prereqs": [
-      "proofs",
-      "intro_python1"
-    ]
+      "intro_python1",
+      "proofs"
+    ],
+    "x": -19.37653598028946,
+    "y": -52.366571796558134
   },
   "angles": {
     "workbook": "04",
-    "prereqs": []
+    "prereqs": [],
+    "x": -45.83871675594054,
+    "y": -61.27931474279272
   },
   "triangles": {
     "workbook": "04",
     "prereqs": [
       "angles"
-    ]
+    ],
+    "x": 2.638297863852202,
+    "y": 59.39231995410182
   },
   "pythagorean_theorem": {
     "workbook": "04",
     "prereqs": [
       "triangles"
-    ]
+    ],
+    "x": 57.3409993742664,
+    "y": 39.11904583694657
   },
   "congruence": {
     "workbook": "05",
     "prereqs": [
       "angles",
       "triangles"
-    ]
+    ],
+    "x": -32.588613301159825,
+    "y": -56.30466235228516
   },
   "parallel_perpendicular": {
     "workbook": "05",
     "prereqs": [
       "angles",
       "pythagorean_theorem"
-    ]
+    ],
+    "x": 45.80487019414609,
+    "y": 4.386112862039198
   },
   "circles": {
     "workbook": "05",
     "prereqs": [
       "angles"
-    ]
+    ],
+    "x": -60.46339522199056,
+    "y": -65.22676288221342
   },
   "functions": {
     "workbook": "05",
     "prereqs": [
       "congruence"
-    ]
+    ],
+    "x": 40.328645213652436,
+    "y": -33.28595579091197
   },
   "transforms": {
     "workbook": "05",
     "prereqs": [
       "congruence",
       "functions"
-    ]
+    ],
+    "x": 67.73732651435142,
+    "y": 20.53110617029577
   },
   "trig_functions": {
     "workbook": "06",
     "prereqs": [
-      "pythagorean_theorem",
       "angles",
-      "functions"
-    ]
+      "functions",
+      "pythagorean_theorem"
+    ],
+    "x": -15.45736880931728,
+    "y": 62.2528844517511
   },
   "trig_identities": {
     "workbook": "06",
     "prereqs": [
       "pythagorean_theorem",
-      "trig_functions",
-      "triangles"
-    ]
+      "triangles",
+      "trig_functions"
+    ],
+    "x": 11.446381257943742,
+    "y": -39.56469084455245
   },
   "volume_solids": {
     "workbook": "06",
-    "prereqs": []
+    "prereqs": [],
+    "x": 20.541056970957698,
+    "y": 38.279668245509555
   },
   "conic_sections": {
     "workbook": "06",
     "prereqs": [
       "volume_solids"
-    ]
+    ],
+    "x": 30.38601310011272,
+    "y": 12.923912217226643
   },
   "vectors": {
     "workbook": "06",
     "prereqs": [
-      "parallel_perpendicular",
-      "pythagorean_theorem",
       "angles",
-      "intro_python2"
-    ]
+      "intro_python2",
+      "parallel_perpendicular",
+      "pythagorean_theorem"
+    ],
+    "x": 13.3217340292518,
+    "y": -61.38882468829591
   },
   "falling_bodies": {
     "workbook": "07",
     "prereqs": [
-      "intro_python1",
       "conic_sections",
-      "newtons_second_law",
-      "matter_energy_intro"
-    ]
+      "intro_python1",
+      "matter_energy_intro",
+      "newtons_second_law"
+    ],
+    "x": 69.04087449809967,
+    "y": 9.144031626846399
   },
   "kinematics": {
     "workbook": "07",
     "prereqs": [
-      "newtons_second_law",
-      "falling_bodies"
-    ]
+      "falling_bodies",
+      "newtons_second_law"
+    ],
+    "x": 68.82723225253056,
+    "y": 32.81204061255468
   },
   "projectiles": {
     "workbook": "07",
     "prereqs": [
-      "trig_functions",
-      "mass_weight_gravity",
       "angles",
-      "kinematics"
-    ]
+      "kinematics",
+      "mass_weight_gravity",
+      "trig_functions"
+    ],
+    "x": -23.776895974244248,
+    "y": -8.968881737799691
   },
   "free_body_diagrams": {
     "workbook": "07",
@@ -259,108 +343,140 @@
       "conservation_mass_energy",
       "newtons_second_law",
       "vectors"
-    ]
+    ],
+    "x": -50.43047326393635,
+    "y": 51.2288227305319
   },
   "inclines": {
     "workbook": "07",
     "prereqs": [
-      "free_body_diagrams",
       "angles",
-      "trig_functions",
+      "free_body_diagrams",
+      "friction",
       "newtons_second_law",
       "simple_machines",
-      "friction",
-      "triangles"
-    ]
+      "triangles",
+      "trig_functions"
+    ],
+    "x": 25.817847659611274,
+    "y": 24.15720358035732
   },
   "momentum": {
     "workbook": "07",
     "prereqs": [
-      "work_energy",
-      "mass_weight_gravity",
       "conservation_mass_energy",
-      "vectors"
-    ]
+      "mass_weight_gravity",
+      "vectors",
+      "work_energy"
+    ],
+    "x": -5.862652902939146,
+    "y": -19.767489867392406
   },
   "boats": {
     "workbook": "08",
     "prereqs": [
       "buoyancy",
-      "newtons_second_law",
-      "matter_energy_intro"
-    ]
+      "matter_energy_intro",
+      "newtons_second_law"
+    ],
+    "x": 18.867793598509067,
+    "y": 1.2860084041463722
   },
   "sailing": {
     "workbook": "08",
     "prereqs": [
       "boats"
-    ]
+    ],
+    "x": -42.1578312021575,
+    "y": -61.48009692289536
   },
   "airplanes": {
     "workbook": "08",
     "prereqs": [
       "boats",
+      "falling_bodies",
       "newtons_second_law",
       "sailing",
-      "falling_bodies",
       "vectors"
-    ]
+    ],
+    "x": 21.298473417096687,
+    "y": 6.2376701859054435
   },
   "pandas": {
     "workbook": "08",
     "prereqs": [
       "intro_python2"
-    ]
+    ],
+    "x": -68.74952791728471,
+    "y": 5.020572601249242
   },
   "quadcopters": {
     "workbook": "08",
-    "prereqs": []
+    "prereqs": [],
+    "x": -22.009725507063123,
+    "y": 3.098258119436153
   },
   "helicopters": {
     "workbook": "08",
-    "prereqs": []
+    "prereqs": [],
+    "x": 25.240626391230066,
+    "y": -42.11391109848109
   },
   "atmopressure": {
     "workbook": "09",
     "prereqs": [
       "buoyancy",
-      "work_energy",
+      "matter_energy_intro",
       "newtons_second_law",
-      "matter_energy_intro"
-    ]
+      "work_energy"
+    ],
+    "x": -6.40131936070005,
+    "y": 53.5282264782733
   },
   "biases1": {
     "workbook": "09",
-    "prereqs": []
+    "prereqs": [],
+    "x": 51.54060966277042,
+    "y": -22.184135716013714
   },
   "solving_quadratics": {
     "workbook": "09",
     "prereqs": [
       "conic_sections"
-    ]
+    ],
+    "x": -27.575354497343888,
+    "y": 43.39083980948743
   },
   "complex_numbers": {
     "workbook": "09",
     "prereqs": [
       "solving_quadratics"
-    ]
+    ],
+    "x": 48.183244089493655,
+    "y": 23.238515255434308
   },
   "sequences": {
     "workbook": "09",
-    "prereqs": []
+    "prereqs": [],
+    "x": -33.031368992726044,
+    "y": -33.392918433449864
   },
   "exponents_review": {
     "workbook": "10",
     "prereqs": [
       "functions"
-    ]
+    ],
+    "x": -1.7165508586623304,
+    "y": 43.63474585814568
   },
   "compound_interest": {
     "workbook": "10",
     "prereqs": [
       "exponents_review",
       "stat_spreadsheets"
-    ]
+    ],
+    "x": -7.076916205034934,
+    "y": -61.692071205327466
   },
   "logs": {
     "workbook": "10",
@@ -368,429 +484,545 @@
       "exponents_review",
       "intro_python2",
       "stat_spreadsheets"
-    ]
+    ],
+    "x": -27.15782912308589,
+    "y": 43.60374810016937
   },
   "exponential_decay": {
     "workbook": "10",
     "prereqs": [
-      "exponents_review",
       "compound_interest",
+      "exponents_review",
       "stat_spreadsheets"
-    ]
+    ],
+    "x": -68.52069822878568,
+    "y": -67.24334414635857
   },
   "inv_trig_functions": {
     "workbook": "10",
     "prereqs": [
+      "functions",
       "pythagorean_theorem",
-      "trig_functions",
-      "functions"
-    ]
+      "trig_functions"
+    ],
+    "x": -46.804097252393916,
+    "y": 1.0116957533249575
   },
   "graphs": {
     "workbook": "10",
     "prereqs": [
-      "intro_python2",
-      "intro_dataviz"
-    ]
+      "intro_dataviz",
+      "intro_python2"
+    ],
+    "x": 49.37550546524041,
+    "y": 0.7007987609847532
   },
   "paradoxes": {
     "workbook": "10",
     "prereqs": [
-      "proofs",
       "intro_python2",
       "pandas",
+      "proofs",
       "sets"
-    ]
+    ],
+    "x": 15.225996413705971,
+    "y": -65.5041587095989
   },
   "intro_dataviz": {
     "workbook": "11",
     "prereqs": [
-      "functions",
       "compound_interest",
+      "functions",
       "stat_spreadsheets"
-    ]
+    ],
+    "x": -9.416007068930774,
+    "y": 57.35205674469772
   },
   "dot": {
     "workbook": "11",
     "prereqs": [
-      "parallel_perpendicular",
       "inv_trig_functions",
+      "parallel_perpendicular",
       "trig_functions",
       "vectors"
-    ]
+    ],
+    "x": 21.775857183389633,
+    "y": 39.13878011991926
   },
   "manufacturing": {
     "workbook": "11",
     "prereqs": [
       "metals"
-    ]
+    ],
+    "x": -55.7866825112179,
+    "y": 59.25515430747754
   },
   "sound": {
     "workbook": "11",
     "prereqs": [
-      "trig_functions",
-      "matter_energy_intro"
-    ]
+      "matter_energy_intro",
+      "trig_functions"
+    ],
+    "x": -8.918297930684801,
+    "y": -0.9371588794201671
   },
   "num_methods_2": {
     "workbook": "11",
-    "prereqs": []
+    "prereqs": [],
+    "x": -7.372794538873805,
+    "y": -26.588348188793574
   },
   "charge": {
     "workbook": "12",
     "prereqs": [
-      "work_energy",
-      "dc1",
-      "newtons_second_law",
       "conservation_mass_energy",
-      "matter_energy_intro",
+      "dc1",
       "exponents_review",
-      "mass_weight_gravity",
       "greek",
-      "vectors"
-    ]
+      "mass_weight_gravity",
+      "matter_energy_intro",
+      "newtons_second_law",
+      "vectors",
+      "work_energy"
+    ],
+    "x": 38.260685075032,
+    "y": 16.70617162307026
   },
   "ac": {
     "workbook": "12",
     "prereqs": [
       "basic_statistics",
-      "trig_functions",
-      "dc1"
-    ]
+      "dc1",
+      "trig_functions"
+    ],
+    "x": 5.050612747573254,
+    "y": 18.811363173791975
   },
   "induction": {
     "workbook": "12",
     "prereqs": [
-      "charge",
-      "ac"
-    ]
+      "ac",
+      "charge"
+    ],
+    "x": 59.002391495812645,
+    "y": 51.29342806764264
   },
   "electric_motors_generators": {
     "workbook": "12",
     "prereqs": [
       "induction"
-    ]
+    ],
+    "x": -47.066923433771436,
+    "y": -59.385025997154585
   },
   "drag": {
     "workbook": "12",
     "prereqs": [
-      "free_body_diagrams",
-      "projectiles",
-      "trig_functions",
-      "newtons_second_law",
+      "airplanes",
       "falling_bodies",
-      "airplanes"
-    ]
+      "free_body_diagrams",
+      "newtons_second_law",
+      "projectiles",
+      "trig_functions"
+    ],
+    "x": 62.605229582598724,
+    "y": -56.54012431488368
   },
   "parametric": {
     "workbook": "12",
     "prereqs": [
-      "solving_quadratics",
-      "functions",
       "differentiating_polynomials",
-      "trig_identities",
-      "intro_python2"
-    ]
+      "functions",
+      "intro_python2",
+      "solving_quadratics",
+      "trig_identities"
+    ],
+    "x": 6.560422873980315,
+    "y": -63.70390896265034
   },
   "vector_functions": {
     "workbook": "12",
     "prereqs": [
-      "parametric",
       "differentiating_polynomials",
-      "vectors",
-      "drag"
-    ]
+      "drag",
+      "parametric",
+      "vectors"
+    ],
+    "x": -45.638367333270864,
+    "y": 57.28222825557468
   },
   "circular": {
     "workbook": "12",
     "prereqs": [
       "circles",
-      "projectiles",
-      "conservation_mass_energy"
-    ]
+      "conservation_mass_energy",
+      "projectiles"
+    ],
+    "x": -35.87365767663793,
+    "y": -31.30328891421029
   },
   "emwaves": {
     "workbook": "13",
     "prereqs": [
       "sound"
-    ]
+    ],
+    "x": -48.6289139192633,
+    "y": -54.324550603934064
   },
   "reflection": {
     "workbook": "13",
     "prereqs": [
       "conic_sections",
-      "work_energy",
+      "emwaves",
       "pythagorean_theorem",
-      "emwaves"
-    ]
+      "work_energy"
+    ],
+    "x": -36.30255930648227,
+    "y": -17.839248195632692
   },
   "refraction": {
     "workbook": "13",
     "prereqs": [
       "reflection"
-    ]
+    ],
+    "x": -1.067825201196058,
+    "y": -17.390644753475037
   },
   "lens": {
     "workbook": "13",
     "prereqs": [
-      "refraction",
-      "reflection"
-    ]
+      "reflection",
+      "refraction"
+    ],
+    "x": -63.33233159907198,
+    "y": 54.348391522688985
   },
   "oscillations": {
     "workbook": "13",
     "prereqs": [
-      "work_energy",
       "basic_statistics",
       "differentiating_polynomials",
+      "parametric",
       "trig_functions",
-      "parametric"
-    ]
+      "work_energy"
+    ],
+    "x": -46.082201332936535,
+    "y": 16.921883945380046
   },
   "orbits": {
     "workbook": "13",
     "prereqs": [
-      "mass_weight_gravity",
-      "reflection",
+      "circular",
       "falling_bodies",
-      "circular"
-    ]
+      "mass_weight_gravity",
+      "reflection"
+    ],
+    "x": 53.60658335507695,
+    "y": 21.441503555374524
   },
   "polar_coord": {
     "workbook": "13",
     "prereqs": [
-      "functions",
       "angles",
-      "trig_identities",
-      "inv_trig_functions",
       "circular",
-      "parametric"
-    ]
+      "functions",
+      "inv_trig_functions",
+      "parametric",
+      "trig_identities"
+    ],
+    "x": -48.42205829982409,
+    "y": -16.67270820844481
   },
   "circular_2": {
     "workbook": "14",
     "prereqs": [
-      "circles",
       "angles",
-      "cross",
-      "circular"
-    ]
+      "circles",
+      "circular",
+      "cross"
+    ],
+    "x": -37.277098031549954,
+    "y": 36.9884646125322
   },
   "rocketry": {
     "workbook": "14",
     "prereqs": [
-      "orbits",
       "airplanes",
-      "newtons_second_law"
-    ]
+      "newtons_second_law",
+      "orbits"
+    ],
+    "x": -62.14466046297052,
+    "y": 4.7131654901850055
   },
   "vector_sim": {
     "workbook": "14",
     "prereqs": [
-      "orbits",
+      "intro_python2",
       "mass_weight_gravity",
       "momentum",
-      "intro_python2",
+      "orbits",
       "vectors"
-    ]
+    ],
+    "x": 33.394344333950315,
+    "y": 26.33744672536794
   },
   "long_lat_dist": {
     "workbook": "14",
-    "prereqs": []
+    "prereqs": [],
+    "x": -6.432010771379844,
+    "y": 19.45444144289081
   },
   "tides": {
     "workbook": "14",
     "prereqs": [
-      "orbits",
-      "circular"
-    ]
+      "circular",
+      "orbits"
+    ],
+    "x": 37.19761425096584,
+    "y": 49.52385555552107
   },
   "camera": {
     "workbook": "15",
     "prereqs": [
+      "emwaves",
       "lens",
-      "reflection",
-      "emwaves"
-    ]
+      "reflection"
+    ],
+    "x": 57.499364498097634,
+    "y": 60.63535598631728
   },
   "eye": {
     "workbook": "15",
     "prereqs": [
       "camera",
       "reflection"
-    ]
+    ],
+    "x": 17.50157299574647,
+    "y": 65.34138464658992
   },
   "py_images": {
     "workbook": "15",
     "prereqs": [
       "camera"
-    ]
+    ],
+    "x": -12.488133275688398,
+    "y": -33.3780235291782
   },
   "hexbinary": {
     "workbook": "15",
     "prereqs": [
       "camera"
-    ]
+    ],
+    "x": -4.357410351609602,
+    "y": 47.65036643851249
   },
   "bitmap": {
     "workbook": "15",
     "prereqs": [
       "hexbinary"
-    ]
+    ],
+    "x": 65.10074729554444,
+    "y": -21.55524286738342
   },
   "polynomials_intro": {
     "workbook": "16",
     "prereqs": [
       "functions"
-    ]
+    ],
+    "x": 10.229105591367968,
+    "y": -8.647938400638829
   },
   "pylists": {
     "workbook": "16",
     "prereqs": [
       "polynomials_intro"
-    ]
+    ],
+    "x": 51.50650088033677,
+    "y": 14.925740641954036
   },
   "add_subtract_polynomials": {
     "workbook": "16",
     "prereqs": [
-      "pylists",
-      "polynomials_intro"
-    ]
+      "polynomials_intro",
+      "pylists"
+    ],
+    "x": 47.92307167010732,
+    "y": -47.57985131702149
   },
   "multiplying_polynomials": {
     "workbook": "16",
     "prereqs": [
       "polynomials_intro"
-    ]
+    ],
+    "x": -56.4573456983934,
+    "y": -37.618851832230874
   },
   "pymultpoly": {
     "workbook": "16",
     "prereqs": [
       "multiplying_polynomials"
-    ]
+    ],
+    "x": 55.52909938453146,
+    "y": 16.00769981809411
   },
   "differentiating_polynomials": {
     "workbook": "17",
     "prereqs": [
-      "polynomials_intro",
-      "add_subtract_polynomials"
-    ]
+      "add_subtract_polynomials",
+      "polynomials_intro"
+    ],
+    "x": 54.81186145487035,
+    "y": 10.607001264297878
   },
   "classes": {
     "workbook": "17",
     "prereqs": [
       "differentiating_polynomials"
-    ]
+    ],
+    "x": -35.969304681645966,
+    "y": -26.248701308054265
   },
   "common_products_polynomials": {
     "workbook": "17",
     "prereqs": [
-      "polynomials_intro",
-      "multiplying_polynomials"
-    ]
+      "multiplying_polynomials",
+      "polynomials_intro"
+    ],
+    "x": 12.554011988933922,
+    "y": -31.851778714706043
   },
   "factoring_polynomials": {
     "workbook": "17",
     "prereqs": [
       "common_products_polynomials"
-    ]
+    ],
+    "x": -45.43474512979715,
+    "y": 64.1534099618813
   },
   "practice_polynomials": {
     "workbook": "17",
     "prereqs": [
-      "solving_quadratics",
-      "factoring_polynomials",
       "common_products_polynomials",
+      "factoring_polynomials",
+      "multiplying_polynomials",
       "polynomials_intro",
-      "multiplying_polynomials"
-    ]
+      "solving_quadratics"
+    ],
+    "x": 10.225369208019615,
+    "y": -60.33184234338479
   },
   "graphs_polynomials": {
     "workbook": "18",
     "prereqs": [
-      "polynomials_intro",
       "factoring_polynomials",
-      "multiplying_polynomials"
-    ]
+      "multiplying_polynomials",
+      "polynomials_intro"
+    ],
+    "x": -42.7135554140078,
+    "y": 45.709827057691
   },
   "interpolating_polynomials": {
     "workbook": "18",
     "prereqs": [
-      "polynomials_intro",
-      "factoring_polynomials"
-    ]
+      "factoring_polynomials",
+      "polynomials_intro"
+    ],
+    "x": -58.98125441666875,
+    "y": 28.717675007288562
   },
   "rational_functions": {
     "workbook": "18",
     "prereqs": [
       "functions"
-    ]
+    ],
+    "x": 40.24556378395347,
+    "y": 12.820492218199675
   },
   "partial_frac": {
     "workbook": "18",
     "prereqs": [
       "polynomials_intro",
       "rational_functions"
-    ]
+    ],
+    "x": -64.38525195751443,
+    "y": -16.45147422902557
   },
   "limits": {
     "workbook": "18",
     "prereqs": [
       "functions"
-    ]
+    ],
+    "x": -8.833150543463361,
+    "y": 47.38687255201593
   },
   "differentiability": {
     "workbook": "19",
     "prereqs": [
       "limits"
-    ]
+    ],
+    "x": -61.17515046879134,
+    "y": 23.949362463843173
   },
   "derivative_definition": {
     "workbook": "19",
     "prereqs": [
-      "limits",
       "differentiability",
-      "differentiating_polynomials"
-    ]
+      "differentiating_polynomials",
+      "limits"
+    ],
+    "x": 23.492923058292448,
+    "y": 27.463882142182115
   },
   "derivative_rules": {
     "workbook": "19",
     "prereqs": [
       "differentiability",
       "differentiating_polynomials"
-    ]
+    ],
+    "x": 28.384539469813788,
+    "y": -60.45302149117546
   },
   "deriv_graphshape": {
     "workbook": "19",
     "prereqs": [
       "differentiating_polynomials",
       "graphs_polynomials"
-    ]
+    ],
+    "x": -48.633445967962345,
+    "y": 40.80643132422044
   },
   "optimization": {
     "workbook": "20",
-    "prereqs": []
+    "prereqs": [],
+    "x": 23.734514553868664,
+    "y": 57.50371573560248
   },
   "implicit_diff": {
     "workbook": "20",
     "prereqs": [
       "derivative_rules",
       "differentiability"
-    ]
+    ],
+    "x": 51.508867530388514,
+    "y": 55.91563519253235
   },
   "related_rates": {
     "workbook": "20",
     "prereqs": [
-      "implicit_diff",
-      "differentiability"
-    ]
+      "differentiability",
+      "implicit_diff"
+    ],
+    "x": -5.480496037496891,
+    "y": 27.20262650042649
   },
   "multiv_func": {
     "workbook": "20",
     "prereqs": [
       "differentiability",
       "differentiating_polynomials"
-    ]
+    ],
+    "x": -23.80060727920103,
+    "y": 67.58232669333205
   },
   "partial_deriv_grad": {
     "workbook": "20",
@@ -798,492 +1030,647 @@
       "derivative_rules",
       "dot",
       "multiv_func"
-    ]
+    ],
+    "x": 10.258536250984733,
+    "y": -30.86708031479155
   },
   "linear_algebra_intro": {
     "workbook": "21",
     "prereqs": [
       "camera",
-      "py_images",
       "dot",
+      "py_images",
       "vector_functions",
       "vectors"
-    ]
+    ],
+    "x": -45.52542022106439,
+    "y": 5.090350797312226
   },
   "vectors_matrices": {
     "workbook": "21",
     "prereqs": [
-      "linear_algebra_intro",
       "bitmap",
-      "vectors",
-      "dot"
-    ]
+      "dot",
+      "linear_algebra_intro",
+      "vectors"
+    ],
+    "x": -3.371709206758922,
+    "y": 17.763979781008686
   },
   "linear_combo": {
     "workbook": "21",
     "prereqs": [
       "linear_algebra_intro"
-    ]
+    ],
+    "x": -60.93281538650651,
+    "y": 24.589362211948554
   },
   "systems_matrices": {
     "workbook": "21",
     "prereqs": [
       "vectors_matrices"
-    ]
+    ],
+    "x": -57.63286608588439,
+    "y": 25.208957722928602
   },
   "matrices_applications": {
     "workbook": "21",
     "prereqs": [
+      "dot",
       "linear_combo",
-      "vectors_matrices",
-      "dot"
-    ]
+      "vectors_matrices"
+    ],
+    "x": 23.23231701709051,
+    "y": -32.14603630777695
   },
   "dependence": {
     "workbook": "21",
     "prereqs": [
       "linear_combo",
-      "vectors_matrices",
       "matrices_applications",
       "systems_matrices",
-      "vectors"
-    ]
+      "vectors",
+      "vectors_matrices"
+    ],
+    "x": -24.61784528057691,
+    "y": -58.230078982958425
   },
   "subspaces": {
     "workbook": "21",
     "prereqs": [
-      "systems_matrices",
-      "dependence"
-    ]
+      "dependence",
+      "systems_matrices"
+    ],
+    "x": -24.369975969236734,
+    "y": -48.61330610624461
   },
   "span": {
     "workbook": "22",
     "prereqs": [
-      "linear_combo",
       "dependence",
+      "linear_combo",
       "subspaces"
-    ]
+    ],
+    "x": -4.581551107386204,
+    "y": 40.137019638799714
   },
   "determinants_inverse": {
     "workbook": "22",
     "prereqs": [
+      "dependence",
       "linear_combo",
-      "systems_matrices",
-      "dependence"
-    ]
+      "systems_matrices"
+    ],
+    "x": 37.477080865468096,
+    "y": 19.300499635556292
   },
   "cross": {
     "workbook": "22",
     "prereqs": [
-      "span",
       "determinants_inverse",
-      "dot"
-    ]
+      "dot",
+      "span"
+    ],
+    "x": 24.436520198220023,
+    "y": 2.5830206619208838
   },
   "transformations": {
     "workbook": "22",
     "prereqs": [
-      "congruence",
-      "vectors_matrices",
       "bitmap",
-      "determinants_inverse"
-    ]
+      "congruence",
+      "determinants_inverse",
+      "vectors_matrices"
+    ],
+    "x": 68.23318369675184,
+    "y": 52.833116066136256
   },
   "eigen": {
     "workbook": "22",
     "prereqs": [
-      "linear_combo",
       "determinants_inverse",
       "dot",
+      "linear_combo",
       "transformations",
       "vectors"
-    ]
+    ],
+    "x": -54.219646098751824,
+    "y": 50.92619443236937
   },
   "projections": {
     "workbook": "22",
     "prereqs": [
-      "vectors",
-      "dot"
-    ]
+      "dot",
+      "vectors"
+    ],
+    "x": -58.15290684344582,
+    "y": -4.072586630848619
   },
   "gram-schmidt": {
     "workbook": "23",
     "prereqs": [
       "projections",
       "vectors"
-    ]
+    ],
+    "x": -22.825292684604506,
+    "y": -21.49007374182635
   },
   "decomposition": {
     "workbook": "23",
     "prereqs": [
       "eigen"
-    ]
+    ],
+    "x": -31.762724170585457,
+    "y": -57.62219497536029
   },
   "positive-semidefinite": {
     "workbook": "23",
     "prereqs": [
       "vectors_matrices"
-    ]
+    ],
+    "x": 27.588373707813076,
+    "y": 56.583394809383606
+  },
+  "intro_c": {
+    "workbook": "23",
+    "prereqs": [
+      "intro_python2"
+    ],
+    "x": -62.38088710936226,
+    "y": -48.97570990903769
   },
   "sql_1": {
     "workbook": "24",
-    "prereqs": []
+    "prereqs": [],
+    "x": 57.24022654032055,
+    "y": 44.530384887714334
   },
   "diodes": {
     "workbook": "24",
-    "prereqs": []
+    "prereqs": [],
+    "x": 57.992926951842435,
+    "y": -37.32072619385484
   },
   "trees": {
     "workbook": "24",
     "prereqs": [
+      "graphs",
       "intro_python2",
-      "graphs"
-    ]
+      "proofs"
+    ],
+    "x": 16.011654657611004,
+    "y": 38.764852263907216
   },
   "tree_traversal": {
     "workbook": "24",
-    "prereqs": []
+    "prereqs": [
+      "trees"
+    ],
+    "x": 6.698278750909168,
+    "y": 40.95019014989745
   },
   "shortest_path": {
     "workbook": "24",
-    "prereqs": []
+    "prereqs": [],
+    "x": 50.36908822356639,
+    "y": -57.06501759581941
   },
   "dijkstra": {
     "workbook": "24",
     "prereqs": [
       "graphs",
       "trees"
-    ]
+    ],
+    "x": -12.928683763953025,
+    "y": 25.763309654538233
   },
   "priority_queues": {
     "workbook": "24",
-    "prereqs": []
+    "prereqs": [],
+    "x": 11.54511923223491,
+    "y": 20.72090368153455
   },
   "binary_search": {
     "workbook": "24",
     "prereqs": [
+      "dijkstra",
       "intro_python1",
-      "intro_python2",
-      "dijkstra"
-    ]
+      "intro_python2"
+    ],
+    "x": -29.19585084523164,
+    "y": -48.51467062119873
   },
   "graph_algorithms": {
     "workbook": "24",
     "prereqs": [
-      "graphs",
       "binary_search",
       "dijkstra",
+      "graphs",
       "intro_python2"
-    ]
+    ],
+    "x": -16.68503527630469,
+    "y": -18.769759187103432
   },
   "http": {
     "workbook": "25",
-    "prereqs": []
+    "prereqs": [],
+    "x": -29.92545483218246,
+    "y": -29.2594556317391
   },
   "api": {
     "workbook": "25",
     "prereqs": [
       "http"
-    ]
+    ],
+    "x": -31.510614610865574,
+    "y": 64.10541680553379
   },
   "decompression": {
     "workbook": "25",
-    "prereqs": []
+    "prereqs": [],
+    "x": 17.187478598060267,
+    "y": -57.435314657587405
   },
   "json_xml": {
     "workbook": "25",
-    "prereqs": []
+    "prereqs": [],
+    "x": -24.48573904938847,
+    "y": -58.2906467432702
   },
   "html": {
     "workbook": "26",
     "prereqs": [
       "http"
-    ]
+    ],
+    "x": -35.31521295697754,
+    "y": -56.72606629891601
   },
   "intro_text": {
     "workbook": "26",
     "prereqs": [
       "hexbinary"
-    ]
+    ],
+    "x": -55.129189754854224,
+    "y": 43.938534772340276
   },
   "stop_words": {
     "workbook": "26",
-    "prereqs": []
+    "prereqs": [],
+    "x": -26.546612302462904,
+    "y": 11.692040828277257
   },
   "stemming_lemmatization": {
     "workbook": "26",
-    "prereqs": []
+    "prereqs": [],
+    "x": 30.72024060693667,
+    "y": -41.61442533083452
   },
   "accents_scripts": {
     "workbook": "27",
     "prereqs": [
       "greek",
       "intro_text"
-    ]
+    ],
+    "x": 8.606797980011052,
+    "y": 12.692884552091428
   },
   "matplotlib": {
     "workbook": "27",
-    "prereqs": []
+    "prereqs": [],
+    "x": 4.875766542496677,
+    "y": -51.39331361520388
   },
   "geocoding": {
     "workbook": "27",
     "prereqs": [
       "api",
-      "json_xml",
       "http",
+      "json_xml",
       "long_lat_dist"
-    ]
+    ],
+    "x": -24.145755923608284,
+    "y": 61.06014262450526
   },
   "making_a_map": {
     "workbook": "28",
     "prereqs": [
       "intro_python2",
       "long_lat_dist"
-    ]
+    ],
+    "x": 11.022644370928774,
+    "y": -12.711693557659977
   },
   "discrete_probability": {
     "workbook": "28",
     "prereqs": [
       "basic_statistics",
-      "pylists",
-      "functions"
-    ]
+      "functions",
+      "pylists"
+    ],
+    "x": 60.17698947953269,
+    "y": 4.810940170317664
   },
   "combinatorics": {
     "workbook": "28",
     "prereqs": [
-      "exponents_review",
       "common_products_polynomials",
-      "polynomials_intro",
-      "discrete_probability"
-    ]
+      "discrete_probability",
+      "exponents_review",
+      "polynomials_intro"
+    ],
+    "x": -58.71535017334405,
+    "y": 28.879788378770996
   },
   "permutations": {
     "workbook": "28",
     "prereqs": [
       "combinatorics",
-      "intro_python2",
       "functions",
+      "intro_python2",
       "vectors_matrices"
-    ]
+    ],
+    "x": 9.890153750084153,
+    "y": 16.50029568293111
   },
   "conditional_prob": {
     "workbook": "29",
     "prereqs": [
       "discrete_probability"
-    ]
+    ],
+    "x": -28.988092071425164,
+    "y": -9.289473417739345
   },
   "bayes": {
     "workbook": "29",
     "prereqs": [
       "conditional_prob"
-    ]
+    ],
+    "x": 15.394656936222418,
+    "y": -40.012875861760435
   },
   "antiderivatives": {
     "workbook": "29",
     "prereqs": [
       "differentiating_polynomials"
-    ]
+    ],
+    "x": -69.33761055931772,
+    "y": -20.874757365306223
   },
   "riemann_sums": {
     "workbook": "29",
     "prereqs": [
       "antiderivatives",
       "intro_python2"
-    ]
+    ],
+    "x": 44.938814512772154,
+    "y": 33.842353038215734
   },
   "definite_integral": {
     "workbook": "30",
     "prereqs": [
       "antiderivatives",
       "riemann_sums"
-    ]
+    ],
+    "x": -9.298944798227048,
+    "y": 34.424941072651464
   },
   "ftc": {
     "workbook": "30",
-    "prereqs": []
+    "prereqs": [],
+    "x": -40.15334678293374,
+    "y": -36.82356616814141
   },
   "arc_length": {
     "workbook": "30",
     "prereqs": [
-      "pythagorean_theorem",
-      "definite_integral"
-    ]
+      "definite_integral",
+      "pythagorean_theorem"
+    ],
+    "x": 10.658048429140223,
+    "y": -40.823554810265236
   },
   "cdf_uniform": {
     "workbook": "30",
     "prereqs": [
-      "definite_integral",
-      "discrete_probability",
+      "bayes",
       "conditional_prob",
-      "bayes"
-    ]
+      "definite_integral",
+      "discrete_probability"
+    ],
+    "x": 56.471998108010524,
+    "y": -21.160045450806287
   },
   "gas": {
     "workbook": "31",
     "prereqs": [
-      "work_energy",
-      "basic_statistics",
       "atmopressure",
-      "newtons_second_law",
-      "matter_energy_intro",
+      "atomic_mass",
+      "basic_statistics",
       "cdf_uniform",
-      "atomic_mass"
-    ]
+      "matter_energy_intro",
+      "newtons_second_law",
+      "work_energy"
+    ],
+    "x": -38.506318378751686,
+    "y": -17.2389096611125
   },
   "temp_kinetic": {
     "workbook": "31",
     "prereqs": [
       "gas"
-    ]
+    ],
+    "x": 28.17823258774915,
+    "y": -50.002110395573354
   },
   "phase_change": {
     "workbook": "31",
     "prereqs": [
       "temp_kinetic"
-    ]
+    ],
+    "x": -14.49462689042155,
+    "y": -5.98155702106807
   },
   "engine": {
     "workbook": "31",
     "prereqs": [
       "gas",
       "rocketry"
-    ]
+    ],
+    "x": 58.26162954768043,
+    "y": -16.783752450678243
   },
   "u-substitution": {
     "workbook": "32",
     "prereqs": [
-      "differentiability",
       "antiderivatives",
-      "definite_integral"
-    ]
+      "definite_integral",
+      "differentiability"
+    ],
+    "x": -0.42479302769019966,
+    "y": 69.64087282062036
   },
   "polar_calc": {
     "workbook": "32",
     "prereqs": [
-      "polar_coord",
-      "trig_identities",
-      "inv_trig_functions",
       "circular",
-      "parametric"
-    ]
+      "inv_trig_functions",
+      "parametric",
+      "polar_coord",
+      "trig_identities"
+    ],
+    "x": -11.258763220686383,
+    "y": -61.51462550926915
   },
   "diff_eqs": {
     "workbook": "32",
     "prereqs": [
-      "partial_deriv_grad",
-      "compound_interest"
-    ]
+      "compound_interest",
+      "partial_deriv_grad"
+    ],
+    "x": -69.19434891479351,
+    "y": 49.3276773687309
   },
   "slope_fields": {
     "workbook": "32",
     "prereqs": [
       "diff_eqs"
-    ]
+    ],
+    "x": -23.63800906872462,
+    "y": -24.289273397960834
   },
   "euler_method": {
     "workbook": "33",
     "prereqs": [
       "diff_eqs"
-    ]
+    ],
+    "x": -48.67002099920902,
+    "y": 14.209261027437293
   },
   "seq_calc": {
     "workbook": "33",
     "prereqs": [
-      "limits",
       "intro_python2",
+      "limits",
       "sequences"
-    ]
+    ],
+    "x": 39.53655125862369,
+    "y": -31.40035698084465
   },
   "series": {
     "workbook": "33",
     "prereqs": [
       "seq_calc",
       "sequences"
-    ]
+    ],
+    "x": -11.072911526554108,
+    "y": 41.68546842219406
   },
   "series_tests": {
     "workbook": "33",
     "prereqs": [
       "seq_calc",
       "series"
-    ]
+    ],
+    "x": 18.04753676906124,
+    "y": 1.3488487596761871
   },
   "power_series": {
     "workbook": "34",
     "prereqs": [
-      "series_tests",
-      "series"
-    ]
+      "series",
+      "series_tests"
+    ],
+    "x": 65.55182241670838,
+    "y": -36.890824452304045
   },
   "pop_prop": {
     "workbook": "34",
     "prereqs": [
-      "combinatorics",
       "bayes",
+      "combinatorics",
       "conditional_prob"
-    ]
+    ],
+    "x": 31.67080895394264,
+    "y": 24.249851940402735
   },
   "normal_t": {
     "workbook": "34",
     "prereqs": [
-      "cdf_uniform",
-      "basic_statistics"
-    ]
+      "basic_statistics",
+      "cdf_uniform"
+    ],
+    "x": -24.585301963168874,
+    "y": -3.6200265079828426
   },
   "change_var": {
     "workbook": "34",
     "prereqs": [
-      "cdf_uniform",
-      "basic_statistics"
-    ]
+      "basic_statistics",
+      "cdf_uniform"
+    ],
+    "x": -50.58823102856398,
+    "y": -38.53651858686984
   },
   "volume_single_integral": {
     "workbook": "34",
     "prereqs": [
-      "volume_solids",
-      "definite_integral"
-    ]
+      "definite_integral",
+      "volume_solids"
+    ],
+    "x": -59.783013378383835,
+    "y": 43.339197402553154
   },
   "volume_double_integral": {
     "workbook": "35",
     "prereqs": [
-      "volume_single_integral",
+      "definite_integral",
       "multiv_func",
-      "definite_integral"
-    ]
+      "volume_single_integral"
+    ],
+    "x": -60.28632425163094,
+    "y": -36.26987620650396
   },
   "double_int_regions": {
     "workbook": "35",
     "prereqs": [
       "volume_double_integral"
-    ]
+    ],
+    "x": 7.188391659298148,
+    "y": -65.3702064281208
   },
   "double_int_applications": {
     "workbook": "35",
     "prereqs": [
       "double_int_regions"
-    ]
+    ],
+    "x": 69.57278106137107,
+    "y": 62.02443844672089
   },
   "multiv_dist": {
     "workbook": "35",
     "prereqs": [
       "multiv_func"
-    ]
+    ],
+    "x": 30.401157064416168,
+    "y": -16.133488031306896
   },
   "multiv_normal": {
     "workbook": "36",
     "prereqs": [
       "normal_t"
-    ]
+    ],
+    "x": 19.561210822293646,
+    "y": 59.80361029394891
   },
   "numerical_multi_int": {
     "workbook": "36",
     "prereqs": [
-      "riemann_sums",
+      "double_int_regions",
       "multiv_func",
-      "double_int_regions"
-    ]
+      "riemann_sums"
+    ],
+    "x": -58.73912893253545,
+    "y": -2.9373868193424215
   },
   "bayes_classifier": {
     "workbook": "36",
@@ -1291,6 +1678,8 @@
       "bayes",
       "conditional_prob",
       "multiv_normal"
-    ]
+    ],
+    "x": 62.96687017378565,
+    "y": -66.56978105132228
   }
 }
