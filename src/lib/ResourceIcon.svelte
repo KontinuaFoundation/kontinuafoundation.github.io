@@ -25,6 +25,17 @@
         if (hostname.includes("wikipedia.org")) {
             return "fa-brands fa-wikipedia-w";
         }
+        
+        if (hostname.includes("github.com")) {
+            return "fa-brands fa-github"; 
+            // fa-solid fa-code-merge
+            // fa-solid fa-code-commit
+            // fa-brands fa-github
+            // fa-brands fa-git
+            // fa-brands fa-github-alt
+            // fa-brands fa-square-github
+            // fa-regular fa-file-code"
+        }
 
         return null;
     }
