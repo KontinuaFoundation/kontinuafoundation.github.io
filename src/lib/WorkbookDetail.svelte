@@ -191,20 +191,16 @@
   <!-- next workbook buttons here :) -->
   <div class="workbook-nav">
     <a
-      href={curr > 1 ? `/#workbook/${curr - 1}` : "#"}
+      href={curr > 1 ? `#workbook/${String(curr - 1).padStart(2, "0")}` : "#"}
       aria-disabled={curr === 1}
-      target="_blank"
-      rel="noopener"
       class="next-workbook-href"
     >
       ← Previous Workbook
     </a>
 
     <a
-      href={curr < 36 ? `/#workbook/${curr + 1}` : "#"}
-      target="_blank"
+      href={curr < 36 ? `#workbook/${String(curr + 1).padStart(2, "0")}` : "#"}
       aria-disabled={curr === 36}
-      rel="noopener"
       class="next-workbook-href"
     >
       Next Workbook →
