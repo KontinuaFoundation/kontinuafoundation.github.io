@@ -35,6 +35,9 @@ This repository is auto-deployed via a Bash script run by authors in the [Sequen
 # Install dependencies
 bun install
 
+# Rebuild graph.json from workbooks.json
+bun run sync:graph
+
 # Start development server
 bun run dev
 
@@ -44,6 +47,12 @@ bun run build
 # Preview production build
 bun run preview
 ```
+
+## Graph Data
+
+`public/graph.json` is derived from `public/workbooks.json`. When new content is pushed here from the Sequence repository, run `bun run sync:graph` after the generated workbook data is copied and before committing or deploying this repository.
+
+The GitHub Pages workflow also runs this sync before `bun run build`, so the deployed graph picks up new chapters even if an author forgets to update `graph.json` manually.
 
 ## Editing & Source of Truth
 
