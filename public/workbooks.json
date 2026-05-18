@@ -5334,9 +5334,24 @@
         ]
       },
       {
+        "id": "num_methods",
+        "title": "Numerical Methods of Describing Data",
+        "chap_num": 2,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "num_methods",
+            "desc": "Understand basic numerical methods including (FIXME)",
+            "videos": [],
+            "references": []
+          }
+        ]
+      },
+      {
         "id": "dot",
         "title": "The Dot Product",
-        "chap_num": 2,
+        "chap_num": 3,
         "files": [],
         "requires": [
           "vectors",
@@ -5390,7 +5405,7 @@
       {
         "id": "manufacturing",
         "title": "Manufacturing",
-        "chap_num": 3,
+        "chap_num": 4,
         "files": [],
         "requires": [
           "metals"
@@ -5477,7 +5492,7 @@
       {
         "id": "intro_waves",
         "title": "Introduction to Waves",
-        "chap_num": 4,
+        "chap_num": 5,
         "files": [],
         "requires": [
           "trig_functions",
@@ -5589,7 +5604,7 @@
       {
         "id": "sound",
         "title": "Sound",
-        "chap_num": 5,
+        "chap_num": 6,
         "files": [
           {
             "desc": "A python script showing different sine waves plotted representing harmonics",
@@ -5699,9 +5714,11 @@
       {
         "id": "num_methods_2",
         "title": "Applying Numerical Methods to Bivariate Data",
-        "chap_num": 6,
+        "chap_num": 7,
         "files": [],
-        "requires": [],
+        "requires": [
+          "num_methods"
+        ],
         "covers": []
       }
     ]
@@ -7725,6 +7742,21 @@
                 "title": "Transformation matrix - Wikipedia"
               }
             ]
+          }
+        ]
+      },
+      {
+        "id": "floating",
+        "title": "Floating Point Arithmetic",
+        "chap_num": 6,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "floating",
+            "desc": "Understand how and why floating point numbers exist.",
+            "videos": [],
+            "references": []
           }
         ]
       }
