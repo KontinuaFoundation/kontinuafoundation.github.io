@@ -557,6 +557,15 @@
     "x": -55.7866825112179,
     "y": 59.25515430747754
   },
+  "intro_waves": {
+    "workbook": "11",
+    "prereqs": [
+      "parallel_perpendicular",
+      "trig_functions"
+    ],
+    "x": 27.41720822916686,
+    "y": 41.33544973207432
+  },
   "sound": {
     "workbook": "11",
     "prereqs": [
@@ -1224,6 +1233,7 @@
   "tree_traversal": {
     "workbook": "24",
     "prereqs": [
+      "intro_python2",
       "trees"
     ],
     "x": 6.698278750909168,
@@ -1263,7 +1273,6 @@
   "graph_algorithms": {
     "workbook": "24",
     "prereqs": [
-      "binary_search",
       "dijkstra",
       "graphs",
       "intro_python2"
