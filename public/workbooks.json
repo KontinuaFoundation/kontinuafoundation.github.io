@@ -2299,32 +2299,32 @@
       },
       {
         "id": "intro_python2",
-        "title": "A deeper look at Python syntax",
+        "title": "Advanced Python Syntax and Libraries",
         "chap_num": 4,
         "files": [
           {
-            "desc": "New",
             "path": "histogram.py",
+            "desc": "New",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/intro_python2/en_US/histogram.py"
           },
           {
-            "desc": "New",
             "path": "line.py",
+            "desc": "New",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/intro_python2/en_US/line.py"
           },
           {
-            "desc": "New",
             "path": "lineOOP.py",
+            "desc": "New",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/intro_python2/en_US/lineOOP.py"
           },
           {
-            "desc": "New",
             "path": "scatter.py",
+            "desc": "New",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/intro_python2/en_US/scatter.py"
           },
           {
-            "desc": "New",
             "path": "lineTwoOutputs.py",
+            "desc": "New",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/intro_python2/en_US/lineTwoOutputs.py"
           }
         ],
@@ -2367,7 +2367,7 @@
           },
           {
             "id": "recursion",
-            "desc": "Be able to define recursion, write recursive algorithms, prevent infinite loops, and write inductive proofs for divide and conquer algorithms",
+            "desc": "Be able to define recursion, write recursive algorithms, prevent infinite loops, and write inductive proofs for divide and conquer algorithms.",
             "videos": [
               {
                 "url": "https://youtu.be/rf60MejMz3E",
@@ -2386,7 +2386,19 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
                 "title": "Recursion (computer science) - Wikipedia"
-              },
+              }
+            ]
+          },
+          {
+            "id": "binary_search",
+            "desc": "Understand the binary search algorithm and its recursive capabilities.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=fDKIpRe8GW4",
+                "title": "Binary search in 4 minutes"
+              }
+            ],
+            "references": [
               {
                 "url": "https://github.com/msambol/dsa/blob/master/search/binary_search.py",
                 "title": "dsa/search/binary_search.py at master · msambol/dsa · GitHub"
@@ -5463,9 +5475,121 @@
         ]
       },
       {
+        "id": "intro_waves",
+        "title": "Introduction to Waves",
+        "chap_num": 4,
+        "files": [],
+        "requires": [
+          "trig_functions",
+          "parallel",
+          "perpendicular"
+        ],
+        "covers": [
+          {
+            "id": "wave_basics",
+            "desc": "Understand the basic components of waves (equilibrium, amplitude, frequency, period, and wavelength).",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=CVsdXKO9xlk",
+                "title": "Wave Motion | Waves | Physics | FuseSchool"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=BL2MtP7j-xk",
+                "title": "Wave Behaviour | Waves | Physics | FuseSchool"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "wave_transverse",
+            "desc": "Understand the properties of transverse waves.",
+            "videos": [
+              {
+                "url": "https://youtu.be/sRbSQ9wGA1I",
+                "title": "Slinky Demonstration of Longitudinal and Transverse Waves"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=g8GcMn7K0u4",
+                "title": "Transverse wave using slinky coil"
+              },
+              {
+                "url": "https://youtu.be/7cDAYFTXq3E",
+                "title": "Longitudinal and Transverse Waves"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Transverse_wave",
+                "title": "Transverse wave - Wikipedia"
+              },
+              {
+                "url": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/",
+                "title": "9.3.1 Transverse Vs Longitudinal – xmPhysics"
+              }
+            ]
+          },
+          {
+            "id": "wave_longitudinal",
+            "desc": "Understand the properties of longitudinal waves.",
+            "videos": [
+              {
+                "url": "https://youtu.be/sRbSQ9wGA1I",
+                "title": "Slinky Demonstration of Longitudinal and Transverse Waves"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=fMJrtheQfZw",
+                "title": "Longitudinal wave using slinky coil"
+              },
+              {
+                "url": "https://youtu.be/7cDAYFTXq3E",
+                "title": "Longitudinal and Transverse Waves"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Longitudinal_wave",
+                "title": "Longitudinal wave - Wikipedia"
+              },
+              {
+                "url": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/",
+                "title": "9.3.1 Transverse Vs Longitudinal – xmPhysics"
+              }
+            ]
+          },
+          {
+            "id": "waves_compression_rarefaction",
+            "desc": "Understand the concepts of compression and rarefaction (or decompression) of a wave.",
+            "videos": [
+              {
+                "url": "https://youtu.be/h3R8guxUAbA",
+                "title": "How to identify compression and rarefaction in a displacement-time graph?"
+              },
+              {
+                "url": "https://youtu.be/WqnF-VPfGPw",
+                "title": "Propagation of Sound | Don't Memorise"
+              },
+              {
+                "url": "https://youtu.be/9u1PjsBfrmg",
+                "title": "Sound waves | Middle school physics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Rarefaction",
+                "title": "Rarefaction - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Compression_(physics)",
+                "title": "Compression (physics) - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "sound",
         "title": "Sound",
-        "chap_num": 4,
+        "chap_num": 5,
         "files": [
           {
             "desc": "A python script showing different sine waves plotted representing harmonics",
@@ -5575,7 +5699,7 @@
       {
         "id": "num_methods_2",
         "title": "Applying Numerical Methods to Bivariate Data",
-        "chap_num": 5,
+        "chap_num": 6,
         "files": [],
         "requires": [],
         "covers": []
@@ -10278,11 +10402,13 @@
         "title": "Introduction to C",
         "chap_num": 4,
         "files": [],
-        "requires": [],
+        "requires": [
+          "python_advanced"
+        ],
         "covers": [
           {
             "id": "c-basics",
-            "desc": "Understand the basics of c programming.",
+            "desc": "Understand the basics of C programming. Understand pass by reference, computer memory stacks, addresses, and the heap.",
             "videos": [],
             "references": []
           }
@@ -10367,7 +10493,8 @@
         "requires": [
           "recursion",
           "graphs-programming",
-          "proofs"
+          "proofs",
+          "binary_search"
         ],
         "covers": [
           {
@@ -10440,12 +10567,13 @@
           "binary_search_trees",
           "trees",
           "stacks",
-          "queues"
+          "queues",
+          "python_advanced"
         ],
         "covers": [
           {
             "id": "breadth-first-search",
-            "desc": "Understand Breadth First Search (BFS) and level order traversals of trees or graphs",
+            "desc": "Understand Breadth First Search (BFS) and level order traversals of trees or graphs.",
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=HZ5YTanv5QE",
@@ -10456,22 +10584,50 @@
               {
                 "url": "https://github.com/msambol/dsa/blob/master/search/breadth_first_search.py",
                 "title": "dsa/search/breadth_first_search.py at master · msambol/dsa · GitHub"
+              },
+              {
+                "url": "https://algoark.io/blog/tree-traversal-patterns",
+                "title": "Tree Traversal Patterns: BFS, DFS, Inorder, and Beyond — AlgoArk Blog"
               }
             ]
           },
           {
             "id": "depth-first-search",
-            "desc": "Understand Depth First Search (DFS) and its 3 orders of pre-order, post-order, and in-order traversals.",
+            "desc": "Understand Depth First Search (DFS) and its 3 orders of pre-order, post-order, and in-order traversals. Be able to write pseudocode  iteratively or recursively.",
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=Urx87-NMm6c",
                 "title": "Depth-first search in 4 minutes"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=1WxLM2hwL-U",
+                "title": "Pre-order tree traversal in 3 minutes"
+              },
+              {
+                "url": "https://youtu.be/5dySuyZf9Qg",
+                "title": "In-order tree traversal in 3 minutes"
+              },
+              {
+                "url": "https://youtu.be/4zVdfkpcT6U",
+                "title": "Post-order tree traversal in 2 minutes"
+              },
+              {
+                "url": "https://youtu.be/IozGo2kwRYE",
+                "title": "Level-order tree traversal in 3 minutes"
               }
             ],
             "references": [
               {
                 "url": "https://github.com/msambol/dsa/blob/master/search/depth_first_search.py",
                 "title": "dsa/search/depth_first_search.py at master · msambol/dsa · GitHub"
+              },
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/tree_traversal/traversal.py",
+                "title": "dsa/tree_traversal/traversal.py at master · msambol/dsa · GitHub"
+              },
+              {
+                "url": "https://algoark.io/blog/tree-traversal-patterns",
+                "title": "Tree Traversal Patterns: BFS, DFS, Inorder, and Beyond — AlgoArk Blog"
               }
             ]
           }
@@ -10814,7 +10970,53 @@
         "id": "html",
         "title": "HTML",
         "chap_num": 1,
-        "files": [],
+        "files": [
+          {
+            "desc": "Exercise Asset",
+            "path": "cookies.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/cookies.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-div1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-div1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-headings1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-headings1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-images1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-images1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-lists1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-lists1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-nav1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-nav1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-structure1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-structure1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-tables1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-tables1.jpg"
+          },
+          {
+            "desc": "Exercise",
+            "path": "html-text1.jpg",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/html/en_US/html-text1.jpg"
+          }
+        ],
         "requires": [
           "http"
         ],
