@@ -166,7 +166,7 @@
             "videos": [
               {
                 "url": "https://tpt.pbslearningmedia.org/resource/compounds-science-trek/compounds-science-trek/",
-                "title": "Compounds: Compound Basics | Science Trek | Grades 6-8 Chemical Reactions Teaching and Lesson Resources"
+                "title": "Compounds: Compound Basics | Science Trek | Grades 6-8 Science Teaching and Lesson Resources"
               }
             ],
             "references": [
@@ -2361,7 +2361,7 @@
               },
               {
                 "url": "https://docs.python.org/3/tutorial/classes.html",
-                "title": "9. Classes — Python 3.14.4 documentation"
+                "title": "9. Classes — Python 3.14.5rc1 documentation"
               }
             ]
           },
@@ -2395,7 +2395,7 @@
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=fDKIpRe8GW4",
-                "title": "Binary search in 4 minutes"
+                "title": "https://www.youtube.com/watch?v=fDKIpRe8GW4"
               }
             ],
             "references": [
@@ -2579,7 +2579,7 @@
               },
               {
                 "url": "https://youtu.be/uthjpYKD7Ng?si=rHCGFLOY7rlWsSI1",
-                "title": "Pythagorean Theorem | Math Placement Test Prep | ALEKS | TSI | ACCUPLACER | PERT | MathHelp.com"
+                "title": "Pythagorean Theorem | Math Placement Test Prep | MathHelp.com"
               }
             ],
             "references": [
@@ -4251,7 +4251,7 @@
             "references": [
               {
                 "url": "https://howthingsfly.si.edu/forces-flight/four-forces",
-                "title": "The Four Forces | How Things Fly"
+                "title": "https://howthingsfly.si.edu/forces-flight/four-forces"
               },
               {
                 "url": "https://en.wikipedia.org/wiki/Drag_(physics)",
@@ -5506,11 +5506,11 @@
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=CVsdXKO9xlk",
-                "title": "Wave Motion | Waves | Physics | FuseSchool"
+                "title": "https://www.youtube.com/watch?v=CVsdXKO9xlk"
               },
               {
                 "url": "https://www.youtube.com/watch?v=BL2MtP7j-xk",
-                "title": "Wave Behaviour | Waves | Physics | FuseSchool"
+                "title": "https://www.youtube.com/watch?v=BL2MtP7j-xk"
               }
             ],
             "references": []
@@ -5521,25 +5521,25 @@
             "videos": [
               {
                 "url": "https://youtu.be/sRbSQ9wGA1I",
-                "title": "Slinky Demonstration of Longitudinal and Transverse Waves"
+                "title": "https://youtu.be/sRbSQ9wGA1I"
               },
               {
                 "url": "https://www.youtube.com/watch?v=g8GcMn7K0u4",
-                "title": "Transverse wave using slinky coil"
+                "title": "https://www.youtube.com/watch?v=g8GcMn7K0u4"
               },
               {
                 "url": "https://youtu.be/7cDAYFTXq3E",
-                "title": "Longitudinal and Transverse Waves"
+                "title": "https://youtu.be/7cDAYFTXq3E"
               }
             ],
             "references": [
               {
                 "url": "https://en.wikipedia.org/wiki/Transverse_wave",
-                "title": "Transverse wave - Wikipedia"
+                "title": "https://en.wikipedia.org/wiki/Transverse_wave"
               },
               {
                 "url": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/",
-                "title": "9.3.1 Transverse Vs Longitudinal – xmPhysics"
+                "title": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/"
               }
             ]
           },
@@ -5549,25 +5549,25 @@
             "videos": [
               {
                 "url": "https://youtu.be/sRbSQ9wGA1I",
-                "title": "Slinky Demonstration of Longitudinal and Transverse Waves"
+                "title": "https://youtu.be/sRbSQ9wGA1I"
               },
               {
                 "url": "https://www.youtube.com/watch?v=fMJrtheQfZw",
-                "title": "Longitudinal wave using slinky coil"
+                "title": "https://www.youtube.com/watch?v=fMJrtheQfZw"
               },
               {
                 "url": "https://youtu.be/7cDAYFTXq3E",
-                "title": "Longitudinal and Transverse Waves"
+                "title": "https://youtu.be/7cDAYFTXq3E"
               }
             ],
             "references": [
               {
                 "url": "https://en.wikipedia.org/wiki/Longitudinal_wave",
-                "title": "Longitudinal wave - Wikipedia"
+                "title": "https://en.wikipedia.org/wiki/Longitudinal_wave"
               },
               {
                 "url": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/",
-                "title": "9.3.1 Transverse Vs Longitudinal – xmPhysics"
+                "title": "https://xmphysics.wordpress.com/2025/04/29/9-3-1-transverse-vs-longitudinal-2/"
               }
             ]
           },
@@ -5577,25 +5577,25 @@
             "videos": [
               {
                 "url": "https://youtu.be/h3R8guxUAbA",
-                "title": "How to identify compression and rarefaction in a displacement-time graph?"
+                "title": "https://youtu.be/h3R8guxUAbA"
               },
               {
                 "url": "https://youtu.be/WqnF-VPfGPw",
-                "title": "Propagation of Sound | Don't Memorise"
+                "title": "https://youtu.be/WqnF-VPfGPw"
               },
               {
                 "url": "https://youtu.be/9u1PjsBfrmg",
-                "title": "Sound waves | Middle school physics | Khan Academy"
+                "title": "https://youtu.be/9u1PjsBfrmg"
               }
             ],
             "references": [
               {
                 "url": "https://en.wikipedia.org/wiki/Rarefaction",
-                "title": "Rarefaction - Wikipedia"
+                "title": "https://en.wikipedia.org/wiki/Rarefaction"
               },
               {
                 "url": "https://en.wikipedia.org/wiki/Compression_(physics)",
-                "title": "Compression (physics) - Wikipedia"
+                "title": "https://en.wikipedia.org/wiki/Compression_(physics)"
               }
             ]
           }
@@ -6424,7 +6424,7 @@
               },
               {
                 "url": "https://www.thoughtco.com/what-is-a-photon-definition-and-properties-2699039",
-                "title": "https://www.thoughtco.com/what-is-a-photon-definition-and-properties-2699039"
+                "title": "What Is a Photon in Physics?"
               },
               {
                 "url": "https://en.wikipedia.org/wiki/Photonics",
@@ -7324,7 +7324,7 @@
               },
               {
                 "url": "https://youtu.be/JoxGEymA8ro",
-                "title": "The history of photography in 5 minutes - YouTube"
+                "title": "The history of photography in 5 minutes"
               },
               {
                 "url": "https://youtu.be/ImkLfI5g4xk",
@@ -8501,7 +8501,7 @@
               },
               {
                 "url": "https://youtube.com/playlist?list=PLSQl0a2vh4HB2618hY4fyQ8gTgAnz8jr6&si=ZfLfqbqPpcEt7DHc",
-                "title": "Limits | Differential Calculus | Khan Academy - YouTube"
+                "title": "https://youtube.com/playlist?list=PLSQl0a2vh4HB2618hY4fyQ8gTgAnz8jr6&si=ZfLfqbqPpcEt7DHc"
               },
               {
                 "url": "https://youtu.be/9brk313DjV8",
@@ -10588,7 +10588,7 @@
               },
               {
                 "url": "https://algoark.io/patterns/binary-search",
-                "title": "Binary Search Pattern — Coding Interview Guide | AlgoArk"
+                "title": "https://algoark.io/patterns/binary-search"
               }
             ]
           }
@@ -10623,7 +10623,7 @@
               },
               {
                 "url": "https://algoark.io/blog/tree-traversal-patterns",
-                "title": "Tree Traversal Patterns: BFS, DFS, Inorder, and Beyond — AlgoArk Blog"
+                "title": "https://algoark.io/blog/tree-traversal-patterns"
               }
             ]
           },
@@ -10637,19 +10637,19 @@
               },
               {
                 "url": "https://www.youtube.com/watch?v=1WxLM2hwL-U",
-                "title": "Pre-order tree traversal in 3 minutes"
+                "title": "https://www.youtube.com/watch?v=1WxLM2hwL-U"
               },
               {
                 "url": "https://youtu.be/5dySuyZf9Qg",
-                "title": "In-order tree traversal in 3 minutes"
+                "title": "https://youtu.be/5dySuyZf9Qg"
               },
               {
                 "url": "https://youtu.be/4zVdfkpcT6U",
-                "title": "Post-order tree traversal in 2 minutes"
+                "title": "https://youtu.be/4zVdfkpcT6U"
               },
               {
                 "url": "https://youtu.be/IozGo2kwRYE",
-                "title": "Level-order tree traversal in 3 minutes"
+                "title": "https://youtu.be/IozGo2kwRYE"
               }
             ],
             "references": [
@@ -10659,11 +10659,11 @@
               },
               {
                 "url": "https://github.com/msambol/dsa/blob/master/tree_traversal/traversal.py",
-                "title": "dsa/tree_traversal/traversal.py at master · msambol/dsa · GitHub"
+                "title": "https://github.com/msambol/dsa/blob/master/tree_traversal/traversal.py"
               },
               {
                 "url": "https://algoark.io/blog/tree-traversal-patterns",
-                "title": "Tree Traversal Patterns: BFS, DFS, Inorder, and Beyond — AlgoArk Blog"
+                "title": "https://algoark.io/blog/tree-traversal-patterns"
               }
             ]
           }
