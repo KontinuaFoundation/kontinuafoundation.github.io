@@ -27,7 +27,7 @@
 	Fertilizer
 	Concrete
 	Metals
-	A deeper look at Python syntax
+	Advanced Python Syntax and Libraries
 	Angles
 	Introduction to Triangles
 	Pythagorean Theorem
@@ -73,8 +73,10 @@
 	Laws, Paradoxes, Thought Experiments, and the Illusions
 11
 	Introduction to Data Visualization
+	Numerical Methods of Describing Data
 	The Dot Product
 	Manufacturing
+	Introduction to Waves
 	Sound
 	Applying Numerical Methods to Bivariate Data
 12
@@ -106,6 +108,7 @@
 	Images in Python
 	Representing Natural Numbers
 	Bitmaps
+	Floating Point Arithmetic
 16
 	Introduction to Polynomials
 	Python Lists
@@ -160,10 +163,8 @@
 	Diodes, Rectifiers, and Photovoltaics
 	Trees
 	Tree Traversal
-	Finding Shortest Paths
 	Dijkstra's Algorithm
 	Priority Queues
-	Binary Search
 	Other Graph Algorithms and Proofs
 25
 	Making Web Requests with HTTP
