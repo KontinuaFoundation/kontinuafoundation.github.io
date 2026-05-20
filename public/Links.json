@@ -3917,7 +3917,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-05-18T21:41"
+    "date": "2026-05-20T20:36"
   },
   "https://www.youtube.com/watch?v=ZXF9-KX4DIQ": {
     "title": "Create a bitmap image just using notepad! [RNDBITS-041]",
@@ -5491,6 +5491,10 @@
     "title": "Binary search tree - Wikipedia",
     "date": "2026-05-05T21:24"
   },
+  "https://algoark.io/patterns/binary-search": {
+    "title": "Binary Search Pattern \u2014 Coding Interview Guide | AlgoArk",
+    "date": "2026-05-20T20:36"
+  },
   "https://youtu.be/K1a2Bk8NrYQ": {
     "title": "Understanding B-Trees: The Data Structure Behind Modern Databases",
     "date": "2026-05-05T21:24"
@@ -5535,54 +5539,6 @@
     "title": "Level-order tree traversal in 3 minutes",
     "date": "2026-05-18T21:41"
   },
-  "https://en.wikipedia.org/wiki/Dijkstra's_algorithm": {
-    "title": "Dijkstra's algorithm - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
-  "https://youtu.be/_lHSawdgXpI": {
-    "title": "Dijkstra's algorithm in 3 minutes",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/EFg3u_E6eHU": {
-    "title": "How Dijkstra's Algorithm Works",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/GazC3A4OQTE": {
-    "title": "Dijkstra's Algorithm - Computerphile",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/bZkzH5x0SKU": {
-    "title": "Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory",
-    "date": "2026-04-27T20:31"
-  },
-  "https://en.wikipedia.org/wiki/Binary_search": {
-    "title": "Binary search - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
-  "https://youtu.be/MFhxShGxHWc": {
-    "title": "Binary Search Algorithm in 100 Seconds",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/fDKIpRe8GW4": {
-    "title": "Binary search in 4 minutes",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/eVuPCG5eIr4": {
-    "title": "Binary Search Animated",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/P3YID7liBug": {
-    "title": "Algorithms: Binary Search",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/T98PIp4omUA": {
-    "title": "Binary Search - CS50 Shorts",
-    "date": "2026-04-27T20:31"
-  },
-  "https://youtu.be/sSYQ1H9-Vks": {
-    "title": "Linear search vs Binary search",
-    "date": "2026-04-27T20:31"
-  },
   "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm": {
     "title": "Bellman\u2013Ford algorithm - Wikipedia",
     "date": "2026-04-26T22:43"
@@ -5613,6 +5569,14 @@
   },
   "https://youtu.be/FtN3BYH2Zes": {
     "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming",
+    "date": "2026-04-27T20:31"
+  },
+  "https://youtu.be/EFg3u_E6eHU": {
+    "title": "How Dijkstra's Algorithm Works",
+    "date": "2026-04-27T20:31"
+  },
+  "https://youtu.be/_lHSawdgXpI": {
+    "title": "Dijkstra's algorithm in 3 minutes",
     "date": "2026-04-27T20:31"
   },
   "https://www.youtube.com/watch?v=cplfcGZmX7I": {

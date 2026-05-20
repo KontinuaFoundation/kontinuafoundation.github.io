@@ -10585,6 +10585,10 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Binary_search_tree",
                 "title": "Binary search tree - Wikipedia"
+              },
+              {
+                "url": "https://algoark.io/patterns/binary-search",
+                "title": "Binary Search Pattern — Coding Interview Guide | AlgoArk"
               }
             ]
           }
@@ -10667,116 +10671,36 @@
       },
       {
         "id": "shortest_path",
-        "title": "Finding Shortest Paths",
+        "title": "Dijkstra's Algorithm",
         "chap_num": 5,
         "files": [],
-        "requires": [],
-        "covers": []
-      },
-      {
-        "id": "dijkstra",
-        "title": "Dijkstra's Algorithm",
-        "chap_num": 6,
-        "files": [],
         "requires": [
-          "graphs-programming",
-          "trees"
+          "breadth-first-search",
+          "graphs-programming"
         ],
         "covers": [
           {
             "id": "dijkstra",
-            "desc": "Understand how to use dikstra's algorithm to find the shortest path. ",
-            "videos": [
-              {
-                "url": "https://youtu.be/_lHSawdgXpI",
-                "title": "Dijkstra's algorithm in 3 minutes"
-              },
-              {
-                "url": "https://youtu.be/EFg3u_E6eHU",
-                "title": "How Dijkstra's Algorithm Works"
-              },
-              {
-                "url": "https://youtu.be/GazC3A4OQTE",
-                "title": "Dijkstra's Algorithm - Computerphile"
-              },
-              {
-                "url": "https://youtu.be/bZkzH5x0SKU",
-                "title": "Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Dijkstra's_algorithm",
-                "title": "Dijkstra's algorithm - Wikipedia"
-              }
-            ]
+            "desc": "Understand dijkstra's algorithm",
+            "videos": [],
+            "references": []
           }
         ]
       },
       {
         "id": "priority_queues",
         "title": "Priority Queues",
-        "chap_num": 7,
+        "chap_num": 6,
         "files": [],
         "requires": [],
         "covers": []
       },
       {
-        "id": "binary_search",
-        "title": "Binary Search",
-        "chap_num": 8,
-        "files": [],
-        "requires": [
-          "dijkstra",
-          "python_basics",
-          "python_advanced"
-        ],
-        "covers": [
-          {
-            "id": "binary_search",
-            "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
-            "videos": [
-              {
-                "url": "https://youtu.be/MFhxShGxHWc",
-                "title": "Binary Search Algorithm in 100 Seconds"
-              },
-              {
-                "url": "https://youtu.be/fDKIpRe8GW4",
-                "title": "Binary search in 4 minutes"
-              },
-              {
-                "url": "https://youtu.be/eVuPCG5eIr4",
-                "title": "Binary Search Animated"
-              },
-              {
-                "url": "https://youtu.be/P3YID7liBug",
-                "title": "Algorithms: Binary Search"
-              },
-              {
-                "url": "https://youtu.be/T98PIp4omUA",
-                "title": "Binary Search - CS50 Shorts"
-              },
-              {
-                "url": "https://youtu.be/sSYQ1H9-Vks",
-                "title": "Linear search vs Binary search"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Binary_search",
-                "title": "Binary search - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "graph_algorithms",
         "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 9,
+        "chap_num": 7,
         "files": [],
         "requires": [
-          "dijkstra",
           "binary_search",
           "graphs-programming",
           "recursion"
