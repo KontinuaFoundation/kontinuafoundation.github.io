@@ -8468,7 +8468,10 @@
         "files": [],
         "requires": [
           "math-graph",
-          "math-function"
+          "math-function",
+          "stats_mean",
+          "stats_sample",
+          "asymptotes"
         ],
         "covers": [
           {
@@ -8620,6 +8623,26 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Continuous_function",
                 "title": "Continuous function - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "law_large_numbers",
+            "desc": "Use sample proportions and the Law of Large Numbers as introduction to limits.",
+            "videos": [
+              {
+                "url": "https://www.khanacademy.org/math/probability/v/law-of-large-numbers",
+                "title": "Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Law_of_large_numbers",
+                "title": "Law of large numbers - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Expected_value",
+                "title": "Expected value - Wikipedia"
               }
             ]
           }
@@ -10682,23 +10705,43 @@
           {
             "id": "dijkstra",
             "desc": "Understand dijkstra's algorithm",
-            "videos": [],
+            "videos": [
+              {
+                "url": "https://youtu.be/EFg3u_E6eHU",
+                "title": "How Dijkstra's Algorithm Works"
+              },
+              {
+                "url": "https://youtu.be/_lHSawdgXpI",
+                "title": "Dijkstra's algorithm in 3 minutes"
+              },
+              {
+                "url": "https://youtu.be/bZkzH5x0SKU",
+                "title": "Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory"
+              },
+              {
+                "url": "https://youtu.be/9REexHx0hDY",
+                "title": "A* (A star) vs Dijkstra's algorithm pathfinding grid visualization - JavaScript"
+              }
+            ],
             "references": []
+          },
+          {
+            "id": "bfs_shortest",
+            "desc": "Be able to use bfs to find the shortest path to a destination in a graph.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
+                "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm"
+              }
+            ]
           }
         ]
       },
       {
-        "id": "priority_queues",
-        "title": "Priority Queues",
-        "chap_num": 6,
-        "files": [],
-        "requires": [],
-        "covers": []
-      },
-      {
         "id": "graph_algorithms",
         "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 7,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "binary_search",
@@ -10733,14 +10776,6 @@
               {
                 "url": "https://youtu.be/FtN3BYH2Zes",
                 "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming"
-              },
-              {
-                "url": "https://youtu.be/EFg3u_E6eHU",
-                "title": "How Dijkstra's Algorithm Works"
-              },
-              {
-                "url": "https://youtu.be/_lHSawdgXpI",
-                "title": "Dijkstra's algorithm in 3 minutes"
               },
               {
                 "url": "https://www.youtube.com/watch?v=cplfcGZmX7I",
@@ -12685,12 +12720,17 @@
         "requires": [
           "sequences1",
           "limits",
-          "recursion"
+          "recursion",
+          "squeeze",
+          "lhopital_rule",
+          "compound_interest",
+          "exponential_growth",
+          "law_large_numbers"
         ],
         "covers": [
           {
             "id": "sequences2",
-            "desc": "Be able to find the limit of a series. Define convergence and divergence",
+            "desc": "Evaluate limits of sequences and determine whether sequences converge or diverge.",
             "videos": [
               {
                 "url": "https://youtu.be/XdkoTb8PEG0",
@@ -12719,6 +12759,23 @@
                 "title": "Sequence - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "monotonic_bounded_sequences",
+            "desc": "Determine whether a sequence is monotonic or bounded, and use those properties to reason about convergence.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Monotone_convergence_theorem#Convergence_of_a_monotone_sequence_of_real_numbers",
+                "title": "Monotone convergence theorem - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "sequence_applications",
+            "desc": "Use recursive and explicit sequences to model applications such as compound interest and population growth.",
+            "videos": [],
+            "references": []
           }
         ]
       },
