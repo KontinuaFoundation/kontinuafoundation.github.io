@@ -11185,35 +11185,6 @@
         "files": [],
         "requires": [],
         "covers": []
-      },
-      {
-        "id": "stemming_lemmatization",
-        "title": "Stemming and Lemmatization",
-        "chap_num": 4,
-        "files": [],
-        "requires": [],
-        "covers": [
-          {
-            "id": "stemming_lemmatization",
-            "desc": "Understand the processes of stemming and lemmatization. ",
-            "videos": [
-              {
-                "url": "https://youtu.be/HHAilAC3cXw",
-                "title": "Stemming and Lemmatization: NLP Tutorial For Beginners - S1 E10"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Stemming",
-                "title": "Stemming - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Lemmatization",
-                "title": "Lemmatization - Wikipedia"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -11795,9 +11766,97 @@
         ]
       },
       {
+        "id": "intro_markov",
+        "title": "Introduction to Markov Chains",
+        "chap_num": 3,
+        "files": [],
+        "requires": [
+          "probability_conditional",
+          "graphs-programming",
+          "probability_independent",
+          "matrix",
+          "matrices_applied",
+          "law_large_numbers",
+          "eigen"
+        ],
+        "covers": [
+          {
+            "id": "intro_markov",
+            "desc": "Understand the basics of Markov Chains in statistics. Be able to use properties of Markov chains, draw Markov Chains and ",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=mLiGy8KND0E",
+                "title": "Markov Chains Explained Visually"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=IkbkEtOOC1Y",
+                "title": "16. Markov Chains I"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ibFeUX5F_fw",
+                "title": "Setting Up a Markov Chain"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=nxHOWeT0ID0",
+                "title": "Markov Chain Practice 1"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf",
+                "title": "ch8.pdf"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Markov_chain",
+                "title": "Markov chain - Wikipedia"
+              },
+              {
+                "url": "https://math.stackexchange.com/questions/544/what-is-a-markov-chain",
+                "title": "probability theory - What is a Markov Chain? - Mathematics Stack Exchange"
+              },
+              {
+                "url": "https://setosa.io/ev/markov-chains/",
+                "title": "Markov Chains explained visually"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/PageRank",
+                "title": "PageRank - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Markov_property",
+                "title": "Markov property - Wikipedia"
+              },
+              {
+                "url": "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iii/lecture-16",
+                "title": "Lecture 16: Markov Chains - I | Probabilistic Systems Analysis and Applied Probability | Electrical Engineering and Computer Science | MIT OpenCourseWare"
+              },
+              {
+                "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/10%3A_Markov_Chains/10.01%3A_Introduction_to_Markov_Chains",
+                "title": "10.1: Introduction to Markov Chains - Mathematics LibreTexts"
+              }
+            ]
+          },
+          {
+            "id": "transition_matrices",
+            "desc": "Understand how to represent Markov Chains with transition matrices. Be able to use linear algebra on these matrices to find next and future states.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf",
+                "title": "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf"
+              },
+              {
+                "url": "https://personal.math.ubc.ca/~holmescerfon/teaching/asa22/handout-Lecture2_2022.pdf",
+                "title": "handout-Lecture2_2022.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "antiderivatives",
         "title": "Antiderivatives",
-        "chap_num": 3,
+        "chap_num": 4,
         "files": [],
         "requires": [
           "derivatives"
@@ -11840,7 +11899,7 @@
       {
         "id": "riemann_sums",
         "title": "Riemann Sums",
-        "chap_num": 4,
+        "chap_num": 5,
         "files": [
           {
             "path": "riemann.py",
@@ -11910,6 +11969,38 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Riemann_sum",
                 "title": "Riemann sum - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stemming_lemmatization",
+        "title": "Stemming and Lemmatization",
+        "chap_num": 6,
+        "files": [],
+        "requires": [
+          "transition_matrices",
+          "intro_markov"
+        ],
+        "covers": [
+          {
+            "id": "stemming_lemmatization",
+            "desc": "Understand the processes of stemming and lemmatization. ",
+            "videos": [
+              {
+                "url": "https://youtu.be/HHAilAC3cXw",
+                "title": "Stemming and Lemmatization: NLP Tutorial For Beginners - S1 E10"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Stemming",
+                "title": "Stemming - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Lemmatization",
+                "title": "Lemmatization - Wikipedia"
               }
             ]
           }

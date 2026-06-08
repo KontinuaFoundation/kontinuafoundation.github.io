@@ -3917,7 +3917,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-05-25T20:49"
+    "date": "2026-06-08T19:01"
   },
   "https://www.youtube.com/watch?v=ZXF9-KX4DIQ": {
     "title": "Create a bitmap image just using notepad! [RNDBITS-041]",
@@ -5799,18 +5799,6 @@
     "title": "ASCII, Unicode, UTF-8: Explained Simply",
     "date": "2026-04-27T20:31"
   },
-  "https://en.wikipedia.org/wiki/Stemming": {
-    "title": "Stemming - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
-  "https://en.wikipedia.org/wiki/Lemmatization": {
-    "title": "Lemmatization - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
-  "https://youtu.be/HHAilAC3cXw": {
-    "title": "Stemming and Lemmatization: NLP Tutorial For Beginners - S1 E10",
-    "date": "2026-04-27T20:31"
-  },
   "https://en.wikipedia.org/wiki/Greek_diacritics": {
     "title": "Greek diacritics - Wikipedia",
     "date": "2026-04-26T22:43"
@@ -6123,6 +6111,58 @@
     "title": "Game Theory Scene | 21(2008) | Now Playing",
     "date": "2026-04-27T20:31"
   },
+  "https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf": {
+    "title": "ch8.pdf",
+    "date": "2026-06-08T19:01"
+  },
+  "https://en.wikipedia.org/wiki/Markov_chain": {
+    "title": "Markov chain - Wikipedia",
+    "date": "2026-06-08T19:01"
+  },
+  "https://math.stackexchange.com/questions/544/what-is-a-markov-chain": {
+    "title": "probability theory - What is a Markov Chain? - Mathematics Stack Exchange",
+    "date": "2026-06-08T19:01"
+  },
+  "https://setosa.io/ev/markov-chains/": {
+    "title": "Markov Chains explained visually",
+    "date": "2026-06-08T19:01"
+  },
+  "https://en.wikipedia.org/wiki/PageRank": {
+    "title": "PageRank - Wikipedia",
+    "date": "2026-06-08T19:01"
+  },
+  "https://en.wikipedia.org/wiki/Markov_property": {
+    "title": "Markov property - Wikipedia",
+    "date": "2026-06-08T19:01"
+  },
+  "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iii/lecture-16": {
+    "title": "Lecture 16: Markov Chains - I | Probabilistic Systems Analysis and Applied Probability | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+    "date": "2026-06-08T19:01"
+  },
+  "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/10%3A_Markov_Chains/10.01%3A_Introduction_to_Markov_Chains": {
+    "title": "10.1: Introduction to Markov Chains - Mathematics LibreTexts",
+    "date": "2026-06-08T19:01"
+  },
+  "https://www.youtube.com/watch?v=mLiGy8KND0E": {
+    "title": "Markov Chains Explained Visually",
+    "date": "2026-06-08T19:01"
+  },
+  "https://www.youtube.com/watch?v=IkbkEtOOC1Y": {
+    "title": "16. Markov Chains I",
+    "date": "2026-06-08T19:01"
+  },
+  "https://www.youtube.com/watch?v=ibFeUX5F_fw": {
+    "title": "Setting Up a Markov Chain",
+    "date": "2026-06-08T19:01"
+  },
+  "https://www.youtube.com/watch?v=nxHOWeT0ID0": {
+    "title": "Markov Chain Practice 1",
+    "date": "2026-06-08T19:01"
+  },
+  "https://personal.math.ubc.ca/~holmescerfon/teaching/asa22/handout-Lecture2_2022.pdf": {
+    "title": "handout-Lecture2_2022.pdf",
+    "date": "2026-06-08T19:01"
+  },
   "https://en.wikipedia.org/wiki/Antiderivative": {
     "title": "Antiderivative - Wikipedia",
     "date": "2026-04-26T22:43"
@@ -6197,6 +6237,18 @@
   },
   "https://youtu.be/4vMJwKHMRx0": {
     "title": "\"Reverse\" Riemann Sums | Finding the Definite Integral Given a Sum",
+    "date": "2026-04-27T20:31"
+  },
+  "https://en.wikipedia.org/wiki/Stemming": {
+    "title": "Stemming - Wikipedia",
+    "date": "2026-04-26T22:43"
+  },
+  "https://en.wikipedia.org/wiki/Lemmatization": {
+    "title": "Lemmatization - Wikipedia",
+    "date": "2026-04-26T22:43"
+  },
+  "https://youtu.be/HHAilAC3cXw": {
+    "title": "Stemming and Lemmatization: NLP Tutorial For Beginners - S1 E10",
     "date": "2026-04-27T20:31"
   },
   "https://en.wikipedia.org/wiki/Integral#Properties": {
