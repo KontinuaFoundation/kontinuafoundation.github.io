@@ -11799,6 +11799,14 @@
               {
                 "url": "https://www.youtube.com/watch?v=nxHOWeT0ID0",
                 "title": "Markov Chain Practice 1"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=lJTmtduw-K4",
+                "title": "Markov Chains and Hidden Markov Models"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=JheGL6uSF-4",
+                "title": "I Made a Graph of Wikipedia... This Is What I Found"
               }
             ],
             "references": [
@@ -11833,13 +11841,22 @@
               {
                 "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/10%3A_Markov_Chains/10.01%3A_Introduction_to_Markov_Chains",
                 "title": "10.1: Introduction to Markov Chains - Mathematics LibreTexts"
+              },
+              {
+                "url": "https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf",
+                "title": "pagerank.pdf"
               }
             ]
           },
           {
             "id": "transition_matrices",
-            "desc": "Understand how to represent Markov Chains with transition matrices. Be able to use linear algebra on these matrices to find next and future states.",
-            "videos": [],
+            "desc": "Understand how to represent Markov Chains with transition matrices. Be able to use linear algebra on these matrices to find next and future states. Understand how to find steady state distributions",
+            "videos": [
+              {
+                "url": "youtube.com/watch?v=1GKtfgwf3ig",
+                "title": "Markov Chains & Transition Matrices"
+              }
+            ],
             "references": [
               {
                 "url": "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf",
@@ -11848,6 +11865,14 @@
               {
                 "url": "https://personal.math.ubc.ca/~holmescerfon/teaching/asa22/handout-Lecture2_2022.pdf",
                 "title": "handout-Lecture2_2022.pdf"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Stochastic_matrix",
+                "title": "Stochastic matrix - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/State-transition_matrix",
+                "title": "State-transition matrix - Wikipedia"
               }
             ]
           }

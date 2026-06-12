@@ -3917,7 +3917,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-06-10T20:45"
+    "date": "2026-06-12T23:52"
   },
   "https://www.youtube.com/watch?v=ZXF9-KX4DIQ": {
     "title": "Create a bitmap image just using notepad! [RNDBITS-041]",
@@ -6143,6 +6143,10 @@
     "title": "10.1: Introduction to Markov Chains - Mathematics LibreTexts",
     "date": "2026-06-08T19:01"
   },
+  "https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf": {
+    "title": "pagerank.pdf",
+    "date": "2026-06-12T23:52"
+  },
   "https://www.youtube.com/watch?v=mLiGy8KND0E": {
     "title": "Markov Chains Explained Visually",
     "date": "2026-06-08T19:01"
@@ -6159,6 +6163,14 @@
     "title": "Markov Chain Practice 1",
     "date": "2026-06-08T19:01"
   },
+  "https://www.youtube.com/watch?v=lJTmtduw-K4": {
+    "title": "Markov Chains and Hidden Markov Models",
+    "date": "2026-06-12T23:52"
+  },
+  "https://www.youtube.com/watch?v=JheGL6uSF-4": {
+    "title": "I Made a Graph of Wikipedia... This Is What I Found",
+    "date": "2026-06-12T23:52"
+  },
   "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf": {
     "title": "MarkovChains.pdf",
     "date": "2026-06-10T20:45"
@@ -6166,6 +6178,18 @@
   "https://personal.math.ubc.ca/~holmescerfon/teaching/asa22/handout-Lecture2_2022.pdf": {
     "title": "handout-Lecture2_2022.pdf",
     "date": "2026-06-08T19:01"
+  },
+  "https://en.wikipedia.org/wiki/Stochastic_matrix": {
+    "title": "Stochastic matrix - Wikipedia",
+    "date": "2026-06-12T23:52"
+  },
+  "https://en.wikipedia.org/wiki/State-transition_matrix": {
+    "title": "State-transition matrix - Wikipedia",
+    "date": "2026-06-12T23:52"
+  },
+  "youtube.com/watch?v=1GKtfgwf3ig": {
+    "title": "Markov Chains & Transition Matrices",
+    "date": "2026-06-12T23:52"
   },
   "https://en.wikipedia.org/wiki/Antiderivative": {
     "title": "Antiderivative - Wikipedia",
