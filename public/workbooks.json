@@ -10796,6 +10796,17 @@
                 "title": "Depth-first search - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "adj_matrices",
+            "desc": "Understand how to represent and translate adjacency matrices into graphs and visa versa.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Adjacency_matrix",
+                "title": "Adjacency matrix - Wikipedia"
+              }
+            ]
           }
         ]
       }
