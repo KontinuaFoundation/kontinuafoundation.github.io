@@ -10652,7 +10652,7 @@
           },
           {
             "id": "depth-first-search",
-            "desc": "Understand Depth First Search (DFS) and its 3 orders of pre-order, post-order, and in-order traversals. Be able to write pseudocode  iteratively or recursively.",
+            "desc": "Understand Depth First Search (DFS) and its 3 orders of pre-order, post-order, and in-order traversals. Be able to write pseudocode iteratively or recursively. Be able to add and interpret pre- and post-order numbers.",
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=Urx87-NMm6c",
@@ -10687,6 +10687,10 @@
               {
                 "url": "https://algoark.io/blog/tree-traversal-patterns",
                 "title": "Tree Traversal Patterns: BFS, DFS, Inorder, and Beyond — AlgoArk Blog"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Depth-first_search",
+                "title": "Depth-first search - Wikipedia"
               }
             ]
           }
@@ -10704,7 +10708,7 @@
         "covers": [
           {
             "id": "dijkstra",
-            "desc": "Understand dijkstra's algorithm",
+            "desc": "Understand dijkstra's algorithm, a prerequisite for many other topics in graph theory.",
             "videos": [
               {
                 "url": "https://youtu.be/EFg3u_E6eHU",
@@ -10721,38 +10725,7 @@
               {
                 "url": "https://youtu.be/9REexHx0hDY",
                 "title": "A* (A star) vs Dijkstra's algorithm pathfinding grid visualization - JavaScript"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "bfs_shortest",
-            "desc": "Be able to use bfs to find the shortest path to a destination in a graph.",
-            "videos": [],
-            "references": [
-              {
-                "url": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
-                "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "graph_algorithms",
-        "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 6,
-        "files": [],
-        "requires": [
-          "binary_search",
-          "graphs-programming",
-          "recursion"
-        ],
-        "covers": [
-          {
-            "id": "graph_algorithms",
-            "desc": "Understand how the processes of DFS, Bellman-Ford, BFS, and Prim algorithms work. ",
-            "videos": [
+              },
               {
                 "url": "https://youtu.be/Urx87-NMm6c",
                 "title": "Depth-first search in 4 minutes"
@@ -10766,36 +10739,87 @@
                 "title": "Depth First Search Algorithm | Graph Theory"
               },
               {
-                "url": "https://youtu.be/obWXjtg0L64",
+                "url": "https://www.youtube.com/watch?v=GazC3A4OQTE",
+                "title": "Dijkstra's Algorithm - Computerphile"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Dijkstra's_algorithm",
+                "title": "Dijkstra's algorithm - Wikipedia"
+              },
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/shortest_path/dijkstras.py",
+                "title": "dsa/shortest_path/dijkstras.py at master · msambol/dsa · GitHub"
+              }
+            ]
+          },
+          {
+            "id": "bfs_shortest",
+            "desc": "Be able to use bfs to find the shortest path to a destination in a graph.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
+                "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm"
+              },
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/shortest_path/bellman_ford.py",
+                "title": "dsa/shortest_path/bellman_ford.py at master · msambol/dsa · GitHub"
+              }
+            ]
+          },
+          {
+            "id": "graphs-bellman_ford",
+            "desc": "Be able to use Bellman-Ford.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=obWXjtg0L64",
                 "title": "Bellman-Ford in 5 minutes — Step by step example"
               },
               {
-                "url": "https://youtu.be/j0OUwduDOS0",
+                "url": "https://www.youtube.com/watch?v=j0OUwduDOS0",
                 "title": "Shortest Path Algorithms Explained (Dijkstra's & Bellman-Ford)"
               },
               {
                 "url": "https://youtu.be/FtN3BYH2Zes",
                 "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming"
-              },
+              }
+            ],
+            "references": []
+          }
+        ]
+      },
+      {
+        "id": "priority_queues",
+        "title": "Priority Queues",
+        "chap_num": 6,
+        "files": [],
+        "requires": [],
+        "covers": []
+      },
+      {
+        "id": "graph_algorithms",
+        "title": "Other Graph Algorithms and Proofs",
+        "chap_num": 7,
+        "files": [],
+        "requires": [
+          "binary_search",
+          "graphs-programming",
+          "recursion",
+          "dijkstra"
+        ],
+        "covers": [
+          {
+            "id": "graph_algorithms",
+            "desc": "Understand how Prim algorithm works and the methodologies behind it.",
+            "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=cplfcGZmX7I",
                 "title": "Prim's algorithm in 2 minutes"
-              },
-              {
-                "url": "https://www.youtube.com/shorts/L1vGm2_cPU0",
-                "title": "Breadth and depth first search - YouTube"
               }
             ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm",
-                "title": "Bellman–Ford algorithm - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Depth-first_search",
-                "title": "Depth-first search - Wikipedia"
-              }
-            ]
+            "references": []
           },
           {
             "id": "adj_matrices",
@@ -10805,6 +10829,42 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Adjacency_matrix",
                 "title": "Adjacency matrix - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "graphs-a_star",
+            "desc": "Understand the A-star algorithm as an extension of Dijkstra's Algorithm. Understand how to choose a Heuristic Function as a combination of a total estimate.",
+            "videos": [
+              {
+                "url": "https://youtu.be/-L-WgKMFuhE",
+                "title": "A* Pathfinding (E01: algorithm explanation)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Zg0Cxn8AVZA",
+                "title": "Minecraft’s Smartest System Is Almost Completely Untapped"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ySN5Wnu88nE",
+                "title": "A* (A Star) Search Algorithm - Computerphile"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Taxicab_geometry",
+                "title": "Taxicab geometry - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Chebyshev_distance",
+                "title": "Chebyshev distance - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+                "title": "A* search algorithm - Wikipedia"
+              },
+              {
+                "url": "https://www.datacamp.com/tutorial/a-star-algorithm",
+                "title": "https://www.datacamp.com/tutorial/a-star-algorithm"
               }
             ]
           }

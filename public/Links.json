@@ -3917,7 +3917,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-06-13T08:31"
+    "date": "2026-06-16T05:44"
   },
   "https://www.youtube.com/watch?v=ZXF9-KX4DIQ": {
     "title": "Create a bitmap image just using notepad! [RNDBITS-041]",
@@ -5531,6 +5531,10 @@
     "title": "dsa/tree_traversal/traversal.py at master \u00b7 msambol/dsa \u00b7 GitHub",
     "date": "2026-05-18T21:41"
   },
+  "https://en.wikipedia.org/wiki/Depth-first_search": {
+    "title": "Depth-first search - Wikipedia",
+    "date": "2026-04-26T22:43"
+  },
   "https://www.youtube.com/watch?v=Urx87-NMm6c": {
     "title": "Depth-first search in 4 minutes",
     "date": "2026-05-07T07:50"
@@ -5551,6 +5555,14 @@
     "title": "Level-order tree traversal in 3 minutes",
     "date": "2026-05-18T21:41"
   },
+  "https://en.wikipedia.org/wiki/Dijkstra's_algorithm": {
+    "title": "Dijkstra's algorithm - Wikipedia",
+    "date": "2026-06-16T05:44"
+  },
+  "https://github.com/msambol/dsa/blob/master/shortest_path/dijkstras.py": {
+    "title": "dsa/shortest_path/dijkstras.py at master \u00b7 msambol/dsa \u00b7 GitHub",
+    "date": "2026-06-16T05:44"
+  },
   "https://youtu.be/EFg3u_E6eHU": {
     "title": "How Dijkstra's Algorithm Works",
     "date": "2026-04-27T20:31"
@@ -5567,18 +5579,6 @@
     "title": "A* (A star) vs Dijkstra's algorithm pathfinding grid visualization - JavaScript",
     "date": "2026-05-23T05:53"
   },
-  "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm": {
-    "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
-    "date": "2026-05-23T05:53"
-  },
-  "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm": {
-    "title": "Bellman\u2013Ford algorithm - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
-  "https://en.wikipedia.org/wiki/Depth-first_search": {
-    "title": "Depth-first search - Wikipedia",
-    "date": "2026-04-26T22:43"
-  },
   "https://youtu.be/Urx87-NMm6c": {
     "title": "Depth-first search in 4 minutes",
     "date": "2026-04-27T20:31"
@@ -5591,13 +5591,25 @@
     "title": "Depth First Search Algorithm | Graph Theory",
     "date": "2026-04-27T20:31"
   },
-  "https://youtu.be/obWXjtg0L64": {
-    "title": "Bellman-Ford in 5 minutes \u2014 Step by step example",
-    "date": "2026-04-27T20:31"
+  "https://www.youtube.com/watch?v=GazC3A4OQTE": {
+    "title": "Dijkstra's Algorithm - Computerphile",
+    "date": "2026-06-16T05:44"
   },
-  "https://youtu.be/j0OUwduDOS0": {
+  "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm": {
+    "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
+    "date": "2026-05-23T05:53"
+  },
+  "https://github.com/msambol/dsa/blob/master/shortest_path/bellman_ford.py": {
+    "title": "dsa/shortest_path/bellman_ford.py at master \u00b7 msambol/dsa \u00b7 GitHub",
+    "date": "2026-06-16T05:44"
+  },
+  "https://www.youtube.com/watch?v=obWXjtg0L64": {
+    "title": "Bellman-Ford in 5 minutes \u2014 Step by step example",
+    "date": "2026-06-16T05:44"
+  },
+  "https://www.youtube.com/watch?v=j0OUwduDOS0": {
     "title": "Shortest Path Algorithms Explained (Dijkstra's & Bellman-Ford)",
-    "date": "2026-04-27T20:31"
+    "date": "2026-06-16T05:44"
   },
   "https://youtu.be/FtN3BYH2Zes": {
     "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming",
@@ -5607,13 +5619,33 @@
     "title": "Prim's algorithm in 2 minutes",
     "date": "2026-04-27T20:31"
   },
-  "https://www.youtube.com/shorts/L1vGm2_cPU0": {
-    "title": "Breadth and depth first search - YouTube",
-    "date": "2026-04-27T20:31"
-  },
   "https://en.wikipedia.org/wiki/Adjacency_matrix": {
     "title": "Adjacency matrix - Wikipedia",
     "date": "2026-06-13T08:31"
+  },
+  "https://en.wikipedia.org/wiki/Taxicab_geometry": {
+    "title": "Taxicab geometry - Wikipedia",
+    "date": "2026-06-16T05:44"
+  },
+  "https://en.wikipedia.org/wiki/Chebyshev_distance": {
+    "title": "Chebyshev distance - Wikipedia",
+    "date": "2026-06-16T05:44"
+  },
+  "https://en.wikipedia.org/wiki/A*_search_algorithm": {
+    "title": "A* search algorithm - Wikipedia",
+    "date": "2026-06-16T05:44"
+  },
+  "https://youtu.be/-L-WgKMFuhE": {
+    "title": "A* Pathfinding (E01: algorithm explanation)",
+    "date": "2026-06-16T05:44"
+  },
+  "https://www.youtube.com/watch?v=Zg0Cxn8AVZA": {
+    "title": "Minecraft\u2019s Smartest System Is Almost Completely Untapped",
+    "date": "2026-06-16T05:44"
+  },
+  "https://www.youtube.com/watch?v=ySN5Wnu88nE": {
+    "title": "A* (A Star) Search Algorithm - Computerphile",
+    "date": "2026-06-16T05:44"
   },
   "https://en.wikipedia.org/wiki/HTTP": {
     "title": "HTTP - Wikipedia",
