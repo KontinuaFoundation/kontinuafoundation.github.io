@@ -9,9 +9,10 @@
   export let topicIndex: Record<string, TopicMeta>;
   export let theme: "light" | "dark" = "light";
 
-  const n = Number(workbook.num);
-  const curr = Math.min(36, Math.max(1, Number.isNaN(n) ? 1 : n));
-
+  $: curr = Math.min(
+    36,
+    Math.max(1, Number.isNaN(Number(workbook?.num)) ? 1 : Number(workbook.num)),
+  );
   let activeGraphChapter: string | null = null;
   let chapterPages: Record<string, number> = {};
   let workbookPages: number | null = null;
