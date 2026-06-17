@@ -7706,7 +7706,7 @@
               },
               {
                 "url": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
-                "title": " - YouTube"
+                "title": "https://www.youtube.com/watch?v=nPBfluUiZ1s"
               },
               {
                 "url": "https://www.youtube.com/watch?v=ZXF9-KX4DIQ",
@@ -12039,8 +12039,8 @@
         "chap_num": 5,
         "files": [
           {
-            "path": "riemann.py",
             "desc": "Python script for calculating the Riemann sum of a function.",
+            "path": "riemann.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/riemann_sums/en_US/riemann.py"
           }
         ],
@@ -12106,6 +12106,38 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Riemann_sum",
                 "title": "Riemann sum - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "trap_rule",
+            "desc": "Understand how to utilize the trapezoidal rule as a method of calculating areas under curves.",
+            "videos": [
+              {
+                "url": "https://youtu.be/HVukQhDrNIQ",
+                "title": "Trapezoidal Rule for Integration | Derivation"
+              },
+              {
+                "url": "https://youtu.be/Rn9Gr52zhrY",
+                "title": "Trapezoidal Rule"
+              },
+              {
+                "url": "https://youtu.be/UTOgK6y9Lcc",
+                "title": "Trapezoidal Rule | Calculus Lesson 40 - JK Math"
+              },
+              {
+                "url": "https://youtu.be/deUaV0LFu0w",
+                "title": "The Trapezium Rule in 5 minutes"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Trapezoidal_rule",
+                "title": "Trapezoidal rule - Wikipedia"
+              },
+              {
+                "url": "https://www.desmos.com/calculator/tgyr42ezjq",
+                "title": "Riemann sums | Desmos"
               }
             ]
           }
