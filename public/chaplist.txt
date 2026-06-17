@@ -163,7 +163,7 @@
 	Diodes, Rectifiers, and Photovoltaics
 	Trees
 	Tree Traversal
-	Dijkstra's Algorithm
+	Finding Shortest Paths
 	Priority Queues
 	Other Graph Algorithms and Proofs
 25
@@ -175,7 +175,6 @@
 	HTML
 	Introduction to Text
 	Stop Words
-	Stemming and Lemmatization
 27
 	Alphabets and Accents
 	Making Plots with matplotlib
@@ -188,8 +187,10 @@
 29
 	Conditional Probability
 	Bayes' Theorem
+	Introduction to Markov Chains
 	Antiderivatives
 	Riemann Sums
+	Stemming and Lemmatization
 30
 	Definite Integrals
 	The Fundamental Theorem of Calculus
