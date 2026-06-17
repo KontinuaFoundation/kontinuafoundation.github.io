@@ -11853,7 +11853,7 @@
         "covers": [
           {
             "id": "intro_markov",
-            "desc": "Understand the basics of Markov Chains in statistics. Be able to use properties of Markov chains, draw Markov Chains and ",
+            "desc": "Understand the basics of Markov Chains in statistics. Be able to use properties of Markov chains, draw Markov Chains and understand the basics of Hidden Markov Models and emissions.",
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=mLiGy8KND0E",
@@ -11878,6 +11878,10 @@
               {
                 "url": "https://www.youtube.com/watch?v=JheGL6uSF-4",
                 "title": "I Made a Graph of Wikipedia... This Is What I Found"
+              },
+              {
+                "url": "https://youtu.be/KZeIEiBrT_w",
+                "title": "The Strange Math That Predicts (Almost) Anything"
               }
             ],
             "references": [
@@ -11916,6 +11920,10 @@
               {
                 "url": "https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf",
                 "title": "pagerank.pdf"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Viterbi_algorithm",
+                "title": "Viterbi algorithm - Wikipedia"
               }
             ]
           },
@@ -11924,7 +11932,7 @@
             "desc": "Understand how to represent Markov Chains with transition matrices. Be able to use linear algebra on these matrices to find next and future states. Understand how to find steady state distributions",
             "videos": [
               {
-                "url": "youtube.com/watch?v=1GKtfgwf3ig",
+                "url": "http://youtube.com/watch?v=1GKtfgwf3ig",
                 "title": "Markov Chains & Transition Matrices"
               }
             ],

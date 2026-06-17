@@ -3917,7 +3917,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-06-16T19:46"
+    "date": "2026-06-17T07:02"
   },
   "https://www.youtube.com/watch?v=ZXF9-KX4DIQ": {
     "title": "Create a bitmap image just using notepad! [RNDBITS-041]",
@@ -6183,6 +6183,10 @@
     "title": "pagerank.pdf",
     "date": "2026-06-12T23:52"
   },
+  "https://en.wikipedia.org/wiki/Viterbi_algorithm": {
+    "title": "Viterbi algorithm - Wikipedia",
+    "date": "2026-06-17T07:02"
+  },
   "https://www.youtube.com/watch?v=mLiGy8KND0E": {
     "title": "Markov Chains Explained Visually",
     "date": "2026-06-08T19:01"
@@ -6207,6 +6211,10 @@
     "title": "I Made a Graph of Wikipedia... This Is What I Found",
     "date": "2026-06-12T23:52"
   },
+  "https://youtu.be/KZeIEiBrT_w": {
+    "title": "The Strange Math That Predicts (Almost) Anything",
+    "date": "2026-06-17T07:02"
+  },
   "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf": {
     "title": "MarkovChains.pdf",
     "date": "2026-06-10T20:45"
@@ -6223,9 +6231,9 @@
     "title": "State-transition matrix - Wikipedia",
     "date": "2026-06-12T23:52"
   },
-  "youtube.com/watch?v=1GKtfgwf3ig": {
+  "http://youtube.com/watch?v=1GKtfgwf3ig": {
     "title": "Markov Chains & Transition Matrices",
-    "date": "2026-06-12T23:52"
+    "date": "2026-06-17T07:02"
   },
   "https://en.wikipedia.org/wiki/Antiderivative": {
     "title": "Antiderivative - Wikipedia",
