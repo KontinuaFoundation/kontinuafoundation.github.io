@@ -10807,7 +10807,8 @@
           "binary_search",
           "graphs-programming",
           "recursion",
-          "dijkstra"
+          "dijkstra",
+          "sets_logic"
         ],
         "covers": [
           {
@@ -10865,6 +10866,17 @@
               {
                 "url": "https://www.datacamp.com/tutorial/a-star-algorithm",
                 "title": "https://www.datacamp.com/tutorial/a-star-algorithm"
+              }
+            ]
+          },
+          {
+            "id": "graphs-isomorphism",
+            "desc": "Understand how to determine if two graphs are isomorphic. Understand the underlying terms of bijection, interjection, surjection.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection",
+                "title": "Bijection, injection and surjection - Wikipedia"
               }
             ]
           }
