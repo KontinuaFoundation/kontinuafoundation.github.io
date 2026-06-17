@@ -10872,11 +10872,32 @@
           {
             "id": "graphs-isomorphism",
             "desc": "Understand how to determine if two graphs are isomorphic. Understand the underlying terms of bijection, interjection, surjection.",
-            "videos": [],
+            "videos": [
+              {
+                "url": "https://youtu.be/xKNX8BUWR0g",
+                "title": "Surjective (onto) and injective (one-to-one) functions | Linear Algebra | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/bZred_Ksz2k",
+                "title": "INJECTIVE, SURJECTIVE, and BIJECTIVE FUNCTIONS - DISCRETE MATHEMATICS"
+              },
+              {
+                "url": "https://youtu.be/EwV4Puk2coU",
+                "title": "What are Isomorphic Graphs? | Graph Isomorphism, Graph Theory"
+              }
+            ],
             "references": [
               {
                 "url": "https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection",
                 "title": "Bijection, injection and surjection - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Graph_isomorphism",
+                "title": "Graph isomorphism - Wikipedia"
+              },
+              {
+                "url": "https://www.tutorialspoint.com/graph_theory/graph_theory_isomorphism.htm",
+                "title": "Graph Theory - Isomorphism"
               }
             ]
           }
