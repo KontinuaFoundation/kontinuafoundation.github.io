@@ -7282,6 +7282,14 @@
             ]
           }
         ]
+      },
+      {
+        "id": "sampling",
+        "title": "Sampling and Experimentation",
+        "chap_num": 6,
+        "files": [],
+        "requires": [],
+        "covers": []
       }
     ]
   },
