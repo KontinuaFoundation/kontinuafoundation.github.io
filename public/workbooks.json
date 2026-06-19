@@ -10798,13 +10798,25 @@
         "id": "graph_algorithms",
         "title": "Other Graph Algorithms and Proofs",
         "chap_num": 7,
-        "files": [],
+        "files": [
+          {
+            "desc": "A python script that deliberately causes a cycle error for topological sorting.",
+            "path": "cycle_error.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graph_algorithms/en_US/cycle_error.py"
+          },
+          {
+            "desc": "A python script that outputs an ordering of tasks with some in parallel for topological sorting.",
+            "path": "parallel_dag.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graph_algorithms/en_US/parallel_dag.py"
+          }
+        ],
         "requires": [
           "binary_search",
           "graphs-programming",
           "recursion",
           "dijkstra",
-          "sets_logic"
+          "sets_logic",
+          "depth-first-search"
         ],
         "covers": [
           {
@@ -10894,6 +10906,34 @@
               {
                 "url": "https://www.tutorialspoint.com/graph_theory/graph_theory_isomorphism.htm",
                 "title": "Graph Theory - Isomorphism"
+              }
+            ]
+          },
+          {
+            "id": "graphs-topo_sort_dag",
+            "desc": "Understand topological sorting and directed acyclic graphs, and their constraints.",
+            "videos": [
+              {
+                "url": "https://youtu.be/7J3GadLzydI",
+                "title": "Topological Sort Visualized and Explained"
+              },
+              {
+                "url": "https://youtu.be/eL-KzMXSXXI",
+                "title": "Topological Sort Algorithm | Graph Theory"
+              },
+              {
+                "url": "https://youtu.be/GYmq98CVm2c",
+                "title": "Topological sort in 5 minutes - Inside code"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Topological_sorting",
+                "title": "Topological sorting - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Directed_acyclic_graph",
+                "title": "Directed acyclic graph - Wikipedia"
               }
             ]
           }
