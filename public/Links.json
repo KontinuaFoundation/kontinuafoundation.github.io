@@ -855,6 +855,10 @@
     "title": "What does mathematical induction really look like?",
     "date": "2026-04-27T20:31"
   },
+  "https://youtu.be/YYgepDY3rHw": {
+    "title": "An Introduction to Mathematical Proofs",
+    "date": "2026-06-20T00:11"
+  },
   "https://en.wikipedia.org/wiki/Insulator_(electricity)": {
     "title": "Insulator (electricity) - Wikipedia",
     "date": "2026-04-26T22:43"
@@ -3917,7 +3921,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-06-19T23:13"
+    "date": "2026-06-20T00:11"
   },
   "https://en.wikipedia.org/wiki/Transformation_matrix": {
     "title": "Transformation matrix - Wikipedia",
@@ -5686,6 +5690,22 @@
   "https://youtu.be/GYmq98CVm2c": {
     "title": "Topological sort in 5 minutes - Inside code",
     "date": "2026-06-19T00:47"
+  },
+  "https://youtu.be/_TIqhvDR8DQ": {
+    "title": "Proof: If a Graph has no Odd Cycles then it is Bipartite | Graph Theory, Bipartite Theorem",
+    "date": "2026-06-20T00:11"
+  },
+  "https://youtu.be/xQcCXSFVSks": {
+    "title": "Proof: Bipartite Graphs have no Odd Cycles | Graph Theory, Bipartite Theorem, Proofs",
+    "date": "2026-06-20T00:11"
+  },
+  "https://youtu.be/mULsT4CMwYc": {
+    "title": "Proof: Graph is a Tree iff Unique Paths for Each Vertex Pair | Graph Theory, Tree Graphs",
+    "date": "2026-06-20T00:11"
+  },
+  "https://youtu.be/gC0RNpD2P1Y": {
+    "title": "Properties in Graph Theory: Complete, Connected, Subgraph, Induced Subgraph",
+    "date": "2026-06-20T00:11"
   },
   "https://en.wikipedia.org/wiki/HTTP": {
     "title": "HTTP - Wikipedia",

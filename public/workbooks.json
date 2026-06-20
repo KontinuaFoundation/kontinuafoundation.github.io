@@ -1788,6 +1788,10 @@
               {
                 "url": "https://youtu.be/5Hn8vUE3cBQ",
                 "title": "What does mathematical induction really look like?"
+              },
+              {
+                "url": "https://youtu.be/YYgepDY3rHw",
+                "title": "An Introduction to Mathematical Proofs"
               }
             ],
             "references": [
@@ -10824,7 +10828,8 @@
           "recursion",
           "dijkstra",
           "sets_logic",
-          "depth-first-search"
+          "depth-first-search",
+          "proofs"
         ],
         "covers": [
           {
@@ -10944,6 +10949,29 @@
                 "title": "Directed acyclic graph - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "graphs_adv-proofs",
+            "desc": "Be able to walk through and understand some advanced graph proofs and algorithmic graph reductions.",
+            "videos": [
+              {
+                "url": "https://youtu.be/_TIqhvDR8DQ",
+                "title": "Proof: If a Graph has no Odd Cycles then it is Bipartite | Graph Theory, Bipartite Theorem"
+              },
+              {
+                "url": "https://youtu.be/xQcCXSFVSks",
+                "title": "Proof: Bipartite Graphs have no Odd Cycles | Graph Theory, Bipartite Theorem, Proofs"
+              },
+              {
+                "url": "https://youtu.be/mULsT4CMwYc",
+                "title": "Proof: Graph is a Tree iff Unique Paths for Each Vertex Pair | Graph Theory, Tree Graphs"
+              },
+              {
+                "url": "https://youtu.be/gC0RNpD2P1Y",
+                "title": "Properties in Graph Theory: Complete, Connected, Subgraph, Induced Subgraph"
+              }
+            ],
+            "references": []
           }
         ]
       }
