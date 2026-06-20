@@ -11027,7 +11027,13 @@
         "id": "api",
         "title": "Using and Creating APIs",
         "chap_num": 2,
-        "files": [],
+        "files": [
+          {
+            "path": "server.js",
+            "desc": "Basic Express API file using javascript",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/api/en_US/server.js"
+          }
+        ],
         "requires": [
           "http"
         ],
@@ -11035,8 +11041,37 @@
           {
             "id": "api",
             "desc": "The description of API chapter",
+            "videos": [
+              {
+                "url": "https://youtu.be/zsYIw6RXjfM",
+                "title": "Create A Python API in 12 Minutes"
+              },
+              {
+                "url": "https://youtu.be/-MTSQjw5DrM",
+                "title": "RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express"
+              },
+              {
+                "url": "https://youtu.be/-mN3VyJuCjM",
+                "title": "What Is REST API? Examples And How To Use It: Crash Course System Design #3"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://www.geeksforgeeks.org/advance-java/know-the-difference-between-rest-api-and-restful-api/",
+                "title": "Difference Between REST API and RESTful API - GeeksforGeeks"
+              }
+            ]
+          },
+          {
+            "id": "curl",
+            "desc": "Understand how to use curl in the command line for testing APIs.",
             "videos": [],
-            "references": []
+            "references": [
+              {
+                "url": "https://developer.ibm.com/articles/what-is-curl-command/",
+                "title": "What is cURL? A complete guide to the cURL command for API testing"
+              }
+            ]
           }
         ]
       },

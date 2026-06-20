@@ -3921,7 +3921,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-06-20T00:11"
+    "date": "2026-06-20T00:47"
   },
   "https://en.wikipedia.org/wiki/Transformation_matrix": {
     "title": "Transformation matrix - Wikipedia",
@@ -5730,6 +5730,26 @@
   "https://www.youtube.com/watch?v=UBUNrFtufWo": {
     "title": "Session vs Token Authentication in 100 Seconds",
     "date": "2026-04-27T20:31"
+  },
+  "https://www.geeksforgeeks.org/advance-java/know-the-difference-between-rest-api-and-restful-api/": {
+    "title": "Difference Between REST API and RESTful API - GeeksforGeeks",
+    "date": "2026-06-20T00:47"
+  },
+  "https://youtu.be/zsYIw6RXjfM": {
+    "title": "Create A Python API in 12 Minutes",
+    "date": "2026-06-20T00:47"
+  },
+  "https://youtu.be/-MTSQjw5DrM": {
+    "title": "RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express",
+    "date": "2026-06-20T00:47"
+  },
+  "https://youtu.be/-mN3VyJuCjM": {
+    "title": "What Is REST API? Examples And How To Use It: Crash Course System Design #3",
+    "date": "2026-06-20T00:47"
+  },
+  "https://developer.ibm.com/articles/what-is-curl-command/": {
+    "title": "What is cURL? A complete guide to the cURL command for API testing",
+    "date": "2026-06-20T00:47"
   },
   "https://en.wikipedia.org/wiki/Entropy_(information_theory)": {
     "title": "Entropy (information theory) - Wikipedia",
