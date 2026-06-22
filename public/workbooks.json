@@ -7293,7 +7293,36 @@
         "chap_num": 6,
         "files": [],
         "requires": [],
-        "covers": []
+        "covers": [
+          {
+            "id": "",
+            "desc": "",
+            "videos": [],
+            "references": []
+          },
+          {
+            "id": "sampling_python",
+            "desc": "To practice random sampling using Python.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://towardsdatascience.com/probability-sampling-methods-explained-with-python-4c0a19a59456/ ",
+                "title": "Probability Sampling Methods Explained with Python | Towards Data Science"
+              }
+            ]
+          },
+          {
+            "id": "placebo_effect",
+            "desc": "To understand the placebo effect",
+            "videos": [
+              {
+                "url": "https://youtu.be/GMqrOdCx4Yg?si=EEvrjzZ4vKN8Bxu1\n",
+                "title": "Placebo Effect, Control Groups, and the Double Blind Experiment (3.2)"
+              }
+            ],
+            "references": []
+          }
+        ]
       }
     ]
   },
@@ -7718,7 +7747,7 @@
               },
               {
                 "url": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
-                "title": " - YouTube"
+                "title": "https://www.youtube.com/watch?v=nPBfluUiZ1s"
               }
             ],
             "references": [
