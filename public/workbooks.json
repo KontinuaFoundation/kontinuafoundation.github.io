@@ -7291,7 +7291,18 @@
         "id": "sampling",
         "title": "Sampling and Experimentation",
         "chap_num": 6,
-        "files": [],
+        "files": [
+          {
+            "desc": "New",
+            "path": "srs_example.csv",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sampling/en_US/srs_example.csv"
+          },
+          {
+            "desc": "New",
+            "path": "srs_example.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sampling/en_US/srs_example.py"
+          }
+        ],
         "requires": [],
         "covers": [
           {
@@ -7747,7 +7758,7 @@
               },
               {
                 "url": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
-                "title": "https://www.youtube.com/watch?v=nPBfluUiZ1s"
+                "title": " - YouTube"
               }
             ],
             "references": [
