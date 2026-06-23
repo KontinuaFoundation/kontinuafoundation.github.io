@@ -1,22 +1,25 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import MoonStar from 'lucide-svelte/icons/moon-star';
-  import Sun from 'lucide-svelte/icons/sun';
-  import Graph from './lib/Graph.svelte';
-  import WorkbookDetail from './lib/WorkbookDetail.svelte';
-  import type { Workbook, TopicMeta } from './lib/types';
+  import { onMount } from "svelte";
+  import MoonStar from "lucide-svelte/icons/moon-star";
+  import Sun from "lucide-svelte/icons/sun";
+  import Graph from "./lib/Graph.svelte";
+  import WorkbookDetail from "./lib/WorkbookDetail.svelte";
+  import type { Workbook, TopicMeta } from "./lib/types";
+  import { loadPageCounts } from "./lib/pdfHelpers";
 
-  type ThemeMode = 'light' | 'dark';
-  const THEME_STORAGE_KEY = 'kontinua-theme';
+  type ThemeMode = "light" | "dark";
+  const THEME_STORAGE_KEY = "kontinua-theme";
   const THEME_META_SELECTOR = 'meta[name="theme-color"]';
 
   let workbooks: Workbook[] = [];
   let currentWorkbookNum: string | null = null;
   let anchor: string | null = null;
-  let theme: ThemeMode = 'light';
+  let theme: ThemeMode = "light";
   let followsSystemTheme = true;
+  let pageCounts: Record<string, number | null> = {};
 
-  $: currentWorkbook = workbooks.find((wb) => wb.num === currentWorkbookNum) ?? null;
+  $: currentWorkbook =
+    workbooks.find((wb) => wb.num === currentWorkbookNum) ?? null;
 
   $: topicIndex = buildTopicIndex(workbooks);
 
@@ -59,12 +62,12 @@
 
   function scrollToAnchor(id: string) {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function updateBrowserThemeColor(nextTheme: ThemeMode) {
     const meta = document.querySelector<HTMLMetaElement>(THEME_META_SELECTOR);
-    if (meta) meta.content = nextTheme === 'dark' ? '#0e1220' : '#ffffff';
+    if (meta) meta.content = nextTheme === "dark" ? "#0e1220" : "#ffffff";
   }
 
   function applyTheme(nextTheme: ThemeMode) {
@@ -76,9 +79,9 @@
   function readStoredTheme(): ThemeMode | null {
     try {
       const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
-      return stored === 'dark' || stored === 'light' ? stored : null;
+      return stored === "dark" || stored === "light" ? stored : null;
     } catch (error) {
-      console.warn('Unable to read saved theme preference.', error);
+      console.warn("Unable to read saved theme preference.", error);
       return null;
     }
   }
@@ -87,18 +90,19 @@
     try {
       window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
     } catch (error) {
-      console.warn('Unable to store theme preference.', error);
+      console.warn("Unable to store theme preference.", error);
     }
   }
 
   function applySystemTheme(prefersDark?: boolean) {
-    const shouldUseDark = prefersDark ?? window.matchMedia('(prefers-color-scheme: dark)').matches;
-    applyTheme(shouldUseDark ? 'dark' : 'light');
+    const shouldUseDark =
+      prefersDark ?? window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(shouldUseDark ? "dark" : "light");
   }
 
   function toggleTheme() {
     followsSystemTheme = false;
-    const nextTheme: ThemeMode = theme === 'dark' ? 'light' : 'dark';
+    const nextTheme: ThemeMode = theme === "dark" ? "light" : "dark";
     applyTheme(nextTheme);
     persistTheme(nextTheme);
   }
@@ -112,32 +116,46 @@
       applySystemTheme();
     }
 
-    const systemThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    const systemThemeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    );
     const onSystemThemeChange = (event: MediaQueryListEvent) => {
       if (followsSystemTheme) {
         applySystemTheme(event.matches);
       }
     };
-    systemThemeMediaQuery.addEventListener('change', onSystemThemeChange);
+    systemThemeMediaQuery.addEventListener("change", onSystemThemeChange);
 
     const onHashChange = () => {
       parseHash();
       window.scrollTo(0, 0);
     };
-    window.addEventListener('hashchange', onHashChange);
+    window.addEventListener("hashchange", onHashChange);
 
     const loadWorkbooks = async () => {
-      const res = await fetch('./workbooks.json');
+      const res = await fetch("./workbooks.json");
       workbooks = await res.json();
       parseHash();
+      void loadAllPageCounts(workbooks);
     };
+
     void loadWorkbooks().catch((error) => {
-      console.error('Failed to load workbook data:', error);
+      console.error("Failed to load workbook data:", error);
     });
 
+    async function loadAllPageCounts(wbs: Workbook[]) {
+      const entries = await Promise.all(
+        wbs.map(async (wb) => {
+          const { workbookPages } = await loadPageCounts(wb);
+          return [wb.num, workbookPages] as const;
+        }),
+      );
+
+      pageCounts = Object.fromEntries(entries);
+    }
     return () => {
-      window.removeEventListener('hashchange', onHashChange);
-      systemThemeMediaQuery.removeEventListener('change', onSystemThemeChange);
+      window.removeEventListener("hashchange", onHashChange);
+      systemThemeMediaQuery.removeEventListener("change", onSystemThemeChange);
     };
   });
 
@@ -163,12 +181,12 @@
     <button
       type="button"
       class="theme-toggle"
-      aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-      title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-      aria-pressed={theme === 'dark'}
+      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      aria-pressed={theme === "dark"}
       on:click={toggleTheme}
     >
-      {#if theme === 'dark'}
+      {#if theme === "dark"}
         <Sun />
       {:else}
         <MoonStar />
@@ -193,6 +211,9 @@
           <div class="workbook-card">
             <h3>
               <a href="#workbook/{wb.num}">{wb.title}</a>
+              {#if pageCounts[wb.num]}
+                <span class="page-count">{pageCounts[wb.num]} pages</span>
+              {/if}
             </h3>
             <ol>
               {#each wb.chapters as ch (ch.id)}
@@ -360,8 +381,6 @@
     color: var(--color-text-secondary);
   }
 
-
-
   .workbook-card a {
     font-weight: normal;
     text-decoration: none;
@@ -382,16 +401,11 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 700px) {
-    .site-header {
-      align-items: flex-start;
-      flex-direction: column;
-      padding: 1.2rem 1.2rem 1rem;
-    }
-
-    .header-actions {
-      width: 100%;
-      justify-content: space-between;
-    }
+  .page-count {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
   }
 </style>

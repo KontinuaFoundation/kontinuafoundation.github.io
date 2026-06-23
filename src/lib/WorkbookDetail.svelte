@@ -1,9 +1,14 @@
 <script lang="ts">
   import Graph from "./Graph.svelte";
-  import type { Workbook, TopicMeta, VideoRef } from "./types";
+  import type { Workbook, TopicMeta } from "./types";
   import ResourceIcon from "./ResourceIcon.svelte";
-  import * as pdfjsLib from "pdfjs-dist";
-  import pdfWorker from "pdfjs-dist/build/pdf.worker.mjs?url";
+
+  import {
+    dedupByUrl,
+    dedupStrings,
+    loadPageCounts
+  } from "./pdfHelpers";
+
 
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
@@ -17,50 +22,12 @@
   let chapterPages: Record<string, number> = {};
   let workbookPages: number | null = null;
 
-  function dedupByUrl(arr: VideoRef[]): VideoRef[] {
-    const seen = new Set<string>();
-    return arr.filter((item) => {
-      if (seen.has(item.url)) return false;
-      seen.add(item.url);
-      return true;
-    });
-  }
-
-  function dedupStrings(arr: string[]): string[] {
-    return [...new Set(arr)];
-  }
-
-  pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorker;
-
-  async function getPdfPageCount(url: string): Promise<number> {
-    const pdf = await pdfjsLib.getDocument(url).promise;
-    return pdf.numPages;
-  }
-
-  async function loadPageCounts() {
-    // chapters
-    const chapterEntries = await Promise.all(
-      workbook.chapters.map(async (chapter) => {
-        try {
-          const pages = await getPdfPageCount(`${chapter.id}.pdf`);
-          return [chapter.id, pages] as const;
-        } catch {
-          return [chapter.id, 0] as const;
-        }
-      }),
-    );
-
-    chapterPages = Object.fromEntries(chapterEntries);
-
-    // full workbook
-    try {
-      workbookPages = await getPdfPageCount(workbook.pdf);
-    } catch {
-      workbookPages = null;
-    }
-  }
   $: if (workbook) {
-    loadPageCounts();
+    (async () => {
+      const { chapterPages: pages, workbookPages: total } = await loadPageCounts(workbook);
+      chapterPages = pages;
+      workbookPages = total;
+    })();
   }
 </script>
 
