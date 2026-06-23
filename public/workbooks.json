@@ -11080,7 +11080,7 @@
         "covers": [
           {
             "id": "api",
-            "desc": "The description of API chapter",
+            "desc": "Understand what an API is, CRUD operations, how to create an API. ",
             "videos": [
               {
                 "url": "https://youtu.be/zsYIw6RXjfM",
@@ -11099,6 +11099,10 @@
               {
                 "url": "https://www.geeksforgeeks.org/advance-java/know-the-difference-between-rest-api-and-restful-api/",
                 "title": "Difference Between REST API and RESTful API - GeeksforGeeks"
+              },
+              {
+                "url": "https://blog.postman.com/what-is-an-api-endpoint/",
+                "title": "What Is an API Endpoint? | Postman Blog"
               }
             ]
           },
