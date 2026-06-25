@@ -7293,12 +7293,12 @@
         "chap_num": 6,
         "files": [
           {
-            "desc": "New",
+            "desc": "Excel file for SRS Example",
             "path": "srs_example.csv",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sampling/en_US/srs_example.csv"
           },
           {
-            "desc": "New",
+            "desc": "Python file for SRS Example",
             "path": "srs_example.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sampling/en_US/srs_example.py"
           }
