@@ -102,6 +102,7 @@
 	Simulation with Vectors
 	Longitude and Latitude
 	Tides and Eclipses
+	Sampling Data
 15
 	How Cameras Work
 	How Eyes Work

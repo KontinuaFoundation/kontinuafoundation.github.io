@@ -7313,7 +7313,7 @@
           },
           {
             "id": "sampling_python",
-            "desc": "To practice random sampling using Python.",
+            "desc": "Practice random sampling using Python.",
             "videos": [],
             "references": [
               {
@@ -7324,11 +7324,26 @@
           },
           {
             "id": "placebo_effect",
-            "desc": "To understand the placebo effect",
+            "desc": "Understand the placebo effect",
             "videos": [
               {
                 "url": "https://youtu.be/GMqrOdCx4Yg?si=EEvrjzZ4vKN8Bxu1\n",
                 "title": "Placebo Effect, Control Groups, and the Double Blind Experiment (3.2)"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "bias",
+            "desc": "Understanding statistical bias",
+            "videos": [
+              {
+                "url": "https://youtu.be/_tSQySJkhHg?si=MaCnCBOmpKekIaFs",
+                "title": "Statistics 101: Statistical Bias"
+              },
+              {
+                "url": "https://youtu.be/Rf-fIpB4D50?si=3VvHUDwWraDAw1FG",
+                "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10"
               }
             ],
             "references": []
