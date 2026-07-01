@@ -9121,6 +9121,58 @@
                 "title": "Optimization problem - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "optimize_volume",
+            "desc": "Optimizing Volume ",
+            "videos": [
+              {
+                "url": "https://youtu.be/MC0tq6fNRwU?si=gNacHNDQkZ4atkwe",
+                "title": "Optimization: box volume (Part 1) | Applications of derivatives | AP Calculus AB | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/cRboY08YG8g?si=pM_ThR2PZNx0YuSr",
+                "title": "Optimization: box volume (Part 2) | Applications of derivatives | AP Calculus AB | Khan Academy"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "optimizing_profit",
+            "desc": "Optimizing Profits",
+            "videos": [
+              {
+                "url": "https://youtu.be/dam16G6cZ8k?si=MPECwWoNvldu5tYO",
+                "title": "Optimization: profit | Applications of derivatives | AP Calculus AB | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/yIRFON453Cg?si=r9xwIIwY-FPl0Lgz",
+                "title": "Optimization - Maximum Profit"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "optimizing_cost",
+            "desc": "Optimizing Cost",
+            "videos": [
+              {
+                "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-11/v/minimizing-the-cost-of-a-storage-container?referrer=share_link",
+                "title": "Khan Academy"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "optimizing_area",
+            "desc": "Optimizing Area",
+            "videos": [
+              {
+                "url": "https://youtu.be/q1U6AmIa_uQ?si=qVmPVY_ZMaKA8UiI",
+                "title": "Optimization Problems in Calculus"
+              }
+            ],
+            "references": []
           }
         ]
       },
