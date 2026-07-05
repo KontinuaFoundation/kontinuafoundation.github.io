@@ -3937,7 +3937,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-07-02T21:00"
+    "date": "2026-07-05T23:22"
   },
   "https://en.wikipedia.org/wiki/Transformation_matrix": {
     "title": "Transformation matrix - Wikipedia",
@@ -4162,6 +4162,14 @@
   "https://youtu.be/v9Evg2tBdRk": {
     "title": "Pascal's triangle for binomial expansion | Algebra II | Khan Academy",
     "date": "2026-04-27T20:31"
+  },
+  "https://youtu.be/ajaAk1CP5pw": {
+    "title": "Binomial Expansion Theorem",
+    "date": "2026-07-05T23:22"
+  },
+  "https://youtu.be/iPwrDWQ7hPc": {
+    "title": "Binomial theorem | Polynomial and rational functions | Algebra II | Khan Academy",
+    "date": "2026-07-05T23:22"
   },
   "https://www.mathsisfun.com/algebra/factoring.html": {
     "title": "Factoring in Algebra",
@@ -6127,6 +6135,10 @@
     "title": "Binomial coefficient - Wikipedia",
     "date": "2026-04-26T22:43"
   },
+  "https://en.wikipedia.org/wiki/Binomial_theorem#Generalized_binomial_theorem": {
+    "title": "Binomial theorem - Wikipedia",
+    "date": "2026-07-05T23:22"
+  },
   "https://www.youtube.com/watch?v=UGad0bvDw9Q": {
     "title": "1. Counting with tables | Crowds | Computer animation | Khan Academy",
     "date": "2026-04-27T20:31"
@@ -6143,10 +6155,6 @@
     "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy",
     "date": "2026-04-27T20:31"
   },
-  "https://www.youtube.com/watch?v=6YzrVUVO9M0": {
-    "title": "Overexplaining the binomial distribution",
-    "date": "2026-04-27T20:31"
-  },
   "https://www.youtube.com/watch?v=iPwrDWQ7hPc": {
     "title": "Binomial theorem | Polynomial and rational functions | Algebra II | Khan Academy",
     "date": "2026-04-27T20:31"
@@ -6158,6 +6166,14 @@
   "https://www.youtube.com/watch?v=p8vIcmr_Pqo": {
     "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy",
     "date": "2026-04-27T20:31"
+  },
+  "https://youtu.be/8idr1WZ1A7Q": {
+    "title": "Binomial distributions | Probabilities of probabilities, part 1",
+    "date": "2026-07-05T23:22"
+  },
+  "https://youtu.be/V1AKAkGJlN8": {
+    "title": "Binomial Series",
+    "date": "2026-07-05T23:22"
   },
   "https://en.wikipedia.org/wiki/Factorial": {
     "title": "Factorial - Wikipedia",
@@ -6173,6 +6189,22 @@
   },
   "http://youtube.com/watch?v=-FquswEIswk": {
     "title": "3. Calculating factorials | Crowds | Computer animation | Khan Academy",
+    "date": "2026-04-27T20:31"
+  },
+  "https://www.youtube.com/watch?v=HGoZfzz6dU0  ": {
+    "title": "Zero factorial or 0! | Probability and combinatorics | Probability and Statistics | Khan Academy",
+    "date": "2026-07-05T23:22"
+  },
+  "https://www.youtube.com/watch?v=qkvmEe9SYSg": {
+    "title": "Can we really do \"-2 choose 5\"? Generalized Binomial Theorem",
+    "date": "2026-07-05T23:22"
+  },
+  "https://www.youtube.com/watch?v=cvhyJT9c0ac": {
+    "title": "How to expand (a+b)^n (Binomial Theorem with a combinatoric approach)",
+    "date": "2026-07-05T23:22"
+  },
+  "https://www.youtube.com/watch?v=6YzrVUVO9M0": {
+    "title": "Overexplaining the binomial distribution",
     "date": "2026-04-27T20:31"
   },
   "https://en.wikipedia.org/wiki/Permutation": {

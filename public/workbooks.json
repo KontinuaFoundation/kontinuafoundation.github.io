@@ -8284,6 +8284,25 @@
                 "title": "Pascal's Triangle"
               }
             ]
+          },
+          {
+            "id": "binomial_thm",
+            "desc": "Be able to use the binomial theorem for multiply polynomials.",
+            "videos": [
+              {
+                "url": "https://youtu.be/s19dWIHficY",
+                "title": "Binomial Theorem Expansion, Pascal's Triangle, Finding Terms & Coefficients, Combinations, Algebra 2"
+              },
+              {
+                "url": "https://youtu.be/ajaAk1CP5pw",
+                "title": "Binomial Expansion Theorem"
+              },
+              {
+                "url": "https://youtu.be/iPwrDWQ7hPc",
+                "title": "Binomial theorem | Polynomial and rational functions | Algebra II | Khan Academy"
+              }
+            ],
+            "references": []
           }
         ]
       },
@@ -11827,7 +11846,11 @@
           "exponents",
           "polynomial",
           "probability_dependent",
-          "pascal's_triangle"
+          "pascal's_triangle",
+          "power_series",
+          "series_calc",
+          "series_tests",
+          "binomial_thm"
         ],
         "covers": [
           {
@@ -11851,10 +11874,6 @@
                 "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy"
               },
               {
-                "url": "https://www.youtube.com/watch?v=6YzrVUVO9M0",
-                "title": "Overexplaining the binomial distribution"
-              },
-              {
                 "url": "https://www.youtube.com/watch?v=iPwrDWQ7hPc",
                 "title": "Binomial theorem | Polynomial and rational functions | Algebra II | Khan Academy"
               },
@@ -11865,6 +11884,14 @@
               {
                 "url": "https://www.youtube.com/watch?v=p8vIcmr_Pqo",
                 "title": "Combination formula | Probability and combinatorics | Probability and Statistics | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/8idr1WZ1A7Q",
+                "title": "Binomial distributions | Probabilities of probabilities, part 1"
+              },
+              {
+                "url": "https://youtu.be/V1AKAkGJlN8",
+                "title": "Binomial Series"
               }
             ],
             "references": [
@@ -11875,6 +11902,10 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Binomial_coefficient",
                 "title": "Binomial coefficient - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Binomial_theorem#Generalized_binomial_theorem",
+                "title": "Binomial theorem - Wikipedia"
               }
             ]
           },
@@ -11893,6 +11924,10 @@
               {
                 "url": "http://youtube.com/watch?v=-FquswEIswk",
                 "title": "3. Calculating factorials | Crowds | Computer animation | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=HGoZfzz6dU0  ",
+                "title": "Zero factorial or 0! | Probability and combinatorics | Probability and Statistics | Khan Academy"
               }
             ],
             "references": [
@@ -11901,6 +11936,25 @@
                 "title": "Factorial - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "binomial_series",
+            "desc": "Understand how we can use the binomial theorem for negative integers and for fractions.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=qkvmEe9SYSg",
+                "title": "Can we really do \"-2 choose 5\"? Generalized Binomial Theorem"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=cvhyJT9c0ac",
+                "title": "How to expand (a+b)^n (Binomial Theorem with a combinatoric approach)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=6YzrVUVO9M0",
+                "title": "Overexplaining the binomial distribution"
+              }
+            ],
+            "references": []
           }
         ]
       },
