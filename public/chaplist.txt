@@ -1,4 +1,4 @@
-01
+01	?
 	Introduction to the Kontinua Sequence
 	Matter and Energy
 	Conservation of Mass and Energy
@@ -8,14 +8,14 @@
 	Friction
 	Units and Conversions
 	The Greek Alphabet
-02
+02	?
 	Atomic and Molecular Mass
 	Chemical Reactions
 	Buoyancy
 	Heat
 	Work and Energy
 	Simple Machines
-03
+03	?
 	Basic Statistics
 	Basic Statistics in Spreadsheets
 	Introduction to Python
@@ -23,7 +23,7 @@
 	Proofs
 	Introduction to Electricity
 	DC Circuit Analysis
-04
+04	?
 	Fertilizer
 	Concrete
 	Metals
@@ -31,55 +31,55 @@
 	Angles
 	Introduction to Triangles
 	Pythagorean Theorem
-05
+05	?
 	Congruence
 	Parallel and Perpendicular
 	Circles
 	Functions and Their Graphs
 	Transforming Functions
-06
+06	?
 	Trigonometric Functions
 	Trigonometric Identities
 	Volumes of Common Solids
 	Conic Sections
 	Vectors
-07
+07	?
 	Falling Bodies
 	Kinematics
 	Projectile Motion
 	Free Body Diagrams
 	Inclined planes
 	Momentum
-08
+08	?
 	Boats
 	Sailboats
 	Airplanes
 	Data Tables and pandas
 	Quadcopters
 	Helicopters
-09
+09	?
 	Atmospheric Pressure
 	Cognitive Biases 1
 	Solving Quadratics
 	Complex Numbers
 	Introduction to Sequences
-10
+10	?
 	Exponents
 	Compound Interest
 	Logarithms
 	Exponential Decay
 	Inverse Trigonometric Functions
-	Introduction to Graphs
 	Laws, Paradoxes, Thought Experiments, and the Illusions
-11
+11	?
 	Introduction to Data Visualization
 	Numerical Methods of Describing Data
+	Introduction to Graphs
 	The Dot Product
 	Manufacturing
 	Introduction to Waves
 	Sound
 	Applying Numerical Methods to Bivariate Data
-12
+12	?
 	Charge
 	Alternating Current
 	Electromagnetic Induction
@@ -88,7 +88,7 @@
 	Parametric Functions
 	Vector-valued Functions
 	Circular Motion
-13
+13	?
 	Electromagnetic Waves
 	Reflection and Photons
 	Refraction
@@ -96,50 +96,50 @@
 	Oscillations
 	Orbits
 	Polar Coordinates
-14
+14	?
 	Circular Motion, continued
 	Rocketry
 	Simulation with Vectors
 	Longitude and Latitude
 	Tides and Eclipses
 	Sampling Data
-15
+15	?
 	How Cameras Work
 	How Eyes Work
 	Images in Python
 	Representing Natural Numbers
 	Bitmaps
 	Floating Point Arithmetic
-16
+16	?
 	Introduction to Polynomials
 	Python Lists
 	Adding and Subtracting Polynomials
 	Multiplying Polynomials
 	Multiplying Polynomials in Python
-17
+17	?
 	Differentiating Polynomials
 	Python Classes
 	Common Polynomial Products
 	Factoring Polynomials
 	Practice with Polynomials
-18
+18	?
 	Graphing Polynomials
 	Interpolating with Polynomials
 	Rational Functions
 	Partial Fractions
 	Limits
-19
+19	?
 	Differentiation
 	Derivatives
 	Rules for Finding Derivatives
 	First and Second Derivatives and the Shape of a Function
-20
+20	?
 	Optimization
 	Implicit Differentiation
 	Related Rates
 	Multivariate Functions and Partial Derivatives
 	Partial Derivatives and Gradients
-21
+21	?
 	Introduction to Linear Algebra
 	Vectors and Matrices
 	Linear Combinations of Vectors
@@ -147,19 +147,19 @@
 	Applications of Matrices in System Form
 	Linear Independence and Dependence
 	Subspaces
-22
+22	?
 	Span
 	Determinants and Inverse Matrices
 	Cross Product
 	Matrices as Transformations
 	Eigenvectors and Eigenvalues
 	Projections
-23
+23	?
 	The Gram-Schmidt Process
 	Singular Value Decomposition
 	Tackling Difficult Problems: Positive Semidefinite Matrices
 	Introduction to C
-24
+24	?
 	Data tables in SQL
 	Diodes, Rectifiers, and Photovoltaics
 	Trees
@@ -167,63 +167,63 @@
 	Finding Shortest Paths
 	Priority Queues
 	Other Graph Algorithms and Proofs
-25
+25	?
 	Making Web Requests with HTTP
 	Using and Creating APIs
 	Data Compression and Decompression
 	Dealing with JSON and XML
-26
+26	?
 	HTML
 	Introduction to Text
 	Stop Words
-27
+27	?
 	Alphabets and Accents
 	Making Plots with matplotlib
 	Geocoding and Reverse Geocoding
-28
+28	?
 	Making a Map
 	Introduction to Discrete Probability
 	Beginning Combinatorics
 	Permutations and Sorting
-29
+29	?
 	Conditional Probability
 	Bayes' Theorem
 	Introduction to Markov Chains
 	Antiderivatives
 	Riemann Sums
 	Stemming and Lemmatization
-30
+30	?
 	Definite Integrals
 	The Fundamental Theorem of Calculus
 	Arc Lengths
 	Continuous Probability Distributions
-31
+31	?
 	The Physics of Gases
 	Kinetic Energy and Temperature of a Gas
 	Phases of Matter
 	The Piston Engine
-32
+32	?
 	u-Substitution
 	Calculus with Polar Coordinates
 	Differential Equations
 	Slope Fields
-33
+33	?
 	Euler's Method
 	Sequences in Calculus
 	Series
 	Convergence Tests for Series
-34
+34	?
 	Power Series
 	Population Proportion Statistics
 	The Normal Distribution
 	Change of Variables
 	Volumes with Integrals
-35
+35	?
 	Double Integrals over Rectangular Regions
 	Double Integrals Over Non-Rectangular Regions
 	Applications of Double Integrals
 	Multivariate Distributions
-36
+36	?
 	The Multivariate Normal Distribution
 	Numerical Double Integration
 	Bayesian Classifiers
