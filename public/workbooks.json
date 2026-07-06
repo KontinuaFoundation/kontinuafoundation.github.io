@@ -6088,247 +6088,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "parametric",
-        "title": "Parametric Functions",
-        "chap_num": 6,
-        "files": [
-          {
-            "desc": "A script for creating a visualization of a parametric functions",
-            "path": "parametric_animation.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/parametric/en_US/parametric_animation.py"
-          }
-        ],
-        "requires": [
-          "math-graph",
-          "math-function",
-          "quadratic_formula",
-          "solving_quadratics",
-          "unit circle",
-          "derivatives",
-          "math-variable",
-          "python_advanced"
-        ],
-        "covers": [
-          {
-            "id": "param_eq: overview",
-            "desc": "Understand how parametric equations describe curves using a parameter. ",
-            "videos": [
-              {
-                "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-equations-1",
-                "title": "Khan Academy"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=7g37UjuVYeU",
-                "title": "AP Precalculus – 4.1 Parametric Functions"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Parametric_equation",
-                "title": "Parametric equation - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "param_eq: interpret",
-            "desc": "Interpret x = f(t) and y = g(t) as a single curve in the plane.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=7g37UjuVYeU",
-                "title": "AP Precalculus – 4.1 Parametric Functions"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=qAn4wVIkH6c",
-                "title": "AP Precalculus – 4.2 Parametric Functions Modeling Planar Motion"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "param_eq: elim",
-            "desc": "Eliminate the parameter to convert parametric equations to rectangular form.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=97pe-QlSGqA",
-                "title": "Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "param_eq: sketch",
-            "desc": "Sketch parametric curves and determine direction of motion.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=5BszZXMelVE",
-                "title": "Introduction to Parametric Equations - Graphing and Eliminating the Parameter"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "param_eq: restrict",
-            "desc": "Understand how restrictions on t affect the portion of the curve that is traced.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=yxXgK9hAPoQ",
-                "title": "AP Precalculus – 4.3 Parametric Functions and Rates of Change"
-              }
-            ],
-            "references": []
-          }
-        ]
-      },
-      {
-        "id": "vector_functions",
-        "title": "Vector-valued Functions",
-        "chap_num": 7,
-        "files": [],
-        "requires": [
-          "vectors",
-          "vector_magnitude",
-          "terminal velocity",
-          "derivatives",
-          "param_eq: overview"
-        ],
-        "covers": [
-          {
-            "id": "vector_function",
-            "desc": "Understand how to calculate vector valued functions",
-            "videos": [
-              {
-                "url": "https://youtu.be/40r56pX4mqA",
-                "title": "3D Curves and their Tangents | Intro to Vector-Valued Functions"
-              },
-              {
-                "url": "https://youtu.be/FThlJQMQ9f4",
-                "title": "Vector-Valued Functions (Introduction)"
-              },
-              {
-                "url": "https://youtu.be/vcwvzUVLPw0",
-                "title": "Vector valued function derivative example | Multivariable Calculus | Khan Academy"
-              },
-              {
-                "url": "https://youtu.be/FYMn61HLw1k",
-                "title": "Differential of a vector valued function | Multivariable Calculus | Khan Academy"
-              },
-              {
-                "url": "https://youtu.be/sBldw95xMD4",
-                "title": "Position vector valued functions | Multivariable Calculus | Khan Academy"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Vector-valued_function",
-                "title": "Vector-valued function - Wikipedia"
-              },
-              {
-                "url": "https://tutorial.math.lamar.edu/classes/calciii/VectorFunctions.aspx",
-                "title": "\r\n\tCalculus III - Vector Functions\r\n"
-              },
-              {
-                "url": "https://www.geogebra.org/3d?lang=en",
-                "title": "3D Calculator - GeoGebra"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "circular",
-        "title": "Circular Motion",
-        "chap_num": 8,
-        "files": [],
-        "requires": [
-          "tangent",
-          "circles",
-          "projectile_motion",
-          "friction_intro"
-        ],
-        "covers": [
-          {
-            "id": "circular_motion",
-            "desc": "Understand the concepts of circular motion and their equations. Identify uniform circular motion and non-uniform circular motion.",
-            "videos": [
-              {
-                "url": "https://youtu.be/kLN9W73ASrQ",
-                "title": "Uniform Circular Motion"
-              },
-              {
-                "url": "https://youtu.be/bpFK2VCRHUs",
-                "title": "Uniform Circular Motion: Crash Course Physics #7"
-              },
-              {
-                "url": "https://youtu.be/SZj6DuB0vvo",
-                "title": "Uniform Circular Motion and Centripetal Force"
-              },
-              {
-                "url": "https://youtu.be/IawY86XveQE",
-                "title": "Uniform Circular Motion Formulas and Equations - College Physics"
-              },
-              {
-                "url": "https://youtu.be/lV3h2kpJzp8",
-                "title": "Circular Motion Everything You Need To Know!"
-              },
-              {
-                "url": "https://youtu.be/vsSID5irx4o",
-                "title": "Flying Pig:  Uniform Circular Motion and Centripetal Force"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=ifAY5tbYDmQ",
-                "title": "Centripetal Force in the Gravitron Ride"
-              },
-              {
-                "url": "https://youtu.be/dMgyy95uJUg",
-                "title": "Static Friction, Centripetal Force, Circular Motion, Car Rounding Curve & Rotor Ride Physics Problem"
-              },
-              {
-                "url": "https://youtu.be/95W_w33nkSY",
-                "title": "Nonuniform Circular Motion - Ball in a Vertical Circle"
-              },
-              {
-                "url": "https://youtu.be/G0RikmNonoU",
-                "title": "Tetherball Physics Problem - Calculate Tension Force"
-              },
-              {
-                "url": "https://youtu.be/AsRXFKLBRAE",
-                "title": "High School physics (Newton's Laws) tetherball problem"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=J2gpEgjy1qg",
-                "title": "1D10.50 Simple Harmonic Motion and Uniform Circular Motion"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=AL2Chc6p_Kk",
-                "title": "The Most Mind-Blowing Aspect of Circular Motion"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=9yZHwnh6lAE",
-                "title": "Nonuniform Circular Motion - Force of Tension in a Rope"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=0q0L7Fj4dk8",
-                "title": "Everything You Need To Know About Pendulums: Physics Help Room"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://courses.lumenlearning.com/suny-physics/chapter/6-1-rotation-angle-and-angular-velocity/",
-                "title": "Rotation Angle and Angular Velocity | Physics"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Circular_motion",
-                "title": "Circular motion - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Centripetal_force",
-                "title": "Centripetal force - Wikipedia"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -6617,197 +6376,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "oscillations",
-        "title": "Oscillations",
-        "chap_num": 5,
-        "files": [],
-        "requires": [
-          "trig_functions",
-          "energy-forms",
-          "derivatives",
-          "trig_derivatives",
-          "kinetic_energy",
-          "param_eq: overview",
-          "stats-rms"
-        ],
-        "covers": [
-          {
-            "id": "oscillations-springs",
-            "desc": "Understand the fundamentals of oscillations or repeated motion, SHM, springs fundamentals.",
-            "videos": [
-              {
-                "url": "https://youtu.be/_7JPHNCT1Qo",
-                "title": "23.4 Potential Energy of a Spring"
-              },
-              {
-                "url": "https://youtu.be/gZ_KnZHCn4M",
-                "title": "Simple Harmonic Motion: Hooke's Law"
-              },
-              {
-                "url": "https://youtu.be/iz1CdTUOies",
-                "title": "Work done by a Spring - Deriving Elastic Potential Energy"
-              },
-              {
-                "url": "https://youtu.be/flCA41BG7Do",
-                "title": "Determining the Spring Constant, k, with a Vertically Hanging Mass"
-              },
-              {
-                "url": "https://youtu.be/CTd1uVq5-l8",
-                "title": "Mechanical Vibrations: Underdamped vs Overdamped vs Critically Damped"
-              },
-              {
-                "url": "https://youtu.be/Z52emur7Rko",
-                "title": "Undamped Mechanical Vibrations & Hooke's Law // Simple Harmonic Motion"
-              },
-              {
-                "url": "https://youtu.be/S782ktnm0Tk",
-                "title": "Second order differential equation for spring-mass systems"
-              },
-              {
-                "url": "https://youtu.be/CYyOHGOPTXc",
-                "title": "Horizontal vs. Vertical Mass-Spring System"
-              },
-              {
-                "url": "https://youtu.be/7KZdpF2NBaw",
-                "title": "Phasor diagram (& its applications) | Alternating currents | Physics | Khan Academy"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Oscillation",
-                "title": "Oscillation - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Hooke%27s_law",
-                "title": "Hooke's law - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "orbits",
-        "title": "Orbits",
-        "chap_num": 6,
-        "files": [],
-        "requires": [
-          "circular_motion",
-          "free_fall",
-          "lawOfUnivGrav",
-          "ellipses"
-        ],
-        "covers": [
-          {
-            "id": "orbit",
-            "desc": "Understand what causes something to orbit, differences in weight, and geosyncronous orbits.",
-            "videos": [
-              {
-                "url": "https://youtu.be/QIaAleG0Eb4",
-                "title": "Speed of a Satellite in Circular Orbit, Orbital Velocity, Period, Centripetal Force, Physics Problem"
-              },
-              {
-                "url": "https://youtu.be/tI8OqpkOVzs",
-                "title": "Geosynchronous Orbits are WEIRD"
-              },
-              {
-                "url": "https://youtu.be/KBcxuM-qXec",
-                "title": "The Moon's Orbit is WEIRD"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=bcvnfQlz1x4",
-                "title": "The Only Video Needed to Understand Orbital Mechanics"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Orbit",
-                "title": "Orbit - Wikipedia"
-              },
-              {
-                "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
-                "title": "ESA - Types of orbits"
-              }
-            ]
-          },
-          {
-            "id": "escape_velocity",
-            "desc": "Understand escape velocity and how to calculate it",
-            "videos": [
-              {
-                "url": "https://youtu.be/ut7szD4QJaU",
-                "title": "Escape velocity"
-              },
-              {
-                "url": "https://youtu.be/_mPKRbRs_Jg",
-                "title": "Deriving Escape Velocity of Planet Earth"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Escape_velocity",
-                "title": "Escape velocity - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "kepler",
-            "desc": "Understand Kelper's laws",
-            "videos": [],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion",
-                "title": "Kepler's laws of planetary motion - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "polar_coord",
-        "title": "Polar Coordinates",
-        "chap_num": 7,
-        "files": [],
-        "requires": [
-          "math-function",
-          "math-graph",
-          "rad",
-          "unit circle",
-          "inverse_trig",
-          "param_eq: overview",
-          "circular_motion"
-        ],
-        "covers": [
-          {
-            "id": "polar_coordinate",
-            "desc": "Understand how to plot points, change coordinate systems, and create basic shapes in polar",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=aSdaT62ndYE",
-                "title": "Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Valu"
-              },
-              {
-                "url": "https://youtu.be/jwLUapqnwkk?si=tGHYZXIKzDLy3ejU",
-                "title": "Polar Coordinates and Graphing Polar Equations"
-              },
-              {
-                "url": "https://youtu.be/r0fv9V9GHdo?si=UUAcbPchwcewU1vQ",
-                "title": "Polar Coordinates - The Basics"
-              },
-              {
-                "url": "https://youtu.be/jO4lwddfeDA?si=D3V7XZ9BYWZE83CW",
-                "title": "How To Graph Polar Equations"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Polar_coordinate_system",
-                "title": "Polar coordinate system - Wikipedia"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -6817,267 +6385,9 @@
     "pdf": "workbook-14.pdf",
     "chapters": [
       {
-        "id": "circular_2",
-        "title": "Circular Motion, continued",
-        "chap_num": 1,
-        "files": [],
-        "requires": [
-          "rad",
-          "angle",
-          "circular_motion",
-          "circular_arc_length",
-          "cross"
-        ],
-        "covers": [
-          {
-            "id": "torque",
-            "desc": "Understand the concept of torque of a rigid body around a pivot",
-            "videos": [
-              {
-                "url": "https://youtu.be/b-HZ1SZPaQw",
-                "title": "Torque: Crash Course Physics #12"
-              },
-              {
-                "url": "https://youtu.be/jNc2SflUl9U",
-                "title": "Angular Motion and Torque"
-              },
-              {
-                "url": "https://youtu.be/Tu6e9_SrzBA",
-                "title": "Torque Introduction"
-              },
-              {
-                "url": "https://youtu.be/T99yH_gw3p8",
-                "title": "What is Torque? - Torque basics explained"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Torque",
-                "title": "Torque - Wikipedia"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=QnqWByluDDA",
-                "title": "1.5-3:  Free body Diagrams with torque"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=LtXETk1mN9E",
-                "title": "Physics Unit 8.2 Multiple Torques and Sum of Torques"
-              }
-            ]
-          },
-          {
-            "id": "moment_of_inertia",
-            "desc": "Understand the moment of inertia, sometimes referred to as the moment",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=CHQOctEvtTY",
-                "title": "Rotational Inertia: The Race Between a Ring and a Disc"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=lNx0yPdl960",
-                "title": "Demonstrating Rotational Inertia (or Moment of Inertia)"
-              },
-              {
-                "url": "https://youtu.be/FDvcIuNEgo0",
-                "title": "Rolling Down an Incline: Sphere vs. Disc vs. Ring"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=ECKkt9C72eA",
-                "title": "Torque Practice Problems (and how to solve them)"
-              },
-              {
-                "url": "https://youtu.be/ECKkt9C72eA?si=Kw4_dafqoo_i2uHV",
-                "title": "Torque Practice Problems (and how to solve them)"
-              },
-              {
-                "url": "https://youtu.be/b-HZ1SZPaQw?si=4A2qy02tWLe47TmV",
-                "title": "Torque: Crash Course Physics #12"
-              },
-              {
-                "url": "https://youtu.be/McvzTanQ0po?si=H31CELvywG2IhUCm",
-                "title": "Torque and  Angular Acceleration"
-              },
-              {
-                "url": "https://youtu.be/jNc2SflUl9U?si=kMEb-VlhMOrFgU0k",
-                "title": "Angular Motion and Torque"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Moment_of_inertia",
-                "title": "Moment of inertia - Wikipedia"
-              },
-              {
-                "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html#cmi",
-                "title": "Moment of Inertia"
-              }
-            ]
-          },
-          {
-            "id": "rotNewt2ndLaw",
-            "desc": "Understand the rotational equivalent of newton's second law, relating torque, angular acceleration and moments",
-            "videos": [],
-            "references": []
-          },
-          {
-            "id": "parallelAxisTheorem",
-            "desc": "Understand the parallel axis theorem",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=r2Qb0vsxa8Y",
-                "title": "29.4 Parallel Axis Theorem"
-              },
-              {
-                "url": "https://youtu.be/bjF1--cxgrA",
-                "title": "Parallel Axis Theorem Derivation"
-              },
-              {
-                "url": "https://youtu.be/z7Qq5Map9gA",
-                "title": "Parallel Axis Theorem Example"
-              },
-              {
-                "url": "https://youtu.be/cMu0hsvgkGk",
-                "title": "29.6 Deep Dive - Derivation of the Parallel Axis Theorem"
-              },
-              {
-                "url": "https://youtu.be/CclbilxBr0I",
-                "title": "Proof of the Parallel Axis Theorem"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Parallel_axis_theorem",
-                "title": "Parallel axis theorem - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "angularMomentum",
-            "desc": "New",
-            "videos": [
-              {
-                "url": "https://youtu.be/k9IFb3g2e2M",
-                "title": "Conservation of Angular Momentum Theory and Worked Example | Doc Physics"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "rotationalKE",
-            "desc": "New",
-            "videos": [],
-            "references": []
-          }
-        ]
-      },
-      {
-        "id": "rocketry",
-        "title": "Rocketry",
-        "chap_num": 2,
-        "files": [],
-        "requires": [
-          "equal_but_opposite",
-          "orbit",
-          "airplanes"
-        ],
-        "covers": [
-          {
-            "id": "rockets",
-            "desc": "Understand how rockets fly, how their engines work, their propulsion, and staging",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=lddKvb2JgHo",
-                "title": "What do Rockets push in Space, where there is no Air?"
-              },
-              {
-                "url": "https://youtu.be/IJtOXekIQv4",
-                "title": "The How and Why of Rockets' Staging"
-              },
-              {
-                "url": "https://www.youtube.com/shorts/6QjCXpfiOtw",
-                "title": "Estes Saturn V Launch - YouTube"
-              },
-              {
-                "url": "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you",
-                "title": "MOLD-A-RAMA Triceratops Machine at the Field Museum in Chicago - YouTube"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Rocket",
-                "title": "Rocket - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Rocket_engine",
-                "title": "Rocket engine - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Multistage_rocket",
-                "title": "Multistage rocket - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "vector_sim",
-        "title": "Simulation with Vectors",
-        "chap_num": 3,
-        "files": [
-          {
-            "path": "moons.py",
-            "desc": "moons.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons.py"
-          },
-          {
-            "path": "moons_01.py",
-            "desc": "moons_01.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_01.py"
-          },
-          {
-            "path": "moons_02.py",
-            "desc": "moons_02.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_02.py"
-          },
-          {
-            "path": "moons_03.py",
-            "desc": "moons_03.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_03.py"
-          },
-          {
-            "path": "moons_04.py",
-            "desc": "moons_04.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_04.py"
-          },
-          {
-            "path": "moons_05.py",
-            "desc": "moons_05.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_05.py"
-          },
-          {
-            "path": "animate_moons.py",
-            "desc": "animate_moons.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/animate_moons.py"
-          },
-          {
-            "path": "3moons_01.py",
-            "desc": "3moons_01.py",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/3moons_01.py"
-          }
-        ],
-        "requires": [
-          "vectors",
-          "orbit",
-          "lawOfUnivGrav",
-          "python_advanced",
-          "momentum"
-        ],
-        "covers": []
-      },
-      {
         "id": "long_lat_dist",
         "title": "Longitude and Latitude",
-        "chap_num": 4,
+        "chap_num": 1,
         "files": [],
         "requires": [],
         "covers": [
@@ -7144,153 +6454,9 @@
         ]
       },
       {
-        "id": "tides",
-        "title": "Tides and Eclipses",
-        "chap_num": 5,
-        "files": [],
-        "requires": [
-          "orbit",
-          "circular_motion"
-        ],
-        "covers": [
-          {
-            "id": "tides",
-            "desc": "Understand how the moon effects tide",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=dBwNadry-TU",
-                "title": "Neil deGrasse Tyson Explains the Tides"
-              },
-              {
-                "url": "https://youtu.be/jKQbM8CzQl4",
-                "title": "How Tides and Waves Occur | Full Moon Effects"
-              },
-              {
-                "url": "https://youtu.be/tcGEjzt_4is",
-                "title": "What Causes Tides?"
-              },
-              {
-                "url": "https://youtu.be/3RdkXs8BibE",
-                "title": "Ocean's Tides Explained"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Barycenter_(astronomy)",
-                "title": "Barycenter (astronomy) - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Tide",
-                "title": "Tide - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "orbital_calendars",
-            "desc": "Understand how often different orbits occur, and the earth sun and moon triangle",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=3cJ3AemeUFM",
-                "title": "Does The Moon Really Orbit The Earth?"
-              },
-              {
-                "url": "https://youtu.be/vIZyuXl-91U",
-                "title": "Why Aren't There Eclipses Every Month?"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=0r9Lc7oYq5M",
-                "title": "Seasons | The Earth-sun-moon system | Middle school Earth and space science | Khan Academy"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=1sj2otIjZfM",
-                "title": "Phases of moon explained using an orrery"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=W47Wa7onrIQ",
-                "title": "Sun, Earth, Moon animation"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Orbital_period",
-                "title": "Orbital period - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Earth%27s_rotation",
-                "title": "Earth's rotation - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "eclipses_and_phases",
-            "desc": "Understand the moon's phases and eclipses",
-            "videos": [
-              {
-                "url": "https://youtu.be/PRgua7xceDA",
-                "title": "Eclipses: Crash Course Astronomy #5"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=W7mVQ3kRPv8",
-                "title": "The LAST Eclipse in History"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=AQ5vty8f9Xc",
-                "title": "Moon Phases: Crash Course Astronomy #4"
-              },
-              {
-                "url": "https://youtu.be/urgYWNCN-RA",
-                "title": "Greek Physics: Calculating the distance to the Sun and Moon"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
-                "title": "Solar eclipse - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Lunar_eclipse",
-                "title": "Lunar eclipse - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "phases",
-            "desc": "Understand the phases of the moon",
-            "videos": [
-              {
-                "url": "https://youtu.be/Jip3BbZBpsM",
-                "title": "What Causes The Phases Of The Moon?"
-              },
-              {
-                "url": "https://youtu.be/3lrnNUqTmGU",
-                "title": "Moon Phases Explained (Animations and Timelapse)"
-              },
-              {
-                "url": "https://youtu.be/LHD4Pk0D8_g",
-                "title": "Moon Phase Animation"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=6AviDjR9mmo",
-                "title": "Moon 101 | National Geographic"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Moon",
-                "title": "Moon - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Lunar_phase",
-                "title": "Lunar phase - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "sampling",
         "title": "Sampling Data",
-        "chap_num": 6,
+        "chap_num": 2,
         "files": [
           {
             "desc": "Excel file for SRS Example",
@@ -8069,18 +7235,11 @@
           "mult_poly"
         ],
         "covers": []
-      }
-    ]
-  },
-  {
-    "num": "17",
-    "title": "Workbook 17",
-    "pdf": "workbook-17.pdf",
-    "chapters": [
+      },
       {
         "id": "differentiating_polynomials",
         "title": "Differentiating Polynomials",
-        "chap_num": 1,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "monomial",
@@ -8145,7 +7304,7 @@
       {
         "id": "classes",
         "title": "Python Classes",
-        "chap_num": 2,
+        "chap_num": 7,
         "files": [
           {
             "desc": "New",
@@ -8210,7 +7369,7 @@
       {
         "id": "common_products_polynomials",
         "title": "Common Polynomial Products",
-        "chap_num": 3,
+        "chap_num": 8,
         "files": [],
         "requires": [
           "polynomial",
@@ -8309,7 +7468,7 @@
       {
         "id": "factoring_polynomials",
         "title": "Factoring Polynomials",
-        "chap_num": 4,
+        "chap_num": 9,
         "files": [],
         "requires": [
           "poly_diff_squares",
@@ -8346,7 +7505,7 @@
       {
         "id": "practice_polynomials",
         "title": "Practice with Polynomials",
-        "chap_num": 5,
+        "chap_num": 10,
         "files": [],
         "requires": [
           "FOIL",
@@ -8361,9 +7520,9 @@
     ]
   },
   {
-    "num": "18",
-    "title": "Workbook 18",
-    "pdf": "workbook-18.pdf",
+    "num": "17",
+    "title": "Workbook 17",
+    "pdf": "workbook-17.pdf",
     "chapters": [
       {
         "id": "graphs_polynomials",
@@ -8725,6 +7884,846 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Expected_value",
                 "title": "Expected value - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "parametric",
+        "title": "Parametric Functions",
+        "chap_num": 6,
+        "files": [
+          {
+            "desc": "A script for creating a visualization of a parametric functions",
+            "path": "parametric_animation.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/parametric/en_US/parametric_animation.py"
+          }
+        ],
+        "requires": [
+          "math-graph",
+          "math-function",
+          "quadratic_formula",
+          "solving_quadratics",
+          "unit circle",
+          "derivatives",
+          "math-variable",
+          "python_advanced"
+        ],
+        "covers": [
+          {
+            "id": "param_eq: overview",
+            "desc": "Understand how parametric equations describe curves using a parameter. ",
+            "videos": [
+              {
+                "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-equations-1",
+                "title": "Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=7g37UjuVYeU",
+                "title": "AP Precalculus – 4.1 Parametric Functions"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Parametric_equation",
+                "title": "Parametric equation - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "param_eq: interpret",
+            "desc": "Interpret x = f(t) and y = g(t) as a single curve in the plane.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=7g37UjuVYeU",
+                "title": "AP Precalculus – 4.1 Parametric Functions"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=qAn4wVIkH6c",
+                "title": "AP Precalculus – 4.2 Parametric Functions Modeling Planar Motion"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "param_eq: elim",
+            "desc": "Eliminate the parameter to convert parametric equations to rectangular form.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=97pe-QlSGqA",
+                "title": "Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "param_eq: sketch",
+            "desc": "Sketch parametric curves and determine direction of motion.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=5BszZXMelVE",
+                "title": "Introduction to Parametric Equations - Graphing and Eliminating the Parameter"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "param_eq: restrict",
+            "desc": "Understand how restrictions on t affect the portion of the curve that is traced.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=yxXgK9hAPoQ",
+                "title": "AP Precalculus – 4.3 Parametric Functions and Rates of Change"
+              }
+            ],
+            "references": []
+          }
+        ]
+      },
+      {
+        "id": "vector_functions",
+        "title": "Vector-valued Functions",
+        "chap_num": 7,
+        "files": [],
+        "requires": [
+          "vectors",
+          "vector_magnitude",
+          "terminal velocity",
+          "derivatives",
+          "param_eq: overview"
+        ],
+        "covers": [
+          {
+            "id": "vector_function",
+            "desc": "Understand how to calculate vector valued functions",
+            "videos": [
+              {
+                "url": "https://youtu.be/40r56pX4mqA",
+                "title": "3D Curves and their Tangents | Intro to Vector-Valued Functions"
+              },
+              {
+                "url": "https://youtu.be/FThlJQMQ9f4",
+                "title": "Vector-Valued Functions (Introduction)"
+              },
+              {
+                "url": "https://youtu.be/vcwvzUVLPw0",
+                "title": "Vector valued function derivative example | Multivariable Calculus | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/FYMn61HLw1k",
+                "title": "Differential of a vector valued function | Multivariable Calculus | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/sBldw95xMD4",
+                "title": "Position vector valued functions | Multivariable Calculus | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Vector-valued_function",
+                "title": "Vector-valued function - Wikipedia"
+              },
+              {
+                "url": "https://tutorial.math.lamar.edu/classes/calciii/VectorFunctions.aspx",
+                "title": "\r\n\tCalculus III - Vector Functions\r\n"
+              },
+              {
+                "url": "https://www.geogebra.org/3d?lang=en",
+                "title": "3D Calculator - GeoGebra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "circular",
+        "title": "Circular Motion",
+        "chap_num": 8,
+        "files": [],
+        "requires": [
+          "tangent",
+          "circles",
+          "projectile_motion",
+          "friction_intro"
+        ],
+        "covers": [
+          {
+            "id": "circular_motion",
+            "desc": "Understand the concepts of circular motion and their equations. Identify uniform circular motion and non-uniform circular motion.",
+            "videos": [
+              {
+                "url": "https://youtu.be/kLN9W73ASrQ",
+                "title": "Uniform Circular Motion"
+              },
+              {
+                "url": "https://youtu.be/bpFK2VCRHUs",
+                "title": "Uniform Circular Motion: Crash Course Physics #7"
+              },
+              {
+                "url": "https://youtu.be/SZj6DuB0vvo",
+                "title": "Uniform Circular Motion and Centripetal Force"
+              },
+              {
+                "url": "https://youtu.be/IawY86XveQE",
+                "title": "Uniform Circular Motion Formulas and Equations - College Physics"
+              },
+              {
+                "url": "https://youtu.be/lV3h2kpJzp8",
+                "title": "Circular Motion Everything You Need To Know!"
+              },
+              {
+                "url": "https://youtu.be/vsSID5irx4o",
+                "title": "Flying Pig:  Uniform Circular Motion and Centripetal Force"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ifAY5tbYDmQ",
+                "title": "Centripetal Force in the Gravitron Ride"
+              },
+              {
+                "url": "https://youtu.be/dMgyy95uJUg",
+                "title": "Static Friction, Centripetal Force, Circular Motion, Car Rounding Curve & Rotor Ride Physics Problem"
+              },
+              {
+                "url": "https://youtu.be/95W_w33nkSY",
+                "title": "Nonuniform Circular Motion - Ball in a Vertical Circle"
+              },
+              {
+                "url": "https://youtu.be/G0RikmNonoU",
+                "title": "Tetherball Physics Problem - Calculate Tension Force"
+              },
+              {
+                "url": "https://youtu.be/AsRXFKLBRAE",
+                "title": "High School physics (Newton's Laws) tetherball problem"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=J2gpEgjy1qg",
+                "title": "1D10.50 Simple Harmonic Motion and Uniform Circular Motion"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=AL2Chc6p_Kk",
+                "title": "The Most Mind-Blowing Aspect of Circular Motion"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=9yZHwnh6lAE",
+                "title": "Nonuniform Circular Motion - Force of Tension in a Rope"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=0q0L7Fj4dk8",
+                "title": "Everything You Need To Know About Pendulums: Physics Help Room"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://courses.lumenlearning.com/suny-physics/chapter/6-1-rotation-angle-and-angular-velocity/",
+                "title": "Rotation Angle and Angular Velocity | Physics"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Circular_motion",
+                "title": "Circular motion - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Centripetal_force",
+                "title": "Centripetal force - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oscillations",
+        "title": "Oscillations",
+        "chap_num": 9,
+        "files": [],
+        "requires": [
+          "trig_functions",
+          "energy-forms",
+          "derivatives",
+          "trig_derivatives",
+          "kinetic_energy",
+          "param_eq: overview",
+          "stats-rms"
+        ],
+        "covers": [
+          {
+            "id": "oscillations-springs",
+            "desc": "Understand the fundamentals of oscillations or repeated motion, SHM, springs fundamentals.",
+            "videos": [
+              {
+                "url": "https://youtu.be/_7JPHNCT1Qo",
+                "title": "23.4 Potential Energy of a Spring"
+              },
+              {
+                "url": "https://youtu.be/gZ_KnZHCn4M",
+                "title": "Simple Harmonic Motion: Hooke's Law"
+              },
+              {
+                "url": "https://youtu.be/iz1CdTUOies",
+                "title": "Work done by a Spring - Deriving Elastic Potential Energy"
+              },
+              {
+                "url": "https://youtu.be/flCA41BG7Do",
+                "title": "Determining the Spring Constant, k, with a Vertically Hanging Mass"
+              },
+              {
+                "url": "https://youtu.be/CTd1uVq5-l8",
+                "title": "Mechanical Vibrations: Underdamped vs Overdamped vs Critically Damped"
+              },
+              {
+                "url": "https://youtu.be/Z52emur7Rko",
+                "title": "Undamped Mechanical Vibrations & Hooke's Law // Simple Harmonic Motion"
+              },
+              {
+                "url": "https://youtu.be/S782ktnm0Tk",
+                "title": "Second order differential equation for spring-mass systems"
+              },
+              {
+                "url": "https://youtu.be/CYyOHGOPTXc",
+                "title": "Horizontal vs. Vertical Mass-Spring System"
+              },
+              {
+                "url": "https://youtu.be/7KZdpF2NBaw",
+                "title": "Phasor diagram (& its applications) | Alternating currents | Physics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Oscillation",
+                "title": "Oscillation - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Hooke%27s_law",
+                "title": "Hooke's law - Wikipedia"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "num": "18",
+    "title": "Workbook 18",
+    "pdf": "workbook-18.pdf",
+    "chapters": [
+      {
+        "id": "orbits",
+        "title": "Orbits",
+        "chap_num": 1,
+        "files": [],
+        "requires": [
+          "circular_motion",
+          "free_fall",
+          "lawOfUnivGrav",
+          "ellipses"
+        ],
+        "covers": [
+          {
+            "id": "orbit",
+            "desc": "Understand what causes something to orbit, differences in weight, and geosyncronous orbits.",
+            "videos": [
+              {
+                "url": "https://youtu.be/QIaAleG0Eb4",
+                "title": "Speed of a Satellite in Circular Orbit, Orbital Velocity, Period, Centripetal Force, Physics Problem"
+              },
+              {
+                "url": "https://youtu.be/tI8OqpkOVzs",
+                "title": "Geosynchronous Orbits are WEIRD"
+              },
+              {
+                "url": "https://youtu.be/KBcxuM-qXec",
+                "title": "The Moon's Orbit is WEIRD"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=bcvnfQlz1x4",
+                "title": "The Only Video Needed to Understand Orbital Mechanics"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Orbit",
+                "title": "Orbit - Wikipedia"
+              },
+              {
+                "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+                "title": "ESA - Types of orbits"
+              }
+            ]
+          },
+          {
+            "id": "escape_velocity",
+            "desc": "Understand escape velocity and how to calculate it",
+            "videos": [
+              {
+                "url": "https://youtu.be/ut7szD4QJaU",
+                "title": "Escape velocity"
+              },
+              {
+                "url": "https://youtu.be/_mPKRbRs_Jg",
+                "title": "Deriving Escape Velocity of Planet Earth"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Escape_velocity",
+                "title": "Escape velocity - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "kepler",
+            "desc": "Understand Kelper's laws",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion",
+                "title": "Kepler's laws of planetary motion - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "circular_2",
+        "title": "Circular Motion, continued",
+        "chap_num": 2,
+        "files": [],
+        "requires": [
+          "rad",
+          "angle",
+          "circular_motion",
+          "circular_arc_length"
+        ],
+        "covers": [
+          {
+            "id": "torque",
+            "desc": "Understand the concept of torque of a rigid body around a pivot",
+            "videos": [
+              {
+                "url": "https://youtu.be/b-HZ1SZPaQw",
+                "title": "Torque: Crash Course Physics #12"
+              },
+              {
+                "url": "https://youtu.be/jNc2SflUl9U",
+                "title": "Angular Motion and Torque"
+              },
+              {
+                "url": "https://youtu.be/Tu6e9_SrzBA",
+                "title": "Torque Introduction"
+              },
+              {
+                "url": "https://youtu.be/T99yH_gw3p8",
+                "title": "What is Torque? - Torque basics explained"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Torque",
+                "title": "Torque - Wikipedia"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=QnqWByluDDA",
+                "title": "1.5-3:  Free body Diagrams with torque"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=LtXETk1mN9E",
+                "title": "Physics Unit 8.2 Multiple Torques and Sum of Torques"
+              }
+            ]
+          },
+          {
+            "id": "moment_of_inertia",
+            "desc": "Understand the moment of inertia, sometimes referred to as the moment",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=CHQOctEvtTY",
+                "title": "Rotational Inertia: The Race Between a Ring and a Disc"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=lNx0yPdl960",
+                "title": "Demonstrating Rotational Inertia (or Moment of Inertia)"
+              },
+              {
+                "url": "https://youtu.be/FDvcIuNEgo0",
+                "title": "Rolling Down an Incline: Sphere vs. Disc vs. Ring"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ECKkt9C72eA",
+                "title": "Torque Practice Problems (and how to solve them)"
+              },
+              {
+                "url": "https://youtu.be/ECKkt9C72eA?si=Kw4_dafqoo_i2uHV",
+                "title": "Torque Practice Problems (and how to solve them)"
+              },
+              {
+                "url": "https://youtu.be/b-HZ1SZPaQw?si=4A2qy02tWLe47TmV",
+                "title": "Torque: Crash Course Physics #12"
+              },
+              {
+                "url": "https://youtu.be/McvzTanQ0po?si=H31CELvywG2IhUCm",
+                "title": "Torque and  Angular Acceleration"
+              },
+              {
+                "url": "https://youtu.be/jNc2SflUl9U?si=kMEb-VlhMOrFgU0k",
+                "title": "Angular Motion and Torque"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Moment_of_inertia",
+                "title": "Moment of inertia - Wikipedia"
+              },
+              {
+                "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html#cmi",
+                "title": "Moment of Inertia"
+              }
+            ]
+          },
+          {
+            "id": "rotNewt2ndLaw",
+            "desc": "Understand the rotational equivalent of newton's second law, relating torque, angular acceleration and moments",
+            "videos": [],
+            "references": []
+          },
+          {
+            "id": "parallelAxisTheorem",
+            "desc": "Understand the parallel axis theorem",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=r2Qb0vsxa8Y",
+                "title": "29.4 Parallel Axis Theorem"
+              },
+              {
+                "url": "https://youtu.be/bjF1--cxgrA",
+                "title": "Parallel Axis Theorem Derivation"
+              },
+              {
+                "url": "https://youtu.be/z7Qq5Map9gA",
+                "title": "Parallel Axis Theorem Example"
+              },
+              {
+                "url": "https://youtu.be/cMu0hsvgkGk",
+                "title": "29.6 Deep Dive - Derivation of the Parallel Axis Theorem"
+              },
+              {
+                "url": "https://youtu.be/CclbilxBr0I",
+                "title": "Proof of the Parallel Axis Theorem"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Parallel_axis_theorem",
+                "title": "Parallel axis theorem - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "angularMomentum",
+            "desc": "New",
+            "videos": [
+              {
+                "url": "https://youtu.be/k9IFb3g2e2M",
+                "title": "Conservation of Angular Momentum Theory and Worked Example | Doc Physics"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "rotationalKE",
+            "desc": "New",
+            "videos": [],
+            "references": []
+          }
+        ]
+      },
+      {
+        "id": "rocketry",
+        "title": "Rocketry",
+        "chap_num": 3,
+        "files": [],
+        "requires": [
+          "equal_but_opposite",
+          "orbit",
+          "airplanes"
+        ],
+        "covers": [
+          {
+            "id": "rockets",
+            "desc": "Understand how rockets fly, how their engines work, their propulsion, and staging",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=lddKvb2JgHo",
+                "title": "What do Rockets push in Space, where there is no Air?"
+              },
+              {
+                "url": "https://youtu.be/IJtOXekIQv4",
+                "title": "The How and Why of Rockets' Staging"
+              },
+              {
+                "url": "https://www.youtube.com/shorts/6QjCXpfiOtw",
+                "title": "Estes Saturn V Launch - YouTube"
+              },
+              {
+                "url": "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you",
+                "title": "MOLD-A-RAMA Triceratops Machine at the Field Museum in Chicago - YouTube"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Rocket",
+                "title": "Rocket - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Rocket_engine",
+                "title": "Rocket engine - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Multistage_rocket",
+                "title": "Multistage rocket - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vector_sim",
+        "title": "Simulation with Vectors",
+        "chap_num": 4,
+        "files": [
+          {
+            "path": "moons.py",
+            "desc": "moons.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons.py"
+          },
+          {
+            "path": "moons_01.py",
+            "desc": "moons_01.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_01.py"
+          },
+          {
+            "path": "moons_02.py",
+            "desc": "moons_02.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_02.py"
+          },
+          {
+            "path": "moons_03.py",
+            "desc": "moons_03.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_03.py"
+          },
+          {
+            "path": "moons_04.py",
+            "desc": "moons_04.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_04.py"
+          },
+          {
+            "path": "moons_05.py",
+            "desc": "moons_05.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/moons_05.py"
+          },
+          {
+            "path": "animate_moons.py",
+            "desc": "animate_moons.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/animate_moons.py"
+          },
+          {
+            "path": "3moons_01.py",
+            "desc": "3moons_01.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/vector_sim/en_US/3moons_01.py"
+          }
+        ],
+        "requires": [
+          "vectors",
+          "orbit",
+          "lawOfUnivGrav",
+          "python_advanced",
+          "momentum"
+        ],
+        "covers": []
+      },
+      {
+        "id": "tides",
+        "title": "Tides and Eclipses",
+        "chap_num": 5,
+        "files": [],
+        "requires": [
+          "orbit",
+          "circular_motion"
+        ],
+        "covers": [
+          {
+            "id": "tides",
+            "desc": "Understand how the moon effects tide",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=dBwNadry-TU",
+                "title": "Neil deGrasse Tyson Explains the Tides"
+              },
+              {
+                "url": "https://youtu.be/jKQbM8CzQl4",
+                "title": "How Tides and Waves Occur | Full Moon Effects"
+              },
+              {
+                "url": "https://youtu.be/tcGEjzt_4is",
+                "title": "What Causes Tides?"
+              },
+              {
+                "url": "https://youtu.be/3RdkXs8BibE",
+                "title": "Ocean's Tides Explained"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Barycenter_(astronomy)",
+                "title": "Barycenter (astronomy) - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Tide",
+                "title": "Tide - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "orbital_calendars",
+            "desc": "Understand how often different orbits occur, and the earth sun and moon triangle",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=3cJ3AemeUFM",
+                "title": "Does The Moon Really Orbit The Earth?"
+              },
+              {
+                "url": "https://youtu.be/vIZyuXl-91U",
+                "title": "Why Aren't There Eclipses Every Month?"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=0r9Lc7oYq5M",
+                "title": "Seasons | The Earth-sun-moon system | Middle school Earth and space science | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=1sj2otIjZfM",
+                "title": "Phases of moon explained using an orrery"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=W47Wa7onrIQ",
+                "title": "Sun, Earth, Moon animation"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Orbital_period",
+                "title": "Orbital period - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Earth%27s_rotation",
+                "title": "Earth's rotation - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "eclipses_and_phases",
+            "desc": "Understand the moon's phases and eclipses",
+            "videos": [
+              {
+                "url": "https://youtu.be/PRgua7xceDA",
+                "title": "Eclipses: Crash Course Astronomy #5"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=W7mVQ3kRPv8",
+                "title": "The LAST Eclipse in History"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=AQ5vty8f9Xc",
+                "title": "Moon Phases: Crash Course Astronomy #4"
+              },
+              {
+                "url": "https://youtu.be/urgYWNCN-RA",
+                "title": "Greek Physics: Calculating the distance to the Sun and Moon"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+                "title": "Solar eclipse - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Lunar_eclipse",
+                "title": "Lunar eclipse - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "phases",
+            "desc": "Understand the phases of the moon",
+            "videos": [
+              {
+                "url": "https://youtu.be/Jip3BbZBpsM",
+                "title": "What Causes The Phases Of The Moon?"
+              },
+              {
+                "url": "https://youtu.be/3lrnNUqTmGU",
+                "title": "Moon Phases Explained (Animations and Timelapse)"
+              },
+              {
+                "url": "https://youtu.be/LHD4Pk0D8_g",
+                "title": "Moon Phase Animation"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=6AviDjR9mmo",
+                "title": "Moon 101 | National Geographic"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Moon",
+                "title": "Moon - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Lunar_phase",
+                "title": "Lunar phase - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "polar_coord",
+        "title": "Polar Coordinates",
+        "chap_num": 6,
+        "files": [],
+        "requires": [
+          "math-function",
+          "math-graph",
+          "rad",
+          "unit circle",
+          "inverse_trig",
+          "param_eq: overview",
+          "circular_motion"
+        ],
+        "covers": [
+          {
+            "id": "polar_coordinate",
+            "desc": "Understand how to plot points, change coordinate systems, and create basic shapes in polar",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=aSdaT62ndYE",
+                "title": "Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Valu"
+              },
+              {
+                "url": "https://youtu.be/jwLUapqnwkk?si=tGHYZXIKzDLy3ejU",
+                "title": "Polar Coordinates and Graphing Polar Equations"
+              },
+              {
+                "url": "https://youtu.be/r0fv9V9GHdo?si=UUAcbPchwcewU1vQ",
+                "title": "Polar Coordinates - The Basics"
+              },
+              {
+                "url": "https://youtu.be/jO4lwddfeDA?si=D3V7XZ9BYWZE83CW",
+                "title": "How To Graph Polar Equations"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Polar_coordinate_system",
+                "title": "Polar coordinate system - Wikipedia"
               }
             ]
           }
