@@ -5063,68 +5063,9 @@
         ]
       },
       {
-        "id": "graphs",
-        "title": "Introduction to Graphs",
-        "chap_num": 6,
-        "files": [
-          {
-            "path": "cities.py",
-            "desc": "A set of cities constructed with our graph class.",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graphs/en_US/cities.py"
-          },
-          {
-            "path": "graph.py",
-            "desc": "A graph class that contains weighted edges.",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graphs/en_US/graph.py"
-          }
-        ],
-        "requires": [
-          "python_advanced",
-          "dataviz"
-        ],
-        "covers": [
-          {
-            "id": "graphs-programming",
-            "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. Beginnings of Graph Theory.",
-            "videos": [
-              {
-                "url": "https://youtu.be/-VgHk7UMPP4",
-                "title": "Learn Graphs in 5 minutes 🌐"
-              },
-              {
-                "url": "https://youtu.be/4jyESQDrpls",
-                "title": "Graphs: Edge List, Adjacency Matrix, Adjacency List, DFS, BFS - DSA Course in Python Lecture 11"
-              },
-              {
-                "url": "https://youtu.be/LFKZLXVO-Dg",
-                "title": "Introduction to Graph Theory: A Computer Science Perspective"
-              },
-              {
-                "url": "https://youtu.be/DBRW8nwZV-g",
-                "title": "Graph Data Structure Intro (inc. adjacency list, adjacency matrix, incidence matrix)"
-              },
-              {
-                "url": "https://youtu.be/J21ZvWWrWwg",
-                "title": "Great Ideas in Theoretical Computer Science: Graphs: The Basics (Spring 2015)"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Graph_theory",
-                "title": "Graph theory - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
-                "title": "Graph (discrete mathematics) - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "paradoxes",
         "title": "Laws, Paradoxes, Thought Experiments, and the Illusions",
-        "chap_num": 7,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "sets_logic",
@@ -5353,9 +5294,68 @@
         ]
       },
       {
+        "id": "graphs",
+        "title": "Introduction to Graphs",
+        "chap_num": 3,
+        "files": [
+          {
+            "path": "cities.py",
+            "desc": "A set of cities constructed with our graph class.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graphs/en_US/cities.py"
+          },
+          {
+            "path": "graph.py",
+            "desc": "A graph class that contains weighted edges.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/graphs/en_US/graph.py"
+          }
+        ],
+        "requires": [
+          "python_advanced",
+          "dataviz"
+        ],
+        "covers": [
+          {
+            "id": "graphs-programming",
+            "desc": "Understand how graphs, nodes, and edges work together to form connections between data. Understand how weighted edges effect graphs. Beginnings of Graph Theory.",
+            "videos": [
+              {
+                "url": "https://youtu.be/-VgHk7UMPP4",
+                "title": "Learn Graphs in 5 minutes 🌐"
+              },
+              {
+                "url": "https://youtu.be/4jyESQDrpls",
+                "title": "Graphs: Edge List, Adjacency Matrix, Adjacency List, DFS, BFS - DSA Course in Python Lecture 11"
+              },
+              {
+                "url": "https://youtu.be/LFKZLXVO-Dg",
+                "title": "Introduction to Graph Theory: A Computer Science Perspective"
+              },
+              {
+                "url": "https://youtu.be/DBRW8nwZV-g",
+                "title": "Graph Data Structure Intro (inc. adjacency list, adjacency matrix, incidence matrix)"
+              },
+              {
+                "url": "https://youtu.be/J21ZvWWrWwg",
+                "title": "Great Ideas in Theoretical Computer Science: Graphs: The Basics (Spring 2015)"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Graph_theory",
+                "title": "Graph theory - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+                "title": "Graph (discrete mathematics) - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "dot",
         "title": "The Dot Product",
-        "chap_num": 3,
+        "chap_num": 4,
         "files": [],
         "requires": [
           "vectors",
@@ -5409,7 +5409,7 @@
       {
         "id": "manufacturing",
         "title": "Manufacturing",
-        "chap_num": 4,
+        "chap_num": 5,
         "files": [],
         "requires": [
           "metals"
@@ -5496,7 +5496,7 @@
       {
         "id": "intro_waves",
         "title": "Introduction to Waves",
-        "chap_num": 5,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "trig_functions",
@@ -5608,7 +5608,7 @@
       {
         "id": "sound",
         "title": "Sound",
-        "chap_num": 6,
+        "chap_num": 7,
         "files": [
           {
             "desc": "A python script showing different sine waves plotted representing harmonics",
@@ -5718,7 +5718,7 @@
       {
         "id": "num_methods_2",
         "title": "Applying Numerical Methods to Bivariate Data",
-        "chap_num": 7,
+        "chap_num": 8,
         "files": [],
         "requires": [
           "num_methods"
