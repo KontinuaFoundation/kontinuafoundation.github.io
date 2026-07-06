@@ -9105,6 +9105,31 @@
             ]
           }
         ]
+      },
+      {
+        "id": "experiments",
+        "title": "Experimental Design",
+        "chap_num": 5,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "",
+            "desc": "",
+            "videos": [
+              {
+                "url": "",
+                "title": ""
+              }
+            ],
+            "references": [
+              {
+                "url": "",
+                "title": ""
+              }
+            ]
+          }
+        ]
       }
     ]
   },
