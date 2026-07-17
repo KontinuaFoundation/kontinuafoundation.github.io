@@ -12036,6 +12036,331 @@
             ]
           }
         ]
+      },
+      {
+        "id": "inferences_proportion",
+        "title": "Statistical Inferences for Proportions",
+        "chap_num": 5,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "confidence_intervals",
+            "desc": "Estimating a population proportion with a confidence interval",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=CN-7SglNP00",
+                "title": "AP Statistics Unit 6 Summary Review Inference For Proportions Part 1 Confidence Intervals"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=hlM7zdf7zwU",
+                "title": "Confidence intervals and margin of error | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Vwv5M-CV3C8",
+                "title": "AP Statistics: Confidence Intervals for Proportions"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Confidence_interval",
+                "title": "Confidence interval - Wikipedia"
+              },
+              {
+                "url": "",
+                "title": ""
+              }
+            ]
+          },
+          {
+            "id": "hypothesis_testing_logic",
+            "desc": "Understanding the logic behind a significance test",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=cn4S3QqEBRg",
+                "title": "Idea behind hypothesis testing"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=_3_6wjycJdk",
+                "title": "Examples of null and alternative hypotheses | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://statisticsbyjim.com/hypothesis-testing/statistical-inference/",
+                "title": "Statistical Inference: Definition, Methods & Example - Statistics By Jim"
+              }
+            ]
+          },
+          {
+            "id": "p_values",
+            "desc": "Interpreting p-values and deciding whether to reject the null hypothesis",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=iUdXsYqMKys",
+                "title": "AP Statistics Unit 6 Summary Review Inference for Proportions Part 2 Significance Tests"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=8Aw45HN5lnA",
+                "title": "P-Value Method For Hypothesis Testing"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "type_i_ii_errors",
+            "desc": "Avoiding Type I and Type II errors, and understanding the power of a test",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=Hdbbx7DIweQ",
+                "title": "Introduction to Type I and Type II errors | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=9yQm9F2_yIk",
+                "title": "How To Identify Type I and Type II Errors In Statistics"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "critical_values",
+            "desc": "One-tailed, two-tailed tests, and critical values",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=XHPIEp-3yC0",
+                "title": "One Tailed and Two Tailed Tests, Critical Values, & Significance Level - Inferential Statistics"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "two_sample_proportions",
+            "desc": "Comparing two population proportions (placeholder - content not yet drafted)",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=hcUxFwUjCxM",
+                "title": "Confidence intervals for the difference between two proportions | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=h_ZIMHgKTP0",
+                "title": "Calculating a confidence interval for the difference of proportions | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": []
+          }
+        ]
+      },
+      {
+        "id": "inferences_means",
+        "title": "Statistical Inferences for Means",
+        "chap_num": 6,
+        "files": [],
+        "requires": [
+          ""
+        ],
+        "covers": [
+          {
+            "id": "t_distribution",
+            "desc": "Be able to describe the properties of the t-distribution, determine degrees of freedom, verify conditions for inference about a mean, and recognize matched-pairs data.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=a2rd4Qy8yNI",
+                "title": "Introduction to t statistics | Confidence intervals | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=8CJ-RsoYbg0",
+                "title": "Hypotheses for a two-sample t test | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Student's_t-distribution",
+                "title": "Student's t-distribution - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "confidence_intervals",
+            "desc": "Be able to construct and interpret a confidence interval for a population mean, including the mean of matched-pairs differences.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=6G3jMjAqNqM",
+                "title": "Example constructing a t interval for a mean | Confidence intervals | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=gWaA8mVBZQk",
+                "title": "Confidence interval for a mean with paired data | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Confidence_interval",
+                "title": "Confidence interval - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "significance_tests",
+            "desc": "Be able to conduct and interpret a significance test for a population mean, including matched-pairs differences.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=BJl9WA787-Q",
+                "title": "Example calculating t statistic for a test about a mean | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Student's_t-test",
+                "title": "Student's t-test - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "difference_of_means",
+            "desc": "Be able to construct a confidence interval and conduct a significance test for the difference between two independent population means.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=NkGvw18zlGQ",
+                "title": "Two-sample t test for difference of means | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ogFLbvKru8A",
+                "title": "Conclusion for a two-sample t test using a P-value | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Welch's_t-test",
+                "title": "Welch's t-test - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "selecting_procedures",
+            "desc": "Be able to select the correct inference procedure based on variable type, number of samples, and independence.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=-aCLTMSBsVc",
+                "title": " - YouTube"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=yM6QQsyVhzA",
+                "title": "AP Stats - Choosing the Correct Inference Procedure"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_testing",
+                "title": "Statistical hypothesis test - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "inferences_slopes",
+        "title": "Statistical Inferences for Slopes",
+        "chap_num": 7,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "slope_conditions",
+            "desc": "Be able to verify the conditions (linear relationship, constant standard deviation, independence, normality of residuals) required for inference about the slope of a regression model.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=kOQx3LtWHEQ",
+                "title": "Conditions for inference on slope | More on regression | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Pzglbt9_xCI",
+                "title": "Introduction to inference about slope in linear regression | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Simple_linear_regression#Normality_assumption",
+                "title": "Simple linear regression - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "slope_interval",
+            "desc": "Be able to construct and interpret a confidence interval for the slope of a regression model, including margin of error, standard error, and the effect of sample size on interval width.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=8w6EPyEqE9M",
+                "title": "Confidence interval for the slope of a regression line | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Simple_linear_regression#Confidence_intervals",
+                "title": "Simple linear regression - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "slope_test",
+            "desc": "Be able to identify hypotheses, calculate the t test statistic and p-value, and justify a claim for a significance test about the slope of a regression model.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=7MAuojBTF-g",
+                "title": "Calculating t statistic for slope of regression line | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Mpd83AuDTrU",
+                "title": "Using a P-value to make conclusions in a test about slope | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Student%27s_t-test#Slope_of_a_regression_line",
+                "title": "Student's t-test - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "regression_output",
+            "desc": "Be able to identify the slope, y-intercept, r-squared, standard deviation of residuals, and standard error of the slope from computer regression output, and describe the association using predicted (non-deterministic) language.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=5Fk5vEMsmxc",
+                "title": "HOW TO READ A COMPUTER OUTPUT FOR REGRESSION AP STATISTICS"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=WSlC50l5uaE",
+                "title": "Linear Regression: Computer Output, Interpret Slope & r, and Appropriateness"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Ordinary_least_squares",
+                "title": "Ordinary least squares - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "inference_selection",
+            "desc": "Be able to select and justify the appropriate inference procedure (confidence interval or significance test) for a scenario involving the slope of a regression model.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=rmY0DTu2cJw",
+                "title": "AP Statistics | How to Choose the Right Inference Procedure (Step-by-Step)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=cdeZycXB16U",
+                "title": "Which Test Do I Use? | AP Statistics Inference Guide | Inference Procedures to Score a 5 on the Exam"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Statistical_inference",
+                "title": "Statistical inference - Wikipedia"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
