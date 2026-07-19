@@ -2111,6 +2111,10 @@
     "title": "How Does A Wing Actually Work?",
     "date": "2026-04-27T20:31"
   },
+  "https://www.youtube.com/watch?v=ks45Qweltlc": {
+    "title": "Large-Eddy Simulation of a multi-element wing section",
+    "date": "2026-07-19T07:02"
+  },
   "https://simple.wikipedia.org/wiki/Pitch,_yaw,_and_roll": {
     "title": "Pitch, yaw, and roll - Simple English Wikipedia, the free encyclopedia",
     "date": "2026-04-26T22:43"
@@ -2166,6 +2170,46 @@
   "https://youtu.be/dcqPhpY7tWk": {
     "title": "What is Pandas? Why and How to Use Pandas in Python",
     "date": "2026-04-27T20:31"
+  },
+  "https://en.wikipedia.org/wiki/V/STOL": {
+    "title": "V/STOL - Wikipedia",
+    "date": "2026-07-19T07:02"
+  },
+  "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/4-H/4h-895/4H-895.pdf": {
+    "title": "4H-895.pdf",
+    "date": "2026-07-19T07:02"
+  },
+  "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf": {
+    "title": "aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+    "date": "2026-07-19T07:02"
+  },
+  "https://andrew.gibiansky.com/downloads/pdf/Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf": {
+    "title": "Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf",
+    "date": "2026-07-19T07:02"
+  },
+  "https://youtu.be/hywBEaGiO4k?si=_0_FOrITZUwdhn5T": {
+    "title": "Exploring Drone Aerodynamics With Computers",
+    "date": "2026-07-19T07:02"
+  },
+  "https://www.youtube.com/watch?v=J4RkNxjpKy0": {
+    "title": "How Drones Fly and Maneuver \u2013 Basic Physics Explained",
+    "date": "2026-07-19T07:02"
+  },
+  "https://en.wikipedia.org/wiki/Quadcopter": {
+    "title": "Quadcopter - Wikipedia",
+    "date": "2026-07-19T07:02"
+  },
+  "https://en.wikipedia.org/wiki/Helicopter": {
+    "title": "Helicopter - Wikipedia",
+    "date": "2026-07-19T07:02"
+  },
+  "https://youtu.be/u-LfLW9Kgis?si=5ex_LkG06wTEgEqh": {
+    "title": "How a Quadcopter Works - Flight Mechanics, Components, & Sensors (2)",
+    "date": "2026-07-19T07:02"
+  },
+  "https://youtu.be/K05UwsiqZ_E?si=BTrPfK4gWzJdUUzk": {
+    "title": "Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!",
+    "date": "2026-07-19T07:02"
   },
   "https://en.wikipedia.org/wiki/Atmospheric_pressure": {
     "title": "Atmospheric pressure - Wikipedia",
@@ -3481,7 +3525,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-07-17T22:21"
+    "date": "2026-07-19T07:02"
   },
   "https://en.wikipedia.org/wiki/Transformation_matrix": {
     "title": "Transformation matrix - Wikipedia",
@@ -6337,7 +6381,7 @@
   },
   "https://www.youtube.com/watch?v=-aCLTMSBsVc": {
     "title": " - YouTube",
-    "date": "2026-07-17T22:21"
+    "date": "2026-07-19T07:02"
   },
   "https://www.youtube.com/watch?v=yM6QQsyVhzA": {
     "title": "AP Stats - Choosing the Correct Inference Procedure",

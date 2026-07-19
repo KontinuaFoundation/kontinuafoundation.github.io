@@ -710,7 +710,7 @@
         "covers": [
           {
             "id": "greek-alpha",
-            "desc": "Understand and notetate basic greek letters in capital and lowercase",
+            "desc": "Understand and notate basic greek letters in capital and lowercase",
             "videos": [
               {
                 "url": "https://youtu.be/ZUrZHF_WBeI?si=tnmM_eh-nZGY5XOZ",
@@ -1108,7 +1108,7 @@
           },
           {
             "id": "chem_energy",
-            "desc": "Intro to chemical energy and calories. Relates to chem_reations",
+            "desc": "Intro to chemical energy and calories. Relates to chem_reaction",
             "videos": [
               {
                 "url": "https://youtu.be/GqtUWyDR1fg?si=OtOCaCjkMEPhBja5",
@@ -1606,7 +1606,7 @@
         "covers": [
           {
             "id": "csv",
-            "desc": "Understand how to use and interperet a CSV file, and how it is structured.",
+            "desc": "Understand how to use and interpret a CSV file, and how it is structured.",
             "videos": [
               {
                 "url": "https://youtu.be/UofTplCVkYI?si=x2ytwdmxwdfZh8iM",
@@ -4270,6 +4270,10 @@
               {
                 "url": "https://www.youtube.com/watch?v=aFO4PBolwFg",
                 "title": "How Does A Wing Actually Work?"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ks45Qweltlc",
+                "title": "Large-Eddy Simulation of a multi-element wing section"
               }
             ],
             "references": [
@@ -4398,19 +4402,81 @@
       },
       {
         "id": "quadcopters",
-        "title": "Quadcopters",
+        "title": "Rotorcraft: Quadcopters and Helicopters",
         "chap_num": 5,
         "files": [],
-        "requires": [],
-        "covers": []
-      },
-      {
-        "id": "helicopters",
-        "title": "Helicopters",
-        "chap_num": 6,
-        "files": [],
-        "requires": [],
-        "covers": []
+        "requires": [
+          "airplanes"
+        ],
+        "covers": [
+          {
+            "id": "quadcopters:vtol",
+            "desc": "Understand VTOL: vertical take off and landing mechanism of UAV flight.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/V/STOL",
+                "title": "V/STOL - Wikipedia"
+              },
+              {
+                "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/4-H/4h-895/4H-895.pdf",
+                "title": "4H-895.pdf"
+              },
+              {
+                "url": "https://www.nasa.gov/wp-content/uploads/2020/05/aam-science-behind-quadcopters-reader-student-guide_0.pdf",
+                "title": "aam-science-behind-quadcopters-reader-student-guide_0.pdf"
+              },
+              {
+                "url": "https://andrew.gibiansky.com/downloads/pdf/Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf",
+                "title": "Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf"
+              }
+            ]
+          },
+          {
+            "id": "quadcopters:propellers",
+            "desc": "Understand how the propellors of a quadcopters work and the importance of their shape",
+            "videos": [
+              {
+                "url": "https://youtu.be/hywBEaGiO4k?si=_0_FOrITZUwdhn5T",
+                "title": "Exploring Drone Aerodynamics With Computers"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=J4RkNxjpKy0",
+                "title": "How Drones Fly and Maneuver – Basic Physics Explained"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://zbotic.in/drone-motor-vs-drone-propeller-how-they-work-together/?srsltid=AfmBOorJ5RhrAi1amqkxjtrvfdxlSBE-1dskOVM5UReb3DK1C82V4YjP",
+                "title": "https://zbotic.in/drone-motor-vs-drone-propeller-how-they-work-together/?srsltid=AfmBOorJ5RhrAi1amqkxjtrvfdxlSBE-1dskOVM5UReb3DK1C82V4YjP"
+              }
+            ]
+          },
+          {
+            "id": "quadcopters:intro",
+            "desc": "Understand the basics of quadcopters, rotors, and their flight mechanics. Briefly understand helicopter mechanics.",
+            "videos": [
+              {
+                "url": "https://youtu.be/u-LfLW9Kgis?si=5ex_LkG06wTEgEqh",
+                "title": "How a Quadcopter Works - Flight Mechanics, Components, & Sensors (2)"
+              },
+              {
+                "url": "https://youtu.be/K05UwsiqZ_E?si=BTrPfK4gWzJdUUzk",
+                "title": "Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Quadcopter",
+                "title": "Quadcopter - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Helicopter",
+                "title": "Helicopter - Wikipedia"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6700,9 +6766,9 @@
         "chap_num": 3,
         "files": [
           {
-            "path": "seperate_image.py",
+            "path": "separate_image.py",
             "desc": "A file splitting an image into rgb",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/py_images/en_US/seperate_image.py"
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/py_images/en_US/separate_image.py"
           }
         ],
         "requires": [
@@ -8220,7 +8286,7 @@
         "covers": [
           {
             "id": "orbit",
-            "desc": "Understand what causes something to orbit, differences in weight, and geosyncronous orbits.",
+            "desc": "Understand what causes something to orbit, differences in weight, and geosynchronous orbits.",
             "videos": [
               {
                 "url": "https://youtu.be/QIaAleG0Eb4",
@@ -9372,7 +9438,7 @@
         "covers": [
           {
             "id": "multiv_func",
-            "desc": "Understand how to evaluate functions of several variables, and be able to take their limits to determine continuity and differentiablity",
+            "desc": "Understand how to evaluate functions of several variables, and be able to take their limits to determine continuity and differentiability",
             "videos": [
               {
                 "url": "https://youtu.be/TrcCbdWwCBc",
