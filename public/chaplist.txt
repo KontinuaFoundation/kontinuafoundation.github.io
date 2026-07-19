@@ -55,8 +55,7 @@
 	Sailboats
 	Airplanes
 	Data Tables and pandas
-	Quadcopters
-	Helicopters
+	Rotorcraft: Quadcopters and Helicopters
 09	?
 	Atmospheric Pressure
 	Cognitive Biases 1
@@ -85,23 +84,13 @@
 	Electromagnetic Induction
 	Electric Motor
 	Drag
-	Parametric Functions
-	Vector-valued Functions
-	Circular Motion
 13	?
 	Electromagnetic Waves
 	Reflection and Photons
 	Refraction
 	Lenses
-	Oscillations
-	Orbits
-	Polar Coordinates
 14	?
-	Circular Motion, continued
-	Rocketry
-	Simulation with Vectors
 	Longitude and Latitude
-	Tides and Eclipses
 	Sampling Data
 15	?
 	How Cameras Work
@@ -116,23 +105,34 @@
 	Adding and Subtracting Polynomials
 	Multiplying Polynomials
 	Multiplying Polynomials in Python
-17	?
 	Differentiating Polynomials
 	Python Classes
 	Common Polynomial Products
 	Factoring Polynomials
 	Practice with Polynomials
-18	?
+17	?
 	Graphing Polynomials
 	Interpolating with Polynomials
 	Rational Functions
 	Partial Fractions
 	Limits
+	Parametric Functions
+	Vector-valued Functions
+	Circular Motion
+	Oscillations
+18	?
+	Orbits
+	Circular Motion, continued
+	Rocketry
+	Simulation with Vectors
+	Tides and Eclipses
+	Polar Coordinates
 19	?
 	Differentiation
 	Derivatives
 	Rules for Finding Derivatives
 	First and Second Derivatives and the Shape of a Function
+	Experimental Design
 20	?
 	Optimization
 	Implicit Differentiation
@@ -185,6 +185,9 @@
 	Introduction to Discrete Probability
 	Beginning Combinatorics
 	Permutations and Sorting
+	Statistical Inferences for Proportions
+	Statistical Inferences for Means
+	Statistical Inferences for Slopes
 29	?
 	Conditional Probability
 	Bayes' Theorem
