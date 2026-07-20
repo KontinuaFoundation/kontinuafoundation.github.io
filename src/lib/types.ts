@@ -38,3 +38,9 @@ export interface TopicMeta {
   chapterTitle: string;
   desc: string;
 }
+
+export interface DeployMeta {
+  lastFullDeploy: string | null;
+  commit: string | null;
+  workbooks: Record<string, string | null>;
+}

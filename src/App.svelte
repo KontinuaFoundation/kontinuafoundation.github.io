@@ -4,8 +4,9 @@
   import Sun from "lucide-svelte/icons/sun";
   import Graph from "./lib/Graph.svelte";
   import WorkbookDetail from "./lib/WorkbookDetail.svelte";
-  import type { Workbook, TopicMeta } from "./lib/types";
+  import type { Workbook, TopicMeta, DeployMeta } from "./lib/types";
   import { loadPageCounts } from "./lib/pdfHelpers";
+  import { formatDeployTimestamp } from "./lib/formatDeployTimestamp";
 
   type ThemeMode = "light" | "dark";
   const THEME_STORAGE_KEY = "kontinua-theme";
@@ -17,9 +18,17 @@
   let theme: ThemeMode = "light";
   let followsSystemTheme = true;
   let pageCounts: Record<string, number | null> = {};
+  let lastFullDeploy: string | null = null;
+  let workbookUpdates: Record<string, string | null> = {};
+
+  $: lastFullDeployLabel = formatDeployTimestamp(lastFullDeploy);
 
   $: currentWorkbook =
     workbooks.find((wb) => wb.num === currentWorkbookNum) ?? null;
+
+  $: currentWorkbookUpdatedLabel = currentWorkbook
+    ? formatDeployTimestamp(workbookUpdates[currentWorkbook.num] ?? null)
+    : null;
 
   $: topicIndex = buildTopicIndex(workbooks);
 
@@ -143,6 +152,18 @@
       console.error("Failed to load workbook data:", error);
     });
 
+    const loadDeployMeta = async () => {
+      const res = await fetch("./deploy-meta.json");
+      if (!res.ok) return;
+      const meta: DeployMeta = await res.json();
+      lastFullDeploy = meta.lastFullDeploy;
+      workbookUpdates = meta.workbooks ?? {};
+    };
+
+    void loadDeployMeta().catch((error) => {
+      console.warn("Failed to load deploy metadata:", error);
+    });
+
     async function loadAllPageCounts(wbs: Workbook[]) {
       const entries = await Promise.all(
         wbs.map(async (wb) => {
@@ -197,7 +218,12 @@
 
 <main>
   {#if currentWorkbook}
-    <WorkbookDetail workbook={currentWorkbook} {topicIndex} {theme} />
+    <WorkbookDetail
+      workbook={currentWorkbook}
+      {topicIndex}
+      {theme}
+      lastUpdatedLabel={currentWorkbookUpdatedLabel}
+    />
   {:else}
     <section class="graph-section">
       <h2>Topic Graph</h2>
@@ -228,6 +254,12 @@
     </section>
   {/if}
 </main>
+
+<footer class="site-footer">
+  {#if lastFullDeployLabel}
+    <p>Last full deploy: {lastFullDeployLabel}</p>
+  {/if}
+</footer>
 
 <style>
   .site-header {
@@ -407,5 +439,18 @@
     margin-top: 0.5rem;
     color: var(--color-text-secondary);
     white-space: nowrap;
+  }
+
+  .site-footer {
+    max-width: var(--width-content);
+    margin: 0 auto;
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+  }
+
+  .site-footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
   }
 </style>

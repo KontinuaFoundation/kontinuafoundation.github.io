@@ -8,9 +8,11 @@
     "dev": "vite",
     "sync:graph": "node src/sync-graph.mjs",
     "check:graph": "node src/sync-graph.mjs --check",
+    "sync:deploy-meta": "node src/sync-deploy-meta.mjs",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "test": "bun test"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.1.2",

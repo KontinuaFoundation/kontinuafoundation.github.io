@@ -13,6 +13,7 @@
   export let workbook: Workbook;
   export let topicIndex: Record<string, TopicMeta>;
   export let theme: "light" | "dark" = "light";
+  export let lastUpdatedLabel: string | null = null;
 
   $: curr = Math.min(
     36,
@@ -174,6 +175,10 @@
       Next Workbook →
     </a>
   </div>
+
+  {#if lastUpdatedLabel}
+    <p class="workbook-updated">Last workbook update: {lastUpdatedLabel}</p>
+  {/if}
 </div>
 
 <style>
@@ -437,6 +442,13 @@
     opacity: 1;
     background: var(--sdkblue);
     color: #fff;
+  }
+
+  .workbook-updated {
+    margin: 1rem 0 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
   }
   .title-row {
     display: flex;

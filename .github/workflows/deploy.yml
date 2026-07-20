@@ -29,6 +29,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Bun
         uses: oven-sh/setup-bun@v1
@@ -38,8 +39,14 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Run tests
+        run: bun test
+
       - name: Sync graph data
         run: bun run sync:graph
+
+      - name: Sync deploy metadata
+        run: bun run sync:deploy-meta
 
       - name: Commit generated graph updates
         if: github.ref == 'refs/heads/main'
