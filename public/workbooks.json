@@ -4549,38 +4549,9 @@
         ]
       },
       {
-        "id": "biases1",
-        "title": "Cognitive Biases 1",
-        "chap_num": 2,
-        "files": [],
-        "requires": [],
-        "covers": [
-          {
-            "id": "biases",
-            "desc": "Understand types and influences of biases",
-            "videos": [
-              {
-                "url": "https://youtu.be/wEwGBIr_RIw?si=UUmv-gHamXE1WQ3Z",
-                "title": "12 Cognitive Biases Explained - How to Think Better and More Logically Removing Bias"
-              },
-              {
-                "url": "https://youtu.be/vKA4w2O61Xo?si=T4mPeF5pwWhUt4x9",
-                "title": "The Most Common Cognitive Bias"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Cognitive_bias#:~:text=A%20cognitive%20bias%20is%20a,their%20behavior%20in%20the%20world.",
-                "title": "Cognitive bias - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "solving_quadratics",
         "title": "Solving Quadratics",
-        "chap_num": 3,
+        "chap_num": 2,
         "files": [],
         "requires": [
           "parabola-equation"
@@ -4679,7 +4650,7 @@
       {
         "id": "complex_numbers",
         "title": "Complex Numbers",
-        "chap_num": 4,
+        "chap_num": 3,
         "files": [],
         "requires": [
           "solving_quadratics",
@@ -4727,7 +4698,7 @@
       {
         "id": "sequences",
         "title": "Introduction to Sequences",
-        "chap_num": 5,
+        "chap_num": 4,
         "files": [],
         "requires": [],
         "covers": [
@@ -6451,9 +6422,38 @@
     "pdf": "workbook-14.pdf",
     "chapters": [
       {
+        "id": "biases1",
+        "title": "Cognitive Biases 1",
+        "chap_num": 1,
+        "files": [],
+        "requires": [],
+        "covers": [
+          {
+            "id": "biases",
+            "desc": "Understand types and influences of biases",
+            "videos": [
+              {
+                "url": "https://youtu.be/wEwGBIr_RIw?si=UUmv-gHamXE1WQ3Z",
+                "title": "12 Cognitive Biases Explained - How to Think Better and More Logically Removing Bias"
+              },
+              {
+                "url": "https://youtu.be/vKA4w2O61Xo?si=T4mPeF5pwWhUt4x9",
+                "title": "The Most Common Cognitive Bias"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Cognitive_bias#:~:text=A%20cognitive%20bias%20is%20a,their%20behavior%20in%20the%20world.",
+                "title": "Cognitive bias - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "long_lat_dist",
         "title": "Longitude and Latitude",
-        "chap_num": 1,
+        "chap_num": 2,
         "files": [],
         "requires": [],
         "covers": [
@@ -6522,7 +6522,7 @@
       {
         "id": "sampling",
         "title": "Sampling Data",
-        "chap_num": 2,
+        "chap_num": 3,
         "files": [
           {
             "desc": "Excel file for SRS Example",
@@ -6581,6 +6581,70 @@
             "references": []
           }
         ]
+      },
+      {
+        "id": "sql_1",
+        "title": "Data tables in SQL",
+        "chap_num": 4,
+        "files": [
+          {
+            "desc": "A workbook example of a bikes database. ",
+            "path": "bikes.db",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sql_1/en_US/bikes.db"
+          },
+          {
+            "desc": "Data for the quiz questions 1-5 for parsing through books. ",
+            "path": "books.db",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sql_1/en_US/books.db"
+          }
+        ],
+        "requires": [],
+        "covers": [
+          {
+            "id": "sql",
+            "desc": "Understand how to parse tables in sql. ",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
+                "title": "SQL Explained in 100 Seconds"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Cz3WcZLRaWc",
+                "title": "MySQL - The Basics // Learn SQL in 23 Easy Steps"
+              },
+              {
+                "url": "https://www.youtube.com/live/ZA25WHO62ZA?si=TtFkOZ_ynuypoyQN",
+                "title": "CS50x 2025 - Lecture 7 - SQL - YouTube"
+              },
+              {
+                "url": "https://youtu.be/vHYeChEf2lA",
+                "title": "CS50 SQL - Lecture 0 - Querying"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/SQLite",
+                "title": "SQLite - Wikipedia"
+              },
+              {
+                "url": "https://www.sqlite.org/docs.html",
+                "title": "SQLite Documentation"
+              },
+              {
+                "url": "https://www.w3schools.com/sql/default.asp",
+                "title": "SQL Tutorial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diodes",
+        "title": "Diodes, Rectifiers, and Photovoltaics",
+        "chap_num": 5,
+        "files": [],
+        "requires": [],
+        "covers": []
       }
     ]
   },
@@ -10701,73 +10765,9 @@
     "pdf": "workbook-24.pdf",
     "chapters": [
       {
-        "id": "sql_1",
-        "title": "Data tables in SQL",
-        "chap_num": 1,
-        "files": [
-          {
-            "desc": "A workbook example of a bikes database. ",
-            "path": "bikes.db",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sql_1/en_US/bikes.db"
-          },
-          {
-            "desc": "Data for the quiz questions 1-5 for parsing through books. ",
-            "path": "books.db",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sql_1/en_US/books.db"
-          }
-        ],
-        "requires": [],
-        "covers": [
-          {
-            "id": "sql",
-            "desc": "Understand how to parse tables in sql. ",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
-                "title": "SQL Explained in 100 Seconds"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=Cz3WcZLRaWc",
-                "title": "MySQL - The Basics // Learn SQL in 23 Easy Steps"
-              },
-              {
-                "url": "https://www.youtube.com/live/ZA25WHO62ZA?si=TtFkOZ_ynuypoyQN",
-                "title": "CS50x 2025 - Lecture 7 - SQL - YouTube"
-              },
-              {
-                "url": "https://youtu.be/vHYeChEf2lA",
-                "title": "CS50 SQL - Lecture 0 - Querying"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/SQLite",
-                "title": "SQLite - Wikipedia"
-              },
-              {
-                "url": "https://www.sqlite.org/docs.html",
-                "title": "SQLite Documentation"
-              },
-              {
-                "url": "https://www.w3schools.com/sql/default.asp",
-                "title": "SQL Tutorial"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "diodes",
-        "title": "Diodes, Rectifiers, and Photovoltaics",
-        "chap_num": 2,
-        "files": [],
-        "requires": [],
-        "covers": []
-      },
-      {
         "id": "trees",
         "title": "Trees",
-        "chap_num": 3,
+        "chap_num": 1,
         "files": [],
         "requires": [
           "recursion",
@@ -10844,7 +10844,7 @@
       {
         "id": "tree_traversal",
         "title": "Tree Traversal",
-        "chap_num": 4,
+        "chap_num": 2,
         "files": [],
         "requires": [
           "binary_search_trees",
@@ -10923,7 +10923,7 @@
       {
         "id": "shortest_path",
         "title": "Finding Shortest Paths",
-        "chap_num": 5,
+        "chap_num": 3,
         "files": [],
         "requires": [
           "breadth-first-search",
@@ -11017,7 +11017,7 @@
       {
         "id": "priority_queues",
         "title": "Priority Queues",
-        "chap_num": 6,
+        "chap_num": 4,
         "files": [],
         "requires": [],
         "covers": []
@@ -11025,7 +11025,7 @@
       {
         "id": "graph_algorithms",
         "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 7,
+        "chap_num": 5,
         "files": [
           {
             "desc": "A python script that deliberately causes a cycle error for topological sorting.",
