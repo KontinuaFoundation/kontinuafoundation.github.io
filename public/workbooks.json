@@ -4401,8 +4401,8 @@
         ]
       },
       {
-        "id": "quadcopters",
-        "title": "Rotorcraft: Quadcopters and Helicopters",
+        "id": "rotorcraft",
+        "title": "Rotorcraft",
         "chap_num": 5,
         "files": [],
         "requires": [
@@ -4410,7 +4410,7 @@
         ],
         "covers": [
           {
-            "id": "quadcopters:vtol",
+            "id": "rotorcraft:vtol",
             "desc": "Understand VTOL: vertical take off and landing mechanism of UAV flight.",
             "videos": [],
             "references": [
@@ -4433,7 +4433,7 @@
             ]
           },
           {
-            "id": "quadcopters:propellers",
+            "id": "rotorcraft:propellers",
             "desc": "Understand how the propellors of a quadcopters work and the importance of their shape",
             "videos": [
               {
@@ -4453,7 +4453,7 @@
             ]
           },
           {
-            "id": "quadcopters:intro",
+            "id": "rotorcraft:intro",
             "desc": "Understand the basics of quadcopters, rotors, and their flight mechanics. Briefly understand helicopter mechanics.",
             "videos": [
               {
