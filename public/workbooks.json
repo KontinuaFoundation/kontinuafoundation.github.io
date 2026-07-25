@@ -4406,7 +4406,10 @@
         "chap_num": 5,
         "files": [],
         "requires": [
-          "airplanes"
+          "airplanes",
+          "equal_but_opposite",
+          "torque",
+          "pitch-yaw-roll"
         ],
         "covers": [
           {
@@ -6644,7 +6647,96 @@
         "chap_num": 5,
         "files": [],
         "requires": [],
-        "covers": []
+        "covers": [
+          {
+            "id": "silicon_doping",
+            "desc": "Be able to explain how n-doping and p-doping change silicon's conductivity by adding phosphorus or boron atoms.",
+            "videos": [
+              {
+                "url": "https://youtu.be/rJfOWb7zKmw?si=zD54JEc7ZaWanxuT",
+                "title": "https://youtu.be/rJfOWb7zKmw?si=zD54JEc7ZaWanxuT"
+              },
+              {
+                "url": "https://youtu.be/qNnTQTUyS1E?si=VQhylRwve8RITMH3",
+                "title": "https://youtu.be/qNnTQTUyS1E?si=VQhylRwve8RITMH3"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=60Qz051rD_w",
+                "title": "https://www.youtube.com/watch?v=60Qz051rD_w"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Doping_(semiconductor)",
+                "title": "https://en.wikipedia.org/wiki/Doping_(semiconductor)"
+              }
+            ]
+          },
+          {
+            "id": "diode_structure",
+            "desc": "Be able to describe how a p-n junction diode's anode, cathode, and depletion region allow current to flow in only one direction.",
+            "videos": [
+              {
+                "url": "https://youtu.be/btOIDQeMrMg?si=ywx-e-8ltCJDY5OI",
+                "title": "https://youtu.be/btOIDQeMrMg?si=ywx-e-8ltCJDY5OI"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=JRf2VuwBVvs",
+                "title": "https://www.youtube.com/watch?v=JRf2VuwBVvs"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=a4ttjOEdlc8",
+                "title": "https://www.youtube.com/watch?v=a4ttjOEdlc8"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/P%E2%80%93n_junction",
+                "title": "https://en.wikipedia.org/wiki/P%E2%80%93n_junction"
+              }
+            ]
+          },
+          {
+            "id": "rectifiers",
+            "desc": "Be able to explain how half-wave and full-wave rectifier circuits convert AC to DC using diodes.",
+            "videos": [
+              {
+                "url": "https://youtu.be/EkHch86UXpY?si=J9jDoqM-8GIzrawY",
+                "title": "https://youtu.be/EkHch86UXpY?si=J9jDoqM-8GIzrawY"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=RiRyzLl4Y8U",
+                "title": "https://www.youtube.com/watch?v=RiRyzLl4Y8U"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Rectifier",
+                "title": "https://en.wikipedia.org/wiki/Rectifier"
+              }
+            ]
+          },
+          {
+            "id": "photovoltaics",
+            "desc": "Be able to explain how a photovoltaic cell uses a p-n junction to convert light energy into electrical current.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=YSRs3PuYT_k",
+                "title": "https://www.youtube.com/watch?v=YSRs3PuYT_k"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=-Ta_jxctYQE",
+                "title": "https://www.youtube.com/watch?v=-Ta_jxctYQE"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Solar_cell",
+                "title": "https://en.wikipedia.org/wiki/Solar_cell"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
