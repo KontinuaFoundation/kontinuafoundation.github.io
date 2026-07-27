@@ -6663,7 +6663,112 @@
         "chap_num": 5,
         "files": [],
         "requires": [],
-        "covers": []
+        "covers": [
+          {
+            "id": "",
+            "desc": "",
+            "videos": [
+              {
+                "url": "",
+                "title": ""
+              }
+            ],
+            "references": [
+              {
+                "url": "",
+                "title": ""
+              }
+            ]
+          },
+          {
+            "id": "silicon_doping",
+            "desc": "How n-doping and p-doping change silicon's conductivity by adding phosphorus or boron atoms.",
+            "videos": [
+              {
+                "url": "https://youtu.be/rJfOWb7zKmw?si=zD54JEc7ZaWanxuT",
+                "title": "Extrinsic semiconductors N-type | Class 12 (India) | Physics | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/qNnTQTUyS1E?si=VQhylRwve8RITMH3",
+                "title": "What is p-type and n-type semiconductors?"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=60Qz051rD_w",
+                "title": "Semiconductor introduction"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Doping_(semiconductor)",
+                "title": "Doping (semiconductor) - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "diode_structure",
+            "desc": "How a p-n junction diode's anode, cathode, and depletion region allow current to flow in only one direction.\",",
+            "videos": [
+              {
+                "url": "https://youtu.be/btOIDQeMrMg?si=ywx-e-8ltCJDY5OI",
+                "title": "How does a diode work - the PN Junction (with animation) | Intermediate Electronics"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=JRf2VuwBVvs",
+                "title": "The PN junction | Semiconductors | Class 12 | Physics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=a4ttjOEdlc8",
+                "title": "What is a diode?"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/P%E2%80%93n_junction",
+                "title": "p–n junction - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "rectifiers",
+            "desc": "Explain how half-wave and full-wave rectifier circuits convert AC to DC using diodes.",
+            "videos": [
+              {
+                "url": "https://youtu.be/EkHch86UXpY?si=J9jDoqM-8GIzrawY",
+                "title": "Full Wave Bridge Rectifiers"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=RiRyzLl4Y8U",
+                "title": "Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Rectifier",
+                "title": "Rectifier - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "photovoltaics",
+            "desc": "Understanding how a photovoltaic cell uses a p-n junction to convert light energy into electrical current.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=YSRs3PuYT_k",
+                "title": "Solar cells - working | Semiconductors | Class 12 | Physics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=-Ta_jxctYQE",
+                "title": "How a Photovoltaic Cell Works: Complete PN Junction Explanation"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Solar_cell",
+                "title": "Solar cell - Wikipedia"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
