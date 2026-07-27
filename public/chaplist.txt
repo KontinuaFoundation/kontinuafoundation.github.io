@@ -55,10 +55,9 @@
 	Sailboats
 	Airplanes
 	Data Tables and pandas
-	Rotorcraft: Quadcopters and Helicopters
+	Rotorcraft
 09	?
 	Atmospheric Pressure
-	Cognitive Biases 1
 	Solving Quadratics
 	Complex Numbers
 	Introduction to Sequences
@@ -90,8 +89,11 @@
 	Refraction
 	Lenses
 14	?
+	Cognitive Biases 1
 	Longitude and Latitude
 	Sampling Data
+	Data tables in SQL
+	Diodes, Rectifiers, and Photovoltaics
 15	?
 	How Cameras Work
 	How Eyes Work
@@ -160,8 +162,6 @@
 	Tackling Difficult Problems: Positive Semidefinite Matrices
 	Introduction to C
 24	?
-	Data tables in SQL
-	Diodes, Rectifiers, and Photovoltaics
 	Trees
 	Tree Traversal
 	Finding Shortest Paths
