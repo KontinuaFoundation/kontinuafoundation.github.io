@@ -4861,7 +4861,7 @@
         "covers": [
           {
             "id": "compound_interest",
-            "desc": "Understand interest and compound interest",
+            "desc": "Understand interest and compound interest. Understand how we can use elementary calculus to find Continuous Compound Interest.",
             "videos": [
               {
                 "url": "https://youtu.be/Rm6UdfRs3gw?si=dC_0QINSgUTLALLr",
@@ -4874,6 +4874,10 @@
               {
                 "url": "https://youtu.be/mec-QpjQMXY?si=TxjkxdswVLmpR9-G",
                 "title": "The rule of 72 for compound interest | Interest and debt | Finance & Capital Markets | Khan Academy"
+              },
+              {
+                "url": "https://youtu.be/o5QRdHH8aeQ?si=72aIpDdhekDo-tED",
+                "title": "Formula for continuously compounding interest | Finance & Capital Markets | Khan Academy"
               }
             ],
             "references": [
