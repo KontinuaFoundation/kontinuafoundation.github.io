@@ -9372,18 +9372,190 @@
         "requires": [],
         "covers": [
           {
-            "id": "",
-            "desc": "",
+            "id": "experiments_vs_observational",
+            "desc": "Be able to distinguish experiments from observational studies and identify confounding variables that threaten a causal conclusion.",
             "videos": [
               {
-                "url": "",
-                "title": ""
+                "url": "https://www.youtube.com/watch?v=zmXBbHDUgY4",
+                "title": "Types of studies | AP Statistics | Khan Academy"
               }
             ],
             "references": [
               {
-                "url": "",
-                "title": ""
+                "url": "https://en.wikipedia.org/wiki/Confounding",
+                "title": "Confounding - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Observational_study",
+                "title": "Observational study - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Experiment",
+                "title": "Experiment - Wikipedia"
+              },
+              {
+                "url": "https://www.khanacademy.org/math/statistics-probability/designing-studies/types-studies-experimental-observational/a/observational-studies-and-experiments",
+                "title": "Khan Academy"
+              }
+            ]
+          },
+          {
+            "id": "experimental_design_vocabulary",
+            "desc": "Be able to identify the explanatory variable, response variable, experimental unit, factor, levels, treatment, control group, and placebo in a described study.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=DaBq0naj0YY",
+                "title": "Introduction to experiment design | Study design | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=28lzQ_OhBHY",
+                "title": "Worked example identifying experiment | Study design | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Treatment_and_control_groups",
+                "title": "Treatment and control groups - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "principles_of_design",
+            "desc": "Be able to apply the principles of control, randomization, and replication, and identify lurking variables in an experiment.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=H5xB5r2Lqn0",
+                "title": "AP Statistics | 4.2.2 | How to Experiment Well - The 3 Principles of Experimental Design"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=scGHxkH4e6Q",
+                "title": "AP Statistics: Experimental Design (1)"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Design_of_experiments",
+                "title": "Design of experiments - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "blinding",
+            "desc": "Be able to distinguish single-blind from double-blind experiments and explain why blinding reduces bias.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=LPqTgJpfV6Q",
+                "title": "Single-Blind vs Double-Blind Studies Explained | Statistics for Beginners"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=KW_saBXQ0ew",
+                "title": "Single Blind Studies and Double Blind Studies"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Blinded_experiment",
+                "title": "Blinded experiment - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "random_selection_vs_assignment",
+            "desc": "Be able to determine what conclusions are justified based on whether a study used random assignment, random selection, both, or neither.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=nYcNncp3jTc",
+                "title": "Scope of Inference"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=GOPc8ggq2LY",
+                "title": "AP Statistics Collecting Data – Scope of Inference"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/External_validity",
+                "title": "External validity - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "completely_randomized_design",
+            "desc": "Be able to design and recognize a completely randomized design.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=zLvf86sjFDU",
+                "title": "AP Stats 4.2c Note and Example 1: Randomized Block Design"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=2AVLfSRpmfg",
+                "title": "Random number list to run experiment | Probability | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Completely_randomized_design",
+                "title": "Completely randomized design - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "randomized_block_design",
+            "desc": "Be able to design and recognize a randomized block design, including choosing an appropriate blocking factor.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=zLvf86sjFDU",
+                "title": "AP Stats 4.2c Note and Example 1: Randomized Block Design"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=5tUEL_0iftY",
+                "title": "AP Stats 4.2c Example 2: Randomized Block Design"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Blocking_(statistics)",
+                "title": "Blocking (statistics) - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "matched_pairs_design",
+            "desc": "Be able to design and recognize a matched-pairs design, including the repeated-measures version.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=UEFBGewP2ik",
+                "title": "Matched pairs experiment design | Study design | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=4LL-HYss7MU",
+                "title": "AP Statistics | 4.2.4 | Blocking and Matched Pairs Design"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Repeated_measures_design",
+                "title": "Repeated measures design - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "choosing_experimental_design",
+            "desc": "Be able to justify which experimental design (completely randomized, randomized block, or matched pairs) is most appropriate for a given scenario.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=10ikXret7Lk",
+                "title": "Types of Experimental Designs (3.3)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=W3bMz6EhYgU",
+                "title": "AP Stats 4.3 - Experimental Design"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Design_of_experiments",
+                "title": "Design of experiments - Wikipedia"
               }
             ]
           }
