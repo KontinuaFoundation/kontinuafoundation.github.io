@@ -4494,6 +4494,26 @@
                 "title": "Helicopter - Wikipedia"
               }
             ]
+          },
+          {
+            "id": "rotorcraft:helicopters",
+            "desc": "Understand the basics of helicopters or choppers, which are single rotorcraft vehicles.",
+            "videos": [
+              {
+                "url": "https://youtu.be/YJBhWVDArLo?si=w6dnmQ3eF4S2rptT",
+                "title": "How Does A Helicopter Work: Everything You Need To Know About Helicopters"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Helicopter_rotor",
+                "title": "Helicopter rotor - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Helicopter",
+                "title": "Helicopter - Wikipedia"
+              }
+            ]
           }
         ]
       }
