@@ -1025,7 +1025,7 @@
   },
   "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/5mXS-MTjSiw?si=GuvcSmQjzTUd1wYI": {
     "title": "The Haber-Bosch Process: Industrial Ammonia Synthesis",
@@ -1493,7 +1493,7 @@
   },
   "https://www.youtube.com/live/yBw67Fb31Cs?si=zhE0I6tF8O-3_Hhy&t=909": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://en.wikipedia.org/wiki/Differentiation_rules#Derivatives_of_trigonometric_functions": {
     "title": "Differentiation rules - Wikipedia",
@@ -1949,7 +1949,7 @@
   },
   "https://www.youtube.com/watch?v=9yCRWwWdFBYm": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/ufgY237M5KQ": {
     "title": "Introduction to Inclined Planes",
@@ -2219,6 +2219,14 @@
     "title": "Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!",
     "date": "2026-07-19T07:02"
   },
+  "https://en.wikipedia.org/wiki/Helicopter_rotor": {
+    "title": "Helicopter rotor - Wikipedia",
+    "date": "2026-08-02T22:52"
+  },
+  "https://youtu.be/YJBhWVDArLo?si=w6dnmQ3eF4S2rptT": {
+    "title": "How Does A Helicopter Work: Everything You Need To Know About Helicopters",
+    "date": "2026-08-02T22:52"
+  },
   "https://en.wikipedia.org/wiki/Atmospheric_pressure": {
     "title": "Atmospheric pressure - Wikipedia",
     "date": "2026-07-27T07:42"
@@ -2435,6 +2443,10 @@
     "title": "The rule of 72 for compound interest | Interest and debt | Finance & Capital Markets | Khan Academy",
     "date": "2026-07-27T07:42"
   },
+  "https://youtu.be/o5QRdHH8aeQ?si=72aIpDdhekDo-tED": {
+    "title": "Formula for continuously compounding interest | Finance & Capital Markets | Khan Academy",
+    "date": "2026-07-29T18:55"
+  },
   "https://en.wikipedia.org/wiki/Exponential_growth": {
     "title": "Exponential growth - Wikipedia",
     "date": "2026-07-27T07:42"
@@ -2617,7 +2629,7 @@
   },
   "https://www.youtube.com/watch?v=BjLzIfDpGhs": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/mS5eEhLN57s": {
     "title": "Can you solve the troll\u2019s paradox riddle? - Dan Finkel",
@@ -3313,11 +3325,67 @@
   },
   "https://www.youtube.com/live/ZA25WHO62ZA?si=TtFkOZ_ynuypoyQN": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/vHYeChEf2lA": {
     "title": "CS50 SQL - Lecture 0 - Querying",
     "date": "2026-07-27T07:42"
+  },
+  "https://en.wikipedia.org/wiki/Doping_(semiconductor)": {
+    "title": "Doping (semiconductor) - Wikipedia",
+    "date": "2026-07-27T17:40"
+  },
+  "https://youtu.be/rJfOWb7zKmw?si=zD54JEc7ZaWanxuT": {
+    "title": "Extrinsic semiconductors N-type | Class 12 (India) | Physics | Khan Academy",
+    "date": "2026-07-27T17:40"
+  },
+  "https://youtu.be/qNnTQTUyS1E?si=VQhylRwve8RITMH3": {
+    "title": "What is p-type and n-type semiconductors?",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=60Qz051rD_w": {
+    "title": "Semiconductor introduction",
+    "date": "2026-07-27T17:40"
+  },
+  "https://en.wikipedia.org/wiki/P%E2%80%93n_junction": {
+    "title": "p\u2013n junction - Wikipedia",
+    "date": "2026-07-27T17:40"
+  },
+  "https://youtu.be/btOIDQeMrMg?si=ywx-e-8ltCJDY5OI": {
+    "title": "How does a diode work - the PN Junction (with animation) | Intermediate Electronics",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=JRf2VuwBVvs": {
+    "title": "The PN junction | Semiconductors | Class 12 | Physics | Khan Academy",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=a4ttjOEdlc8": {
+    "title": "What is a diode?",
+    "date": "2026-07-27T17:40"
+  },
+  "https://en.wikipedia.org/wiki/Rectifier": {
+    "title": "Rectifier - Wikipedia",
+    "date": "2026-07-27T17:40"
+  },
+  "https://youtu.be/EkHch86UXpY?si=J9jDoqM-8GIzrawY": {
+    "title": "Full Wave Bridge Rectifiers",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=RiRyzLl4Y8U": {
+    "title": "Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier",
+    "date": "2026-07-27T17:40"
+  },
+  "https://en.wikipedia.org/wiki/Solar_cell": {
+    "title": "Solar cell - Wikipedia",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=YSRs3PuYT_k": {
+    "title": "Solar cells - working | Semiconductors | Class 12 | Physics | Khan Academy",
+    "date": "2026-07-27T17:40"
+  },
+  "https://www.youtube.com/watch?v=-Ta_jxctYQE": {
+    "title": "How a Photovoltaic Cell Works: Complete PN Junction Explanation",
+    "date": "2026-07-27T17:40"
   },
   "https://en.wikipedia.org/wiki/Camera": {
     "title": "Camera - Wikipedia",
@@ -3561,7 +3629,7 @@
   },
   "https://www.youtube.com/watch?v=nPBfluUiZ1s": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://en.wikipedia.org/wiki/Transformation_matrix": {
     "title": "Transformation matrix - Wikipedia",
@@ -3729,11 +3797,11 @@
   },
   "https://youtu.be/yYALsys-P_w": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/an6wd3dpEjA": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/ZDa-Z5JzLYM": {
     "title": "Python OOP Tutorial 1: Classes and Instances",
@@ -4719,6 +4787,114 @@
     "title": "Finding critical points | Using derivatives to analyze functions | AP Calculus AB | Khan Academy",
     "date": "2026-07-27T07:42"
   },
+  "https://en.wikipedia.org/wiki/Confounding": {
+    "title": "Confounding - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Observational_study": {
+    "title": "Observational study - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Experiment": {
+    "title": "Experiment - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.khanacademy.org/math/statistics-probability/designing-studies/types-studies-experimental-observational/a/observational-studies-and-experiments": {
+    "title": "Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=zmXBbHDUgY4": {
+    "title": "Types of studies | AP Statistics | Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Treatment_and_control_groups": {
+    "title": "Treatment and control groups - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=DaBq0naj0YY": {
+    "title": "Introduction to experiment design | Study design | AP Statistics | Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=28lzQ_OhBHY": {
+    "title": "Worked example identifying experiment | Study design | AP Statistics | Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Design_of_experiments": {
+    "title": "Design of experiments - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=H5xB5r2Lqn0": {
+    "title": "AP Statistics | 4.2.2 | How to Experiment Well - The 3 Principles of Experimental Design",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=scGHxkH4e6Q": {
+    "title": "AP Statistics: Experimental Design (1)",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Blinded_experiment": {
+    "title": "Blinded experiment - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=LPqTgJpfV6Q": {
+    "title": "Single-Blind vs Double-Blind Studies Explained | Statistics for Beginners",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=KW_saBXQ0ew": {
+    "title": "Single Blind Studies and Double Blind Studies",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/External_validity": {
+    "title": "External validity - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=nYcNncp3jTc": {
+    "title": "Scope of Inference",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=GOPc8ggq2LY": {
+    "title": "AP Statistics Collecting Data \u2013 Scope of Inference",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Completely_randomized_design": {
+    "title": "Completely randomized design - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=zLvf86sjFDU": {
+    "title": "AP Stats 4.2c Note and Example 1: Randomized Block Design",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=2AVLfSRpmfg": {
+    "title": "Random number list to run experiment | Probability | AP Statistics | Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Blocking_(statistics)": {
+    "title": "Blocking (statistics) - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=5tUEL_0iftY": {
+    "title": "AP Stats 4.2c Example 2: Randomized Block Design",
+    "date": "2026-07-31T21:49"
+  },
+  "https://en.wikipedia.org/wiki/Repeated_measures_design": {
+    "title": "Repeated measures design - Wikipedia",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=UEFBGewP2ik": {
+    "title": "Matched pairs experiment design | Study design | AP Statistics | Khan Academy",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=4LL-HYss7MU": {
+    "title": "AP Statistics | 4.2.4 | Blocking and Matched Pairs Design",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=10ikXret7Lk": {
+    "title": "Types of Experimental Designs (3.3)",
+    "date": "2026-07-31T21:49"
+  },
+  "https://www.youtube.com/watch?v=W3bMz6EhYgU": {
+    "title": "AP Stats 4.3 - Experimental Design",
+    "date": "2026-07-31T21:49"
+  },
   "https://en.wikipedia.org/wiki/Optimization_problem": {
     "title": "Optimization problem - Wikipedia",
     "date": "2026-07-27T07:42"
@@ -4901,7 +5077,7 @@
   },
   "https://youtu.be/Kp7sSp5Kn7o": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://youtu.be/AXH9Xm6Rbfc": {
     "title": "Partial Derivatives and the Gradient of a Function",
@@ -6389,7 +6565,7 @@
   },
   "https://www.youtube.com/watch?v=-aCLTMSBsVc": {
     "title": " - YouTube",
-    "date": "2026-07-27T07:42"
+    "date": "2026-08-03T07:42"
   },
   "https://www.youtube.com/watch?v=yM6QQsyVhzA": {
     "title": "AP Stats - Choosing the Correct Inference Procedure",
@@ -7538,181 +7714,5 @@
   "https://youtu.be/O2L2Uv9pdDA": {
     "title": "Naive Bayes, Clearly Explained!!!",
     "date": "2026-07-27T07:42"
-  },
-  "https://en.wikipedia.org/wiki/Doping_(semiconductor)": {
-    "title": "Doping (semiconductor) - Wikipedia",
-    "date": "2026-07-27T17:40"
-  },
-  "https://youtu.be/rJfOWb7zKmw?si=zD54JEc7ZaWanxuT": {
-    "title": "Extrinsic semiconductors N-type | Class 12 (India) | Physics | Khan Academy",
-    "date": "2026-07-27T17:40"
-  },
-  "https://youtu.be/qNnTQTUyS1E?si=VQhylRwve8RITMH3": {
-    "title": "What is p-type and n-type semiconductors?",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=60Qz051rD_w": {
-    "title": "Semiconductor introduction",
-    "date": "2026-07-27T17:40"
-  },
-  "https://en.wikipedia.org/wiki/P%E2%80%93n_junction": {
-    "title": "p\u2013n junction - Wikipedia",
-    "date": "2026-07-27T17:40"
-  },
-  "https://youtu.be/btOIDQeMrMg?si=ywx-e-8ltCJDY5OI": {
-    "title": "How does a diode work - the PN Junction (with animation) | Intermediate Electronics",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=JRf2VuwBVvs": {
-    "title": "The PN junction | Semiconductors | Class 12 | Physics | Khan Academy",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=a4ttjOEdlc8": {
-    "title": "What is a diode?",
-    "date": "2026-07-27T17:40"
-  },
-  "https://en.wikipedia.org/wiki/Rectifier": {
-    "title": "Rectifier - Wikipedia",
-    "date": "2026-07-27T17:40"
-  },
-  "https://youtu.be/EkHch86UXpY?si=J9jDoqM-8GIzrawY": {
-    "title": "Full Wave Bridge Rectifiers",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=RiRyzLl4Y8U": {
-    "title": "Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier",
-    "date": "2026-07-27T17:40"
-  },
-  "https://en.wikipedia.org/wiki/Solar_cell": {
-    "title": "Solar cell - Wikipedia",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=YSRs3PuYT_k": {
-    "title": "Solar cells - working | Semiconductors | Class 12 | Physics | Khan Academy",
-    "date": "2026-07-27T17:40"
-  },
-  "https://www.youtube.com/watch?v=-Ta_jxctYQE": {
-    "title": "How a Photovoltaic Cell Works: Complete PN Junction Explanation",
-    "date": "2026-07-27T17:40"
-  },
-  "https://youtu.be/o5QRdHH8aeQ?si=72aIpDdhekDo-tED": {
-    "title": "Formula for continuously compounding interest | Finance & Capital Markets | Khan Academy",
-    "date": "2026-07-29T18:55"
-  },
-  "https://en.wikipedia.org/wiki/Confounding": {
-    "title": "Confounding - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Observational_study": {
-    "title": "Observational study - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Experiment": {
-    "title": "Experiment - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.khanacademy.org/math/statistics-probability/designing-studies/types-studies-experimental-observational/a/observational-studies-and-experiments": {
-    "title": "Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=zmXBbHDUgY4": {
-    "title": "Types of studies | AP Statistics | Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Treatment_and_control_groups": {
-    "title": "Treatment and control groups - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=DaBq0naj0YY": {
-    "title": "Introduction to experiment design | Study design | AP Statistics | Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=28lzQ_OhBHY": {
-    "title": "Worked example identifying experiment | Study design | AP Statistics | Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Design_of_experiments": {
-    "title": "Design of experiments - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=H5xB5r2Lqn0": {
-    "title": "AP Statistics | 4.2.2 | How to Experiment Well - The 3 Principles of Experimental Design",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=scGHxkH4e6Q": {
-    "title": "AP Statistics: Experimental Design (1)",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Blinded_experiment": {
-    "title": "Blinded experiment - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=LPqTgJpfV6Q": {
-    "title": "Single-Blind vs Double-Blind Studies Explained | Statistics for Beginners",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=KW_saBXQ0ew": {
-    "title": "Single Blind Studies and Double Blind Studies",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/External_validity": {
-    "title": "External validity - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=nYcNncp3jTc": {
-    "title": "Scope of Inference",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=GOPc8ggq2LY": {
-    "title": "AP Statistics Collecting Data \u2013 Scope of Inference",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Completely_randomized_design": {
-    "title": "Completely randomized design - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=zLvf86sjFDU": {
-    "title": "AP Stats 4.2c Note and Example 1: Randomized Block Design",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=2AVLfSRpmfg": {
-    "title": "Random number list to run experiment | Probability | AP Statistics | Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Blocking_(statistics)": {
-    "title": "Blocking (statistics) - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=5tUEL_0iftY": {
-    "title": "AP Stats 4.2c Example 2: Randomized Block Design",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Repeated_measures_design": {
-    "title": "Repeated measures design - Wikipedia",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=UEFBGewP2ik": {
-    "title": "Matched pairs experiment design | Study design | AP Statistics | Khan Academy",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=4LL-HYss7MU": {
-    "title": "AP Statistics | 4.2.4 | Blocking and Matched Pairs Design",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=10ikXret7Lk": {
-    "title": "Types of Experimental Designs (3.3)",
-    "date": "2026-07-31T21:49"
-  },
-  "https://www.youtube.com/watch?v=W3bMz6EhYgU": {
-    "title": "AP Stats 4.3 - Experimental Design",
-    "date": "2026-07-31T21:49"
-  },
-  "https://en.wikipedia.org/wiki/Helicopter_rotor": {
-    "title": "Helicopter rotor - Wikipedia",
-    "date": "2026-08-02T22:52"
-  },
-  "https://youtu.be/YJBhWVDArLo?si=w6dnmQ3eF4S2rptT": {
-    "title": "How Does A Helicopter Work: Everything You Need To Know About Helicopters",
-    "date": "2026-08-02T22:52"
   }
 }
