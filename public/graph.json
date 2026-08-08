@@ -1292,6 +1292,8 @@
     "workbook": "24",
     "prereqs": [
       "intro_python2",
+      "queues",
+      "stacks",
       "trees"
     ],
     "x": 26.89926737363217,
