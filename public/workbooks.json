@@ -10981,8 +10981,34 @@
           {
             "id": "c-basics",
             "desc": "Understand the basics of C programming. Understand pass by reference, computer memory stacks, addresses, and the heap.",
-            "videos": [],
-            "references": []
+            "videos": [
+              {
+                "url": "https://youtu.be/SlqjA04_dpk?si=UsUSlxQ5dQE5PLph",
+                "title": "CS50x - Lecture 1 - C"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=2ybLD6_2gKM",
+                "title": "you will never ask about pointers again after watching this video"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=U3aXWizDbQ4",
+                "title": "C in 100 Seconds"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://github.com/AllAlgorithms/c",
+                "title": "GitHub - AllAlgorithms/c: Implementation of All ▲lgorithms in C Programming Language · GitHub"
+              },
+              {
+                "url": "https://www.w3schools.com/c/c_intro.php",
+                "title": "Introduction to C"
+              },
+              {
+                "url": "https://computer.howstuffworks.com/c.htm",
+                "title": "https://computer.howstuffworks.com/c.htm"
+              }
+            ]
           }
         ]
       },
