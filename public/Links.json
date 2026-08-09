@@ -7770,5 +7770,13 @@
   "https://youtu.be/sSYQ1H9-Vks": {
     "title": "Linear search vs Binary search",
     "date": "2026-08-08T22:54"
+  },
+  "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)": {
+    "title": "Stack (abstract data type) - Wikipedia",
+    "date": "2026-08-09T18:25"
+  },
+  "https://github.com/msambol/dsa/blob/master/data_structures/stack.py": {
+    "title": "dsa/data_structures/stack.py at master \u00b7 msambol/dsa \u00b7 GitHub",
+    "date": "2026-08-09T18:25"
   }
 }
