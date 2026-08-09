@@ -1295,6 +1295,7 @@
     "workbook": "24",
     "prereqs": [
       "intro_python2",
+      "queues",
       "stacks",
       "trees"
     ],
