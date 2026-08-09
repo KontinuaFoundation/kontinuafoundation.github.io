@@ -230,6 +230,12 @@
       <Graph {theme} />
     </section>
 
+    <section class="download-section">
+      <a href="./workbook-00.pdf" target="_blank" rel="noopener" class="pdf-btn-large">
+        Download Full Sequence PDF
+      </a>
+    </section>
+
     <section class="toc-section">
       <h2>Table of Contents</h2>
       <div class="workbook-grid">
@@ -372,6 +378,42 @@
   .toc-section h2 {
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  .download-section {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+    max-width: var(--width-content);
+    margin: 0 auto;
+  }
+
+  .pdf-btn-large {
+    appearance: none;
+    background: var(--sdkblue);
+    font-family: inherit;
+    cursor: pointer;
+
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
+    border: 2px solid var(--sdkblue);
+    border-radius: var(--border-radius);
+
+    transition:
+      opacity 0.15s,
+      filter 0.15s;
+  }
+
+  .pdf-btn-large:hover {
+    filter: brightness(1.15);
   }
 
   .workbook-grid {
