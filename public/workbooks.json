@@ -4412,7 +4412,6 @@
         "requires": [
           "airplanes",
           "equal_but_opposite",
-          "torque",
           "pitch-yaw-roll"
         ],
         "covers": [
@@ -7165,97 +7164,9 @@
         ]
       },
       {
-        "id": "bitmap",
-        "title": "Bitmaps",
-        "chap_num": 5,
-        "files": [
-          {
-            "path": "bitmap_copy.cpp",
-            "desc": "A file that creates an exact copy of the input bitmap (can be useful a starting point).",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_copy.cpp"
-          },
-          {
-            "path": "bitmap_no_green.cpp",
-            "desc": "Answer file for Exercise 1.",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_no_green.cpp"
-          },
-          {
-            "path": "bitmap_swapper.cpp",
-            "desc": "Code that is walked through in the bitmaps chapter, swapping red and blue color channels.",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_swapper.cpp"
-          },
-          {
-            "path": "cow.bmp",
-            "desc": "The cow bitmap used in some problems",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/cow.bmp"
-          },
-          {
-            "path": "gradient.bmp",
-            "desc": "The gradient bmp used in some problems.",
-            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/gradient.bmp"
-          }
-        ],
-        "requires": [
-          "hex-rep"
-        ],
-        "covers": [
-          {
-            "id": "bitmap",
-            "desc": "Understand how to construct a bitmap from hex colors in C++ and how to parse bitmaps in C++.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=kpHFFFu9qeU",
-                "title": "How Bitmap File Format Works (.bmp)"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=vqT5j38bWGg",
-                "title": "Creating a Bitmap Image (.bmp) using C++ | Tutorial"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=13E0il2zxBA",
-                "title": "Making .BMP images from scratch"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
-                "title": " - YouTube"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/BMP_file_format",
-                "title": "BMP file format - Wikipedia"
-              },
-              {
-                "url": "https://en.wikipedia.org/wiki/Bitmap",
-                "title": "Bitmap - Wikipedia"
-              },
-              {
-                "url": "https://retrocomputing.stackexchange.com/questions/3023/why-bgr-color-order",
-                "title": "history - Why BGR color order - Retrocomputing Stack Exchange"
-              },
-              {
-                "url": "https://stackoverflow.com/questions/367449/what-exactly-is-bgr-color-space",
-                "title": "opencv - What exactly is BGR color space? - Stack Overflow"
-              }
-            ]
-          },
-          {
-            "id": "bitmap_transforms",
-            "desc": "Relate the idea of bitmap manipulation to the idea of transformations in linear algebra. Understand the very basics of vector manipulation.",
-            "videos": [],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Transformation_matrix",
-                "title": "Transformation matrix - Wikipedia"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "floating",
         "title": "Floating Point Arithmetic",
-        "chap_num": 6,
+        "chap_num": 5,
         "files": [],
         "requires": [],
         "covers": [
@@ -10069,8 +9980,7 @@
           "vector_add_sub",
           "vectors",
           "linear_alg_intro",
-          "dot",
-          "bitmap"
+          "dot"
         ],
         "covers": [
           {
@@ -10724,8 +10634,7 @@
           "matrix",
           "transformations",
           "lin_inverse_matrix",
-          "determinant",
-          "bitmap_transforms"
+          "determinant"
         ],
         "covers": [
           {
@@ -11076,6 +10985,156 @@
             "references": []
           }
         ]
+      },
+      {
+        "id": "linked_list_c",
+        "title": "Linked Lists and C++ transition",
+        "chap_num": 5,
+        "files": [
+          {
+            "path": "node_addresses.cpp",
+            "desc": "A C++ file comparing memory addresses of linked lists.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/linked_list_c/en_US/node_addresses.cpp"
+          }
+        ],
+        "requires": [
+          "c-basics",
+          "hex-rep"
+        ],
+        "covers": [
+          {
+            "id": "linked_list_c",
+            "desc": "Understand how to represent data in the sequential format of a linked list.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=o5wJkJJpKtM",
+                "title": "How to Create a Linked List C++ Introduction to Linked Lists"
+              },
+              {
+                "url": "https://youtu.be/N6dOwBde7-M?si=m3EpyNhAVnTU7FFa",
+                "title": "Learn Linked Lists in 13 minutes 🔗"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Linked_list",
+                "title": "Linked list - Wikipedia"
+              },
+              {
+                "url": "https://gist.github.com/this-mkhy/2d9264fa8654f989e6569563a6168bdd",
+                "title": "The implementation of all linked list operations in C++ · GitHub"
+              }
+            ]
+          },
+          {
+            "id": "doubly_linked_list",
+            "desc": "Understand doubly linked lists",
+            "videos": [
+              {
+                "url": "https://youtu.be/k0pjD12bzP0?si=CmTG1TjZvVBTtQyE",
+                "title": "What is a Doubly Linked List"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Doubly_linked_list",
+                "title": "Doubly linked list - Wikipedia"
+              },
+              {
+                "url": "https://www.geeksforgeeks.org/dsa/doubly-linked-list/",
+                "title": "Doubly Linked List Tutorial - GeeksforGeeks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bitmap",
+        "title": "Bitmaps",
+        "chap_num": 6,
+        "files": [
+          {
+            "path": "bitmap_copy.cpp",
+            "desc": "A file that creates an exact copy of the input bitmap (can be useful a starting point).",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_copy.cpp"
+          },
+          {
+            "path": "bitmap_no_green.cpp",
+            "desc": "Answer file for Exercise 1.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_no_green.cpp"
+          },
+          {
+            "path": "bitmap_swapper.cpp",
+            "desc": "Code that is walked through in the bitmaps chapter, swapping red and blue color channels.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/bitmap_swapper.cpp"
+          },
+          {
+            "path": "cow.bmp",
+            "desc": "The cow bitmap used in some problems",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/cow.bmp"
+          },
+          {
+            "path": "gradient.bmp",
+            "desc": "The gradient bmp used in some problems.",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/bitmap/en_US/gradient.bmp"
+          }
+        ],
+        "requires": [
+          "hex-rep"
+        ],
+        "covers": [
+          {
+            "id": "bitmap",
+            "desc": "Understand how to construct a bitmap from hex colors in C++ and how to parse bitmaps in C++.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=kpHFFFu9qeU",
+                "title": "How Bitmap File Format Works (.bmp)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=vqT5j38bWGg",
+                "title": "Creating a Bitmap Image (.bmp) using C++ | Tutorial"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=13E0il2zxBA",
+                "title": "Making .BMP images from scratch"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=nPBfluUiZ1s",
+                "title": " - YouTube"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/BMP_file_format",
+                "title": "BMP file format - Wikipedia"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/Bitmap",
+                "title": "Bitmap - Wikipedia"
+              },
+              {
+                "url": "https://retrocomputing.stackexchange.com/questions/3023/why-bgr-color-order",
+                "title": "history - Why BGR color order - Retrocomputing Stack Exchange"
+              },
+              {
+                "url": "https://stackoverflow.com/questions/367449/what-exactly-is-bgr-color-space",
+                "title": "opencv - What exactly is BGR color space? - Stack Overflow"
+              }
+            ]
+          },
+          {
+            "id": "bitmap_transforms",
+            "desc": "Relate the idea of bitmap manipulation to the idea of transformations in linear algebra. Understand the very basics of vector manipulation.",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Transformation_matrix",
+                "title": "Transformation matrix - Wikipedia"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11085,9 +11144,81 @@
     "pdf": "workbook-24.pdf",
     "chapters": [
       {
+        "id": "stacks",
+        "title": "Stacks",
+        "chap_num": 1,
+        "files": [],
+        "requires": [],
+        "covers": []
+      },
+      {
+        "id": "queues",
+        "title": "Queues",
+        "chap_num": 2,
+        "files": [],
+        "requires": [],
+        "covers": []
+      },
+      {
+        "id": "priority_queues",
+        "title": "Priority Queues",
+        "chap_num": 3,
+        "files": [],
+        "requires": [
+          "python_basics",
+          "python_advanced"
+        ],
+        "covers": [
+          {
+            "id": "priority_queue",
+            "desc": "Implement binary search to search though lists, graphs, trees, and queues. Understand the requirements for a list to get binary searched. ",
+            "videos": [
+              {
+                "url": "https://youtu.be/MFhxShGxHWc",
+                "title": "Binary Search Algorithm in 100 Seconds"
+              },
+              {
+                "url": "https://youtu.be/fDKIpRe8GW4",
+                "title": "Binary search in 4 minutes"
+              },
+              {
+                "url": "https://youtu.be/eVuPCG5eIr4",
+                "title": "Binary Search Animated"
+              },
+              {
+                "url": "https://youtu.be/P3YID7liBug",
+                "title": "Algorithms: Binary Search"
+              },
+              {
+                "url": "https://youtu.be/T98PIp4omUA",
+                "title": "Binary Search - CS50 Shorts"
+              },
+              {
+                "url": "https://youtu.be/sSYQ1H9-Vks",
+                "title": "Linear search vs Binary search"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Binary_search",
+                "title": "Binary search - Wikipedia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hash_tables",
+        "title": "Hash Tables",
+        "chap_num": 4,
+        "files": [],
+        "requires": [],
+        "covers": []
+      },
+      {
         "id": "trees",
         "title": "Trees",
-        "chap_num": 1,
+        "chap_num": 5,
         "files": [],
         "requires": [
           "recursion",
@@ -11164,7 +11295,7 @@
       {
         "id": "tree_traversal",
         "title": "Tree Traversal",
-        "chap_num": 2,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "binary_search_trees",
@@ -11243,7 +11374,7 @@
       {
         "id": "shortest_path",
         "title": "Finding Shortest Paths",
-        "chap_num": 3,
+        "chap_num": 7,
         "files": [],
         "requires": [
           "breadth-first-search",
@@ -11335,17 +11466,9 @@
         ]
       },
       {
-        "id": "priority_queues",
-        "title": "Priority Queues",
-        "chap_num": 4,
-        "files": [],
-        "requires": [],
-        "covers": []
-      },
-      {
         "id": "graph_algorithms",
         "title": "Other Graph Algorithms and Proofs",
-        "chap_num": 5,
+        "chap_num": 8,
         "files": [
           {
             "desc": "A python script that deliberately causes a cycle error for topological sorting.",
