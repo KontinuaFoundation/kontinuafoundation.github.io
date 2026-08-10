@@ -99,7 +99,6 @@
 	How Eyes Work
 	Images in Python
 	Representing Natural Numbers
-	Bitmaps
 	Floating Point Arithmetic
 16	?
 	Introduction to Polynomials
@@ -161,11 +160,16 @@
 	Singular Value Decomposition
 	Tackling Difficult Problems: Positive Semidefinite Matrices
 	Introduction to C
+	Linked Lists and C++ transition
+	Bitmaps
 24	?
+	Stacks
+	Queues
+	Priority Queues
+	Hash Tables
 	Trees
 	Tree Traversal
 	Finding Shortest Paths
-	Priority Queues
 	Other Graph Algorithms and Proofs
 25	?
 	Making Web Requests with HTTP
