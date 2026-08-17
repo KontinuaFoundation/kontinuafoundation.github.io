@@ -5798,11 +5798,123 @@
         "id": "num_methods_2",
         "title": "Applying Numerical Methods to Bivariate Data",
         "chap_num": 8,
-        "files": [],
-        "requires": [
-          "num_methods"
+        "files": [
+          {
+            "desc": "New",
+            "path": "father_son_example.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods_2/en_US/father_son_example.py"
+          },
+          {
+            "desc": "New",
+            "path": "teacher_sample.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods_2/en_US/teacher_sample.py"
+          }
         ],
-        "covers": []
+        "requires": [
+          ""
+        ],
+        "covers": [
+          {
+            "id": "correlation_coefficient",
+            "desc": "Be able to interpret the correlation coefficient r, including its range, direction, and strength using standard cutoff conventions.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=xZ_z8KWkhXE",
+                "title": "Pearson's Correlation, Clearly Explained!!!"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=u4ugaNo6v1Q",
+                "title": "Calculating correlation coefficient r | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient",
+                "title": "Pearson correlation coefficient - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "linear_regression_basics",
+            "desc": "Be able to identify the dependent and independent variables in a regression setting and distinguish the population regression equation from the estimated regression line, including residuals.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=VqD-nf1YUks",
+                "title": "Introduction to residuals and least-squares regression | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Id4zQSnieH4",
+                "title": "Explanatory and Response Variables"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Errors_and_residuals",
+                "title": "Errors and residuals - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "least_squares_line",
+            "desc": "Be able to compute the slope and y-intercept of the least-squares regression line from summary statistics and interpret both in context.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=FGesqq22TCM",
+                "title": "Calculating the equation of a regression line | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=PplggM0KtJ8",
+                "title": "Interpreting slope of regression line | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Simple_linear_regression",
+                "title": "Simple linear regression - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "r_squared",
+            "desc": "Be able to compute the coefficient of determination R-squared and interpret it as the percentage of variation in the response variable explained by the model.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=wamGOhNt20c",
+                "title": "R-squared or coefficient of determination | Regression | Probability and Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ebHLMyqC2UY",
+                "title": "R^2: the Coefficient of Determination"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Coefficient_of_determination",
+                "title": "Coefficient of determination - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "regression_software",
+            "desc": "Be able to compute correlation and least-squares regression output (slope, intercept, r, R-squared) using Excel and Python.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=NGFmRt2V8vo",
+                "title": "How to Use Excel for  Linear Regression with the Data Analysis Toolpak"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=bmFVs5XkUbM",
+                "title": "Lesson 14, Part 1: SciPy - linear regression"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html",
+                "title": "linregress — SciPy v1.18.0 Manual"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7168,13 +7280,105 @@
         "title": "Floating Point Arithmetic",
         "chap_num": 5,
         "files": [],
-        "requires": [],
+        "requires": [
+          ""
+        ],
         "covers": [
           {
-            "id": "floating",
-            "desc": "Understand how and why floating point numbers exist.",
-            "videos": [],
-            "references": []
+            "id": "floating_point_error_sources",
+            "desc": "Why computers can't store most real numbers exactly, and identifying overflow and underflow in a floating-point system.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=pQs_wx8eoQ8",
+                "title": "Why Computers are Bad at Algebra | Infinite Series"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=iE1grioxWS4",
+                "title": "Why Floats Will Drive You Crazy(happens to everyone!)"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+                "title": "Floating-point arithmetic - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "binary_bits_bytes",
+            "desc": "Be able to convert between bits, bytes, and larger storage units",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=sXxwr66Y79Y",
+                "title": "The binary number system"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=FD6m-5iNWqI",
+                "title": "Bits, Bytes and Binary Numbers"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Binary_number",
+                "title": "Binary number - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "floating_point_structure",
+            "desc": "Be able to identify the sign, significand, and exponent of a floating-point number and determine whether a value is representable given a system's (beta, p, m, M) parameters.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=GyRVOqweHtY",
+                "title": "9618 - A Level - Floating Point Representation (4 easy steps)"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Significand",
+                "title": "Significand - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "ieee754",
+            "desc": "Be able to describe the IEEE 754 single- and double-precision bit layouts and how bits are split among sign, significand, and exponent.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=owtK58XiPGo",
+                "title": "IEEE 754: Introduction to Floating Point Format"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ILKjj30pb9E",
+                "title": "Single Precision and Double Precision floating point representation | IEEE 754 Floating point"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/IEEE_754",
+                "title": "IEEE 754 - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "machine_epsilon",
+            "desc": "Be able to compute machine epsilon for a floating-point system and use it to bound the worst-case relative error of a stored value.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=TlhsIeoFlDw",
+                "title": "Machine epsilon"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Aa4_3ZPH_HE",
+                "title": "Chapter 01.05: Lesson: Accuracy of Floating Point Binary Numbers: The Machine Epsilon"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Machine_epsilon",
+                "title": "Machine epsilon - Wikipedia"
+              }
+            ]
           }
         ]
       }
@@ -12799,26 +13003,6 @@
                 "title": "Welch's t-test - Wikipedia"
               }
             ]
-          },
-          {
-            "id": "selecting_procedures",
-            "desc": "Be able to select the correct inference procedure based on variable type, number of samples, and independence.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=-aCLTMSBsVc",
-                "title": " - YouTube"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=yM6QQsyVhzA",
-                "title": "AP Stats - Choosing the Correct Inference Procedure"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_testing",
-                "title": "Statistical hypothesis test - Wikipedia"
-              }
-            ]
           }
         ]
       },
@@ -12834,12 +13018,12 @@
             "desc": "Be able to verify the conditions (linear relationship, constant standard deviation, independence, normality of residuals) required for inference about the slope of a regression model.",
             "videos": [
               {
-                "url": "https://www.youtube.com/watch?v=kOQx3LtWHEQ",
-                "title": "Conditions for inference on slope | More on regression | AP Statistics | Khan Academy"
-              },
-              {
                 "url": "https://www.youtube.com/watch?v=Pzglbt9_xCI",
                 "title": "Introduction to inference about slope in linear regression | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=kOQx3LtWHEQ",
+                "title": "Conditions for inference on slope | More on regression | AP Statistics | Khan Academy"
               }
             ],
             "references": [
@@ -12887,7 +13071,7 @@
           },
           {
             "id": "regression_output",
-            "desc": "Be able to identify the slope, y-intercept, r-squared, standard deviation of residuals, and standard error of the slope from computer regression output, and describe the association using predicted (non-deterministic) language.",
+            "desc": "Be able to identify the slope, y-intercept, r-squared, standard deviation of residuals, and standard error of the slope from computer regression output (minitab), and describe the association",
             "videos": [
               {
                 "url": "https://www.youtube.com/watch?v=5Fk5vEMsmxc",
