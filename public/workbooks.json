@@ -11416,8 +11416,31 @@
         "title": "Queues",
         "chap_num": 2,
         "files": [],
-        "requires": [],
-        "covers": []
+        "requires": [
+          "c-basics"
+        ],
+        "covers": [
+          {
+            "id": "queues",
+            "desc": "Understand the queue (FIFO) abstract data type and its array-based and linked-list-based implementations.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=D6gu-_tmEpQ",
+                "title": "Queues in 3 minutes"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://github.com/msambol/dsa/blob/master/data_structures/queue.py",
+                "title": "dsa/data_structures/queue.py at master · msambol/dsa · GitHub"
+              },
+              {
+                "url": "https://www.geeksforgeeks.org/dsa/array-based-queues-vs-list-based-queues/",
+                "title": "Array-Based Queues vs List-Based Queues - GeeksforGeeks"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "priority_queues",
