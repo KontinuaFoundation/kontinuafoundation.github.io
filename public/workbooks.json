@@ -5263,10 +5263,35 @@
         ],
         "requires": [
           "spreadsheet",
+          "csv",
           "math-graph",
-          "compound_interest"
+          "compound_interest",
+          "python_basics",
+          "python_advanced",
+          "stats_mean",
+          "stats-outlier"
         ],
         "covers": [
+          {
+            "id": "dataviz",
+            "desc": "Be able to classify variables as categorical or quantitative, discrete or continuous, and univariate or bivariate, and choose a tabular, graphical, or numerical way to describe the data.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=EqeVXI4WNHM",
+                "title": "Identifying individuals, variables and categorical variables in a data set | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=PUvUQMQ7xQk",
+                "title": "Density Curves | Modeling data distributions | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Infographic#Data_visualization",
+                "title": "Infographic - Wikipedia"
+              }
+            ]
+          },
           {
             "id": "bar_chart",
             "desc": "Be able to graph and interpret a bar chart",
@@ -5324,6 +5349,102 @@
             ]
           },
           {
+            "id": "dotplot",
+            "desc": "Be able to construct and read a dotplot or comparative dotplot and describe the center, spread, shape, and outliers of the distribution.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=Pv1_xIg54C8",
+                "title": "Examining Dotplots [AP Statistics]"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=sU9jifDdeBo",
+                "title": "Dotplots, Comparative Dotplots, SOCS - AP Statistics - Avon High School"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=4L92rn_Z7D4",
+                "title": "How to Make a Dotplot | Statistics Exercises"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Dot_plot_(statistics)",
+                "title": "Dot plot (statistics) - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "stemplot",
+            "desc": "Be able to construct a stem-and-leaf plot with an appropriate choice of stems and a key, including split stems, and read exact values, frequencies, gaps, and shape from it.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=HR1x578yYIc",
+                "title": "Examining Stem and Leaf Plots [AP Statistics]"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=c0-B53OtO_8",
+                "title": "Create a Stem-and-Leaf Plot - AP Stats"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=OXE2VWfx-V0",
+                "title": "AP Statistics: Chapter 1, Video #5 - Dotplots & Stemplots"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Stem-and-leaf_display",
+                "title": "Stem-and-leaf display - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "histogram",
+            "desc": "Be able to bin quantitative data and draw a frequency, relative frequency, or percent histogram in a spreadsheet or in Python, and interpret its shape, center, spread, gaps, and outliers.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=gSEYtAjuZ-Y",
+                "title": "How to create a histogram | Data and statistics | 6th grade | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=c02vjunQsJM",
+                "title": "How to interpret a histogram | Data and statistics | 6th grade | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Y53_8WRrPzg",
+                "title": "Classifying shapes of distributions | AP Statistics | Khan Academy"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Histogram",
+                "title": "Histogram - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "cumulative_frequency_plot",
+            "desc": "Be able to compute cumulative frequencies at upper class boundaries, plot a cumulative frequency graph in a spreadsheet or in Python, and use it to find how many observations fall above or below a value and to judge skewness.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=2-vNVL-HJxM",
+                "title": "Cumulative Relative Frequency Graphs (Ogives) [AP Statistics]"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=TwGYLQ-DNdc",
+                "title": "Analyzing a cumulative relative frequency graph | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=IvmBCDY35Uw",
+                "title": "How to Create an Ogive (Cumulative Frequency Curve)"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Ogive_(statistics)",
+                "title": "Ogive (statistics) - Wikipedia"
+              }
+            ]
+          },
+          {
             "id": "scatterplot",
             "desc": "Be able to graph and interpret a scatterplot",
             "videos": [
@@ -5336,22 +5457,6 @@
               {
                 "url": "https://en.wikipedia.org/wiki/Scatter_plot",
                 "title": "Scatter plot - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "dataviz",
-            "desc": "Be able to understand graphs and data distributions",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=PUvUQMQ7xQk",
-                "title": "Density Curves | Modeling data distributions | AP Statistics | Khan Academy"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Infographic#Data_visualization",
-                "title": "Infographic - Wikipedia"
               }
             ]
           }
@@ -5373,7 +5478,13 @@
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods/en_US/computing_with_python.py"
           }
         ],
-        "requires": [],
+        "requires": [
+          "dataviz",
+          "histogram",
+          "scatterplot",
+          "python_basics",
+          "pylists"
+        ],
         "covers": [
           {
             "id": "summation_notation",
@@ -5893,18 +6004,29 @@
         "chap_num": 8,
         "files": [
           {
-            "desc": "New",
+            "desc": "Computes the correlation coefficient r for the father-son height data using numpy.",
             "path": "father_son_example.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods_2/en_US/father_son_example.py"
           },
           {
-            "desc": "New",
+            "desc": "Computes and plots the least-squares regression line for the teacher experience/salary data using scipy and matplotlib.",
             "path": "teacher_sample.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods_2/en_US/teacher_sample.py"
+          },
+          {
+            "desc": "Scatterplot with the least-squares regression line for the teacher experience/salary data, generated by teacher_sample.py.",
+            "path": "teacher_sample_figure_1.png",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/num_methods_2/en_US/teacher_sample_figure_1.png"
           }
         ],
         "requires": [
-          ""
+          "scatterplot",
+          "summation_notation",
+          "measures_of_center",
+          "measures_of_spread",
+          "spreadsheet",
+          "python_advanced",
+          "matplotlib"
         ],
         "covers": [
           {
@@ -6782,13 +6904,53 @@
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/sampling/en_US/srs_example.py"
           }
         ],
-        "requires": [],
+        "requires": [
+          "measures_of_center",
+          "biases",
+          "csv",
+          "python_advanced",
+          "pandas"
+        ],
         "covers": [
           {
-            "id": "",
-            "desc": "",
-            "videos": [],
-            "references": []
+            "id": "study_design_vocab",
+            "desc": "Be able to define population, frame, sample, census, and sample survey, and identify each in a study scenario.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=539aLh8laAc",
+                "title": "BitMaths Teaching Video: Population census and sample"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=JwKr2ipkm7c",
+                "title": "Sample, Sampling Unit and Sampling Frame"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Sampling_frame",
+                "title": "Sampling frame - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "sampling_methods",
+            "desc": "Be able to identify and distinguish simple random, systematic, stratified, and cluster sampling, and recognize judgmental, convenience, voluntary response, quota, and snowball sampling as non-probability methods.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=PdXDLNNXPik",
+                "title": "Techniques for random sampling and avoiding bias | Study design | AP Statistics | Khan Academy"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=be9e-Q-jC-0",
+                "title": "Sampling: Simple Random, Convenience, systematic, cluster, stratified - Statistics Help"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Sampling_(statistics)",
+                "title": "Sampling (statistics) - Wikipedia"
+              }
+            ]
           },
           {
             "id": "sampling_python",
@@ -6796,7 +6958,7 @@
             "videos": [],
             "references": [
               {
-                "url": "https://towardsdatascience.com/probability-sampling-methods-explained-with-python-4c0a19a59456/ ",
+                "url": "https://towardsdatascience.com/probability-sampling-methods-explained-with-python-4c0a19a59456/",
                 "title": "Probability Sampling Methods Explained with Python | Towards Data Science"
               }
             ]
@@ -6806,7 +6968,7 @@
             "desc": "Understand the placebo effect",
             "videos": [
               {
-                "url": "https://youtu.be/GMqrOdCx4Yg?si=EEvrjzZ4vKN8Bxu1\n",
+                "url": "https://youtu.be/GMqrOdCx4Yg?si=EEvrjzZ4vKN8Bxu1",
                 "title": "Placebo Effect, Control Groups, and the Double Blind Experiment (3.2)"
               }
             ],
@@ -7374,7 +7536,12 @@
         "chap_num": 5,
         "files": [],
         "requires": [
-          ""
+          "decint-rep",
+          "binary-rep",
+          "bits_bytes",
+          "exponents",
+          "exponent_properties",
+          "python_basics"
         ],
         "covers": [
           {
@@ -9597,7 +9764,14 @@
         "title": "Experimental Design",
         "chap_num": 5,
         "files": [],
-        "requires": [],
+        "requires": [
+          "study_design_vocab",
+          "sampling_methods",
+          "bias",
+          "placebo_effect",
+          "biases",
+          "correlation_causation"
+        ],
         "covers": [
           {
             "id": "experiments_vs_observational",
@@ -12927,7 +13101,15 @@
         "title": "Statistical Inferences for Proportions",
         "chap_num": 5,
         "files": [],
-        "requires": [],
+        "requires": [
+          "study_design_vocab",
+          "sampling_methods",
+          "measures_of_position",
+          "normal_distribution",
+          "pop_prop",
+          "spreadsheet",
+          "python_advanced"
+        ],
         "covers": [
           {
             "id": "confidence_intervals",
@@ -13041,7 +13223,21 @@
         "chap_num": 6,
         "files": [],
         "requires": [
-          ""
+          "study_design_vocab",
+          "sampling_methods",
+          "measures_of_center",
+          "measures_of_spread",
+          "shape_and_outliers",
+          "dotplot",
+          "histogram",
+          "normal_distribution",
+          "hypothesis_testing_logic",
+          "p_values",
+          "type_i_ii_errors",
+          "critical_values",
+          "two_sample_proportions",
+          "matched_pairs_design",
+          "spreadsheet"
         ],
         "covers": [
           {
@@ -13127,7 +13323,24 @@
         "title": "Statistical Inferences for Slopes",
         "chap_num": 7,
         "files": [],
-        "requires": [],
+        "requires": [
+          "scatterplot",
+          "dotplot",
+          "measures_of_spread",
+          "correlation_coefficient",
+          "least_squares_line",
+          "r_squared",
+          "regression_software",
+          "sampling_methods",
+          "confidence_intervals",
+          "hypothesis_testing_logic",
+          "p_values",
+          "critical_values",
+          "t_distribution",
+          "significance_tests",
+          "spreadsheet",
+          "python_advanced"
+        ],
         "covers": [
           {
             "id": "slope_conditions",
@@ -13216,6 +13429,10 @@
               {
                 "url": "https://www.youtube.com/watch?v=cdeZycXB16U",
                 "title": "Which Test Do I Use? | AP Statistics Inference Guide | Inference Procedures to Score a 5 on the Exam"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=yM6QQsyVhzA",
+                "title": "AP Stats - Choosing the Correct Inference Procedure"
               }
             ],
             "references": [
