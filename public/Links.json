@@ -8142,5 +8142,57 @@
   "https://www.youtube.com/watch?v=8cGEs1DIV_I": {
     "title": "Understanding Log Transformation in Data Science for Beginners",
     "date": "2026-09-10T19:07"
+  },
+  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Definition": {
+    "title": "Pearson's chi-squared test - Wikipedia",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=jABsbNBPXIk": {
+    "title": "Chi-square statistic for hypothesis testing | AP Statistics | Khan Academy",
+    "date": "2026-09-13T23:47"
+  },
+  "https://youtu.be/HKDqlYSLt68?si=T50m3ei3iBe8vZG7z": {
+    "title": "Chi Square Test",
+    "date": "2026-09-13T23:47"
+  },
+  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Test_for_fit_of_a_distribution": {
+    "title": "Pearson's chi-squared test - Wikipedia",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=VjO9hWVlOBo": {
+    "title": "Chi-square goodness-of-fit example | AP Statistics | Khan Academy",
+    "date": "2026-09-13T23:47"
+  },
+  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Testing_for_statistical_independence": {
+    "title": "Pearson's chi-squared test - Wikipedia",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=zOvUQWOzTlc": {
+    "title": "Chi-square test for association (independence) | AP Statistics | Khan Academy",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=t_jfTOE44YQ": {
+    "title": "Introduction to the chi-square test for homogeneity | AP Statistics | Khan Academy",
+    "date": "2026-09-13T23:47"
+  },
+  "https://en.wikipedia.org/wiki/Stop_word": {
+    "title": "Stop word - Wikipedia",
+    "date": "2026-09-13T23:47"
+  },
+  "https://youtu.be/QWzx7ysgdmI?si=Pzl_uyHMJjnaFg84": {
+    "title": "NLP 4 Developers: Stop Words | Rasa",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=ZdhihJB-7D4": {
+    "title": "Stopword Removal | Python NLTK Tutorial #04",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=LLl3bQXhhzI": {
+    "title": "Python NLTK Tutorial 2 - Removing stop words using NLTK",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=0D7ae7OaaHQ": {
+    "title": "NLP with Python! Stop Words",
+    "date": "2026-09-13T23:47"
   }
 }

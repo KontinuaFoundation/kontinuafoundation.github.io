@@ -259,7 +259,10 @@
         "title": "Mass, Weight, and Gravity",
         "chap_num": 4,
         "files": [],
-        "requires": [],
+        "requires": [
+          "grav",
+          "exponents"
+        ],
         "covers": [
           {
             "id": "mass",
@@ -354,7 +357,10 @@
         "title": "Introductory Motion Concepts",
         "chap_num": 5,
         "files": [],
-        "requires": [],
+        "requires": [
+          "intro_vectors",
+          "math-graph"
+        ],
         "covers": [
           {
             "id": "pva",
@@ -617,7 +623,11 @@
         "title": "Units and Conversions",
         "chap_num": 8,
         "files": [],
-        "requires": [],
+        "requires": [
+          "mass",
+          "force",
+          "exponents"
+        ],
         "covers": [
           {
             "id": "conv_fac",
@@ -917,7 +927,12 @@
         "title": "Buoyancy",
         "chap_num": 3,
         "files": [],
-        "requires": [],
+        "requires": [
+          "mass",
+          "force",
+          "fma",
+          "gravitational_acceleration"
+        ],
         "covers": [
           {
             "id": "buoyancy",
@@ -3331,7 +3346,12 @@
         "title": "Volumes of Common Solids",
         "chap_num": 3,
         "files": [],
-        "requires": [],
+        "requires": [
+          "triangle",
+          "circles",
+          "sine",
+          "angle"
+        ],
         "covers": [
           {
             "id": "volume-solids",
@@ -5266,10 +5286,7 @@
           "csv",
           "math-graph",
           "compound_interest",
-          "python_basics",
-          "python_advanced",
-          "stats_mean",
-          "stats-outlier"
+          "python_advanced"
         ],
         "covers": [
           {
@@ -5481,7 +5498,7 @@
         "requires": [
           "dataviz",
           "histogram",
-          "scatterplot",
+          "dotplot",
           "python_basics",
           "pylists"
         ],
@@ -6021,12 +6038,10 @@
         ],
         "requires": [
           "scatterplot",
-          "summation_notation",
           "measures_of_center",
           "measures_of_spread",
           "spreadsheet",
-          "python_advanced",
-          "matplotlib"
+          "python_advanced"
         ],
         "covers": [
           {
@@ -6824,7 +6839,13 @@
         "title": "Longitude and Latitude",
         "chap_num": 2,
         "files": [],
-        "requires": [],
+        "requires": [
+          "degrees",
+          "sine",
+          "cosine",
+          "inverse_trig",
+          "circular_arc_length"
+        ],
         "covers": [
           {
             "id": "long lat",
@@ -6906,7 +6927,6 @@
         ],
         "requires": [
           "measures_of_center",
-          "biases",
           "csv",
           "python_advanced",
           "pandas"
@@ -7052,7 +7072,13 @@
         "title": "Diodes, Rectifiers, and Photovoltaics",
         "chap_num": 5,
         "files": [],
-        "requires": [],
+        "requires": [
+          "atom",
+          "bonds",
+          "coulomb_amps",
+          "volts",
+          "ac"
+        ],
         "covers": [
           {
             "id": "",
@@ -7539,9 +7565,7 @@
           "decint-rep",
           "binary-rep",
           "bits_bytes",
-          "exponents",
-          "exponent_properties",
-          "python_basics"
+          "exponents"
         ],
         "covers": [
           {
@@ -9768,9 +9792,7 @@
           "study_design_vocab",
           "sampling_methods",
           "bias",
-          "placebo_effect",
-          "biases",
-          "correlation_causation"
+          "placebo_effect"
         ],
         "covers": [
           {
@@ -9975,7 +9997,13 @@
         "title": "Optimization",
         "chap_num": 1,
         "files": [],
-        "requires": [],
+        "requires": [
+          "derivatives",
+          "power_rule",
+          "critval",
+          "concavity",
+          "minmax"
+        ],
         "covers": [
           {
             "id": "programming-optimization",
@@ -12273,7 +12301,10 @@
         "title": "Making Web Requests with HTTP",
         "chap_num": 1,
         "files": [],
-        "requires": [],
+        "requires": [
+          "json",
+          "xml"
+        ],
         "covers": [
           {
             "id": "http",
@@ -12370,7 +12401,12 @@
         "title": "Data Compression and Decompression",
         "chap_num": 3,
         "files": [],
-        "requires": [],
+        "requires": [
+          "bits_bytes",
+          "logarithms",
+          "probability_independent",
+          "summation_notation"
+        ],
         "covers": [
           {
             "id": "decompression",
@@ -12684,8 +12720,53 @@
         "title": "Stop Words",
         "chap_num": 3,
         "files": [],
-        "requires": [],
-        "covers": []
+        "requires": [
+          "python_basics",
+          "pylists",
+          "python_advanced"
+        ],
+        "covers": [
+          {
+            "id": "stop_words",
+            "desc": "Be able to define stop words, explain why removing them matters for word-frequency counts, and recognize tasks, such as sentiment analysis or phrase matching, where removing them loses information a task needs.",
+            "videos": [
+              {
+                "url": "https://youtu.be/QWzx7ysgdmI?si=Pzl_uyHMJjnaFg84",
+                "title": "NLP 4 Developers: Stop Words | Rasa"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Stop_word",
+                "title": "Stop word - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "text_filtering",
+            "desc": "Be able to use the stop-words package to filter text across languages, choose between get_stop_words and safe_get_stop_words, and customize a stop word list with add_filter.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=ZdhihJB-7D4",
+                "title": "Stopword Removal | Python NLTK Tutorial #04"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=LLl3bQXhhzI",
+                "title": "Python NLTK Tutorial 2 - Removing stop words using NLTK"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=0D7ae7OaaHQ",
+                "title": "NLP with Python! Stop Words"
+              }
+            ],
+            "references": [
+              {
+                "url": "",
+                "title": ""
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12736,7 +12817,10 @@
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/matplotlib/en_US/dataset.csv"
           }
         ],
-        "requires": [],
+        "requires": [
+          "python_basics",
+          "pylists"
+        ],
         "covers": [
           {
             "id": "matplotlib",
@@ -13181,11 +13265,9 @@
         "requires": [
           "study_design_vocab",
           "sampling_methods",
-          "measures_of_position",
           "normal_distribution",
-          "pop_prop",
-          "spreadsheet",
-          "python_advanced"
+          "measures_of_position",
+          "pop_prop"
         ],
         "covers": [
           {
@@ -13300,21 +13382,11 @@
         "chap_num": 6,
         "files": [],
         "requires": [
-          "study_design_vocab",
-          "sampling_methods",
-          "measures_of_center",
-          "measures_of_spread",
-          "shape_and_outliers",
-          "dotplot",
-          "histogram",
-          "normal_distribution",
           "hypothesis_testing_logic",
           "p_values",
           "type_i_ii_errors",
-          "critical_values",
-          "two_sample_proportions",
-          "matched_pairs_design",
-          "spreadsheet"
+          "normal_distribution",
+          "measures_of_spread"
         ],
         "covers": [
           {
@@ -13401,22 +13473,11 @@
         "chap_num": 7,
         "files": [],
         "requires": [
-          "scatterplot",
-          "dotplot",
-          "measures_of_spread",
-          "correlation_coefficient",
           "least_squares_line",
-          "r_squared",
-          "regression_software",
-          "sampling_methods",
-          "confidence_intervals",
-          "hypothesis_testing_logic",
-          "p_values",
-          "critical_values",
+          "correlation_coefficient",
           "t_distribution",
-          "significance_tests",
-          "spreadsheet",
-          "python_advanced"
+          "confidence_intervals",
+          "significance_tests"
         ],
         "covers": [
           {
@@ -14019,7 +14080,13 @@
         "title": "The Fundamental Theorem of Calculus",
         "chap_num": 2,
         "files": [],
-        "requires": [],
+        "requires": [
+          "limits",
+          "derivatives",
+          "chain",
+          "antiderivatives",
+          "definite_integral"
+        ],
         "covers": [
           {
             "id": "ftc_avg_val",
