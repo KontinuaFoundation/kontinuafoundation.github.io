@@ -1,4 +1,8 @@
 {
+  "https://kontinua.org": {
+    "title": "Kontinua \u2013 Kontinua",
+    "date": "2026-09-14T06:58"
+  },
   "https://youtu.be/CuV_jd1PD3M?si=r4Ot1fl7p8TFnFcy": {
     "title": "The Kontinua Foundation Director's Cut",
     "date": "2026-07-27T07:42"
@@ -1025,7 +1029,7 @@
   },
   "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/5mXS-MTjSiw?si=GuvcSmQjzTUd1wYI": {
     "title": "The Haber-Bosch Process: Industrial Ammonia Synthesis",
@@ -1493,7 +1497,7 @@
   },
   "https://www.youtube.com/live/yBw67Fb31Cs?si=zhE0I6tF8O-3_Hhy&t=909": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/Differentiation_rules#Derivatives_of_trigonometric_functions": {
     "title": "Differentiation rules - Wikipedia",
@@ -1949,7 +1953,7 @@
   },
   "https://www.youtube.com/watch?v=9yCRWwWdFBYm": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/ufgY237M5KQ": {
     "title": "Introduction to Inclined Planes",
@@ -2629,7 +2633,7 @@
   },
   "https://www.youtube.com/watch?v=BjLzIfDpGhs": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/mS5eEhLN57s": {
     "title": "Can you solve the troll\u2019s paradox riddle? - Dan Finkel",
@@ -3517,7 +3521,7 @@
   },
   "https://www.youtube.com/live/ZA25WHO62ZA?si=TtFkOZ_ynuypoyQN": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/vHYeChEf2lA": {
     "title": "CS50 SQL - Lecture 0 - Querying",
@@ -4005,11 +4009,11 @@
   },
   "https://youtu.be/yYALsys-P_w": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/an6wd3dpEjA": {
     "title": " - YouTube",
-    "date": "2026-09-07T06:57"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/ZDa-Z5JzLYM": {
     "title": "Python OOP Tutorial 1: Classes and Instances",
@@ -5283,6 +5287,10 @@
     "title": "Partial Derivatives - Multivariable Calculus",
     "date": "2026-07-27T07:42"
   },
+  "https://youtu.be/Kp7sSp5Kn7o": {
+    "title": " - YouTube",
+    "date": "2026-09-14T06:58"
+  },
   "https://youtu.be/AXH9Xm6Rbfc": {
     "title": "Partial Derivatives and the Gradient of a Function",
     "date": "2026-07-27T07:42"
@@ -6087,6 +6095,50 @@
     "title": "Linear search vs Binary search",
     "date": "2026-08-08T22:54"
   },
+  "https://en.wikipedia.org/wiki/Hash_table#Hash_function": {
+    "title": "Hash table - Wikipedia",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=KyUTuwz_b7Q": {
+    "title": "Hash Tables and Hash Functions",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=mFY0J5W8Udk": {
+    "title": "Hashing Technique - Simplified",
+    "date": "2026-09-07T18:42"
+  },
+  "https://en.wikipedia.org/wiki/Hash_table": {
+    "title": "Hash table - Wikipedia",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=UiLpx2gu0Oc": {
+    "title": "How Hash Table works | Principle of Hash table | Insertion and Search | Knowledge Center",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=FsfRsGFHuv4": {
+    "title": "Learn Hash Tables in 13 minutes #\ufe0f\u20e3",
+    "date": "2026-09-07T18:42"
+  },
+  "https://en.wikipedia.org/wiki/Hash_table#Collision_resolution": {
+    "title": "Hash table - Wikipedia",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=eMw6ZGjSoQE": {
+    "title": "Collision Resolution in Hash Tables in 5 Minutes",
+    "date": "2026-09-07T18:42"
+  },
+  "https://en.wikipedia.org/wiki/Hash_table#Time_complexity_in_big_O_notation": {
+    "title": "Hash table - Wikipedia",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=XrCRLMaruE4": {
+    "title": "13  Hash Table Big O Complexity",
+    "date": "2026-09-07T18:42"
+  },
+  "https://www.youtube.com/watch?v=AmV0z7cO9-c": {
+    "title": "searching in a hash table, worst-case vs average case",
+    "date": "2026-09-07T18:42"
+  },
   "https://en.wikipedia.org/wiki/Tree_(abstract_data_type)": {
     "title": "Tree (abstract data type) - Wikipedia",
     "date": "2026-08-08T22:54"
@@ -6173,11 +6225,11 @@
   },
   "https://en.wikipedia.org/wiki/Dijkstra's_algorithm": {
     "title": "Dijkstra's algorithm - Wikipedia",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://github.com/msambol/dsa/blob/master/shortest_path/dijkstras.py": {
     "title": "dsa/shortest_path/dijkstras.py at master \u00b7 msambol/dsa \u00b7 GitHub",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/EFg3u_E6eHU": {
     "title": "How Dijkstra's Algorithm Works",
@@ -6209,7 +6261,7 @@
   },
   "https://www.youtube.com/watch?v=GazC3A4OQTE": {
     "title": "Dijkstra's Algorithm - Computerphile",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm": {
     "title": "https://codesignal.com/learn/courses/mastering-graphs-in-python/lessons/finding-the-shortest-path-in-graphs-with-bfs-algorithm",
@@ -6217,15 +6269,15 @@
   },
   "https://github.com/msambol/dsa/blob/master/shortest_path/bellman_ford.py": {
     "title": "dsa/shortest_path/bellman_ford.py at master \u00b7 msambol/dsa \u00b7 GitHub",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://www.youtube.com/watch?v=obWXjtg0L64": {
     "title": "Bellman-Ford in 5 minutes \u2014 Step by step example",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://www.youtube.com/watch?v=j0OUwduDOS0": {
     "title": "Shortest Path Algorithms Explained (Dijkstra's & Bellman-Ford)",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/FtN3BYH2Zes": {
     "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming",
@@ -6237,31 +6289,31 @@
   },
   "https://en.wikipedia.org/wiki/Adjacency_matrix": {
     "title": "Adjacency matrix - Wikipedia",
-    "date": "2026-06-13T08:31"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/Taxicab_geometry": {
     "title": "Taxicab geometry - Wikipedia",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/Chebyshev_distance": {
     "title": "Chebyshev distance - Wikipedia",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/A*_search_algorithm": {
     "title": "A* search algorithm - Wikipedia",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/-L-WgKMFuhE": {
     "title": "A* Pathfinding (E01: algorithm explanation)",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://www.youtube.com/watch?v=Zg0Cxn8AVZA": {
     "title": "Minecraft\u2019s Smartest System Is Almost Completely Untapped",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://www.youtube.com/watch?v=ySN5Wnu88nE": {
     "title": "A* (A Star) Search Algorithm - Computerphile",
-    "date": "2026-06-16T05:44"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection": {
     "title": "Bijection, injection and surjection - Wikipedia",
@@ -6534,6 +6586,26 @@
   "https://youtu.be/DntKZ9xJ1sM": {
     "title": "ASCII, Unicode, UTF-8: Explained Simply",
     "date": "2026-07-27T07:42"
+  },
+  "https://en.wikipedia.org/wiki/Stop_word": {
+    "title": "Stop word - Wikipedia",
+    "date": "2026-09-13T23:47"
+  },
+  "https://youtu.be/QWzx7ysgdmI?si=Pzl_uyHMJjnaFg84": {
+    "title": "NLP 4 Developers: Stop Words | Rasa",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=ZdhihJB-7D4": {
+    "title": "Stopword Removal | Python NLTK Tutorial #04",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=LLl3bQXhhzI": {
+    "title": "Python NLTK Tutorial 2 - Removing stop words using NLTK",
+    "date": "2026-09-13T23:47"
+  },
+  "https://www.youtube.com/watch?v=0D7ae7OaaHQ": {
+    "title": "NLP with Python! Stop Words",
+    "date": "2026-09-13T23:47"
   },
   "https://en.wikipedia.org/wiki/Greek_diacritics": {
     "title": "Greek diacritics - Wikipedia",
@@ -7057,7 +7129,7 @@
   },
   "https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf": {
     "title": "pagerank.pdf",
-    "date": "2026-06-12T23:52"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/Viterbi_algorithm": {
     "title": "Viterbi algorithm - Wikipedia",
@@ -7081,11 +7153,11 @@
   },
   "https://www.youtube.com/watch?v=lJTmtduw-K4": {
     "title": "Markov Chains and Hidden Markov Models",
-    "date": "2026-06-12T23:52"
+    "date": "2026-09-14T06:58"
   },
   "https://www.youtube.com/watch?v=JheGL6uSF-4": {
     "title": "I Made a Graph of Wikipedia... This Is What I Found",
-    "date": "2026-06-12T23:52"
+    "date": "2026-09-14T06:58"
   },
   "https://youtu.be/KZeIEiBrT_w": {
     "title": "The Strange Math That Predicts (Almost) Anything",
@@ -7093,7 +7165,7 @@
   },
   "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf": {
     "title": "MarkovChains.pdf",
-    "date": "2026-06-10T20:45"
+    "date": "2026-09-14T06:58"
   },
   "https://personal.math.ubc.ca/~holmescerfon/teaching/asa22/handout-Lecture2_2022.pdf": {
     "title": "handout-Lecture2_2022.pdf",
@@ -7101,11 +7173,11 @@
   },
   "https://en.wikipedia.org/wiki/Stochastic_matrix": {
     "title": "Stochastic matrix - Wikipedia",
-    "date": "2026-06-12T23:52"
+    "date": "2026-09-14T06:58"
   },
   "https://en.wikipedia.org/wiki/State-transition_matrix": {
     "title": "State-transition matrix - Wikipedia",
-    "date": "2026-06-12T23:52"
+    "date": "2026-09-14T06:58"
   },
   "http://youtube.com/watch?v=1GKtfgwf3ig": {
     "title": "Markov Chains & Transition Matrices",
@@ -8042,157 +8114,5 @@
   "https://youtu.be/O2L2Uv9pdDA": {
     "title": "Naive Bayes, Clearly Explained!!!",
     "date": "2026-07-27T07:42"
-  },
-  "https://en.wikipedia.org/wiki/Hash_table#Hash_function": {
-    "title": "Hash table - Wikipedia",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=KyUTuwz_b7Q": {
-    "title": "Hash Tables and Hash Functions",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=mFY0J5W8Udk": {
-    "title": "Hashing Technique - Simplified",
-    "date": "2026-09-07T18:42"
-  },
-  "https://en.wikipedia.org/wiki/Hash_table": {
-    "title": "Hash table - Wikipedia",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=UiLpx2gu0Oc": {
-    "title": "How Hash Table works | Principle of Hash table | Insertion and Search | Knowledge Center",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=FsfRsGFHuv4": {
-    "title": "Learn Hash Tables in 13 minutes #\ufe0f\u20e3",
-    "date": "2026-09-07T18:42"
-  },
-  "https://en.wikipedia.org/wiki/Hash_table#Collision_resolution": {
-    "title": "Hash table - Wikipedia",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=eMw6ZGjSoQE": {
-    "title": "Collision Resolution in Hash Tables in 5 Minutes",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=-Rdatfn7VUw": {
-    "title": "Linear probing vs Separate Chaining vs Quadratic probing - Open addressing vs Chaining",
-    "date": "2026-09-07T18:42"
-  },
-  "https://en.wikipedia.org/wiki/Hash_table#Time_complexity_in_big_O_notation": {
-    "title": "Hash table - Wikipedia",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=XrCRLMaruE4": {
-    "title": "13  Hash Table Big O Complexity",
-    "date": "2026-09-07T18:42"
-  },
-  "https://www.youtube.com/watch?v=AmV0z7cO9-c": {
-    "title": "searching in a hash table, worst-case vs average case",
-    "date": "2026-09-07T18:42"
-  },
-  "https://en.wikipedia.org/wiki/Semi-log_plot": {
-    "title": "Semi-log plot - Wikipedia",
-    "date": "2026-09-10T19:07"
-  },
-  "https://en.wikipedia.org/wiki/Log_transformation_(statistics)": {
-    "title": "Log transformation (statistics) - Wikipedia",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=ielmPWcf1M4": {
-    "title": "Exponential Model Regression Transformed Data Example",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=2zDXKhw4OfA": {
-    "title": "Log Transformation Part 1",
-    "date": "2026-09-10T19:07"
-  },
-  "https://en.wikipedia.org/wiki/Log%E2%80%93log_plot": {
-    "title": "Log\u2013log plot - Wikipedia",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=DXJAzt4jF3k": {
-    "title": "Chapter 06.04: Lesson: Power Model Regression Transformed Data Example Part 1 of 2",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=_nTu2e_aBZo": {
-    "title": "Log Transformations with TI-84",
-    "date": "2026-09-10T19:07"
-  },
-  "https://en.wikipedia.org/wiki/Nonlinear_regression": {
-    "title": "Nonlinear regression - Wikipedia",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=A1H4j97paI4": {
-    "title": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=mA1t3ul1aTQ": {
-    "title": "Exponential & Power Models: Transforming Bivariate Data with Logs",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.codecademy.com/article/log-transformation-in-linear-regression-when-and-how-to-use-it": {
-    "title": "Log Transformation in Linear Regression: When and How to Use It | Codecademy",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=gHrM6E9FgKY": {
-    "title": "Python:  Exponential Regression",
-    "date": "2026-09-10T19:07"
-  },
-  "https://www.youtube.com/watch?v=8cGEs1DIV_I": {
-    "title": "Understanding Log Transformation in Data Science for Beginners",
-    "date": "2026-09-10T19:07"
-  },
-  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Definition": {
-    "title": "Pearson's chi-squared test - Wikipedia",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=jABsbNBPXIk": {
-    "title": "Chi-square statistic for hypothesis testing | AP Statistics | Khan Academy",
-    "date": "2026-09-13T23:47"
-  },
-  "https://youtu.be/HKDqlYSLt68?si=T50m3ei3iBe8vZG7z": {
-    "title": "Chi Square Test",
-    "date": "2026-09-13T23:47"
-  },
-  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Test_for_fit_of_a_distribution": {
-    "title": "Pearson's chi-squared test - Wikipedia",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=VjO9hWVlOBo": {
-    "title": "Chi-square goodness-of-fit example | AP Statistics | Khan Academy",
-    "date": "2026-09-13T23:47"
-  },
-  "https://en.wikipedia.org/wiki/Pearson's_chi-squared_test#Testing_for_statistical_independence": {
-    "title": "Pearson's chi-squared test - Wikipedia",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=zOvUQWOzTlc": {
-    "title": "Chi-square test for association (independence) | AP Statistics | Khan Academy",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=t_jfTOE44YQ": {
-    "title": "Introduction to the chi-square test for homogeneity | AP Statistics | Khan Academy",
-    "date": "2026-09-13T23:47"
-  },
-  "https://en.wikipedia.org/wiki/Stop_word": {
-    "title": "Stop word - Wikipedia",
-    "date": "2026-09-13T23:47"
-  },
-  "https://youtu.be/QWzx7ysgdmI?si=Pzl_uyHMJjnaFg84": {
-    "title": "NLP 4 Developers: Stop Words | Rasa",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=ZdhihJB-7D4": {
-    "title": "Stopword Removal | Python NLTK Tutorial #04",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=LLl3bQXhhzI": {
-    "title": "Python NLTK Tutorial 2 - Removing stop words using NLTK",
-    "date": "2026-09-13T23:47"
-  },
-  "https://www.youtube.com/watch?v=0D7ae7OaaHQ": {
-    "title": "NLP with Python! Stop Words",
-    "date": "2026-09-13T23:47"
   }
 }
