@@ -12714,59 +12714,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "stop_words",
-        "title": "Stop Words",
-        "chap_num": 3,
-        "files": [],
-        "requires": [
-          "python_basics",
-          "pylists",
-          "python_advanced"
-        ],
-        "covers": [
-          {
-            "id": "stop_words",
-            "desc": "Be able to define stop words, explain why removing them matters for word-frequency counts, and recognize tasks, such as sentiment analysis or phrase matching, where removing them loses information a task needs.",
-            "videos": [
-              {
-                "url": "https://youtu.be/QWzx7ysgdmI?si=Pzl_uyHMJjnaFg84",
-                "title": "NLP 4 Developers: Stop Words | Rasa"
-              }
-            ],
-            "references": [
-              {
-                "url": "https://en.wikipedia.org/wiki/Stop_word",
-                "title": "Stop word - Wikipedia"
-              }
-            ]
-          },
-          {
-            "id": "text_filtering",
-            "desc": "Be able to use the stop-words package to filter text across languages, choose between get_stop_words and safe_get_stop_words, and customize a stop word list with add_filter.",
-            "videos": [
-              {
-                "url": "https://www.youtube.com/watch?v=ZdhihJB-7D4",
-                "title": "Stopword Removal | Python NLTK Tutorial #04"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=LLl3bQXhhzI",
-                "title": "Python NLTK Tutorial 2 - Removing stop words using NLTK"
-              },
-              {
-                "url": "https://www.youtube.com/watch?v=0D7ae7OaaHQ",
-                "title": "NLP with Python! Stop Words"
-              }
-            ],
-            "references": [
-              {
-                "url": "",
-                "title": ""
-              }
-            ]
-          }
-        ]
       }
     ]
   },
