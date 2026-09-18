@@ -2515,7 +2515,13 @@
         "id": "triangles",
         "title": "Introduction to Triangles",
         "chap_num": 6,
-        "files": [],
+        "files": [
+          {
+            "desc": "Classifies a triangle as equilateral, isosceles, or scalene from its three side lengths, after checking the triangle inequality",
+            "path": "classify_triangle.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/triangles/en_US/classify_triangle.py"
+          }
+        ],
         "requires": [
           "angle",
           "types-angle"
