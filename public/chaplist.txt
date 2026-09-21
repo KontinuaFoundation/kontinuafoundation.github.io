@@ -179,7 +179,6 @@
 26	?
 	HTML
 	Introduction to Text
-	Stop Words
 27	?
 	Alphabets and Accents
 	Making Plots with matplotlib
