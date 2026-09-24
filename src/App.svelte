@@ -5,7 +5,7 @@
   import Graph from "./lib/Graph.svelte";
   import WorkbookDetail from "./lib/WorkbookDetail.svelte";
   import type { Workbook, TopicMeta, DeployMeta } from "./lib/types";
-  import { loadPageCounts } from "./lib/pdfHelpers";
+  import { getPdfPageCount } from "./lib/pdfHelpers";
   import { formatDeployTimestamp } from "./lib/formatDeployTimestamp";
 
   type ThemeMode = "light" | "dark";
@@ -167,8 +167,12 @@
     async function loadAllPageCounts(wbs: Workbook[]) {
       const entries = await Promise.all(
         wbs.map(async (wb) => {
-          const { workbookPages } = await loadPageCounts(wb);
-          return [wb.num, workbookPages] as const;
+          try {
+            const pages = await getPdfPageCount(wb.pdf);
+            return [wb.num, pages] as const;
+          } catch {
+            return [wb.num, null] as const;
+          }
         }),
       );
 
