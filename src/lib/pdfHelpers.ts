@@ -19,7 +19,7 @@ export function dedupStrings(arr: string[]): string[] {
 }
 
 export async function getPdfPageCount(url: string): Promise<number> {
-  const pdf = await pdfjsLib.getDocument(url).promise;
+  const pdf = await pdfjsLib.getDocument({ url }).promise;
   return pdf.numPages;
 }
 
