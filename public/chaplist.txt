@@ -93,6 +93,7 @@
 	Longitude and Latitude
 	Sampling Data
 	Data tables in SQL
+	Advanced SQL and Database Management
 	Diodes, Rectifiers, and Photovoltaics
 15	?
 	How Cameras Work

@@ -1029,7 +1029,7 @@
   },
   "https://www.youtube.com/watch_videos?video_ids=_6OJMBj2_Ek%2CcAAJUHwh9F4%2CHQKy1KJpSVc%2CmrJP82ZZiag%2CGDzBE6vz5r0%2Co0fG_lnVhHw%2C1_hFKRDDP_o%2C3ZTGwcHQfLY%2CPu97IiO_yDI%2CT-xMCFOwllE%2CfrbLIoqDIO8%2CdCXu8Ju_fdY%2C7j1lMs7fcIQ%2CwTPnV7YfaGQ%2C7fPZMA6KBRU%2CJc16Ob-yoDs%2CDQaPOIQLEUo&type=0&title=Manufacturing+Series+%E2%80%A2+Top+episodes+for+you": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/5mXS-MTjSiw?si=GuvcSmQjzTUd1wYI": {
     "title": "The Haber-Bosch Process: Industrial Ammonia Synthesis",
@@ -1497,7 +1497,7 @@
   },
   "https://www.youtube.com/live/yBw67Fb31Cs?si=zhE0I6tF8O-3_Hhy&t=909": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://en.wikipedia.org/wiki/Differentiation_rules#Derivatives_of_trigonometric_functions": {
     "title": "Differentiation rules - Wikipedia",
@@ -1953,7 +1953,7 @@
   },
   "https://www.youtube.com/watch?v=9yCRWwWdFBYm": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/ufgY237M5KQ": {
     "title": "Introduction to Inclined Planes",
@@ -2633,7 +2633,7 @@
   },
   "https://www.youtube.com/watch?v=BjLzIfDpGhs": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/mS5eEhLN57s": {
     "title": "Can you solve the troll\u2019s paradox riddle? - Dan Finkel",
@@ -3493,11 +3493,11 @@
   },
   "https://youtu.be/_tSQySJkhHg?si=MaCnCBOmpKekIaFs": {
     "title": "Statistics 101: Statistical Bias",
-    "date": "2026-06-28T07:46"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/Rf-fIpB4D50?si=3VvHUDwWraDAw1FG": {
     "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
-    "date": "2026-06-28T07:46"
+    "date": "2026-09-28T21:59"
   },
   "https://en.wikipedia.org/wiki/SQLite": {
     "title": "SQLite - Wikipedia",
@@ -3521,11 +3521,19 @@
   },
   "https://www.youtube.com/live/ZA25WHO62ZA?si=TtFkOZ_ynuypoyQN": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/vHYeChEf2lA": {
     "title": "CS50 SQL - Lecture 0 - Querying",
     "date": "2026-07-27T07:42"
+  },
+  "https://www.youtube.com/watch?v=J-drts33N8g": {
+    "title": "1st, 2nd and 3rd Normal Form (Database Normalisation)",
+    "date": "2026-09-28T20:59"
+  },
+  "https://www.youtube.com/watch?v=GFQaEYEc8_8": {
+    "title": "Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF",
+    "date": "2026-09-28T20:59"
   },
   "https://en.wikipedia.org/wiki/Doping_(semiconductor)": {
     "title": "Doping (semiconductor) - Wikipedia",
@@ -4009,11 +4017,11 @@
   },
   "https://youtu.be/yYALsys-P_w": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/an6wd3dpEjA": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/ZDa-Z5JzLYM": {
     "title": "Python OOP Tutorial 1: Classes and Instances",
@@ -5289,7 +5297,7 @@
   },
   "https://youtu.be/Kp7sSp5Kn7o": {
     "title": " - YouTube",
-    "date": "2026-09-21T06:54"
+    "date": "2026-09-28T21:59"
   },
   "https://youtu.be/AXH9Xm6Rbfc": {
     "title": "Partial Derivatives and the Gradient of a Function",
@@ -8094,13 +8102,5 @@
   "https://youtu.be/O2L2Uv9pdDA": {
     "title": "Naive Bayes, Clearly Explained!!!",
     "date": "2026-07-27T07:42"
-  },
-  "https://www.youtube.com/watch?v=J-drts33N8g": {
-    "title": "1st, 2nd and 3rd Normal Form (Database Normalisation)",
-    "date": "2026-09-28T20:59"
-  },
-  "https://www.youtube.com/watch?v=GFQaEYEc8_8": {
-    "title": "Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF",
-    "date": "2026-09-28T20:59"
   }
 }
