@@ -7074,9 +7074,54 @@
         ]
       },
       {
+        "id": "sql_2",
+        "title": "Advanced SQL and Database Management",
+        "chap_num": 5,
+        "files": [],
+        "requires": [
+          "sets_logic",
+          "hex-rep",
+          "sql"
+        ],
+        "covers": [
+          {
+            "id": "sql-keys",
+            "desc": "New",
+            "videos": [],
+            "references": [
+              {
+                "url": "https://towardsdev.com/sql-trade-off-natural-keys-vs-surrogate-keys-9e0cb1c73c51",
+                "title": "https://towardsdev.com/sql-trade-off-natural-keys-vs-surrogate-keys-9e0cb1c73c51"
+              }
+            ]
+          },
+          {
+            "id": "sql-er_diagrams",
+            "desc": "New",
+            "videos": [],
+            "references": []
+          },
+          {
+            "id": "sql_normalization",
+            "desc": "New",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=J-drts33N8g",
+                "title": "1st, 2nd and 3rd Normal Form (Database Normalisation)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=GFQaEYEc8_8",
+                "title": "Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF"
+              }
+            ],
+            "references": []
+          }
+        ]
+      },
+      {
         "id": "diodes",
         "title": "Diodes, Rectifiers, and Photovoltaics",
-        "chap_num": 5,
+        "chap_num": 6,
         "files": [],
         "requires": [
           "atom",
