@@ -8242,14 +8242,19 @@
         "chap_num": 9,
         "files": [
           {
-            "path": "factor_hint.py",
             "desc": "",
+            "path": "factor_hint.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/factoring_polynomials/en_US/factor_hint.py"
           },
           {
-            "path": "factor_hint.py",
             "desc": "",
+            "path": "factor_hint.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/factoring_polynomials/en_US/factor_hint.py"
+          },
+          {
+            "desc": "",
+            "path": "check_factors.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/factoring_polynomials/en_US/check_factors.py"
           }
         ],
         "requires": [
