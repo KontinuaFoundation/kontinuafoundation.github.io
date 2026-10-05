@@ -2585,7 +2585,18 @@
         "id": "pythagorean_theorem",
         "title": "Pythagorean Theorem",
         "chap_num": 7,
-        "files": [],
+        "files": [
+          {
+            "desc": "Checks 3D distance work step by step, printing each change, its square, the sum, and the distance",
+            "path": "check_distance.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/pythagorean_theorem/en_US/check_distance.py"
+          },
+          {
+            "desc": "Optional SymPy helper that shows a hint, then the exact simplified and decimal 3D distance",
+            "path": "distance_hint.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/pythagorean_theorem/en_US/distance_hint.py"
+          }
+        ],
         "requires": [
           "triangle"
         ],
@@ -2911,7 +2922,23 @@
         "id": "functions",
         "title": "Functions and Their Graphs",
         "chap_num": 4,
-        "files": [],
+        "files": [
+          {
+            "desc": "Python plots that mirror the Desmos examples: a parabola, y = 1/x with its asymptote, and a function with its inverse.",
+            "path": "functions_graphing.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/functions/en_US/functions_graphing.py"
+          },
+          {
+            "desc": "Python plots and numerical checks for testing whether a function is even or odd.",
+            "path": "functions_even_odd.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/functions/en_US/functions_even_odd.py"
+          },
+          {
+            "desc": "Python code for plotting and evaluating piecewise functions, plus floor and ceiling examples.",
+            "path": "functions_piecewise.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/functions/en_US/functions_piecewise.py"
+          }
+        ],
         "requires": [
           "transformations"
         ],
@@ -4616,7 +4643,23 @@
         "id": "solving_quadratics",
         "title": "Solving Quadratics",
         "chap_num": 2,
-        "files": [],
+        "files": [
+          {
+            "desc": "A script that solves quadratic equations with the quadratic formula and checks the section's factoring examples.",
+            "path": "solving_quadratics.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/solving_quadratics/en_US/solving_quadratics.py"
+          },
+          {
+            "desc": "A script for checking hand-computed discriminants and quadratic formula roots by plugging them back into the quadratic.",
+            "path": "quadratic_formula_check.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/solving_quadratics/en_US/quadratic_formula_check.py"
+          },
+          {
+            "desc": "An optional SymPy helper that shows a hint for a quadratic equation, then its exact roots.",
+            "path": "roots_hint.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/solving_quadratics/en_US/roots_hint.py"
+          }
+        ],
         "requires": [
           "parabola-equation"
         ],
@@ -8197,7 +8240,18 @@
         "id": "factoring_polynomials",
         "title": "Factoring Polynomials",
         "chap_num": 9,
-        "files": [],
+        "files": [
+          {
+            "path": "factor_hint.py",
+            "desc": "",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/factoring_polynomials/en_US/factor_hint.py"
+          },
+          {
+            "path": "factor_hint.py",
+            "desc": "",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/factoring_polynomials/en_US/factor_hint.py"
+          }
+        ],
         "requires": [
           "poly_diff_squares",
           "poly_perfect_squares",
@@ -8225,6 +8279,10 @@
               {
                 "url": "https://www.mathsisfun.com/algebra/factoring.html",
                 "title": "Factoring in Algebra"
+              },
+              {
+                "url": "https://www.geeksforgeeks.org/python/python-sympy-factor-method/",
+                "title": "Python | sympy.factor() method - GeeksforGeeks"
               }
             ]
           }
