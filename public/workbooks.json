@@ -13642,6 +13642,103 @@
             ]
           }
         ]
+      },
+      {
+        "id": "stat_tables",
+        "title": "Statistical Tables",
+        "chap_num": 8,
+        "files": [
+          {
+            "desc": "Python script that regenerates every value in the z, t, and chi-square tables using scipy.",
+            "path": "gen_tables.py",
+            "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/stat_tables/en_US/gen_tables.py"
+          }
+        ],
+        "requires": [
+          ""
+        ],
+        "covers": [
+          {
+            "id": "z_table",
+            "desc": "Be able to use the standard normal table to find an area from a z-score and a z-score from an area.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=xbDnT3NqEIs",
+                "title": "How to Use a Z Table (Standard Normal Table)"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=CjF_yQ2N638",
+                "title": "Standard Normal Distribution Tables, Z Scores, Probability & Empirical Rule  - Stats"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Standard_normal_table",
+                "title": "Standard normal table - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "t_table",
+            "desc": "Be able to find a t* critical value from degrees of freedom and confidence level, and bound a P-value with the t table.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=GBLgARjzXV8",
+                "title": "t critical value using the t-distribution table"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=s7VE8ldgaCQ",
+                "title": "Statistics: Degrees of Freedom and Using a T-table"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Student%27s_t-distribution#Table_of_selected_values",
+                "title": "Student's t-distribution - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "chi_square_table",
+            "desc": "Be able to find a chi-square critical value and bound a P-value with the chi-square table.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=EA4P1eRdEhA",
+                "title": " - YouTube"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=HwD7ekD5l0g",
+                "title": "Chi-square tests for count data: Finding the p-value"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Chi-squared_distribution",
+                "title": "Chi-squared distribution - Wikipedia"
+              }
+            ]
+          },
+          {
+            "id": "critical_values",
+            "desc": "Be able to connect a confidence level or tail area to the critical value that cuts it off.",
+            "videos": [
+              {
+                "url": "https://www.youtube.com/watch?v=rQsmAg72HDI",
+                "title": "Find z*  for any confidence level"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ql93C7tj8E8",
+                "title": "Find Critical Value Z for Confidence Intervals with Table"
+              }
+            ],
+            "references": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_test",
+                "title": "Statistical hypothesis test - Wikipedia"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
