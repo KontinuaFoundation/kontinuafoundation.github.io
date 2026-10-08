@@ -13649,7 +13649,7 @@
         "chap_num": 8,
         "files": [
           {
-            "desc": "Python script that regenerates every value in the z, t, and chi-square tables using scipy.",
+            "desc": "Python script regenerates every value in the z, t, and chi-square tables using scipy.",
             "path": "gen_tables.py",
             "link": "https://github.com/TheKontinua/sequence/raw/master/Chapters/stat_tables/en_US/gen_tables.py"
           }
