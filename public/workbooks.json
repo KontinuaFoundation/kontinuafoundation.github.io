@@ -7175,22 +7175,6 @@
         ],
         "covers": [
           {
-            "id": "",
-            "desc": "",
-            "videos": [
-              {
-                "url": "",
-                "title": ""
-              }
-            ],
-            "references": [
-              {
-                "url": "",
-                "title": ""
-              }
-            ]
-          },
-          {
             "id": "silicon_doping",
             "desc": "How n-doping and p-doping change silicon's conductivity by adding phosphorus or boron atoms.",
             "videos": [
