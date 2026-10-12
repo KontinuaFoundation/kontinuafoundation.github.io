@@ -77,6 +77,7 @@
 	Introduction to Waves
 	Sound
 	Applying Numerical Methods to Bivariate Data
+	Data Analysis with jamovi
 12	?
 	Charge
 	Alternating Current
@@ -192,6 +193,7 @@
 	Statistical Inferences for Proportions
 	Statistical Inferences for Means
 	Statistical Inferences for Slopes
+	Statistical Tables
 29	?
 	Conditional Probability
 	Bayes' Theorem
