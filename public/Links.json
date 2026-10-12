@@ -8262,5 +8262,21 @@
   "https://www.youtube.com/watch?v=8cGEs1DIV_I": {
     "title": "Understanding Log Transformation in Data Science for Beginners",
     "date": "2026-10-10T02:32"
+  },
+  "https://www.geeksforgeeks.org/dbms/introduction-of-er-model/": {
+    "title": "Introduction of ER Model - GeeksforGeeks",
+    "date": "2026-10-12T06:58"
+  },
+  "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model": {
+    "title": "Entity\u2013relationship model - Wikipedia",
+    "date": "2026-10-12T06:58"
+  },
+  "https://mermaid.ai/open-source/syntax/entityRelationshipDiagram.html": {
+    "title": "Entity Relationship Diagrams | Mermaid",
+    "date": "2026-10-12T06:58"
+  },
+  "https://youtu.be/p4gTbKcOXqk?si=QpZb8XwUMjE1Pky-": {
+    "title": "New to Mermaid? Here's Everything You Need to Know",
+    "date": "2026-10-12T06:58"
   }
 }
