@@ -7278,7 +7278,7 @@
             ]
           },
           {
-            "id": "sql_normalization",
+            "id": "sql-normalization",
             "desc": "New",
             "videos": [
               {
@@ -7290,6 +7290,12 @@
                 "title": "Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF"
               }
             ],
+            "references": []
+          },
+          {
+            "id": "sql-rel-alg",
+            "desc": "New",
+            "videos": [],
             "references": []
           }
         ]
