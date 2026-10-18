@@ -1,0 +1,1409 @@
+\contentsline {chapter}{\numberline {1}Introduction to the Kontinua Sequence}{41}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Matter and Energy}{43}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Atoms and Their Models}{43}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Classifying Atoms}{44}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}When Atoms Combine}{45}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Types of Matter}{46}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Covalent Compounds}{46}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Ionic Compounds}{47}{subsection.2.2.2}%
+\contentsline {subsubsection}{Modeling Ionic Compounds}{48}{section*.9}%
+\contentsline {subsection}{\numberline {2.2.3}Metallic Compounds}{49}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Energy and Work}{49}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mass-Energy Equivalence}{51}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion}{52}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Conservation of Mass and Energy}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conservation of Mass}{53}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Balancing Chemical Reactions}{54}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Conservation of Energy}{56}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Friction, Heat, and Energy "Loss"}{56}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Energy Conservation in Falling Objects}{56}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Types of Systems}{58}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Open Systems}{59}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Closed Systems}{60}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Isolated Systems}{60}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Classifying Systems}{61}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}Mass, Weight, and Gravity}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Kilograms versus Pounds}{63}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Scalars and Vectors}{63}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Mass and Gravity}{64}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Mass and Weight}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Gravitational Field}{69}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Center of Mass}{70}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Introductory Motion Concepts}{73}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Position, Velocity, Acceleration}{73}{section.5.1}%
+\contentsline {section}{\numberline {5.2}1D Motion Diagrams}{74}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Force, Mass, and Acceleration}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Newton's First Law}{77}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Mass, Acceleration, and Newton's Second Law}{77}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Velocity versus Acceleration}{78}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Calculating Acceleration}{79}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Determining Force}{80}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Net Force}{81}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Normal Force and Apparent Weight}{83}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Newtons and Joules}{87}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Newton's Third Law}{87}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Friction}{89}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Static vs Kinetic Friction Coefficients}{90}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Skidding and Anti-Lock Braking Systems}{92}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Units and Conversions}{97}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conversion Factors}{98}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Conversion Factors and Ratios}{99}{section.8.2}%
+\contentsline {section}{\numberline {8.3}When Conversion Factors Don't Work}{100}{section.8.3}%
+\contentsline {section}{\numberline {8.4}SI units}{100}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Converting from SI units}{101}{subsection.8.4.1}%
+\contentsline {chapter}{\numberline {9}The Greek Alphabet}{103}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Greek Letters in Math and Science}{103}{section.9.1}%
+\contentsline {chapter}{\numberline {10}Atomic and Molecular Mass}{105}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Reading a Periodic Tile}{105}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Mass of Atoms and Molecules}{107}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Mole Concept}{107}{section.10.3}%
+\contentsline {section}{\numberline {10.4}xfer from intro chapter}{115}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Reading the Periodic Table}{115}{subsection.10.4.1}%
+\contentsline {section}{\numberline {10.5}Heavy atoms aren't stable}{118}{section.10.5}%
+\contentsline {chapter}{\numberline {11}Chemical Reactions}{119}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Chemical Reactions}{119}{section.11.1}%
+\contentsline {chapter}{\numberline {12}Buoyancy}{121}{chapter.12}%
+\contentsline {section}{\numberline {12.1}The Mechanism of Buoyancy: Pressure}{122}{section.12.1}%
+\contentsline {section}{\numberline {12.2}The Mechanism of Buoyancy: Density}{124}{section.12.2}%
+\contentsline {chapter}{\numberline {13}Heat}{125}{chapter.13}%
+\contentsline {section}{\numberline {13.1}How Heat Works}{125}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Specific Heat Capacity}{125}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Getting to Equilibrium}{127}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Specific Heat Capacity Details}{128}{section.13.4}%
+\contentsline {chapter}{\numberline {14}Work and Energy}{129}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Forms of Energy}{131}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}Heat}{131}{subsection.14.1.1}%
+\contentsline {subsection}{\numberline {14.1.2}Electricity}{131}{subsection.14.1.2}%
+\contentsline {subsection}{\numberline {14.1.3}Chemical Energy}{132}{subsection.14.1.3}%
+\contentsline {subsection}{\numberline {14.1.4}Kinetic Energy}{132}{subsection.14.1.4}%
+\contentsline {subsection}{\numberline {14.1.5}Gravitational Potential Energy}{133}{subsection.14.1.5}%
+\contentsline {section}{\numberline {14.2}Conservation of Energy}{134}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Work and Kinetic Energy}{136}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Forces that do no work}{138}{subsection.14.3.1}%
+\contentsline {subsubsection}{Pushing Against an Immobile Object}{139}{section*.17}%
+\contentsline {subsubsection}{Walking Across a Room with a Book}{139}{section*.18}%
+\contentsline {subsubsection}{Circular Motion}{139}{section*.19}%
+\contentsline {section}{\numberline {14.4}Efficiency and Power}{140}{section.14.4}%
+\contentsline {chapter}{\numberline {15}Simple Machines}{145}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Mechanical Advantage}{146}{section.15.1}%
+\contentsline {subsection}{\numberline {15.1.1}What does it mean to work hard?}{146}{subsection.15.1.1}%
+\contentsline {section}{\numberline {15.2}Inclined Planes}{147}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Levers}{151}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Gears}{152}{section.15.4}%
+\contentsline {subsection}{\numberline {15.4.1}Involute Gears}{152}{subsection.15.4.1}%
+\contentsline {subsection}{\numberline {15.4.2}Teeth}{155}{subsection.15.4.2}%
+\contentsline {section}{\numberline {15.5}Hydraulics}{156}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Pulleys}{158}{section.15.6}%
+\contentsline {section}{\numberline {15.7}Wedges}{161}{section.15.7}%
+\contentsline {chapter}{\numberline {16}Basic Statistics}{165}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Mean}{165}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Variance}{166}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Median}{168}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Histograms and Bell Curves}{169}{section.16.4}%
+\contentsline {section}{\numberline {16.5}Root-Mean-Squared}{171}{section.16.5}%
+\contentsline {chapter}{\numberline {17}Basic Statistics in Spreadsheets}{175}{chapter.17}%
+\contentsline {section}{\numberline {17.1}The Barrel Problem}{175}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Solving It Symbolically}{175}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Your First Spreadsheet}{176}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Formatting}{178}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Comma-Separated Values}{179}{section.17.5}%
+\contentsline {section}{\numberline {17.6}Statistics in Spreadsheets}{180}{section.17.6}%
+\contentsline {section}{\numberline {17.7}Histogram}{181}{section.17.7}%
+\contentsline {section}{\numberline {17.8}The Return of the Barrel Problem}{182}{section.17.8}%
+\contentsline {section}{\numberline {17.9}Graphing}{185}{section.17.9}%
+\contentsline {section}{\numberline {17.10}Other Things You Should Know About Spreadsheets}{186}{section.17.10}%
+\contentsline {section}{\numberline {17.11}Challenge: Make a spreadsheet}{186}{section.17.11}%
+\contentsline {chapter}{\numberline {18}Introduction to Python}{189}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Getting Started with Python}{189}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}The Console and Running Python Programs}{190}{subsection.18.1.1}%
+\contentsline {subsection}{\numberline {18.1.2}Running a Python File}{190}{subsection.18.1.2}%
+\contentsline {section}{\numberline {18.2}Output \FVExtraRobustCommand \RobustMintInline \FVExtraAlwaysUnexpanded {\FVExtraUnexpandedReadStarOArgMArgBVArg {python}{print}}}{191}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Datatypes and Variables}{192}{section.18.3}%
+\contentsline {section}{\numberline {18.4}Operations}{195}{section.18.4}%
+\contentsline {subsection}{\numberline {18.4.1}Arithmetic Operations}{195}{subsection.18.4.1}%
+\contentsline {subsection}{\numberline {18.4.2}Augmented Assignment Operators}{196}{subsection.18.4.2}%
+\contentsline {subsection}{\numberline {18.4.3}Summary}{196}{subsection.18.4.3}%
+\contentsline {section}{\numberline {18.5}Input and Output}{197}{section.18.5}%
+\contentsline {subsection}{\numberline {18.5.1}Getting User Input}{197}{subsection.18.5.1}%
+\contentsline {subsection}{\numberline {18.5.2}Input Always Returns a String}{198}{subsection.18.5.2}%
+\contentsline {subsection}{\numberline {18.5.3}Casting Input Values}{198}{subsection.18.5.3}%
+\contentsline {subsection}{\numberline {18.5.4}Common Input Errors}{198}{subsection.18.5.4}%
+\contentsline {subsection}{\numberline {18.5.5}Summary}{199}{subsection.18.5.5}%
+\contentsline {section}{\numberline {18.6}Conditionals, Loops, and Match-Case}{200}{section.18.6}%
+\contentsline {subsection}{\numberline {18.6.1}Conditional Statements}{200}{subsection.18.6.1}%
+\contentsline {subsection}{\numberline {18.6.2}Boolean Expressions}{200}{subsection.18.6.2}%
+\contentsline {subsection}{\numberline {18.6.3}Loops}{201}{subsection.18.6.3}%
+\contentsline {subsection}{\numberline {18.6.4}For Loops}{201}{subsection.18.6.4}%
+\contentsline {subsection}{\numberline {18.6.5}While Loops}{202}{subsection.18.6.5}%
+\contentsline {subsection}{\numberline {18.6.6}Breaking and Continuing Loops}{202}{subsection.18.6.6}%
+\contentsline {subsection}{\numberline {18.6.7}Match-Case Statements}{203}{subsection.18.6.7}%
+\contentsline {subsection}{\numberline {18.6.8}Summary}{203}{subsection.18.6.8}%
+\contentsline {section}{\numberline {18.7}Lists and Strings}{204}{section.18.7}%
+\contentsline {subsection}{\numberline {18.7.1}Indexing Strings}{205}{subsection.18.7.1}%
+\contentsline {subsection}{\numberline {18.7.2}Length of a String}{205}{subsection.18.7.2}%
+\contentsline {subsection}{\numberline {18.7.3}Iterating Over Strings}{206}{subsection.18.7.3}%
+\contentsline {subsection}{\numberline {18.7.4}String Methods}{206}{subsection.18.7.4}%
+\contentsline {subsection}{\numberline {18.7.5}Lists}{206}{subsection.18.7.5}%
+\contentsline {subsection}{\numberline {18.7.6}Indexing Lists}{207}{subsection.18.7.6}%
+\contentsline {subsubsection}{Slicing Strings}{208}{section*.28}%
+\contentsline {subsection}{\numberline {18.7.7}Modifying Lists}{209}{subsection.18.7.7}%
+\contentsline {subsection}{\numberline {18.7.8}List Length and Iteration}{210}{subsection.18.7.8}%
+\contentsline {subsection}{\numberline {18.7.9}Common List Methods}{210}{subsection.18.7.9}%
+\contentsline {subsection}{\numberline {18.7.10}Strings vs Lists}{210}{subsection.18.7.10}%
+\contentsline {subsection}{\numberline {18.7.11}Summary}{211}{subsection.18.7.11}%
+\contentsline {section}{\numberline {18.8}Is there more?}{212}{section.18.8}%
+\contentsline {chapter}{\numberline {19}Sets and Logic}{213}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Sets}{214}{section.19.1}%
+\contentsline {subsection}{\numberline {19.1.1}And and Or}{215}{subsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.1.2}How simple are sets?}{215}{subsection.19.1.2}%
+\contentsline {subsection}{\numberline {19.1.3}Subsets}{216}{subsection.19.1.3}%
+\contentsline {subsection}{\numberline {19.1.4}Union and Intersection of Sets}{216}{subsection.19.1.4}%
+\contentsline {subsection}{\numberline {19.1.5}Venn Diagrams}{217}{subsection.19.1.5}%
+\contentsline {section}{\numberline {19.2}Logic}{219}{section.19.2}%
+\contentsline {section}{\numberline {19.3}Implies}{219}{section.19.3}%
+\contentsline {section}{\numberline {19.4}If and Only If}{219}{section.19.4}%
+\contentsline {section}{\numberline {19.5}Not}{220}{section.19.5}%
+\contentsline {section}{\numberline {19.6}Cardinality}{221}{section.19.6}%
+\contentsline {section}{\numberline {19.7}Complement of a Set}{221}{section.19.7}%
+\contentsline {section}{\numberline {19.8}Subtracting Sets}{222}{section.19.8}%
+\contentsline {section}{\numberline {19.9}Power Sets}{223}{section.19.9}%
+\contentsline {section}{\numberline {19.10}Booleans in Python}{223}{section.19.10}%
+\contentsline {section}{\numberline {19.11}The Contrapositive}{225}{section.19.11}%
+\contentsline {section}{\numberline {19.12}The Distributive Property of Logic}{225}{section.19.12}%
+\contentsline {section}{\numberline {19.13}Exclusive Or}{225}{section.19.13}%
+\contentsline {chapter}{\numberline {20}Proofs}{227}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Introduction}{227}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Trivial Proof}{228}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Direct Proof}{228}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Proof By cases}{228}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Disproof By Counter-example}{230}{section.20.5}%
+\contentsline {section}{\numberline {20.6}Proof By Contraposition}{230}{section.20.6}%
+\contentsline {section}{\numberline {20.7}Proof By Contradiction}{231}{section.20.7}%
+\contentsline {section}{\numberline {20.8}Proof By Induction}{232}{section.20.8}%
+\contentsline {paragraph}{Basis Step.}{233}{section*.34}%
+\contentsline {paragraph}{Inductive Hypothesis.}{233}{section*.35}%
+\contentsline {paragraph}{Inductive Step.}{233}{section*.36}%
+\contentsline {section}{\numberline {20.9}Summary}{233}{section.20.9}%
+\contentsline {chapter}{\numberline {21}Introduction to Electricity}{235}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Units}{236}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Capacitors}{237}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Circuit Diagrams}{238}{section.21.3}%
+\contentsline {section}{\numberline {21.4}Ohm's Law and Resistance}{239}{section.21.4}%
+\contentsline {section}{\numberline {21.5}Power and Watts}{240}{section.21.5}%
+\contentsline {section}{\numberline {21.6}Another great use of RMS}{241}{section.21.6}%
+\contentsline {section}{\numberline {21.7}Electricity Dangers}{242}{section.21.7}%
+\contentsline {chapter}{\numberline {22}DC Circuit Analysis}{245}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Resistors in Series}{245}{section.22.1}%
+\contentsline {subsection}{\numberline {22.1.1}Kirchhoff's Voltage Law}{246}{subsection.22.1.1}%
+\contentsline {section}{\numberline {22.2}Resistors in Parallel}{248}{section.22.2}%
+\contentsline {section}{\numberline {22.3}Capacitors in series and parallel}{249}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Kirchhoff's Current Law}{250}{section.22.4}%
+\contentsline {section}{\numberline {22.5}Summary}{251}{section.22.5}%
+\contentsline {chapter}{\numberline {23}Fertilizer}{253}{chapter.23}%
+\contentsline {section}{\numberline {23.1}The Nitrogen Cycle}{253}{section.23.1}%
+\contentsline {section}{\numberline {23.2}The Haber-Bosch Process}{254}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Other nutrients}{254}{section.23.3}%
+\contentsline {chapter}{\numberline {24}Concrete}{257}{chapter.24}%
+\contentsline {section}{\numberline {24.1}Steel reinforced concrete}{257}{section.24.1}%
+\contentsline {section}{\numberline {24.2}Recycling concrete}{258}{section.24.2}%
+\contentsline {chapter}{\numberline {25}Metals}{259}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Steel}{259}{section.25.1}%
+\contentsline {section}{\numberline {25.2}What metal for what task?}{260}{section.25.2}%
+\contentsline {chapter}{\numberline {26}Advanced Python Syntax and Libraries}{263}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Where did we leave off?}{263}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Functions}{263}{section.26.2}%
+\contentsline {subsection}{\numberline {26.2.1}Defining and Calling a Function}{264}{subsection.26.2.1}%
+\contentsline {subsection}{\numberline {26.2.2}Parameters and Arguments}{264}{subsection.26.2.2}%
+\contentsline {subsection}{\numberline {26.2.3}Return Values}{265}{subsection.26.2.3}%
+\contentsline {subsection}{\numberline {26.2.4}Scope}{266}{subsection.26.2.4}%
+\contentsline {subsection}{\numberline {26.2.5}Summary}{266}{subsection.26.2.5}%
+\contentsline {section}{\numberline {26.3}Classes and More Basic Object-Oriented Programming}{267}{section.26.3}%
+\contentsline {subsection}{\numberline {26.3.1}Defining a Class}{268}{subsection.26.3.1}%
+\contentsline {subsection}{\numberline {26.3.2}Creating Objects}{268}{subsection.26.3.2}%
+\contentsline {subsection}{\numberline {26.3.3}The \texttt {\_\_init\_\_} Method}{268}{subsection.26.3.3}%
+\contentsline {subsection}{\numberline {26.3.4}Accessing Object Attributes}{269}{subsection.26.3.4}%
+\contentsline {subsection}{\numberline {26.3.5}Methods}{269}{subsection.26.3.5}%
+\contentsline {subsection}{\numberline {26.3.6}Printing Objects}{270}{subsection.26.3.6}%
+\contentsline {subsection}{\numberline {26.3.7}Why Use Classes?}{271}{subsection.26.3.7}%
+\contentsline {subsection}{\numberline {26.3.8}Summary}{271}{subsection.26.3.8}%
+\contentsline {section}{\numberline {26.4}Libraries}{272}{section.26.4}%
+\contentsline {subsection}{\numberline {26.4.1}Importing Libraries}{273}{subsection.26.4.1}%
+\contentsline {subsection}{\numberline {26.4.2}Summary}{273}{subsection.26.4.2}%
+\contentsline {section}{\numberline {26.5}Matplotlib}{273}{section.26.5}%
+\contentsline {subsection}{\numberline {26.5.1}Installing and importing}{274}{subsection.26.5.1}%
+\contentsline {subsection}{\numberline {26.5.2}A simple line graph}{274}{subsection.26.5.2}%
+\contentsline {subsection}{\numberline {26.5.3}Labels, legends, and grids}{275}{subsection.26.5.3}%
+\contentsline {subsection}{\numberline {26.5.4}Visualizing Relationships with scatter plots}{276}{subsection.26.5.4}%
+\contentsline {subsection}{\numberline {26.5.5}Histograms and Distributions}{276}{subsection.26.5.5}%
+\contentsline {subsection}{\numberline {26.5.6}The object-oriented approach (recommended)}{277}{subsection.26.5.6}%
+\contentsline {section}{\numberline {26.6}Errors}{278}{section.26.6}%
+\contentsline {subsection}{\numberline {26.6.1}Syntax Errors}{279}{subsection.26.6.1}%
+\contentsline {subsection}{\numberline {26.6.2}Exceptions}{280}{subsection.26.6.2}%
+\contentsline {subsection}{\numberline {26.6.3}Try-Except}{280}{subsection.26.6.3}%
+\contentsline {section}{\numberline {26.7}Recursive Functions}{281}{section.26.7}%
+\contentsline {subsection}{\numberline {26.7.1}Binary Search and Divide-and-Conquer Algorithms}{282}{subsection.26.7.1}%
+\contentsline {paragraph}{Basis Step.}{284}{section*.47}%
+\contentsline {paragraph}{Inductive Hypothesis.}{284}{section*.48}%
+\contentsline {paragraph}{Inductive Step.}{284}{section*.49}%
+\contentsline {paragraph}{Conclusion.}{284}{section*.50}%
+\contentsline {chapter}{\numberline {27}Angles}{287}{chapter.27}%
+\contentsline {section}{\numberline {27.1}Radians}{289}{section.27.1}%
+\contentsline {chapter}{\numberline {28}Introduction to Triangles}{291}{chapter.28}%
+\contentsline {section}{\numberline {28.1}Equilateral, Isosceles, and Scalene Triangles}{291}{section.28.1}%
+\contentsline {section}{\numberline {28.2}Interior Angles of a Triangle}{293}{section.28.2}%
+\contentsline {section}{\numberline {28.3}Is it an Equilateral, Isosceles, or Scalene Triangle with \textit {Python?}}{295}{section.28.3}%
+\contentsline {chapter}{\numberline {29}Pythagorean Theorem}{297}{chapter.29}%
+\contentsline {section}{\numberline {29.1}Distance between Points}{298}{section.29.1}%
+\contentsline {section}{\numberline {29.2}Distance in 3 Dimensions}{300}{section.29.2}%
+\contentsline {chapter}{\numberline {30}Congruence}{301}{chapter.30}%
+\contentsline {section}{\numberline {30.1}Rigid Transformations}{301}{section.30.1}%
+\contentsline {section}{\numberline {30.2}Triangle Congruency}{302}{section.30.2}%
+\contentsline {chapter}{\numberline {31}Parallel and Perpendicular}{307}{chapter.31}%
+\contentsline {chapter}{\numberline {32}Circles}{309}{chapter.32}%
+\contentsline {section}{\numberline {32.1}Arc Length}{311}{section.32.1}%
+\contentsline {section}{\numberline {32.2}Sector Area}{315}{section.32.2}%
+\contentsline {section}{\numberline {32.3}Secants and Tangents}{317}{section.32.3}%
+\contentsline {chapter}{\numberline {33}Functions and Their Graphs}{321}{chapter.33}%
+\contentsline {section}{\numberline {33.1}Graphs of Functions}{322}{section.33.1}%
+\contentsline {section}{\numberline {33.2}Can this be expressed as a function?}{324}{section.33.2}%
+\contentsline {section}{\numberline {33.3}Inverses}{325}{section.33.3}%
+\contentsline {section}{\numberline {33.4}Graphing Calculators}{328}{section.33.4}%
+\contentsline {section}{\numberline {33.5}Even and Odd Functions}{332}{section.33.5}%
+\contentsline {subsection}{\numberline {33.5.1}Even Functions}{332}{subsection.33.5.1}%
+\contentsline {subsection}{\numberline {33.5.2}Odd Functions}{333}{subsection.33.5.2}%
+\contentsline {subsection}{\numberline {33.5.3}Neither Even Nor Odd}{333}{subsection.33.5.3}%
+\contentsline {section}{\numberline {33.6}Piecewise Functions}{335}{section.33.6}%
+\contentsline {subsection}{\numberline {33.6.1}Floor and Ceiling Functions}{338}{subsection.33.6.1}%
+\contentsline {subsection}{\numberline {33.6.2}Invalid Piecewise Functions}{340}{subsection.33.6.2}%
+\contentsline {section}{\numberline {33.7}Summary}{343}{section.33.7}%
+\contentsline {chapter}{\numberline {34}Transforming Functions}{345}{chapter.34}%
+\contentsline {section}{\numberline {34.1}Translation up and down}{346}{section.34.1}%
+\contentsline {section}{\numberline {34.2}Translation left and right}{346}{section.34.2}%
+\contentsline {section}{\numberline {34.3}Scaling up and down in the $y$ direction}{347}{section.34.3}%
+\contentsline {section}{\numberline {34.4}Scaling up and down in the $x$ direction}{348}{section.34.4}%
+\contentsline {section}{\numberline {34.5}Order is important!}{349}{section.34.5}%
+\contentsline {section}{\numberline {34.6}Effects on even and odd Functions}{351}{section.34.6}%
+\contentsline {chapter}{\numberline {35}Trigonometric Functions}{353}{chapter.35}%
+\contentsline {section}{\numberline {35.1}Graphs of sine and cosine}{354}{section.35.1}%
+\contentsline {section}{\numberline {35.2}Plot cosine in Python}{355}{section.35.2}%
+\contentsline {section}{\numberline {35.3}Derivatives of trigonometric functions}{356}{section.35.3}%
+\contentsline {section}{\numberline {35.4}A weight on a spring}{358}{section.35.4}%
+\contentsline {section}{\numberline {35.5}Integral of sine and cosine}{360}{section.35.5}%
+\contentsline {subsection}{\numberline {35.5.1}Integrals of Trig Functions Practice}{360}{subsection.35.5.1}%
+\contentsline {chapter}{\numberline {36}Trigonometric Identities}{363}{chapter.36}%
+\contentsline {section}{\numberline {36.1}The Unit Circle}{363}{section.36.1}%
+\contentsline {subsection}{\numberline {36.1.1}Exact Values of Key Angles}{365}{subsection.36.1.1}%
+\contentsline {section}{\numberline {36.2}Sum and Difference Formulas}{369}{section.36.2}%
+\contentsline {section}{\numberline {36.3}Double and Half Angle Formulas}{371}{section.36.3}%
+\contentsline {chapter}{\numberline {37}Volumes of Common Solids}{375}{chapter.37}%
+\contentsline {section}{\numberline {37.1}Rectangular Prism}{375}{section.37.1}%
+\contentsline {section}{\numberline {37.2}Triangular Prism}{375}{section.37.2}%
+\contentsline {section}{\numberline {37.3}Spheres}{376}{section.37.3}%
+\contentsline {section}{\numberline {37.4}Cylinders}{377}{section.37.4}%
+\contentsline {section}{\numberline {37.5}Pyramids}{379}{section.37.5}%
+\contentsline {chapter}{\numberline {38}Conic Sections}{385}{chapter.38}%
+\contentsline {section}{\numberline {38.1}Definitions}{385}{section.38.1}%
+\contentsline {subsection}{\numberline {38.1.1}Circle}{386}{subsection.38.1.1}%
+\contentsline {subsection}{\numberline {38.1.2}Ellipse}{386}{subsection.38.1.2}%
+\contentsline {subsection}{\numberline {38.1.3}Hyperbola}{387}{subsection.38.1.3}%
+\contentsline {subsection}{\numberline {38.1.4}Parabola}{387}{subsection.38.1.4}%
+\contentsline {chapter}{\numberline {39}Vectors}{389}{chapter.39}%
+\contentsline {section}{\numberline {39.1}Adding Vectors}{390}{section.39.1}%
+\contentsline {section}{\numberline {39.2}Multiplying a vector with a scalar}{392}{section.39.2}%
+\contentsline {section}{\numberline {39.3}Vector Subtraction}{394}{section.39.3}%
+\contentsline {section}{\numberline {39.4}Magnitude of a Vector}{395}{section.39.4}%
+\contentsline {subsection}{\numberline {39.4.1}Unit Vectors}{397}{subsection.39.4.1}%
+\contentsline {section}{\numberline {39.5}Vectors in Python}{398}{section.39.5}%
+\contentsline {subsection}{\numberline {39.5.1}Formatting Floats}{399}{subsection.39.5.1}%
+\contentsline {chapter}{\numberline {40}Falling Bodies}{401}{chapter.40}%
+\contentsline {section}{\numberline {40.1}Calculating the Velocity}{402}{section.40.1}%
+\contentsline {subsection}{\numberline {40.1.1}Air Resistance}{404}{subsection.40.1.1}%
+\contentsline {section}{\numberline {40.2}Calculating Position}{405}{section.40.2}%
+\contentsline {section}{\numberline {40.3}Quadratic functions}{407}{section.40.3}%
+\contentsline {section}{\numberline {40.4}Simulating a falling body in Python}{407}{section.40.4}%
+\contentsline {subsection}{\numberline {40.4.1}Graphs and Lists}{409}{subsection.40.4.1}%
+\contentsline {chapter}{\numberline {41}Kinematics}{413}{chapter.41}%
+\contentsline {section}{\numberline {41.1}Graphing Motion}{416}{section.41.1}%
+\contentsline {subsection}{\numberline {41.1.1}Motion Diagrams}{416}{subsection.41.1.1}%
+\contentsline {subsection}{\numberline {41.1.2}Position-Time and Velocity-Time Graphs}{416}{subsection.41.1.2}%
+\contentsline {section}{\numberline {41.2}Separation of Components}{419}{section.41.2}%
+\contentsline {chapter}{\numberline {42}Projectile Motion}{421}{chapter.42}%
+\contentsline {section}{\numberline {42.1}Comparing Projectiles}{421}{section.42.1}%
+\contentsline {section}{\numberline {42.2}Independence of Motion}{421}{section.42.2}%
+\contentsline {section}{\numberline {42.3}Horizontally-launched Projectiles}{423}{section.42.3}%
+\contentsline {subsection}{\numberline {42.3.1}Newton's Cannon and Escape Velocity}{425}{subsection.42.3.1}%
+\contentsline {section}{\numberline {42.4}Projectiles launched at an Angle}{426}{section.42.4}%
+\contentsline {subsection}{\numberline {42.4.1}From the Ground}{426}{subsection.42.4.1}%
+\contentsline {subsection}{\numberline {42.4.2}From a Height Above the Ground}{429}{subsection.42.4.2}%
+\contentsline {section}{\numberline {42.5}Simulating Projectile Motion}{430}{section.42.5}%
+\contentsline {chapter}{\numberline {43}Free Body Diagrams}{431}{chapter.43}%
+\contentsline {section}{\numberline {43.1}Interpreting Free Body Diagrams}{431}{section.43.1}%
+\contentsline {section}{\numberline {43.2}Drawing Free Body Diagrams}{432}{section.43.2}%
+\contentsline {subsection}{\numberline {43.2.1}Objects At Rest}{432}{subsection.43.2.1}%
+\contentsline {chapter}{\numberline {44}Inclined planes}{437}{chapter.44}%
+\contentsline {chapter}{\numberline {45}Momentum}{441}{chapter.45}%
+\contentsline {section}{\numberline {45.1}Impulse}{444}{section.45.1}%
+\contentsline {subsection}{\numberline {45.1.1}Golf Swings}{445}{subsection.45.1.1}%
+\contentsline {section}{\numberline {45.2}Collisions}{445}{section.45.2}%
+\contentsline {subsection}{\numberline {45.2.1}Elastic Collision}{446}{subsection.45.2.1}%
+\contentsline {subsection}{\numberline {45.2.2}Inelastic Collisions}{447}{subsection.45.2.2}%
+\contentsline {subsection}{\numberline {45.2.3}Perfectly Inelastic}{447}{subsection.45.2.3}%
+\contentsline {section}{\numberline {45.3}Momentum, Center of Mass, and Explosions}{450}{section.45.3}%
+\contentsline {chapter}{\numberline {46}Boats}{453}{chapter.46}%
+\contentsline {section}{\numberline {46.1}Basic Terminology}{453}{section.46.1}%
+\contentsline {subsection}{\numberline {46.1.1}Nautical Miles and Knots}{455}{subsection.46.1.1}%
+\contentsline {section}{\numberline {46.2}Why Boats Float Upright}{456}{section.46.2}%
+\contentsline {subsection}{\numberline {46.2.1}Center of Buoyancy}{456}{subsection.46.2.1}%
+\contentsline {subsection}{\numberline {46.2.2}Center of Mass}{456}{subsection.46.2.2}%
+\contentsline {section}{\numberline {46.3}Center of Lateral Resistance}{457}{section.46.3}%
+\contentsline {section}{\numberline {46.4}Steering with a Rudder}{458}{section.46.4}%
+\contentsline {section}{\numberline {46.5}Boat Length and Resistance}{459}{section.46.5}%
+\contentsline {chapter}{\numberline {47}Sailboats}{461}{chapter.47}%
+\contentsline {section}{\numberline {47.1}Magnitude of the Wind Force}{461}{section.47.1}%
+\contentsline {section}{\numberline {47.2}Direction and Location of the Wind Force}{462}{section.47.2}%
+\contentsline {section}{\numberline {47.3}Beam Reach}{463}{section.47.3}%
+\contentsline {section}{\numberline {47.4}Apparent Wind}{466}{section.47.4}%
+\contentsline {section}{\numberline {47.5}Close Reach}{466}{section.47.5}%
+\contentsline {section}{\numberline {47.6}Shaping the Sail}{467}{section.47.6}%
+\contentsline {section}{\numberline {47.7}Tacking into the Wind}{468}{section.47.7}%
+\contentsline {section}{\numberline {47.8}Heeling}{469}{section.47.8}%
+\contentsline {chapter}{\numberline {48}Airplanes}{473}{chapter.48}%
+\contentsline {section}{\numberline {48.1}Drag and Thrust}{473}{section.48.1}%
+\contentsline {section}{\numberline {48.2}Lift}{473}{section.48.2}%
+\contentsline {section}{\numberline {48.3}Control: Roll, Pitch, Yaw}{474}{section.48.3}%
+\contentsline {section}{\numberline {48.4}Thrust}{477}{section.48.4}%
+\contentsline {section}{\numberline {48.5}Gliders}{478}{section.48.5}%
+\contentsline {chapter}{\numberline {49}Data Tables and pandas}{479}{chapter.49}%
+\contentsline {section}{\numberline {49.1}Data types}{479}{section.49.1}%
+\contentsline {section}{\numberline {49.2}pandas}{480}{section.49.2}%
+\contentsline {section}{\numberline {49.3}Reading a CSV with pandas}{480}{section.49.3}%
+\contentsline {section}{\numberline {49.4}Looking at a Series}{481}{section.49.4}%
+\contentsline {section}{\numberline {49.5}Rows and the index}{482}{section.49.5}%
+\contentsline {section}{\numberline {49.6}Changing data}{483}{section.49.6}%
+\contentsline {section}{\numberline {49.7}Derived columns}{485}{section.49.7}%
+\contentsline {chapter}{\numberline {50}Rotorcraft}{487}{chapter.50}%
+\contentsline {section}{\numberline {50.1}Introduction}{487}{section.50.1}%
+\contentsline {section}{\numberline {50.2}VTOL}{488}{section.50.2}%
+\contentsline {section}{\numberline {50.3}Rotor Structure}{489}{section.50.3}%
+\contentsline {section}{\numberline {50.4}Movement, Spin Direction, and Torque}{490}{section.50.4}%
+\contentsline {section}{\numberline {50.5}Helicopters}{493}{section.50.5}%
+\contentsline {subsection}{\numberline {50.5.1}Tail Rotor}{494}{subsection.50.5.1}%
+\contentsline {subsection}{\numberline {50.5.2}Main Rotor Movement}{496}{subsection.50.5.2}%
+\contentsline {subsection}{\numberline {50.5.3}Isometric Copter Views}{500}{subsection.50.5.3}%
+\contentsline {subsection}{\numberline {50.5.4}Copter Movement}{504}{subsection.50.5.4}%
+\contentsline {chapter}{\numberline {51}Atmospheric Pressure}{507}{chapter.51}%
+\contentsline {section}{\numberline {51.1}Altitude and Atmospheric Pressure}{509}{section.51.1}%
+\contentsline {section}{\numberline {51.2}How a Drinking Straw Works}{510}{section.51.2}%
+\contentsline {subsection}{\numberline {51.2.1}The Longest Usable Straw}{511}{subsection.51.2.1}%
+\contentsline {subsection}{\numberline {51.2.2}Millimeters Mercury}{513}{subsection.51.2.2}%
+\contentsline {section}{\numberline {51.3}How Siphon Works}{514}{section.51.3}%
+\contentsline {section}{\numberline {51.4}How a Toilet Works}{516}{section.51.4}%
+\contentsline {chapter}{\numberline {52}Solving Quadratics}{519}{chapter.52}%
+\contentsline {section}{\numberline {52.1}The Traditional Quadratic Formula}{521}{section.52.1}%
+\contentsline {section}{\numberline {52.2}Factoring Quadratics}{522}{section.52.2}%
+\contentsline {chapter}{\numberline {53}Complex Numbers}{525}{chapter.53}%
+\contentsline {section}{\numberline {53.1}Definition}{525}{section.53.1}%
+\contentsline {section}{\numberline {53.2}Why Are Complex Numbers Necessary?}{525}{section.53.2}%
+\contentsline {subsection}{\numberline {53.2.1}Roots of Negative Numbers}{525}{subsection.53.2.1}%
+\contentsline {subsection}{\numberline {53.2.2}Polynomial Equations}{526}{subsection.53.2.2}%
+\contentsline {subsection}{\numberline {53.2.3}Physics and Engineering}{526}{subsection.53.2.3}%
+\contentsline {section}{\numberline {53.3}Adding Complex Numbers}{526}{section.53.3}%
+\contentsline {section}{\numberline {53.4}Multiplying Complex Numbers}{526}{section.53.4}%
+\contentsline {chapter}{\numberline {54}Introduction to Sequences}{527}{chapter.54}%
+\contentsline {section}{\numberline {54.1}Arithmetic sequences}{527}{section.54.1}%
+\contentsline {subsection}{\numberline {54.1.1}Formulas for arithmetic sequences}{528}{subsection.54.1.1}%
+\contentsline {section}{\numberline {54.2}Geometric sequences}{531}{section.54.2}%
+\contentsline {subsection}{\numberline {54.2.1}Formulas for geometric sequences}{532}{subsection.54.2.1}%
+\contentsline {chapter}{\numberline {55}Exponents}{535}{chapter.55}%
+\contentsline {section}{\numberline {55.1}Identities for Exponents}{535}{section.55.1}%
+\contentsline {chapter}{\numberline {56}Compound Interest}{539}{chapter.56}%
+\contentsline {section}{\numberline {56.1}An example with annual interest payments}{539}{section.56.1}%
+\contentsline {section}{\numberline {56.2}Exponential Growth}{540}{section.56.2}%
+\contentsline {section}{\numberline {56.3}Sensitivity to interest rate}{541}{section.56.3}%
+\contentsline {section}{\numberline {56.4}Continuous Compound Interest}{542}{section.56.4}%
+\contentsline {section}{\numberline {56.5}Practice Exercises}{543}{section.56.5}%
+\contentsline {chapter}{\numberline {57}Logarithms}{545}{chapter.57}%
+\contentsline {section}{\numberline {57.1}Logarithms in Python}{545}{section.57.1}%
+\contentsline {section}{\numberline {57.2}Logarithm Identities}{546}{section.57.2}%
+\contentsline {section}{\numberline {57.3}Changing Bases}{547}{section.57.3}%
+\contentsline {section}{\numberline {57.4}Natural Logarithm}{547}{section.57.4}%
+\contentsline {section}{\numberline {57.5}Logarithms in Spreadsheets}{547}{section.57.5}%
+\contentsline {chapter}{\numberline {58}Exponential Decay}{549}{chapter.58}%
+\contentsline {section}{\numberline {58.1}Radioactive Decay}{550}{section.58.1}%
+\contentsline {section}{\numberline {58.2}Model Exponential Decay}{551}{section.58.2}%
+\contentsline {chapter}{\numberline {59}Inverse Trigonometric Functions}{553}{chapter.59}%
+\contentsline {section}{\numberline {59.1}Derivatives of Inverse Trigonometric Functions}{554}{section.59.1}%
+\contentsline {section}{\numberline {59.2}Practice}{554}{section.59.2}%
+\contentsline {chapter}{\numberline {60}Laws, Paradoxes, Thought Experiments, and the Illusions}{555}{chapter.60}%
+\contentsline {section}{\numberline {60.1}Mathematical Paradoxes}{556}{section.60.1}%
+\contentsline {subsection}{\numberline {60.1.1}Russell's Paradox}{556}{subsection.60.1.1}%
+\contentsline {subsection}{\numberline {60.1.2}Simpson's Paradox}{557}{subsection.60.1.2}%
+\contentsline {subsection}{\numberline {60.1.3}Monty Hall Problem}{559}{subsection.60.1.3}%
+\contentsline {subsection}{\numberline {60.1.4}Birthday Problem}{559}{subsection.60.1.4}%
+\contentsline {subsection}{\numberline {60.1.5}Zeno's Paradoxes}{561}{subsection.60.1.5}%
+\contentsline {subsubsection}{The Dichotomy Paradox}{561}{section*.174}%
+\contentsline {section}{\numberline {60.2}Physics and Time Travel Paradoxes}{562}{section.60.2}%
+\contentsline {subsection}{\numberline {60.2.1}Schrödinger's Cat}{562}{subsection.60.2.1}%
+\contentsline {subsubsection}{Arrow Paradox}{563}{section*.175}%
+\contentsline {subsection}{\numberline {60.2.2}Time Travel Paradoxes}{563}{subsection.60.2.2}%
+\contentsline {section}{\numberline {60.3}Architecture and Geometry Paradoxes}{564}{section.60.3}%
+\contentsline {subsection}{\numberline {60.3.1}Penrose Steps}{564}{subsection.60.3.1}%
+\contentsline {subsection}{\numberline {60.3.2}Mobius Strip}{565}{subsection.60.3.2}%
+\contentsline {subsection}{\numberline {60.3.3}Coastline paradox}{565}{subsection.60.3.3}%
+\contentsline {section}{\numberline {60.4}Computer Science Paradoxes and Laws}{566}{section.60.4}%
+\contentsline {subsection}{\numberline {60.4.1}Moravec's Paradox}{566}{subsection.60.4.1}%
+\contentsline {subsection}{\numberline {60.4.2}Neural Scaling Law}{567}{subsection.60.4.2}%
+\contentsline {chapter}{\numberline {61}Introduction to Data Visualization}{569}{chapter.61}%
+\contentsline {section}{\numberline {61.1}Types of Variables}{569}{section.61.1}%
+\contentsline {section}{\numberline {61.2}How do we describe data?}{570}{section.61.2}%
+\contentsline {section}{\numberline {61.3}Univariate Data}{570}{section.61.3}%
+\contentsline {subsection}{\numberline {61.3.1}Bar Chart}{570}{subsection.61.3.1}%
+\contentsline {subsection}{\numberline {61.3.2}Line Graph}{573}{subsection.61.3.2}%
+\contentsline {subsection}{\numberline {61.3.3}Pie Chart}{575}{subsection.61.3.3}%
+\contentsline {subsection}{\numberline {61.3.4}Dotplot}{575}{subsection.61.3.4}%
+\contentsline {subsection}{\numberline {61.3.5}Stemplot}{577}{subsection.61.3.5}%
+\contentsline {subsection}{\numberline {61.3.6}Histogram}{579}{subsection.61.3.6}%
+\contentsline {subsection}{\numberline {61.3.7}Cumulative Frequency Plot}{582}{subsection.61.3.7}%
+\contentsline {section}{\numberline {61.4}Bivariate Data}{584}{section.61.4}%
+\contentsline {subsection}{\numberline {61.4.1}Scatter Plot}{584}{subsection.61.4.1}%
+\contentsline {chapter}{\numberline {62}Numerical Methods of Describing Data}{587}{chapter.62}%
+\contentsline {section}{\numberline {62.1}Why Numerical Summaries Matter}{587}{section.62.1}%
+\contentsline {subsection}{\numberline {62.1.1}Summation Notation}{588}{subsection.62.1.1}%
+\contentsline {section}{\numberline {62.2}Measures of Center}{589}{section.62.2}%
+\contentsline {subsection}{\numberline {62.2.1}The Mean}{589}{subsection.62.2.1}%
+\contentsline {subsection}{\numberline {62.2.2}The Median}{590}{subsection.62.2.2}%
+\contentsline {subsection}{\numberline {62.2.3}Choosing Between Them}{592}{subsection.62.2.3}%
+\contentsline {section}{\numberline {62.3}Measures of Spread}{594}{section.62.3}%
+\contentsline {subsection}{\numberline {62.3.1}Range and IQR}{594}{subsection.62.3.1}%
+\contentsline {subsection}{\numberline {62.3.2}Variance and Standard Deviation}{594}{subsection.62.3.2}%
+\contentsline {subsection}{\numberline {62.3.3}Interpreting Spread}{598}{subsection.62.3.3}%
+\contentsline {section}{\numberline {62.4}Connecting Shape to Numerical Measures}{599}{section.62.4}%
+\contentsline {subsection}{\numberline {62.4.1}Symmetric Data: Mean Approximately Equals Median}{599}{subsection.62.4.1}%
+\contentsline {subsection}{\numberline {62.4.2}Skewed Data: Mean Pulled Toward the Tail}{600}{subsection.62.4.2}%
+\contentsline {subsection}{\numberline {62.4.3}Effects of Outliers}{601}{subsection.62.4.3}%
+\contentsline {subsection}{\numberline {62.4.4}Changing Units on Summary Measures}{601}{subsection.62.4.4}%
+\contentsline {section}{\numberline {62.5}Z-scores}{603}{section.62.5}%
+\contentsline {section}{\numberline {62.6}Percentiles and Quartiles}{606}{section.62.6}%
+\contentsline {subsection}{\numberline {62.6.1}Computing with Python}{609}{subsection.62.6.1}%
+\contentsline {chapter}{\numberline {63}Introduction to Graphs}{611}{chapter.63}%
+\contentsline {section}{\numberline {63.1}Introduction}{611}{section.63.1}%
+\contentsline {section}{\numberline {63.2}Finding Good Paths}{613}{section.63.2}%
+\contentsline {section}{\numberline {63.3}Graphs in Python}{614}{section.63.3}%
+\contentsline {chapter}{\numberline {64}The Dot Product}{619}{chapter.64}%
+\contentsline {section}{\numberline {64.1}Properties of the dot product}{619}{section.64.1}%
+\contentsline {section}{\numberline {64.2}Cosines and dot products}{620}{section.64.2}%
+\contentsline {section}{\numberline {64.3}Dot products in Python}{624}{section.64.3}%
+\contentsline {section}{\numberline {64.4}Work and Power}{624}{section.64.4}%
+\contentsline {chapter}{\numberline {65}Manufacturing}{627}{chapter.65}%
+\contentsline {section}{\numberline {65.1}Woods and Metals Processes}{627}{section.65.1}%
+\contentsline {subsection}{\numberline {65.1.1}Milling}{627}{subsection.65.1.1}%
+\contentsline {subsection}{\numberline {65.1.2}Lathing}{629}{subsection.65.1.2}%
+\contentsline {section}{\numberline {65.2}Metal-specific Processes}{630}{section.65.2}%
+\contentsline {subsection}{\numberline {65.2.1}Sheet Metal Processes}{630}{subsection.65.2.1}%
+\contentsline {subsection}{\numberline {65.2.2}Casting}{631}{subsection.65.2.2}%
+\contentsline {section}{\numberline {65.3}Wood-specific Processes}{632}{section.65.3}%
+\contentsline {subsection}{\numberline {65.3.1}Bending}{632}{subsection.65.3.1}%
+\contentsline {section}{\numberline {65.4}Plastic-specific Processes}{633}{section.65.4}%
+\contentsline {subsection}{\numberline {65.4.1}Injection Molding}{633}{subsection.65.4.1}%
+\contentsline {section}{\numberline {65.5}3D Printing}{634}{section.65.5}%
+\contentsline {section}{\numberline {65.6}Laser Cutting and Water Jet}{635}{section.65.6}%
+\contentsline {chapter}{\numberline {66}Introduction to Waves}{637}{chapter.66}%
+\contentsline {section}{\numberline {66.1}Basic Properties of Waves}{637}{section.66.1}%
+\contentsline {section}{\numberline {66.2}Two main types of waves}{639}{section.66.2}%
+\contentsline {section}{\numberline {66.3}Compression and Rarefaction}{640}{section.66.3}%
+\contentsline {section}{\numberline {66.4}Creating a Wave in Python}{640}{section.66.4}%
+\contentsline {chapter}{\numberline {67}Sound}{641}{chapter.67}%
+\contentsline {section}{\numberline {67.1}Pitch and frequency}{642}{section.67.1}%
+\contentsline {section}{\numberline {67.2}Chords and harmonics}{643}{section.67.2}%
+\contentsline {section}{\numberline {67.3}Making waves in Python}{645}{section.67.3}%
+\contentsline {subsection}{\numberline {67.3.1}Making a sound file}{646}{subsection.67.3.1}%
+\contentsline {chapter}{\numberline {68}Applying Numerical Methods to Bivariate Data}{649}{chapter.68}%
+\contentsline {section}{\numberline {68.1}Review of Scatter Plots}{649}{section.68.1}%
+\contentsline {section}{\numberline {68.2}Correlation Coefficient}{649}{section.68.2}%
+\contentsline {section}{\numberline {68.3}Linear Regression}{654}{section.68.3}%
+\contentsline {subsubsection}{The Regression Model}{655}{section*.218}%
+\contentsline {subsubsection}{The Least-Squares Regression Line}{656}{section*.219}%
+\contentsline {subsubsection}{Interpreting Slope and Intercept}{658}{section*.220}%
+\contentsline {subsubsection}{The Coefficient of Determination}{660}{section*.221}%
+\contentsline {subsubsection}{Worked Example}{661}{section*.222}%
+\contentsline {chapter}{\numberline {69}Data Analysis with jamovi}{667}{chapter.69}%
+\contentsline {section}{\numberline {69.1}Getting Started with jamovi}{667}{section.69.1}%
+\contentsline {section}{\numberline {69.2}Setting Up Your Data}{668}{section.69.2}%
+\contentsline {section}{\numberline {69.3}Describing Data}{669}{section.69.3}%
+\contentsline {section}{\numberline {69.4}Comparing Two Groups}{670}{section.69.4}%
+\contentsline {section}{\numberline {69.5}Looking at Relationships}{671}{section.69.5}%
+\contentsline {section}{\numberline {69.6}Saving Your Work}{672}{section.69.6}%
+\contentsline {chapter}{\numberline {70}Charge}{673}{chapter.70}%
+\contentsline {subsection}{\numberline {70.0.1}Point Charge}{675}{subsection.70.0.1}%
+\contentsline {subsection}{\numberline {70.0.2}Superposition}{676}{subsection.70.0.2}%
+\contentsline {section}{\numberline {70.1}Electric Field}{677}{section.70.1}%
+\contentsline {section}{\numberline {70.2}Dipoles}{679}{section.70.2}%
+\contentsline {section}{\numberline {70.3}Electric Flux and Gauss's law}{680}{section.70.3}%
+\contentsline {subsection}{\numberline {70.3.1}Gauss's law}{681}{subsection.70.3.1}%
+\contentsline {section}{\numberline {70.4}Continuous Charge Distributions}{681}{section.70.4}%
+\contentsline {subsection}{\numberline {70.4.1}Charge Densities}{681}{subsection.70.4.1}%
+\contentsline {section}{\numberline {70.5}Electric Potential}{683}{section.70.5}%
+\contentsline {subsection}{\numberline {70.5.1}Point Charges, Uniform Fields, and Spherical Shells}{685}{subsection.70.5.1}%
+\contentsline {subsection}{\numberline {70.5.2}Potential due to Configurations of Charge}{686}{subsection.70.5.2}%
+\contentsline {subsection}{\numberline {70.5.3}Conservation of Energy}{686}{subsection.70.5.3}%
+\contentsline {subsection}{\numberline {70.5.4}Summary}{687}{subsection.70.5.4}%
+\contentsline {section}{\numberline {70.6}Lightning}{687}{section.70.6}%
+\contentsline {section}{\numberline {70.7}But...}{688}{section.70.7}%
+\contentsline {chapter}{\numberline {71}Alternating Current}{691}{chapter.71}%
+\contentsline {section}{\numberline {71.1}Power of AC}{691}{section.71.1}%
+\contentsline {section}{\numberline {71.2}Power Line Losses}{693}{section.71.2}%
+\contentsline {section}{\numberline {71.3}Transformers}{693}{section.71.3}%
+\contentsline {section}{\numberline {71.4}Phase and 3-phase power}{694}{section.71.4}%
+\contentsline {chapter}{\numberline {72}Electromagnetic Induction}{697}{chapter.72}%
+\contentsline {section}{\numberline {72.1}Faraday's Law of Induction}{697}{section.72.1}%
+\contentsline {subsection}{\numberline {72.1.1}Magnetic Flux}{697}{subsection.72.1.1}%
+\contentsline {section}{\numberline {72.2}Lenz's Law}{698}{section.72.2}%
+\contentsline {section}{\numberline {72.3}Induction in a Coil}{698}{section.72.3}%
+\contentsline {section}{\numberline {72.4}Applications of Electromagnetic Induction}{699}{section.72.4}%
+\contentsline {chapter}{\numberline {73}Electric Motor}{701}{chapter.73}%
+\contentsline {section}{\numberline {73.1}Basic Electric Motor}{701}{section.73.1}%
+\contentsline {section}{\numberline {73.2}Basic Electric Generator}{701}{section.73.2}%
+\contentsline {chapter}{\numberline {74}Drag}{705}{chapter.74}%
+\contentsline {section}{\numberline {74.1}Wind resistance}{705}{section.74.1}%
+\contentsline {section}{\numberline {74.2}Initial velocity and acceleration due to gravity}{706}{section.74.2}%
+\contentsline {section}{\numberline {74.3}Simulating artillery in Python}{707}{section.74.3}%
+\contentsline {section}{\numberline {74.4}Terminal velocity}{709}{section.74.4}%
+\contentsline {chapter}{\numberline {75}Electromagnetic Waves}{711}{chapter.75}%
+\contentsline {section}{\numberline {75.1}The greenhouse effect}{712}{section.75.1}%
+\contentsline {chapter}{\numberline {76}Reflection and Photons}{717}{chapter.76}%
+\contentsline {section}{\numberline {76.1}Photons}{717}{section.76.1}%
+\contentsline {subsection}{\numberline {76.1.1}The Photoelectric Effect}{718}{subsection.76.1.1}%
+\contentsline {subsection}{\numberline {76.1.2}Photons and Momentum}{719}{subsection.76.1.2}%
+\contentsline {section}{\numberline {76.2}Reflection}{720}{section.76.2}%
+\contentsline {subsection}{\numberline {76.2.1}Law of Reflection}{721}{subsection.76.2.1}%
+\contentsline {section}{\numberline {76.3}Ellipses and Curved Mirrors}{723}{section.76.3}%
+\contentsline {subsection}{\numberline {76.3.1}The Reflective Properties of Circles and Spheres}{723}{subsection.76.3.1}%
+\contentsline {subsection}{\numberline {76.3.2}Ellipses and Ellipsoids}{724}{subsection.76.3.2}%
+\contentsline {subsubsection}{The Reflective Property of Ellipses}{727}{section*.255}%
+\contentsline {subsection}{\numberline {76.3.3}Elliptical Orbits}{728}{subsection.76.3.3}%
+\contentsline {subsection}{\numberline {76.3.4}Ellipsoids}{728}{subsection.76.3.4}%
+\contentsline {subsubsection}{Oblate Spheroid}{729}{section*.258}%
+\contentsline {subsubsection}{Prolate Spheroid}{729}{section*.259}%
+\contentsline {subsection}{\numberline {76.3.5}Parabolas and Parabolic Reflectors}{730}{subsection.76.3.5}%
+\contentsline {subsubsection}{Reflective Property of a Parabola}{733}{section*.260}%
+\contentsline {chapter}{\numberline {77}Refraction}{737}{chapter.77}%
+\contentsline {section}{\numberline {77.1}Refraction}{737}{section.77.1}%
+\contentsline {section}{\numberline {77.2}Snell's Law}{737}{section.77.2}%
+\contentsline {section}{\numberline {77.3}Diffraction}{738}{section.77.3}%
+\contentsline {chapter}{\numberline {78}Lenses}{739}{chapter.78}%
+\contentsline {section}{\numberline {78.1}Focal Length}{740}{section.78.1}%
+\contentsline {section}{\numberline {78.2}Refractive Index}{740}{section.78.2}%
+\contentsline {chapter}{\numberline {79}Cognitive Biases 1}{741}{chapter.79}%
+\contentsline {section}{\numberline {79.1}Fundamental Attribution Error}{741}{section.79.1}%
+\contentsline {section}{\numberline {79.2}Self-Serving Bias}{742}{section.79.2}%
+\contentsline {section}{\numberline {79.3}In-group favoritism}{742}{section.79.3}%
+\contentsline {section}{\numberline {79.4}The Bandwagon Effect and Groupthink}{743}{section.79.4}%
+\contentsline {section}{\numberline {79.5}The Curse of Knowledge}{743}{section.79.5}%
+\contentsline {section}{\numberline {79.6}False Consensus}{744}{section.79.6}%
+\contentsline {section}{\numberline {79.7}The Spotlight Effect}{745}{section.79.7}%
+\contentsline {section}{\numberline {79.8}The Dunning-Kruger Effect}{746}{section.79.8}%
+\contentsline {section}{\numberline {79.9}Confirmation Bias}{747}{section.79.9}%
+\contentsline {section}{\numberline {79.10}Survivorship bias}{749}{section.79.10}%
+\contentsline {chapter}{\numberline {80}Longitude and Latitude}{751}{chapter.80}%
+\contentsline {section}{\numberline {80.1}Longitude and Latitude}{751}{section.80.1}%
+\contentsline {section}{\numberline {80.2}Nautical Mile}{753}{section.80.2}%
+\contentsline {section}{\numberline {80.3}Haversine Formula}{753}{section.80.3}%
+\contentsline {chapter}{\numberline {81}Sampling Data}{757}{chapter.81}%
+\contentsline {section}{\numberline {81.1}Planning a Study}{757}{section.81.1}%
+\contentsline {subsection}{\numberline {81.1.1}Vocabulary}{757}{subsection.81.1.1}%
+\contentsline {subsection}{\numberline {81.1.2}Why Not Always Use a Census?}{758}{subsection.81.1.2}%
+\contentsline {section}{\numberline {81.2}Planning and Conducting Surveys}{759}{section.81.2}%
+\contentsline {subsection}{\numberline {81.2.1}Biased Sampling}{759}{subsection.81.2.1}%
+\contentsline {section}{\numberline {81.3}Simple Random Sampling}{760}{section.81.3}%
+\contentsline {subsection}{\numberline {81.3.1}Other Methods of Random Sampling}{762}{subsection.81.3.1}%
+\contentsline {section}{\numberline {81.4}Bias in Surveys}{767}{section.81.4}%
+\contentsline {chapter}{\numberline {82}Data tables in SQL}{769}{chapter.82}%
+\contentsline {section}{\numberline {82.1}Using SQL from Python}{772}{section.82.1}%
+\contentsline {chapter}{\numberline {83}Advanced SQL and Database Management}{775}{chapter.83}%
+\contentsline {section}{\numberline {83.1}Keys}{775}{section.83.1}%
+\contentsline {section}{\numberline {83.2}Normalization}{776}{section.83.2}%
+\contentsline {subsection}{\numberline {83.2.1}Functional Dependencies}{777}{subsection.83.2.1}%
+\contentsline {subsection}{\numberline {83.2.2}1NF}{777}{subsection.83.2.2}%
+\contentsline {subsection}{\numberline {83.2.3}2NF}{778}{subsection.83.2.3}%
+\contentsline {subsection}{\numberline {83.2.4}3NF}{780}{subsection.83.2.4}%
+\contentsline {section}{\numberline {83.3}Entity-Relationship Diagram}{781}{section.83.3}%
+\contentsline {section}{\numberline {83.4}Relational Algebra Basics}{782}{section.83.4}%
+\contentsline {section}{\numberline {83.5}Relating Two Tables}{783}{section.83.5}%
+\contentsline {section}{\numberline {83.6}Advanced Queries}{784}{section.83.6}%
+\contentsline {section}{\numberline {83.7}Exercises}{784}{section.83.7}%
+\contentsline {chapter}{\numberline {84}Diodes, Rectifiers, and Photovoltaics}{785}{chapter.84}%
+\contentsline {section}{\numberline {84.1}Silicon}{785}{section.84.1}%
+\contentsline {section}{\numberline {84.2}Diodes}{787}{section.84.2}%
+\contentsline {subsection}{\numberline {84.2.1}Rectifiers}{790}{subsection.84.2.1}%
+\contentsline {subsection}{\numberline {84.2.2}Photovoltaics}{790}{subsection.84.2.2}%
+\contentsline {chapter}{\numberline {85}How Cameras Work}{793}{chapter.85}%
+\contentsline {section}{\numberline {85.1}The Light That Shines On the Cow}{793}{section.85.1}%
+\contentsline {section}{\numberline {85.2}Light Hits the Cow}{795}{section.85.2}%
+\contentsline {section}{\numberline {85.3}Pinhole camera}{796}{section.85.3}%
+\contentsline {section}{\numberline {85.4}Lenses}{797}{section.85.4}%
+\contentsline {section}{\numberline {85.5}Sensors}{799}{section.85.5}%
+\contentsline {section}{\numberline {85.6}Aspect Ratio}{800}{section.85.6}%
+\contentsline {subsection}{\numberline {85.6.1}Printing}{801}{subsection.85.6.1}%
+\contentsline {chapter}{\numberline {86}How Eyes Work}{803}{chapter.86}%
+\contentsline {section}{\numberline {86.1}Eye problems}{804}{section.86.1}%
+\contentsline {subsection}{\numberline {86.1.1}Glaucoma}{804}{subsection.86.1.1}%
+\contentsline {subsection}{\numberline {86.1.2}Cataracts}{805}{subsection.86.1.2}%
+\contentsline {subsection}{\numberline {86.1.3}Nearsightedness, farsightedness, and astigmatism}{805}{subsection.86.1.3}%
+\contentsline {section}{\numberline {86.2}Seeing colors}{806}{section.86.2}%
+\contentsline {section}{\numberline {86.3}Pigments}{808}{section.86.3}%
+\contentsline {chapter}{\numberline {87}Images in Python}{811}{chapter.87}%
+\contentsline {section}{\numberline {87.1}Adding color}{812}{section.87.1}%
+\contentsline {section}{\numberline {87.2}Using an existing image}{815}{section.87.2}%
+\contentsline {chapter}{\numberline {88}Representing Natural Numbers}{817}{chapter.88}%
+\contentsline {section}{\numberline {88.1}Base-10 (Decimal)}{817}{section.88.1}%
+\contentsline {section}{\numberline {88.2}Base-2 (Binary)}{818}{section.88.2}%
+\contentsline {subsection}{\numberline {88.2.1}Bits and Bytes}{819}{subsection.88.2.1}%
+\contentsline {section}{\numberline {88.3}Base-16 (Hexadecimal)}{820}{section.88.3}%
+\contentsline {subsection}{\numberline {88.3.1}Hex Color Codes}{821}{subsection.88.3.1}%
+\contentsline {section}{\numberline {88.4}Base-8 (Octal)}{821}{section.88.4}%
+\contentsline {subsection}{\numberline {88.4.1}Why Octal Matters}{822}{subsection.88.4.1}%
+\contentsline {chapter}{\numberline {89}Floating Point Arithmetic}{823}{chapter.89}%
+\contentsline {section}{\numberline {89.1}Why Computers Can't Count Perfectly}{823}{section.89.1}%
+\contentsline {subsection}{\numberline {89.1.1}The Number Line is Continuous and Unbounded}{823}{subsection.89.1.1}%
+\contentsline {section}{\numberline {89.2}Binary and the Floating-Point System}{824}{section.89.2}%
+\contentsline {subsection}{\numberline {89.2.1}Binary System}{825}{subsection.89.2.1}%
+\contentsline {subsection}{\numberline {89.2.2}Floating-Point Number}{825}{subsection.89.2.2}%
+\contentsline {subsection}{\numberline {89.2.3}Floating-Point System}{827}{subsection.89.2.3}%
+\contentsline {subsection}{\numberline {89.2.4}Connecting to Binary Floating-Point}{828}{subsection.89.2.4}%
+\contentsline {section}{\numberline {89.3}The IEEE 754 Standard}{829}{section.89.3}%
+\contentsline {subsection}{\numberline {89.3.1}Floats}{829}{subsection.89.3.1}%
+\contentsline {subsection}{\numberline {89.3.2}Machine Epsilon}{830}{subsection.89.3.2}%
+\contentsline {chapter}{\numberline {90}Introduction to Polynomials}{833}{chapter.90}%
+\contentsline {chapter}{\numberline {91}Python Lists}{837}{chapter.91}%
+\contentsline {section}{\numberline {91.1}Evaluating Polynomials in Python}{838}{section.91.1}%
+\contentsline {section}{\numberline {91.2}Walking the list backwards}{839}{section.91.2}%
+\contentsline {section}{\numberline {91.3}Plot the polynomial}{841}{section.91.3}%
+\contentsline {chapter}{\numberline {92}Adding and Subtracting Polynomials}{845}{chapter.92}%
+\contentsline {section}{\numberline {92.1}Subtraction}{846}{section.92.1}%
+\contentsline {section}{\numberline {92.2}Adding Polynomials in Python}{847}{section.92.2}%
+\contentsline {section}{\numberline {92.3}Scalar multiplication of polynomials}{849}{section.92.3}%
+\contentsline {chapter}{\numberline {93}Multiplying Polynomials}{851}{chapter.93}%
+\contentsline {section}{\numberline {93.1}Multiplying a monomial and a polynomial}{852}{section.93.1}%
+\contentsline {section}{\numberline {93.2}Multiplying polynomials}{853}{section.93.2}%
+\contentsline {chapter}{\numberline {94}Multiplying Polynomials in Python}{857}{chapter.94}%
+\contentsline {section}{\numberline {94.1}Something surprising about lists}{859}{section.94.1}%
+\contentsline {chapter}{\numberline {95}Differentiating Polynomials}{861}{chapter.95}%
+\contentsline {section}{\numberline {95.1}Second order and higher derivatives}{863}{section.95.1}%
+\contentsline {chapter}{\numberline {96}Python Classes}{867}{chapter.96}%
+\contentsline {section}{\numberline {96.1}Object-Oriented Programming Introduction}{867}{section.96.1}%
+\contentsline {section}{\numberline {96.2}Parent classes}{869}{section.96.2}%
+\contentsline {section}{\numberline {96.3}Making a Polynomial class}{869}{section.96.3}%
+\contentsline {chapter}{\numberline {97}Common Polynomial Products}{875}{chapter.97}%
+\contentsline {section}{\numberline {97.1}Difference of squares}{875}{section.97.1}%
+\contentsline {section}{\numberline {97.2}Powers of binomials}{877}{section.97.2}%
+\contentsline {chapter}{\numberline {98}Factoring Polynomials}{881}{chapter.98}%
+\contentsline {section}{\numberline {98.1}How to factor polynomials}{882}{section.98.1}%
+\contentsline {chapter}{\numberline {99}Practice with Polynomials}{891}{chapter.99}%
+\contentsline {chapter}{\numberline {100}Graphing Polynomials}{893}{chapter.100}%
+\contentsline {section}{\numberline {100.1}Leading term in graphing}{896}{section.100.1}%
+\contentsline {chapter}{\numberline {101}Interpolating with Polynomials}{897}{chapter.101}%
+\contentsline {section}{\numberline {101.1}Interpolating polynomials in python}{900}{section.101.1}%
+\contentsline {chapter}{\numberline {102}Rational Functions}{903}{chapter.102}%
+\contentsline {chapter}{\numberline {103}Partial Fractions}{911}{chapter.103}%
+\contentsline {subsection}{\numberline {103.0.1}Improper fractions}{912}{subsection.103.0.1}%
+\contentsline {subsection}{\numberline {103.0.2}Proper fractions}{913}{subsection.103.0.2}%
+\contentsline {subsubsection}{No repeated linear factors}{913}{section*.322}%
+\contentsline {subsubsection}{Repeated linear factors}{914}{section*.323}%
+\contentsline {subsubsection}{Irreducible quadratic factors}{915}{section*.324}%
+\contentsline {subsubsection}{Repeated irreducible quadratic factors}{916}{section*.325}%
+\contentsline {chapter}{\numberline {104}Limits}{919}{chapter.104}%
+\contentsline {section}{\numberline {104.1}Introduction to Limits }{919}{section.104.1}%
+\contentsline {section}{\numberline {104.2}Limits of Asymptotes}{919}{section.104.2}%
+\contentsline {section}{\numberline {104.3}Continuity}{929}{section.104.3}%
+\contentsline {subsection}{\numberline {104.3.1}Continuity Practice}{931}{subsection.104.3.1}%
+\contentsline {section}{\numberline {104.4}Limits Rules}{933}{section.104.4}%
+\contentsline {section}{\numberline {104.5}Squeeze Theorem}{937}{section.104.5}%
+\contentsline {subsection}{\numberline {104.5.1}Squeeze Theorem Practice}{938}{subsection.104.5.1}%
+\contentsline {section}{\numberline {104.6}Intermediate Value Theorem}{940}{section.104.6}%
+\contentsline {chapter}{\numberline {105}Parametric Functions}{943}{chapter.105}%
+\contentsline {section}{\numberline {105.1}Conversion to Rectangular Form}{944}{section.105.1}%
+\contentsline {section}{\numberline {105.2}Sketching Parametric Equations}{945}{section.105.2}%
+\contentsline {section}{\numberline {105.3}Using Python to Explore Parametric Curves}{947}{section.105.3}%
+\contentsline {section}{\numberline {105.4}Derivatives of Parametric Functions}{949}{section.105.4}%
+\contentsline {section}{\numberline {105.5}Length of Curve Traced by Parametric Equations}{953}{section.105.5}%
+\contentsline {chapter}{\numberline {106}Vector-valued Functions}{957}{chapter.106}%
+\contentsline {section}{\numberline {106.1}Vector-valued functions: position}{957}{section.106.1}%
+\contentsline {section}{\numberline {106.2}Finding the velocity vector}{958}{section.106.2}%
+\contentsline {section}{\numberline {106.3}Finding the acceleration vector}{958}{section.106.3}%
+\contentsline {chapter}{\numberline {107}Circular Motion}{961}{chapter.107}%
+\contentsline {section}{\numberline {107.1}Introduction to Uniform Circular Motion}{961}{section.107.1}%
+\contentsline {section}{\numberline {107.2}The Flying Billiard Ball}{962}{section.107.2}%
+\contentsline {section}{\numberline {107.3}Velocity}{964}{section.107.3}%
+\contentsline {section}{\numberline {107.4}Acceleration}{966}{section.107.4}%
+\contentsline {section}{\numberline {107.5}Centripetal force}{968}{section.107.5}%
+\contentsline {subsection}{\numberline {107.5.1}Banked Turns}{970}{subsection.107.5.1}%
+\contentsline {section}{\numberline {107.6}Modeling Circular Motion}{971}{section.107.6}%
+\contentsline {section}{\numberline {107.7}Flying Pigs and Tension}{974}{section.107.7}%
+\contentsline {section}{\numberline {107.8}Non-uniform circular motion}{977}{section.107.8}%
+\contentsline {subsection}{\numberline {107.8.1}Roller Coaster Loop}{977}{subsection.107.8.1}%
+\contentsline {subsubsection}{At the bottom}{977}{section*.365}%
+\contentsline {subsubsection}{At the top}{978}{section*.367}%
+\contentsline {subsubsection}{At the sides}{979}{section*.369}%
+\contentsline {chapter}{\numberline {108}Oscillations}{981}{chapter.108}%
+\contentsline {section}{\numberline {108.1}Sine and Cosine Graphs [Review]}{981}{section.108.1}%
+\contentsline {section}{\numberline {108.2}Simple Harmonic Motion}{982}{section.108.2}%
+\contentsline {section}{\numberline {108.3}Springs}{984}{section.108.3}%
+\contentsline {subsection}{\numberline {108.3.1}Hooke's Law}{984}{subsection.108.3.1}%
+\contentsline {subsection}{\numberline {108.3.2}Spring Potential Energy}{986}{subsection.108.3.2}%
+\contentsline {section}{\numberline {108.4}Mass-Spring Systems and Linear Differential Equations}{989}{section.108.4}%
+\contentsline {subsection}{\numberline {108.4.1}Undamped Simple Harmonic Motion}{989}{subsection.108.4.1}%
+\contentsline {subsection}{\numberline {108.4.2}Introducing Damping}{990}{subsection.108.4.2}%
+\contentsline {section}{\numberline {108.5}Pendulums}{993}{section.108.5}%
+\contentsline {section}{\numberline {108.6}Alternating Current}{996}{section.108.6}%
+\contentsline {subsection}{\numberline {108.6.1}Impedance}{997}{subsection.108.6.1}%
+\contentsline {subsection}{\numberline {108.6.2}Comparing Mass-Springs and AC}{998}{subsection.108.6.2}%
+\contentsline {section}{\numberline {108.7}Summary}{998}{section.108.7}%
+\contentsline {chapter}{\numberline {109}Orbits}{1001}{chapter.109}%
+\contentsline {section}{\numberline {109.1}Astronauts are \emph {not} weightless}{1003}{section.109.1}%
+\contentsline {section}{\numberline {109.2}Geosynchronous Orbits}{1004}{section.109.2}%
+\contentsline {section}{\numberline {109.3}Kepler's Laws}{1006}{section.109.3}%
+\contentsline {section}{\numberline {109.4}Escape velocity}{1007}{section.109.4}%
+\contentsline {chapter}{\numberline {110}Circular Motion, continued}{1009}{chapter.110}%
+\contentsline {section}{\numberline {110.1}Review of Circular Motion Basics}{1009}{section.110.1}%
+\contentsline {section}{\numberline {110.2}Rigid Bodies}{1009}{section.110.2}%
+\contentsline {section}{\numberline {110.3}Torque}{1010}{section.110.3}%
+\contentsline {subsection}{\numberline {110.3.1}Torque directions}{1013}{subsection.110.3.1}%
+\contentsline {section}{\numberline {110.4}Moment of Inertia and Rotational $F=ma$}{1016}{section.110.4}%
+\contentsline {subsection}{\numberline {110.4.1}Relating $\tau = I \alpha $ and other Torque Def'ns}{1017}{subsection.110.4.1}%
+\contentsline {section}{\numberline {110.5}Parallel-Axis Theorem}{1018}{section.110.5}%
+\contentsline {section}{\numberline {110.6}Rotational Kinetic Energy and Rolling Motion}{1019}{section.110.6}%
+\contentsline {section}{\numberline {110.7}Flywheel Energy Storage, Work, and Angular Momentum}{1021}{section.110.7}%
+\contentsline {subsection}{\numberline {110.7.1}Angular Momentum}{1022}{subsection.110.7.1}%
+\contentsline {subsection}{\numberline {110.7.2}Work done by Torque}{1024}{subsection.110.7.2}%
+\contentsline {section}{\numberline {110.8}Summary}{1025}{section.110.8}%
+\contentsline {chapter}{\numberline {111}Rocketry}{1027}{chapter.111}%
+\contentsline {section}{\numberline {111.1}Types of rocket fuels}{1027}{section.111.1}%
+\contentsline {section}{\numberline {111.2}Tyranny of the rocket equation}{1029}{section.111.2}%
+\contentsline {section}{\numberline {111.3}Control in atmosphere}{1030}{section.111.3}%
+\contentsline {section}{\numberline {111.4}Control in space}{1031}{section.111.4}%
+\contentsline {section}{\numberline {111.5}Alternative propulsion}{1033}{section.111.5}%
+\contentsline {chapter}{\numberline {112}Simulation with Vectors}{1037}{chapter.112}%
+\contentsline {section}{\numberline {112.1}Force, Acceleration, Velocity, and Position}{1037}{section.112.1}%
+\contentsline {section}{\numberline {112.2}Simulations and Step Size}{1038}{section.112.2}%
+\contentsline {section}{\numberline {112.3}Make a Text-based Simulation}{1038}{section.112.3}%
+\contentsline {section}{\numberline {112.4}Graph the Paths of the Moons}{1041}{section.112.4}%
+\contentsline {section}{\numberline {112.5}Conservation of Momentum}{1044}{section.112.5}%
+\contentsline {section}{\numberline {112.6}Animation}{1046}{section.112.6}%
+\contentsline {section}{\numberline {112.7}Challenge: The Three-Body Problem}{1051}{section.112.7}%
+\contentsline {chapter}{\numberline {113}Tides and Eclipses}{1053}{chapter.113}%
+\contentsline {section}{\numberline {113.1}Leap Years}{1053}{section.113.1}%
+\contentsline {section}{\numberline {113.2}Phases of the Moon}{1054}{section.113.2}%
+\contentsline {section}{\numberline {113.3}Eclipses}{1058}{section.113.3}%
+\contentsline {section}{\numberline {113.4}The Far Side of the Moon}{1059}{section.113.4}%
+\contentsline {section}{\numberline {113.5}Tides}{1060}{section.113.5}%
+\contentsline {subsection}{\numberline {113.5.1}Computing the Forces}{1061}{subsection.113.5.1}%
+\contentsline {subsection}{\numberline {113.5.2}Solar Tidal Forces}{1067}{subsection.113.5.2}%
+\contentsline {chapter}{\numberline {114}Polar Coordinates}{1069}{chapter.114}%
+\contentsline {section}{\numberline {114.1}Plotting Polar Coordinate Points}{1070}{section.114.1}%
+\contentsline {section}{\numberline {114.2}Equivalent Points}{1072}{section.114.2}%
+\contentsline {section}{\numberline {114.3}Changing coordinate systems}{1074}{section.114.3}%
+\contentsline {subsection}{\numberline {114.3.1}Cartesian to Polar}{1074}{subsection.114.3.1}%
+\contentsline {subsection}{\numberline {114.3.2}Polar to Cartesian}{1075}{subsection.114.3.2}%
+\contentsline {section}{\numberline {114.4}Circles in Polar Coordinates}{1077}{section.114.4}%
+\contentsline {chapter}{\numberline {115}Differentiation}{1083}{chapter.115}%
+\contentsline {section}{\numberline {115.1}Differentiability}{1085}{section.115.1}%
+\contentsline {section}{\numberline {115.2}Using the definition of derivative}{1086}{section.115.2}%
+\contentsline {chapter}{\numberline {116}Derivatives}{1087}{chapter.116}%
+\contentsline {section}{\numberline {116.1}Definition}{1087}{section.116.1}%
+\contentsline {subsection}{\numberline {116.1.1}Estimating the Derivative}{1087}{subsection.116.1.1}%
+\contentsline {section}{\numberline {116.2}The Derivative as a Function}{1091}{section.116.2}%
+\contentsline {section}{\numberline {116.3}Applications in Mathematics}{1093}{section.116.3}%
+\contentsline {subsection}{\numberline {116.3.1}l'H\^{o}pital's Rule}{1093}{subsection.116.3.1}%
+\contentsline {subsection}{\numberline {116.3.2}Mean Value Theorem}{1098}{subsection.116.3.2}%
+\contentsline {subsubsection}{MVT Practice}{1099}{section*.443}%
+\contentsline {section}{\numberline {116.4}Applications in Physics}{1100}{section.116.4}%
+\contentsline {subsection}{\numberline {116.4.1}Velocity and Acceleration}{1100}{subsection.116.4.1}%
+\contentsline {subsubsection}{Practice}{1100}{section*.444}%
+\contentsline {subsection}{\numberline {116.4.2}Force and Momentum}{1101}{subsection.116.4.2}%
+\contentsline {chapter}{\numberline {117}Rules for Finding Derivatives}{1103}{chapter.117}%
+\contentsline {section}{\numberline {117.1}Constant Rule}{1103}{section.117.1}%
+\contentsline {section}{\numberline {117.2}Power Rule}{1103}{section.117.2}%
+\contentsline {section}{\numberline {117.3}Product Rule}{1104}{section.117.3}%
+\contentsline {section}{\numberline {117.4}Quotient Rule}{1104}{section.117.4}%
+\contentsline {section}{\numberline {117.5}Chain Rule}{1104}{section.117.5}%
+\contentsline {section}{\numberline {117.6}Practice}{1104}{section.117.6}%
+\contentsline {section}{\numberline {117.7}Conclusion}{1108}{section.117.7}%
+\contentsline {chapter}{\numberline {118}First and Second Derivatives and the Shape of a Function}{1109}{chapter.118}%
+\contentsline {section}{\numberline {118.1}Using first derivatives to describe a function}{1109}{section.118.1}%
+\contentsline {subsection}{\numberline {118.1.1}Critical Values}{1109}{subsection.118.1.1}%
+\contentsline {subsection}{\numberline {118.1.2}Local Extrema}{1112}{subsection.118.1.2}%
+\contentsline {subsection}{\numberline {118.1.3}Practice: Interval of Increasing and Decreasing, Local Extrema}{1114}{subsection.118.1.3}%
+\contentsline {subsection}{\numberline {118.1.4}Global Extrema}{1114}{subsection.118.1.4}%
+\contentsline {subsection}{\numberline {118.1.5}Practice: Global Extrema}{1116}{subsection.118.1.5}%
+\contentsline {section}{\numberline {118.2}Sketching f from f'}{1117}{section.118.2}%
+\contentsline {subsection}{\numberline {118.2.1}Practice Sketching f from f'}{1120}{subsection.118.2.1}%
+\contentsline {section}{\numberline {118.3}Using second derivatives to describe a function}{1121}{section.118.3}%
+\contentsline {subsection}{\numberline {118.3.1}Concavity}{1121}{subsection.118.3.1}%
+\contentsline {subsection}{\numberline {118.3.2}Inflection Points}{1123}{subsection.118.3.2}%
+\contentsline {chapter}{\numberline {119}Experimental Design}{1129}{chapter.119}%
+\contentsline {section}{\numberline {119.1}Planning and Conducting Experiments}{1129}{section.119.1}%
+\contentsline {subsection}{\numberline {119.1.1}Experiments vs. Observational Studies}{1129}{subsection.119.1.1}%
+\contentsline {subsection}{\numberline {119.1.2}Vocabulary for Experiments}{1130}{subsection.119.1.2}%
+\contentsline {subsection}{\numberline {119.1.3}The Three Principles of Experimental Design}{1132}{subsection.119.1.3}%
+\contentsline {subsection}{\numberline {119.1.4}Blinding}{1133}{subsection.119.1.4}%
+\contentsline {subsection}{\numberline {119.1.5}Random Selection vs. Random Assignment}{1134}{subsection.119.1.5}%
+\contentsline {section}{\numberline {119.2}Experimental Designs}{1137}{section.119.2}%
+\contentsline {subsection}{\numberline {119.2.1}Completely Randomized Design}{1137}{subsection.119.2.1}%
+\contentsline {subsection}{\numberline {119.2.2}Randomized Block Design}{1138}{subsection.119.2.2}%
+\contentsline {subsection}{\numberline {119.2.3}Matched-Pairs Design}{1140}{subsection.119.2.3}%
+\contentsline {subsection}{\numberline {119.2.4}Choosing a Design}{1142}{subsection.119.2.4}%
+\contentsline {chapter}{\numberline {120}Optimization}{1147}{chapter.120}%
+\contentsline {section}{\numberline {120.1}Extrema}{1148}{section.120.1}%
+\contentsline {section}{\numberline {120.2}The Second Derivative Test}{1149}{section.120.2}%
+\contentsline {section}{\numberline {120.3}Solving Optimization Problems}{1149}{section.120.3}%
+\contentsline {section}{\numberline {120.4}General Strategy for Solving Optimization Problems}{1149}{section.120.4}%
+\contentsline {subsection}{\numberline {120.4.1}Example}{1150}{subsection.120.4.1}%
+\contentsline {section}{\numberline {120.5}Helpful Table for Optimization Problems}{1153}{section.120.5}%
+\contentsline {section}{\numberline {120.6}Using Python to Visualize Your Optimization Problem}{1153}{section.120.6}%
+\contentsline {chapter}{\numberline {121}Implicit Differentiation}{1157}{chapter.121}%
+\contentsline {section}{\numberline {121.1}Implicit Differentiation Procedure}{1157}{section.121.1}%
+\contentsline {section}{\numberline {121.2}Example}{1158}{section.121.2}%
+\contentsline {subsection}{\numberline {121.2.1}Without Implicit Differentiation}{1158}{subsection.121.2.1}%
+\contentsline {subsection}{\numberline {121.2.2}With Implicit Differentiation}{1158}{subsection.121.2.2}%
+\contentsline {section}{\numberline {121.3}Folium of Descartes}{1159}{section.121.3}%
+\contentsline {subsection}{\numberline {121.3.1}Example: Tangent to Folium of Descartes}{1160}{subsection.121.3.1}%
+\contentsline {section}{\numberline {121.4}Practice}{1161}{section.121.4}%
+\contentsline {chapter}{\numberline {122}Related Rates}{1163}{chapter.122}%
+\contentsline {section}{\numberline {122.1}Steps to solve related rates problems}{1163}{section.122.1}%
+\contentsline {section}{\numberline {122.2}Example}{1163}{section.122.2}%
+\contentsline {chapter}{\numberline {123}Multivariate Functions and Partial Derivatives}{1165}{chapter.123}%
+\contentsline {chapter}{\numberline {124}Partial Derivatives and Gradients}{1167}{chapter.124}%
+\contentsline {section}{\numberline {124.1}Calculating Partial Derivatives}{1168}{section.124.1}%
+\contentsline {subsection}{\numberline {124.1.1}Partial Derivative Notation}{1170}{subsection.124.1.1}%
+\contentsline {subsection}{\numberline {124.1.2}Partial Derivatives of Functions of More than Two Variables}{1171}{subsection.124.1.2}%
+\contentsline {subsection}{\numberline {124.1.3}Higher Order Partial Derivatives}{1173}{subsection.124.1.3}%
+\contentsline {subsection}{\numberline {124.1.4}The Chain Rule}{1176}{subsection.124.1.4}%
+\contentsline {section}{\numberline {124.2}Interpreting Partial Derivatives}{1179}{section.124.2}%
+\contentsline {section}{\numberline {124.3}Gradient Vectors}{1184}{section.124.3}%
+\contentsline {subsection}{\numberline {124.3.1}Directional Derivatives}{1185}{subsection.124.3.1}%
+\contentsline {subsection}{\numberline {124.3.2}Unit Vectors in Two Dimensions}{1189}{subsection.124.3.2}%
+\contentsline {subsection}{\numberline {124.3.3}Unit Vectors in Higher Dimensions}{1190}{subsection.124.3.3}%
+\contentsline {subsection}{\numberline {124.3.4}Maximizing the Gradient}{1193}{subsection.124.3.4}%
+\contentsline {subsection}{\numberline {124.3.5}Conclusion}{1196}{subsection.124.3.5}%
+\contentsline {section}{\numberline {124.4}Applications of Partial Derivatives and Gradients}{1196}{section.124.4}%
+\contentsline {subsection}{\numberline {124.4.1}Laplace's Equation}{1196}{subsection.124.4.1}%
+\contentsline {subsection}{\numberline {124.4.2}The Wave Equation}{1198}{subsection.124.4.2}%
+\contentsline {subsection}{\numberline {124.4.3}Cobb-Douglas Production Function}{1199}{subsection.124.4.3}%
+\contentsline {chapter}{\numberline {125}Introduction to Linear Algebra}{1203}{chapter.125}%
+\contentsline {section}{\numberline {125.1}What's With the Linear?}{1203}{section.125.1}%
+\contentsline {section}{\numberline {125.2}Linear Combinations}{1203}{section.125.2}%
+\contentsline {section}{\numberline {125.3}Image Operations}{1204}{section.125.3}%
+\contentsline {section}{\numberline {125.4}The Numbers Behind Some Image Operations}{1206}{section.125.4}%
+\contentsline {section}{\numberline {125.5}Applications of Linear Algebra}{1212}{section.125.5}%
+\contentsline {section}{\numberline {125.6}Let's Observe the Sun!}{1213}{section.125.6}%
+\contentsline {section}{\numberline {125.7}Images in Python}{1214}{section.125.7}%
+\contentsline {section}{\numberline {125.8}Exercise}{1215}{section.125.8}%
+\contentsline {chapter}{\numberline {126}Vectors and Matrices}{1217}{chapter.126}%
+\contentsline {section}{\numberline {126.1}Matrices}{1217}{section.126.1}%
+\contentsline {subsection}{\numberline {126.1.1}Zero Matrices}{1218}{subsection.126.1.1}%
+\contentsline {section}{\numberline {126.2}Operations of Matrices}{1219}{section.126.2}%
+\contentsline {subsection}{\numberline {126.2.1}Adding and Subtracting Matrices}{1219}{subsection.126.2.1}%
+\contentsline {subsection}{\numberline {126.2.2}Multiplying Matrices}{1220}{subsection.126.2.2}%
+\contentsline {subsubsection}{Properties of the Zero Matrix}{1225}{section*.505}%
+\contentsline {subsubsection}{The Identity Matrix}{1225}{section*.506}%
+\contentsline {subsection}{\numberline {126.2.3}Transposing a Matrix}{1226}{subsection.126.2.3}%
+\contentsline {subsection}{\numberline {126.2.4}Row-Major Order, Column-Major Order, and Computer Memory}{1227}{subsection.126.2.4}%
+\contentsline {subsection}{\numberline {126.2.5}Properties of Transposes}{1227}{subsection.126.2.5}%
+\contentsline {section}{\numberline {126.3}Types of Matrices}{1228}{section.126.3}%
+\contentsline {subsection}{\numberline {126.3.1}Symmetric Matrices}{1230}{subsection.126.3.1}%
+\contentsline {subsection}{\numberline {126.3.2}Can We Divide Matrices?}{1231}{subsection.126.3.2}%
+\contentsline {chapter}{\numberline {127}Linear Combinations of Vectors}{1233}{chapter.127}%
+\contentsline {section}{\numberline {127.1}Visualizing Linear Combinations}{1237}{section.127.1}%
+\contentsline {chapter}{\numberline {128}Systems of Equations as Matrices}{1241}{chapter.128}%
+\contentsline {section}{\numberline {128.1}Systems of Equations, REF, and RREF}{1241}{section.128.1}%
+\contentsline {section}{\numberline {128.2}Row-Echelon Form}{1242}{section.128.2}%
+\contentsline {subsection}{\numberline {128.2.1}The Augmented Matrix}{1243}{subsection.128.2.1}%
+\contentsline {subsection}{\numberline {128.2.2}Elementary Row Operations}{1243}{subsection.128.2.2}%
+\contentsline {subsection}{\numberline {128.2.3}Reduced Row Echelon Form}{1244}{subsection.128.2.3}%
+\contentsline {subsection}{\numberline {128.2.4}Writing the Solution Vector}{1245}{subsection.128.2.4}%
+\contentsline {section}{\numberline {128.3}Larger RREF Example}{1246}{section.128.3}%
+\contentsline {subsection}{\numberline {128.3.1}Write the System and Identify $A$, $\vec {x}$, and $\vec {b}$}{1246}{subsection.128.3.1}%
+\contentsline {subsection}{\numberline {128.3.2}Form the Augmented Matrix}{1246}{subsection.128.3.2}%
+\contentsline {subsection}{\numberline {128.3.3}Row-Reduce to REF}{1247}{subsection.128.3.3}%
+\contentsline {subsection}{\numberline {128.3.4}Continue to RREF}{1248}{subsection.128.3.4}%
+\contentsline {subsection}{\numberline {128.3.5}Write the Solution Vector}{1249}{subsection.128.3.5}%
+\contentsline {section}{\numberline {128.4}Free Variables}{1250}{section.128.4}%
+\contentsline {subsection}{\numberline {128.4.1}Zero rows and redundant equations}{1250}{subsection.128.4.1}%
+\contentsline {subsection}{\numberline {128.4.2}Free variables}{1250}{subsection.128.4.2}%
+\contentsline {subsection}{\numberline {128.4.3}Infinitely Many Solutions}{1251}{subsection.128.4.3}%
+\contentsline {subsection}{\numberline {128.4.4}Inconsistent sets}{1252}{subsection.128.4.4}%
+\contentsline {section}{\numberline {128.5}Basis, Dimension, Rank}{1252}{section.128.5}%
+\contentsline {section}{\numberline {128.6}Creating Matrices in Python}{1255}{section.128.6}%
+\contentsline {subsection}{\numberline {128.6.1}Creating Special Matrices in Python}{1257}{subsection.128.6.1}%
+\contentsline {section}{\numberline {128.7}Conclusion}{1259}{section.128.7}%
+\contentsline {chapter}{\numberline {129}Applications of Matrices in System Form}{1261}{chapter.129}%
+\contentsline {section}{\numberline {129.1}Trail Mix for Mars}{1261}{section.129.1}%
+\contentsline {subsection}{\numberline {129.1.1}Vector-Matrix Multiplication in Python}{1263}{subsection.129.1.1}%
+\contentsline {section}{\numberline {129.2}Where to Learn More}{1264}{section.129.2}%
+\contentsline {chapter}{\numberline {130}Linear Independence and Dependence}{1265}{chapter.130}%
+\contentsline {section}{\numberline {130.1}Linear Independence}{1265}{section.130.1}%
+\contentsline {subsection}{\numberline {130.1.1}Connection to Span}{1268}{subsection.130.1.1}%
+\contentsline {section}{\numberline {130.2}Linearly Dependent Vectors: Geometrically}{1269}{section.130.2}%
+\contentsline {section}{\numberline {130.3}What's next?}{1271}{section.130.3}%
+\contentsline {chapter}{\numberline {131}Subspaces}{1273}{chapter.131}%
+\contentsline {section}{\numberline {131.1}What is a Subspace?}{1273}{section.131.1}%
+\contentsline {section}{\numberline {131.2}Basis and Dimension}{1274}{section.131.2}%
+\contentsline {section}{\numberline {131.3}Nullspace}{1276}{section.131.3}%
+\contentsline {subsection}{\numberline {131.3.1}Linear Combinations and Span}{1277}{subsection.131.3.1}%
+\contentsline {subsection}{\numberline {131.3.2}Example}{1277}{subsection.131.3.2}%
+\contentsline {subsection}{\numberline {131.3.3}Example}{1278}{subsection.131.3.3}%
+\contentsline {section}{\numberline {131.4}Row Space}{1280}{section.131.4}%
+\contentsline {subsection}{\numberline {131.4.1}Example}{1281}{subsection.131.4.1}%
+\contentsline {section}{\numberline {131.5}Column Space}{1282}{section.131.5}%
+\contentsline {subsection}{\numberline {131.5.1}Example}{1282}{subsection.131.5.1}%
+\contentsline {section}{\numberline {131.6}Summary}{1284}{section.131.6}%
+\contentsline {chapter}{\numberline {132}Span}{1285}{chapter.132}%
+\contentsline {section}{\numberline {132.1}Spans of Vectors}{1285}{section.132.1}%
+\contentsline {subsection}{\numberline {132.1.1}Spans of Independent Vectors}{1286}{subsection.132.1.1}%
+\contentsline {section}{\numberline {132.2}Where to Learn More}{1288}{section.132.2}%
+\contentsline {chapter}{\numberline {133}Determinants and Inverse Matrices}{1291}{chapter.133}%
+\contentsline {section}{\numberline {133.1}Determinants}{1291}{section.133.1}%
+\contentsline {section}{\numberline {133.2}Determinants in Python}{1296}{section.133.2}%
+\contentsline {section}{\numberline {133.3}Inverse Matrices}{1298}{section.133.3}%
+\contentsline {subsection}{\numberline {133.3.1}Existence of Square Matrices}{1299}{subsection.133.3.1}%
+\contentsline {subsection}{\numberline {133.3.2}Finding an Inverse Matrix}{1299}{subsection.133.3.2}%
+\contentsline {subsection}{\numberline {133.3.3}Relation to $A\vec {x} = \vec {b}$}{1302}{subsection.133.3.3}%
+\contentsline {subsection}{\numberline {133.3.4}Matrix Inverse using NumPy}{1303}{subsection.133.3.4}%
+\contentsline {section}{\numberline {133.4}Summary}{1304}{section.133.4}%
+\contentsline {chapter}{\numberline {134}Cross Product}{1305}{chapter.134}%
+\contentsline {section}{\numberline {134.1}The Cross Product}{1305}{section.134.1}%
+\contentsline {subsection}{\numberline {134.1.1}Geometric Interpretation}{1305}{subsection.134.1.1}%
+\contentsline {chapter}{\numberline {135}Matrices as Transformations}{1307}{chapter.135}%
+\contentsline {subsection}{\numberline {135.0.1}The Identity Transformation}{1308}{subsection.135.0.1}%
+\contentsline {subsection}{\numberline {135.0.2}Scaling and Shearing}{1310}{subsection.135.0.2}%
+\contentsline {section}{\numberline {135.1}Scaling}{1310}{section.135.1}%
+\contentsline {section}{\numberline {135.2}Reflections}{1315}{section.135.2}%
+\contentsline {subsection}{\numberline {135.2.1}Reflection across the x-axis}{1315}{subsection.135.2.1}%
+\contentsline {subsection}{\numberline {135.2.2}Reflection across the y-axis}{1317}{subsection.135.2.2}%
+\contentsline {subsection}{\numberline {135.2.3}Reflection across the lines $y=x$ and $y=-x$}{1319}{subsection.135.2.3}%
+\contentsline {section}{\numberline {135.3}Rotations}{1322}{section.135.3}%
+\contentsline {section}{\numberline {135.4}What if I want to undo my transform?}{1326}{section.135.4}%
+\contentsline {section}{\numberline {135.5}Summary and looking ahead}{1327}{section.135.5}%
+\contentsline {chapter}{\numberline {136}Eigenvectors and Eigenvalues}{1329}{chapter.136}%
+\contentsline {section}{\numberline {136.1}Definition}{1330}{section.136.1}%
+\contentsline {section}{\numberline {136.2}Finding Eigenvalues and Eigenvectors}{1330}{section.136.2}%
+\contentsline {section}{\numberline {136.3}Example}{1331}{section.136.3}%
+\contentsline {section}{\numberline {136.4}Eigenbasis and Eigenspace}{1333}{section.136.4}%
+\contentsline {section}{\numberline {136.5}Eigenvalues and Eigenvectors in Python}{1335}{section.136.5}%
+\contentsline {section}{\numberline {136.6}Connection to transformations}{1335}{section.136.6}%
+\contentsline {section}{\numberline {136.7}Summary}{1336}{section.136.7}%
+\contentsline {section}{\numberline {136.8}Where to Learn More}{1336}{section.136.8}%
+\contentsline {chapter}{\numberline {137}Projections}{1337}{chapter.137}%
+\contentsline {section}{\numberline {137.1}Projections in Python}{1340}{section.137.1}%
+\contentsline {section}{\numberline {137.2}Where to Learn More}{1341}{section.137.2}%
+\contentsline {chapter}{\numberline {138}The Gram-Schmidt Process}{1343}{chapter.138}%
+\contentsline {section}{\numberline {138.1}The Process}{1343}{section.138.1}%
+\contentsline {section}{\numberline {138.2}Example Calculation}{1344}{section.138.2}%
+\contentsline {section}{\numberline {138.3}The Gram-Schmidt Process in Python}{1346}{section.138.3}%
+\contentsline {section}{\numberline {138.4}Where to Learn More}{1347}{section.138.4}%
+\contentsline {chapter}{\numberline {139}Singular Value Decomposition}{1349}{chapter.139}%
+\contentsline {section}{\numberline {139.1}Definition}{1349}{section.139.1}%
+\contentsline {section}{\numberline {139.2}Applications of SVD}{1349}{section.139.2}%
+\contentsline {section}{\numberline {139.3}Calculating SVD Manually}{1350}{section.139.3}%
+\contentsline {section}{\numberline {139.4}Singular Value Decomposition with Python}{1353}{section.139.4}%
+\contentsline {section}{\numberline {139.5}Sign Ambiguity}{1354}{section.139.5}%
+\contentsline {section}{\numberline {139.6}SVD Applied to Image Compression}{1354}{section.139.6}%
+\contentsline {section}{\numberline {139.7}Where to Learn More}{1355}{section.139.7}%
+\contentsline {chapter}{\numberline {140}Tackling Difficult Problems: Positive Semidefinite Matrices}{1357}{chapter.140}%
+\contentsline {section}{\numberline {140.1}NP Problems}{1357}{section.140.1}%
+\contentsline {section}{\numberline {140.2}A Past Approach: Minimizing Errors in Neural Networks}{1358}{section.140.2}%
+\contentsline {section}{\numberline {140.3}Positive Definite and Semidefinite Matrices}{1359}{section.140.3}%
+\contentsline {section}{\numberline {140.4}Identifying and Constructing a Positive Semidefinite Matrix}{1360}{section.140.4}%
+\contentsline {section}{\numberline {140.5}The Max Cut Problem}{1361}{section.140.5}%
+\contentsline {section}{\numberline {140.6}The Max Cut Problem Solved in Python}{1363}{section.140.6}%
+\contentsline {chapter}{\numberline {141}Introduction to C}{1365}{chapter.141}%
+\contentsline {section}{\numberline {141.1}Compiled vs.\ Interpreted}{1365}{section.141.1}%
+\contentsline {section}{\numberline {141.2}Your First C Program}{1366}{section.141.2}%
+\contentsline {section}{\numberline {141.3}Types and Variables}{1366}{section.141.3}%
+\contentsline {section}{\numberline {141.4}Printing with \texttt {printf}}{1367}{section.141.4}%
+\contentsline {section}{\numberline {141.5}Conditionals and Loops}{1368}{section.141.5}%
+\contentsline {subsection}{\numberline {141.5.1}if / else}{1368}{subsection.141.5.1}%
+\contentsline {subsection}{\numberline {141.5.2}for and while loops}{1369}{subsection.141.5.2}%
+\contentsline {section}{\numberline {141.6}Functions}{1369}{section.141.6}%
+\contentsline {section}{\numberline {141.7}The Stack: Blackboards for Functions}{1370}{section.141.7}%
+\contentsline {subsection}{\numberline {141.7.1}Parameters are copies}{1371}{subsection.141.7.1}%
+\contentsline {section}{\numberline {141.8}Addresses and Pointers}{1371}{section.141.8}%
+\contentsline {subsection}{\numberline {141.8.1}Reading and writing through a pointer}{1372}{subsection.141.8.1}%
+\contentsline {subsection}{\numberline {141.8.2}NULL pointers}{1373}{subsection.141.8.2}%
+\contentsline {section}{\numberline {141.9}Pass-by-Reference}{1373}{section.141.9}%
+\contentsline {section}{\numberline {141.10}Structs: Grouping Related Data}{1375}{section.141.10}%
+\contentsline {section}{\numberline {141.11}The Heap}{1376}{section.141.11}%
+\contentsline {subsection}{\numberline {141.11.1}The arrow operator}{1376}{subsection.141.11.1}%
+\contentsline {subsection}{\numberline {141.11.2}Releasing heap memory}{1377}{subsection.141.11.2}%
+\contentsline {subsection}{\numberline {141.11.3}A complete heap example}{1377}{subsection.141.11.3}%
+\contentsline {subsection}{\numberline {141.11.4}Heap arrays}{1378}{subsection.141.11.4}%
+\contentsline {section}{\numberline {141.12}What Python Objects Actually Are}{1378}{section.141.12}%
+\contentsline {section}{\numberline {141.13}Exercises}{1379}{section.141.13}%
+\contentsline {chapter}{\numberline {142}Linked Lists and C++ transition}{1381}{chapter.142}%
+\contentsline {section}{\numberline {142.1}From C to C++}{1381}{section.142.1}%
+\contentsline {section}{\numberline {142.2}Linked Lists}{1381}{section.142.2}%
+\contentsline {section}{\numberline {142.3}Doubly Linked Lists}{1386}{section.142.3}%
+\contentsline {chapter}{\numberline {143}Bitmaps}{1389}{chapter.143}%
+\contentsline {section}{\numberline {143.1}Bitmap Structure}{1390}{section.143.1}%
+\contentsline {subsection}{\numberline {143.1.1}Bitmap Headers}{1390}{subsection.143.1.1}%
+\contentsline {subsection}{\numberline {143.1.2}Padding}{1391}{subsection.143.1.2}%
+\contentsline {section}{\numberline {143.2}Creating a Bitmap with C++}{1397}{section.143.2}%
+\contentsline {section}{\numberline {143.3}Connection to transformations}{1403}{section.143.3}%
+\contentsline {section}{\numberline {143.4}Summary}{1404}{section.143.4}%
+\contentsline {chapter}{\numberline {144}Stacks}{1407}{chapter.144}%
+\contentsline {section}{\numberline {144.1}Array-Based Stack}{1408}{section.144.1}%
+\contentsline {section}{\numberline {144.2}Linked-List Stack}{1409}{section.144.2}%
+\contentsline {section}{\numberline {144.3}Array vs. Linked: Which One?}{1410}{section.144.3}%
+\contentsline {chapter}{\numberline {145}Queues}{1411}{chapter.145}%
+\contentsline {section}{\numberline {145.1}Array-Based Queue}{1411}{section.145.1}%
+\contentsline {section}{\numberline {145.2}Linked-List Queue}{1412}{section.145.2}%
+\contentsline {chapter}{\numberline {146}Priority Queues}{1413}{chapter.146}%
+\contentsline {section}{\numberline {146.1}A Naive Implementation of the Priority Queue}{1413}{section.146.1}%
+\contentsline {section}{\numberline {146.2}Using the Priority Queue}{1414}{section.146.2}%
+\contentsline {section}{\numberline {146.3}Binary Search}{1416}{section.146.3}%
+\contentsline {section}{\numberline {146.4}Algorithm}{1417}{section.146.4}%
+\contentsline {chapter}{\numberline {147}Hash Tables}{1419}{chapter.147}%
+\contentsline {section}{\numberline {147.1}Structure of a Hash Table}{1419}{section.147.1}%
+\contentsline {section}{\numberline {147.2}Inserting and Retrieving Data}{1419}{section.147.2}%
+\contentsline {section}{\numberline {147.3}Handling Collisions}{1419}{section.147.3}%
+\contentsline {section}{\numberline {147.4}Time Complexity}{1420}{section.147.4}%
+\contentsline {chapter}{\numberline {148}Trees}{1421}{chapter.148}%
+\contentsline {section}{\numberline {148.1}Binary Trees and Binary Search Trees}{1422}{section.148.1}%
+\contentsline {section}{\numberline {148.2}File Structures and File System Hierarchies}{1424}{section.148.2}%
+\contentsline {section}{\numberline {148.3}Red-Black Trees and AVL Trees}{1426}{section.148.3}%
+\contentsline {section}{\numberline {148.4}B-Trees, Tries, and Suffix Trees}{1426}{section.148.4}%
+\contentsline {chapter}{\numberline {149}Tree Traversal}{1427}{chapter.149}%
+\contentsline {section}{\numberline {149.1}BFS}{1427}{section.149.1}%
+\contentsline {subsection}{\numberline {149.1.1}Pseudocode}{1429}{subsection.149.1.1}%
+\contentsline {section}{\numberline {149.2}DFS}{1430}{section.149.2}%
+\contentsline {subsection}{\numberline {149.2.1}Pre-order}{1430}{subsection.149.2.1}%
+\contentsline {subsection}{\numberline {149.2.2}Post-order}{1431}{subsection.149.2.2}%
+\contentsline {subsection}{\numberline {149.2.3}In-order}{1431}{subsection.149.2.3}%
+\contentsline {subsection}{\numberline {149.2.4}Pseudocode}{1432}{subsection.149.2.4}%
+\contentsline {section}{\numberline {149.3}Recursive vs Iterative Traversal}{1432}{section.149.3}%
+\contentsline {subsection}{\numberline {149.3.1}Pre-order and Post-order Numbering}{1433}{subsection.149.3.1}%
+\contentsline {chapter}{\numberline {150}Finding Shortest Paths}{1435}{chapter.150}%
+\contentsline {section}{\numberline {150.1}Introduction — BFS revisited}{1435}{section.150.1}%
+\contentsline {section}{\numberline {150.2}Dijkstra's Algorithm}{1436}{section.150.2}%
+\contentsline {subsection}{\numberline {150.2.1}Algorithm Description}{1436}{subsection.150.2.1}%
+\contentsline {subsection}{\numberline {150.2.2}Implementation}{1439}{subsection.150.2.2}%
+\contentsline {section}{\numberline {150.3}Bellman-Ford Algorithm}{1442}{section.150.3}%
+\contentsline {chapter}{\numberline {151}Other Graph Algorithms and Proofs}{1445}{chapter.151}%
+\contentsline {section}{\numberline {151.1}Adjacency Matrices}{1445}{section.151.1}%
+\contentsline {section}{\numberline {151.2}Prim's Algorithm and Kruskal's Algorithm for Minimum Spanning Trees}{1448}{section.151.2}%
+\contentsline {section}{\numberline {151.3}A* (A-star) Search Algorithm}{1448}{section.151.3}%
+\contentsline {subsection}{\numberline {151.3.1}The Path Cost $g(n)$}{1448}{subsection.151.3.1}%
+\contentsline {subsection}{\numberline {151.3.2}The Heuristic Function $h(n)$}{1449}{subsection.151.3.2}%
+\contentsline {subsection}{\numberline {151.3.3}The Total Estimated Distance $f(n)$ and Priority Queues}{1450}{subsection.151.3.3}%
+\contentsline {section}{\numberline {151.4}Injection, Surjection, Bijection, and Isomorphism}{1450}{section.151.4}%
+\contentsline {section}{\numberline {151.5}Travelling Salesperson Problem and Nearest Neighbour}{1454}{section.151.5}%
+\contentsline {section}{\numberline {151.6}Topological Sort and DAGs}{1454}{section.151.6}%
+\contentsline {section}{\numberline {151.7}Proofs}{1457}{section.151.7}%
+\contentsline {subsection}{\numberline {151.7.1}Example 1: Bipartite}{1457}{subsection.151.7.1}%
+\contentsline {subsection}{\numberline {151.7.2}Example 2 and 3. Cycle Detection and Leaves}{1458}{subsection.151.7.2}%
+\contentsline {chapter}{\numberline {152}Making Web Requests with HTTP}{1461}{chapter.152}%
+\contentsline {section}{\numberline {152.1}HTTP Requests}{1461}{section.152.1}%
+\contentsline {section}{\numberline {152.2}Using HTTP with Web-Based APIs}{1462}{section.152.2}%
+\contentsline {section}{\numberline {152.3}HTTP Responses}{1463}{section.152.3}%
+\contentsline {section}{\numberline {152.4}Data Formats in Responses}{1463}{section.152.4}%
+\contentsline {chapter}{\numberline {153}Using and Creating APIs}{1465}{chapter.153}%
+\contentsline {section}{\numberline {153.1}Setting up an API}{1466}{section.153.1}%
+\contentsline {subsection}{\numberline {153.1.1}What is an endpoint?}{1467}{subsection.153.1.1}%
+\contentsline {subsection}{\numberline {153.1.2}Reading all resources}{1468}{subsection.153.1.2}%
+\contentsline {section}{\numberline {153.2}Requests with cURL}{1469}{section.153.2}%
+\contentsline {section}{\numberline {153.3}Updating and Deleting Resources with cURL}{1470}{section.153.3}%
+\contentsline {subsection}{\numberline {153.3.1}Fully replacing a resource with PUT}{1470}{subsection.153.3.1}%
+\contentsline {subsection}{\numberline {153.3.2}Partially updating a resource with PATCH}{1471}{subsection.153.3.2}%
+\contentsline {subsection}{\numberline {153.3.3}Removing a resource with DELETE}{1472}{subsection.153.3.3}%
+\contentsline {subsection}{\numberline {153.3.4}Headers with \texttt {-i} and \texttt {-v}}{1472}{subsection.153.3.4}%
+\contentsline {section}{\numberline {153.4}Authentication and API Keys}{1473}{section.153.4}%
+\contentsline {section}{\numberline {153.5}Creating resources with POST}{1475}{section.153.5}%
+\contentsline {section}{\numberline {153.6}Postman}{1477}{section.153.6}%
+\contentsline {subsection}{\numberline {153.6.1}Building your first request in Postman}{1477}{subsection.153.6.1}%
+\contentsline {subsection}{\numberline {153.6.2}Why this matters once requests get complicated}{1478}{subsection.153.6.2}%
+\contentsline {section}{\numberline {153.7}Summary}{1478}{section.153.7}%
+\contentsline {chapter}{\numberline {154}Data Compression and Decompression}{1481}{chapter.154}%
+\contentsline {section}{\numberline {154.1}Data Compression and Decompression}{1481}{section.154.1}%
+\contentsline {section}{\numberline {154.2}Entropy}{1481}{section.154.2}%
+\contentsline {section}{\numberline {154.3}Entropy and Compression}{1481}{section.154.3}%
+\contentsline {chapter}{\numberline {155}Dealing with JSON and XML}{1483}{chapter.155}%
+\contentsline {chapter}{\numberline {156}HTML}{1485}{chapter.156}%
+\contentsline {section}{\numberline {156.1}HTML Elements}{1485}{section.156.1}%
+\contentsline {section}{\numberline {156.2}Attributes}{1485}{section.156.2}%
+\contentsline {section}{\numberline {156.3}HTML Document Structure}{1486}{section.156.3}%
+\contentsline {section}{\numberline {156.4}Web Development and HTML}{1489}{section.156.4}%
+\contentsline {section}{\numberline {156.5}Metadata}{1489}{section.156.5}%
+\contentsline {section}{\numberline {156.6}Div Elements}{1490}{section.156.6}%
+\contentsline {section}{\numberline {156.7}Semantic HTML}{1492}{section.156.7}%
+\contentsline {section}{\numberline {156.8}Headings and Sections}{1494}{section.156.8}%
+\contentsline {section}{\numberline {156.9}Text Elements}{1496}{section.156.9}%
+\contentsline {section}{\numberline {156.10}Links}{1498}{section.156.10}%
+\contentsline {section}{\numberline {156.11}Lists}{1498}{section.156.11}%
+\contentsline {subsection}{\numberline {156.11.1}Unordered Lists}{1499}{subsection.156.11.1}%
+\contentsline {subsection}{\numberline {156.11.2}Ordered Lists}{1499}{subsection.156.11.2}%
+\contentsline {section}{\numberline {156.12}Navigation}{1502}{section.156.12}%
+\contentsline {section}{\numberline {156.13}Tables}{1504}{section.156.13}%
+\contentsline {section}{\numberline {156.14}Forms}{1508}{section.156.14}%
+\contentsline {section}{\numberline {156.15}Images}{1510}{section.156.15}%
+\contentsline {chapter}{\numberline {157}Introduction to Text}{1515}{chapter.157}%
+\contentsline {section}{\numberline {157.1}Newlines and Carriage Returns}{1515}{section.157.1}%
+\contentsline {section}{\numberline {157.2}ASCII}{1515}{section.157.2}%
+\contentsline {section}{\numberline {157.3}UTF-8}{1515}{section.157.3}%
+\contentsline {chapter}{\numberline {158}Alphabets and Accents}{1517}{chapter.158}%
+\contentsline {chapter}{\numberline {159}Making Plots with matplotlib}{1519}{chapter.159}%
+\contentsline {chapter}{\numberline {160}Geocoding and Reverse Geocoding}{1521}{chapter.160}%
+\contentsline {section}{\numberline {160.1}Geocoding}{1521}{section.160.1}%
+\contentsline {section}{\numberline {160.2}Reverse Geocoding}{1522}{section.160.2}%
+\contentsline {chapter}{\numberline {161}Making a Map}{1523}{chapter.161}%
+\contentsline {chapter}{\numberline {162}Introduction to Discrete Probability}{1525}{chapter.162}%
+\contentsline {section}{\numberline {162.1}The Probability of All Possibilities is 1.0}{1525}{section.162.1}%
+\contentsline {section}{\numberline {162.2}Independence and Dependence}{1526}{section.162.2}%
+\contentsline {section}{\numberline {162.3}Correlation does not Imply Causation}{1526}{section.162.3}%
+\contentsline {section}{\numberline {162.4}Why 7 is the most likely sum of two dice}{1527}{section.162.4}%
+\contentsline {section}{\numberline {162.5}Random Numbers and Python}{1529}{section.162.5}%
+\contentsline {subsection}{\numberline {162.5.1}Making a bar graph}{1532}{subsection.162.5.1}%
+\contentsline {chapter}{\numberline {163}Beginning Combinatorics}{1535}{chapter.163}%
+\contentsline {section}{\numberline {163.1}Choose}{1536}{section.163.1}%
+\contentsline {section}{\numberline {163.2}Fractional Binomial Theorem}{1538}{section.163.2}%
+\contentsline {section}{\numberline {163.3}Applications in Probability}{1540}{section.163.3}%
+\contentsline {chapter}{\numberline {164}Permutations and Sorting}{1543}{chapter.164}%
+\contentsline {section}{\numberline {164.1}Notation}{1543}{section.164.1}%
+\contentsline {subsection}{\numberline {164.1.1}Challenge}{1544}{subsection.164.1.1}%
+\contentsline {section}{\numberline {164.2}Sorting in Python}{1544}{section.164.2}%
+\contentsline {section}{\numberline {164.3}Inverses}{1545}{section.164.3}%
+\contentsline {section}{\numberline {164.4}Cycles}{1546}{section.164.4}%
+\contentsline {section}{\numberline {164.5}Further Learning}{1547}{section.164.5}%
+\contentsline {chapter}{\numberline {165}Statistical Inferences for Proportions}{1549}{chapter.165}%
+\contentsline {section}{\numberline {165.1}Interval Estimation and the Confidence Interval}{1549}{section.165.1}%
+\contentsline {section}{\numberline {165.2}Constructing a Confidence Interval for a Proportion}{1549}{section.165.2}%
+\contentsline {section}{\numberline {165.3}Inference: Tests of Significance}{1550}{section.165.3}%
+\contentsline {chapter}{\numberline {166}Statistical Inferences for Means}{1551}{chapter.166}%
+\contentsline {section}{\numberline {166.1}The $t$-Distribution and Conditions for Inference about a Mean}{1551}{section.166.1}%
+\contentsline {subsection}{\numberline {166.1.1}Meet the $t$-Distribution}{1551}{subsection.166.1.1}%
+\contentsline {subsection}{\numberline {166.1.2}Conditions for Inference about a Mean}{1552}{subsection.166.1.2}%
+\contentsline {subsection}{\numberline {166.1.3}When the Data Comes in Pairs}{1553}{subsection.166.1.3}%
+\contentsline {section}{\numberline {166.2}Constructing and Justifying a Confidence Interval for a Population Mean}{1554}{section.166.2}%
+\contentsline {subsection}{\numberline {166.2.1}The Confidence Interval for a Population Mean}{1554}{subsection.166.2.1}%
+\contentsline {subsection}{\numberline {166.2.2}Interpreting and Justifying the Interval}{1555}{subsection.166.2.2}%
+\contentsline {section}{\numberline {166.3}Setting Up and Carrying Out a Test for a Population Mean}{1558}{section.166.3}%
+\contentsline {subsection}{\numberline {166.3.1}Setting Up the Test}{1558}{subsection.166.3.1}%
+\contentsline {subsection}{\numberline {166.3.2}Carrying Out the Test}{1558}{subsection.166.3.2}%
+\contentsline {section}{\numberline {166.4}Confidence Intervals for a Difference in Two Means}{1560}{section.166.4}%
+\contentsline {subsection}{\numberline {166.4.1}Two Independent Samples}{1560}{subsection.166.4.1}%
+\contentsline {section}{\numberline {166.5}Significance Tests for a Difference in Two Means, and Selecting the Right Procedure}{1562}{section.166.5}%
+\contentsline {subsection}{\numberline {166.5.1}Setting Up and Carrying Out the Test}{1562}{subsection.166.5.1}%
+\contentsline {subsection}{\numberline {166.5.2}Selecting the Right Procedure}{1563}{subsection.166.5.2}%
+\contentsline {subsection}{\numberline {166.5.3}Common Errors}{1564}{subsection.166.5.3}%
+\contentsline {chapter}{\numberline {167}Statistical Inferences for Slopes}{1567}{chapter.167}%
+\contentsline {section}{\numberline {167.1}The Regression Model and Why We Need Inference for the Slope}{1567}{section.167.1}%
+\contentsline {section}{\numberline {167.2}The Sampling Distribution of $b_1$ and the Confidence Interval for the Slope}{1570}{section.167.2}%
+\contentsline {section}{\numberline {167.3}Conditions for Inference on the Slope}{1573}{section.167.3}%
+\contentsline {section}{\numberline {167.4}Testing a Claim About the Slope}{1575}{section.167.4}%
+\contentsline {chapter}{\numberline {168}Statistical Tables}{1581}{chapter.168}%
+\contentsline {section}{\numberline {168.1}The Standard Normal Table}{1581}{section.168.1}%
+\contentsline {section}{\numberline {168.2}The $t$ Table}{1584}{section.168.2}%
+\contentsline {section}{\numberline {168.3}The Chi-Square Table}{1586}{section.168.3}%
+\contentsline {chapter}{\numberline {169}Conditional Probability}{1589}{chapter.169}%
+\contentsline {section}{\numberline {169.1}Marginalization}{1590}{section.169.1}%
+\contentsline {section}{\numberline {169.2}Conditional Probability}{1590}{section.169.2}%
+\contentsline {section}{\numberline {169.3}Chain Rule for Probability}{1591}{section.169.3}%
+\contentsline {chapter}{\numberline {170}Bayes' Theorem}{1593}{chapter.170}%
+\contentsline {section}{\numberline {170.1}Bayes Theorem}{1593}{section.170.1}%
+\contentsline {section}{\numberline {170.2}Using Bayes' Theorem}{1594}{section.170.2}%
+\contentsline {section}{\numberline {170.3}Confidence}{1596}{section.170.3}%
+\contentsline {section}{\numberline {170.4}The Monty Hall Problem}{1596}{section.170.4}%
+\contentsline {chapter}{\numberline {171}Introduction to Markov Chains}{1599}{chapter.171}%
+\contentsline {section}{\numberline {171.1}Markov Chains}{1599}{section.171.1}%
+\contentsline {section}{\numberline {171.2}Transition Matrices}{1603}{section.171.2}%
+\contentsline {section}{\numberline {171.3}Steady State Distribution}{1606}{section.171.3}%
+\contentsline {section}{\numberline {171.4}Applications}{1607}{section.171.4}%
+\contentsline {subsection}{\numberline {171.4.1}PageRank}{1607}{subsection.171.4.1}%
+\contentsline {subsection}{\numberline {171.4.2}Hidden Markov Models and NLP}{1608}{subsection.171.4.2}%
+\contentsline {subsection}{\numberline {171.4.3}Natural Language Processing}{1609}{subsection.171.4.3}%
+\contentsline {chapter}{\numberline {172}Antiderivatives}{1613}{chapter.172}%
+\contentsline {section}{\numberline {172.1}General Antiderivatives}{1615}{section.172.1}%
+\contentsline {section}{\numberline {172.2}Specific Antiderivatives}{1616}{section.172.2}%
+\contentsline {section}{\numberline {172.3}Antiderivatives of Trig Functions}{1616}{section.172.3}%
+\contentsline {section}{\numberline {172.4}Other Important Antiderivatives}{1617}{section.172.4}%
+\contentsline {section}{\numberline {172.5}Higher order antiderivatives}{1618}{section.172.5}%
+\contentsline {section}{\numberline {172.6}Additional Practice}{1618}{section.172.6}%
+\contentsline {chapter}{\numberline {173}Riemann Sums}{1621}{chapter.173}%
+\contentsline {section}{\numberline {173.1}The Meaning of the Area Under a Function}{1621}{section.173.1}%
+\contentsline {subsection}{\numberline {173.1.1}Determining the Meaning of the Area with Units}{1622}{subsection.173.1.1}%
+\contentsline {section}{\numberline {173.2}Estimating the area under functions}{1625}{section.173.2}%
+\contentsline {section}{\numberline {173.3}The Riemann Sum}{1629}{section.173.3}%
+\contentsline {subsection}{\numberline {173.3.1}Right Riemann Sums}{1630}{subsection.173.3.1}%
+\contentsline {subsection}{\numberline {173.3.2}Left Riemann Sums}{1631}{subsection.173.3.2}%
+\contentsline {subsection}{\numberline {173.3.3}Midpoint Riemann Sums}{1632}{subsection.173.3.3}%
+\contentsline {subsection}{\numberline {173.3.4}Trapezoidal Rule}{1632}{subsection.173.3.4}%
+\contentsline {subsection}{\numberline {173.3.5}Riemann sum sigma notation}{1634}{subsection.173.3.5}%
+\contentsline {subsection}{\numberline {173.3.6}Real-world Riemann Sums}{1636}{subsection.173.3.6}%
+\contentsline {section}{\numberline {173.4}Code for a Riemann Sum}{1638}{section.173.4}%
+\contentsline {section}{\numberline {173.5}Riemann Sum Practice}{1640}{section.173.5}%
+\contentsline {chapter}{\numberline {174}Stemming and Lemmatization}{1643}{chapter.174}%
+\contentsline {subsection}{\numberline {174.0.1}Stemming}{1643}{subsection.174.0.1}%
+\contentsline {subsection}{\numberline {174.0.2}Lemmatization}{1643}{subsection.174.0.2}%
+\contentsline {subsection}{\numberline {174.0.3}Applications}{1643}{subsection.174.0.3}%
+\contentsline {chapter}{\numberline {175}Definite Integrals}{1645}{chapter.175}%
+\contentsline {section}{\numberline {175.1}Definition}{1645}{section.175.1}%
+\contentsline {section}{\numberline {175.2}Positive and Negative Areas}{1646}{section.175.2}%
+\contentsline {section}{\numberline {175.3}Properties of Integrals}{1647}{section.175.3}%
+\contentsline {subsection}{\numberline {175.3.1}What happens when $a=b$?}{1647}{subsection.175.3.1}%
+\contentsline {subsection}{\numberline {175.3.2}The integral of a constant}{1648}{subsection.175.3.2}%
+\contentsline {subsection}{\numberline {175.3.3}The integral of a function multiplied by a constant}{1649}{subsection.175.3.3}%
+\contentsline {subsection}{\numberline {175.3.4}Integrals of sums and differences of functions}{1649}{subsection.175.3.4}%
+\contentsline {subsection}{\numberline {175.3.5}Integrals of adjacent areas}{1650}{subsection.175.3.5}%
+\contentsline {subsection}{\numberline {175.3.6}Estimating the value of an integral}{1651}{subsection.175.3.6}%
+\contentsline {subsection}{\numberline {175.3.7}Other Properties of Integrals}{1652}{subsection.175.3.7}%
+\contentsline {section}{\numberline {175.4}Applications in Physics}{1653}{section.175.4}%
+\contentsline {section}{\numberline {175.5}Practice Exercises}{1655}{section.175.5}%
+\contentsline {chapter}{\numberline {176}The Fundamental Theorem of Calculus}{1659}{chapter.176}%
+\contentsline {section}{\numberline {176.1}First Part}{1659}{section.176.1}%
+\contentsline {section}{\numberline {176.2}Second Part}{1659}{section.176.2}%
+\contentsline {section}{\numberline {176.3}FTC and Definite Integrals}{1660}{section.176.3}%
+\contentsline {section}{\numberline {176.4}The Meaning of the FTC}{1662}{section.176.4}%
+\contentsline {subsection}{\numberline {176.4.1}FTC Practice}{1663}{subsection.176.4.1}%
+\contentsline {section}{\numberline {176.5}Using Antiderivatives to Evaluate Definite Integrals}{1663}{section.176.5}%
+\contentsline {subsection}{\numberline {176.5.1}Definite Integrals Practice}{1664}{subsection.176.5.1}%
+\contentsline {section}{\numberline {176.6}Average Value of a Function}{1666}{section.176.6}%
+\contentsline {chapter}{\numberline {177}Arc Lengths}{1669}{chapter.177}%
+\contentsline {section}{\numberline {177.1}Determining the Arc Length of a Curve}{1669}{section.177.1}%
+\contentsline {section}{\numberline {177.2}Arc Length of Vector-valued Functions}{1673}{section.177.2}%
+\contentsline {section}{\numberline {177.3}Applications in Physics}{1674}{section.177.3}%
+\contentsline {section}{\numberline {177.4}Practice}{1675}{section.177.4}%
+\contentsline {chapter}{\numberline {178}Continuous Probability Distributions}{1677}{chapter.178}%
+\contentsline {section}{\numberline {178.1}Cumulative Distribution Function}{1677}{section.178.1}%
+\contentsline {section}{\numberline {178.2}Probability Density Function}{1680}{section.178.2}%
+\contentsline {section}{\numberline {178.3}The Continuous Uniform Distribution}{1681}{section.178.3}%
+\contentsline {section}{\numberline {178.4}Continuous Distributions In Python}{1683}{section.178.4}%
+\contentsline {chapter}{\numberline {179}The Physics of Gases}{1689}{chapter.179}%
+\contentsline {subsection}{\numberline {179.0.1}A Statistical Look At Temperature}{1689}{subsection.179.0.1}%
+\contentsline {subsection}{\numberline {179.0.2}Absolute Zero and Degrees Kelvin}{1691}{subsection.179.0.2}%
+\contentsline {section}{\numberline {179.1}Temperature and Volume}{1692}{section.179.1}%
+\contentsline {section}{\numberline {179.2}Pressure and Volume}{1693}{section.179.2}%
+\contentsline {section}{\numberline {179.3}The Ideal Gas Law}{1695}{section.179.3}%
+\contentsline {section}{\numberline {179.4}Molecules Like To Stay Close to Each Other}{1696}{section.179.4}%
+\contentsline {chapter}{\numberline {180}Kinetic Energy and Temperature of a Gas}{1699}{chapter.180}%
+\contentsline {section}{\numberline {180.1}Molecule Shape and Molar Heat Capacity}{1700}{section.180.1}%
+\contentsline {section}{\numberline {180.2}Kinetic Energy and Temperature}{1701}{section.180.2}%
+\contentsline {section}{\numberline {180.3}Why is $C_{V,m}$ different from $C_{P,m}$?}{1702}{section.180.3}%
+\contentsline {section}{\numberline {180.4}Work of Creating Volume Against Constant Pressure}{1702}{section.180.4}%
+\contentsline {section}{\numberline {180.5}Why does a gas get hotter when you compress it?}{1703}{section.180.5}%
+\contentsline {section}{\numberline {180.6}How much hotter?}{1704}{section.180.6}%
+\contentsline {section}{\numberline {180.7}How an Air Conditioner Works}{1709}{section.180.7}%
+\contentsline {chapter}{\numberline {181}Phases of Matter}{1711}{chapter.181}%
+\contentsline {section}{\numberline {181.1}Thinking Microscopically About Phase}{1711}{section.181.1}%
+\contentsline {section}{\numberline {181.2}Phase Changes and Energy}{1712}{section.181.2}%
+\contentsline {section}{\numberline {181.3}How a Rice Cooker Works}{1714}{section.181.3}%
+\contentsline {section}{\numberline {181.4}Thinking Statistically About Phase Change}{1717}{section.181.4}%
+\contentsline {subsection}{\numberline {181.4.1}Evaporative Cooling Systems}{1718}{subsection.181.4.1}%
+\contentsline {subsection}{\numberline {181.4.2}Humidity and Condensation}{1718}{subsection.181.4.2}%
+\contentsline {chapter}{\numberline {182}The Piston Engine}{1721}{chapter.182}%
+\contentsline {section}{\numberline {182.1}Parts of the Engine}{1721}{section.182.1}%
+\contentsline {section}{\numberline {182.2}The Four-Stroke Process}{1722}{section.182.2}%
+\contentsline {section}{\numberline {182.3}Dealing with Heat}{1726}{section.182.3}%
+\contentsline {section}{\numberline {182.4}Dealing with Friction}{1726}{section.182.4}%
+\contentsline {section}{\numberline {182.5}Challenges}{1727}{section.182.5}%
+\contentsline {section}{\numberline {182.6}How We Measure Engines}{1727}{section.182.6}%
+\contentsline {section}{\numberline {182.7}The Ford Model T and Ethanol}{1728}{section.182.7}%
+\contentsline {section}{\numberline {182.8}Compression Ratio}{1731}{section.182.8}%
+\contentsline {section}{\numberline {182.9}The Choke and Direct Fuel Injection}{1731}{section.182.9}%
+\contentsline {chapter}{\numberline {183}u-Substitution}{1733}{chapter.183}%
+\contentsline {section}{\numberline {183.1}The Substitution Rule for Definite Integrals}{1736}{section.183.1}%
+\contentsline {chapter}{\numberline {184}Calculus with Polar Coordinates}{1741}{chapter.184}%
+\contentsline {section}{\numberline {184.1}Derivatives of Polar Functions}{1741}{section.184.1}%
+\contentsline {section}{\numberline {184.2}Integrals of Polar Functions}{1746}{section.184.2}%
+\contentsline {subsection}{\numberline {184.2.1}Area between polar curves}{1750}{subsection.184.2.1}%
+\contentsline {chapter}{\numberline {185}Differential Equations}{1755}{chapter.185}%
+\contentsline {section}{\numberline {185.1}Ordinary Differential Equations}{1755}{section.185.1}%
+\contentsline {subsection}{\numberline {185.1.1}Population Growth}{1756}{subsection.185.1.1}%
+\contentsline {subsection}{\numberline {185.1.2}Separable Differential Equations}{1760}{subsection.185.1.2}%
+\contentsline {section}{\numberline {185.2}Partial Differential Equations}{1764}{section.185.2}%
+\contentsline {chapter}{\numberline {186}Slope Fields}{1765}{chapter.186}%
+\contentsline {section}{\numberline {186.1}Drawing Slope Fields}{1765}{section.186.1}%
+\contentsline {section}{\numberline {186.2}Sketching solutions on slope fields}{1766}{section.186.2}%
+\contentsline {section}{\numberline {186.3}Example: Application of Differential Equations to Electronics}{1768}{section.186.3}%
+\contentsline {section}{\numberline {186.4}Practice}{1770}{section.186.4}%
+\contentsline {chapter}{\numberline {187}Euler's Method}{1771}{chapter.187}%
+\contentsline {chapter}{\numberline {188}Sequences in Calculus}{1779}{chapter.188}%
+\contentsline {section}{\numberline {188.1}The Idea of Approaching}{1780}{section.188.1}%
+\contentsline {subsection}{\numberline {188.1.1}Law of Large Numbers Revisited}{1780}{subsection.188.1.1}%
+\contentsline {subsection}{\numberline {188.1.2}Convergence and Divergence}{1781}{subsection.188.1.2}%
+\contentsline {section}{\numberline {188.2}Evaluating limits of sequences}{1783}{section.188.2}%
+\contentsline {subsection}{\numberline {188.2.1}Continuous Functions of Sequences}{1785}{subsection.188.2.1}%
+\contentsline {section}{\numberline {188.3}Monotonic and Bounded sequences}{1786}{section.188.3}%
+\contentsline {section}{\numberline {188.4}Applications of Sequences}{1789}{section.188.4}%
+\contentsline {subsection}{\numberline {188.4.1}Compound Interest}{1789}{subsection.188.4.1}%
+\contentsline {subsection}{\numberline {188.4.2}Population Growth}{1790}{subsection.188.4.2}%
+\contentsline {chapter}{\numberline {189}Series}{1793}{chapter.189}%
+\contentsline {section}{\numberline {189.1}Partial Sums}{1793}{section.189.1}%
+\contentsline {section}{\numberline {189.2}Reindexing}{1794}{section.189.2}%
+\contentsline {section}{\numberline {189.3}Convergent and Divergent Series}{1795}{section.189.3}%
+\contentsline {subsection}{\numberline {189.3.1}Properties of Convergent Series}{1798}{subsection.189.3.1}%
+\contentsline {section}{\numberline {189.4}Geometric Series}{1799}{section.189.4}%
+\contentsline {section}{\numberline {189.5}p-series}{1803}{section.189.5}%
+\contentsline {section}{\numberline {189.6}Alternating Series}{1805}{section.189.6}%
+\contentsline {chapter}{\numberline {190}Convergence Tests for Series}{1807}{chapter.190}%
+\contentsline {section}{\numberline {190.1}Test for Divergence}{1807}{section.190.1}%
+\contentsline {section}{\numberline {190.2}The Integral Test}{1807}{section.190.2}%
+\contentsline {subsection}{\numberline {190.2.1}Using Integrals to Estimate the Value of a Series}{1812}{subsection.190.2.1}%
+\contentsline {section}{\numberline {190.3}Comparison Tests}{1815}{section.190.3}%
+\contentsline {subsection}{\numberline {190.3.1}The Direct Comparison Test}{1816}{subsection.190.3.1}%
+\contentsline {subsection}{\numberline {190.3.2}The Limit Comparison Test}{1817}{subsection.190.3.2}%
+\contentsline {section}{\numberline {190.4}Ratio and Root Tests for Convergence}{1819}{section.190.4}%
+\contentsline {subsection}{\numberline {190.4.1}Absolute Convergence}{1819}{subsection.190.4.1}%
+\contentsline {subsection}{\numberline {190.4.2}The Ratio Test}{1821}{subsection.190.4.2}%
+\contentsline {subsection}{\numberline {190.4.3}Root Test}{1823}{subsection.190.4.3}%
+\contentsline {section}{\numberline {190.5}Strategies for Testing Series}{1824}{section.190.5}%
+\contentsline {chapter}{\numberline {191}Power Series}{1827}{chapter.191}%
+\contentsline {section}{\numberline {191.1}Power Series}{1827}{section.191.1}%
+\contentsline {section}{\numberline {191.2}Power Series Convergence}{1828}{section.191.2}%
+\contentsline {subsection}{\numberline {191.2.1}Radius of Convergence}{1830}{subsection.191.2.1}%
+\contentsline {section}{\numberline {191.3}Calculus with Power Series}{1833}{section.191.3}%
+\contentsline {chapter}{\numberline {192}Population Proportion Statistics}{1837}{chapter.192}%
+\contentsline {section}{\numberline {192.1}Sample Probabilities from Population Proportion}{1837}{section.192.1}%
+\contentsline {section}{\numberline {192.2}Population Proportion from Sample}{1839}{section.192.2}%
+\contentsline {section}{\numberline {192.3}From Likelihood to Probability Density Function}{1840}{section.192.3}%
+\contentsline {section}{\numberline {192.4}Beta Distribution}{1841}{section.192.4}%
+\contentsline {chapter}{\numberline {193}The Normal Distribution}{1843}{chapter.193}%
+\contentsline {section}{\numberline {193.1}Defining the Normal Distribution}{1843}{section.193.1}%
+\contentsline {section}{\numberline {193.2}Importance of the Normal Distribution}{1843}{section.193.2}%
+\contentsline {subsection}{\numberline {193.2.1}Example}{1844}{subsection.193.2.1}%
+\contentsline {chapter}{\numberline {194}Change of Variables}{1849}{chapter.194}%
+\contentsline {section}{\numberline {194.1}Making a Probability Density Function}{1850}{section.194.1}%
+\contentsline {section}{\numberline {194.2}Decreasing Conversions}{1854}{section.194.2}%
+\contentsline {chapter}{\numberline {195}Volumes with Integrals}{1855}{chapter.195}%
+\contentsline {section}{\numberline {195.1}Volume of a Sphere}{1855}{section.195.1}%
+\contentsline {section}{\numberline {195.2}Volumes of Solids of Revolution}{1857}{section.195.2}%
+\contentsline {subsection}{\numberline {195.2.1}Using donuts for solids of revolution}{1860}{subsection.195.2.1}%
+\contentsline {section}{\numberline {195.3}Volumes of Other Solids}{1862}{section.195.3}%
+\contentsline {chapter}{\numberline {196}Double Integrals over Rectangular Regions}{1867}{chapter.196}%
+\contentsline {section}{\numberline {196.1}Double Integrals}{1867}{section.196.1}%
+\contentsline {subsection}{\numberline {196.1.1}Over Rectangular Regions}{1868}{subsection.196.1.1}%
+\contentsline {section}{\numberline {196.2}Iterated Integrals}{1870}{section.196.2}%
+\contentsline {section}{\numberline {196.3}Fubini's Theorem for Double Integrals}{1873}{section.196.3}%
+\contentsline {chapter}{\numberline {197}Double Integrals Over Non-Rectangular Regions}{1875}{chapter.197}%
+\contentsline {section}{\numberline {197.1}Determining Region Type}{1878}{section.197.1}%
+\contentsline {section}{\numberline {197.2}Double Integrals in Other Coordinate Systems}{1884}{section.197.2}%
+\contentsline {chapter}{\numberline {198}Applications of Double Integrals}{1891}{chapter.198}%
+\contentsline {section}{\numberline {198.1}Total Mass and Charge}{1891}{section.198.1}%
+\contentsline {section}{\numberline {198.2}Center of Mass}{1894}{section.198.2}%
+\contentsline {section}{\numberline {198.3}Moment of Inertia}{1898}{section.198.3}%
+\contentsline {subsection}{\numberline {198.3.1}Radius of Gyration}{1899}{subsection.198.3.1}%
+\contentsline {section}{\numberline {198.4}Surface Area}{1903}{section.198.4}%
+\contentsline {section}{\numberline {198.5}Average Value}{1907}{section.198.5}%
+\contentsline {chapter}{\numberline {199}Multivariate Distributions}{1909}{chapter.199}%
+\contentsline {chapter}{\numberline {200}The Multivariate Normal Distribution}{1911}{chapter.200}%
+\contentsline {section}{\numberline {200.1}The Covariance Matrix}{1913}{section.200.1}%
+\contentsline {subsection}{\numberline {200.1.1}Computing Mean and Covariance in Python}{1914}{subsection.200.1.1}%
+\contentsline {section}{\numberline {200.2}Multivariate Normal Probability Density}{1914}{section.200.2}%
+\contentsline {subsection}{\numberline {200.2.1}Multivariate Normal Probability Density in Python}{1916}{subsection.200.2.1}%
+\contentsline {chapter}{\numberline {201}Numerical Double Integration}{1917}{chapter.201}%
+\contentsline {section}{\numberline {201.1}Riemann Sums on 2-Dimensional Domains}{1918}{section.201.1}%
+\contentsline {section}{\numberline {201.2}Numerical Integration in Python}{1920}{section.201.2}%
+\contentsline {chapter}{\numberline {202}Bayesian Classifiers}{1923}{chapter.202}%
+\contentsline {section}{\numberline {202.1}The Prior}{1923}{section.202.1}%
+\contentsline {section}{\numberline {202.2}Naive Bayes}{1924}{section.202.2}%
+\contentsline {section}{\numberline {202.3}Using the multivariate Gaussian distribution}{1927}{section.202.3}%
+\contentsline {chapter}{\numberline {A}Answers to Exercises}{1931}{appendix.A}%
+\contentsline {starchapter}{\numberline {}Index}{2171}{section*.766}%

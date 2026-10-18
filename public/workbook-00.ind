@@ -1,0 +1,1515 @@
+\begin{theindex}
+
+  \item $\emptyset$, \hyperpage{214}
+  \item $\mathbb{C}$, \hyperpage{214}
+  \item $\mathbb{N}$, \hyperpage{214}
+  \item $\mathbb{Q}$, \hyperpage{214}
+  \item $\mathbb{R}$, \hyperpage{214}
+  \item $\mathbb{Z}$, \hyperpage{214}
+  \item $k$th percentile, \hyperpage{606}
+  \item $t$-distribution, \hyperpage{1551}
+  \item $y$-intercept, \hyperpage{655}
+  \item .omv file, \hyperpage{672}
+  \item 3-dimensional, \hyperpage{391}
+
+  \indexspace
+
+  \item  identity matrix, \hyperpage{1225}
+  \item  logistic differential equation, \hyperpage{1758}
+  \item  moment of inertia, \hyperpage{1898}
+
+  \indexspace
+
+  \item A* Algorithm, \hyperpage{1448}
+  \item A-F, \hyperpage{820}
+  \item A-star Algorithm, \hyperpage{1448}
+  \item absolute convergence, \hyperpage{1819}
+  \item absolute extrema, \hyperpage{1148}
+  \item absolute maximum, \hyperpage{1148}
+  \item absolute minimum, \hyperpage{1148}
+  \item absolute zero, \hyperpage{1691}
+  \item absorption
+    \subitem photon, \hyperpage{719}
+  \item acceleration, \hyperpage{401}
+  \item Accents, \hyperpage{1517}
+  \item acoustics, \hyperpage{642}
+  \item actual wind, \hyperpage{466}
+  \item acute triangle, \hyperpage{294}
+  \item addition, \hyperpage{195}
+  \item additive, \hyperpage{634}
+  \item address-of operator, \hyperpage{1371}
+  \item adiabatic, \hyperpage{1703}
+  \item adiabatic compression, \hyperpage{1707}
+  \item adiabatic decompression, \hyperpage{1707}
+  \item adjacency lists, \hyperpage{614}
+  \item adjacency matrix, \hyperpage{1446}
+  \item aerodynamic interference, \hyperpage{490}
+  \item aileron, \hyperpage{475}
+  \item airboats, \hyperpage{454}
+  \item airfoil, \hyperpage{474}
+  \item algorithmic reduction, \hyperpage{1453}
+  \item alloy, \hyperpage{49}, \hyperpage{259}
+  \item Alphabets, \hyperpage{1517}
+  \item alternate key, \hyperpage{776}
+  \item Alternating Current, \hyperpage{691}
+  \item Alternating Current 
+    \subitem  graphed, \hyperpage{692}
+    \subitem  phased, \hyperpage{694}
+    \subitem  transformers, \hyperpage{693}
+  \item alternating series, \hyperpage{1805}
+  \item Alternating Series Test, \hyperpage{1805}
+  \item amp or ampere, \hyperpage{236}
+  \item amplitude, \hyperpage{347}
+  \item an overtone, \hyperpage{644}
+  \item analysis ribbon, \hyperpage{667}
+  \item Ancestor, \hyperpage{1422}
+  \item and, \hyperpage{215}
+  \item angular impulse, \hyperpage{1023}
+  \item angular velocity, \hyperpage{963}
+  \item angular velocity,, \hyperpage{962}
+  \item anion, \hyperpage{45}
+  \item anode, \hyperpage{787}
+  \item antiderivatives, \hyperpage{1613}
+    \subitem calculating +C, \hyperpage{1616}
+    \subitem higher order, \hyperpage{1618}
+    \subitem special, \hyperpage{1617}
+  \item API key, \hyperpage{1473}
+  \item API keys, \hyperpage{1473}
+  \item apparent wind, \hyperpage{466}
+  \item applied math, \hyperpage{213}
+  \item approximation error, \hyperpage{823}
+  \item aqueous humor, \hyperpage{804}
+  \item arc length, \hyperpage{1669}
+  \item area under a constant, \hyperpage{1648}
+  \item argument, \hyperpage{264}
+  \item array, \hyperpage{329}
+  \item arrays, \hyperpage{329}
+  \item arrow operator, \hyperpage{1376}
+  \item arrow paradox, \hyperpage{563}
+  \item ASCII, \hyperpage{1515}
+  \item aspect ratio, \hyperpage{800}
+  \item astigmatism, \hyperpage{806}
+  \item asymptote, \hyperpage{323}
+    \subitem horizontal, \hyperpage{919}
+    \subitem vertical, \hyperpage{919}
+  \item asymptotes, \hyperpage{323}
+  \item atmospheric pressure, \hyperpage{507}
+  \item atomic mass, \hyperpage{114}
+  \item atomic mass unit, \hyperpage{110}
+  \item atoms, \hyperpage{673}
+  \item attraction, \hyperpage{673}
+  \item attributes, \hyperpage{269}, \hyperpage{867}
+  \item augmented assignment operator, \hyperpage{196}
+  \item augmented matrix, \hyperpage{1243}
+  \item authentication, \hyperpage{1474}
+  \item authorization, \hyperpage{1474}
+  \item Authorization header, \hyperpage{1473}
+  \item autonomous differential equation, \hyperpage{1769}
+  \item Avogadro's number, \hyperpage{107}
+  \item axioms, \hyperpage{213}
+
+  \indexspace
+
+  \item bar chart, \hyperpage{570}
+  \item bar graph
+    \subitem in python, \hyperpage{1532}
+  \item barometric pressure, \hyperpage{507}
+  \item barycenter, \hyperpage{1060}
+  \item base, \hyperpage{827}
+  \item base case, \hyperpage{282}
+  \item base condition, \hyperpage{282}
+  \item base-2, \hyperpage{818}
+  \item basis, \hyperpage{1253}, \hyperpage{1269}, \hyperpage{1275}
+  \item bayes' theorem, \hyperpage{1593}
+    \subitem confidence, \hyperpage{1596}
+    \subitem formula, \hyperpage{1594}
+    \subitem monty hall problem, \hyperpage{1596}
+  \item beam reach, \hyperpage{463}
+  \item bell curve, \hyperpage{170}
+  \item Bellman-Ford algorithm, \hyperpage{1442}
+  \item best-fit, \hyperpage{585}
+  \item beta distribution, \hyperpage{1841}
+  \item BFS, \hyperpage{1427}
+  \item bias, \hyperpage{759}
+  \item biased, \hyperpage{759}
+  \item bijection, \hyperpage{1450}
+  \item binary, \hyperpage{818}, \hyperpage{825}
+    \subitem counting in, \hyperpage{819}
+  \item Binary Search, \hyperpage{1416}
+  \item binary search, \hyperpage{283}
+  \item binary tree, \hyperpage{1422}
+  \item Binomial coefficient, \hyperpage{1537}
+  \item binomial coefficient, \hyperpage{1537}
+    \subitem generalized, \hyperpage{1538}
+  \item binomial distribution, \hyperpage{1541}
+  \item binomial series, \hyperpage{1539}
+  \item binomial theorem, \hyperpage{879}
+  \item Bipartite Graph, \hyperpage{1457}
+  \item bit, \hyperpage{819}, \hyperpage{825}
+  \item bitmaps, \hyperpage{1389}
+    \subitem structure of, \hyperpage{1390}
+  \item blades, \hyperpage{487}, \hyperpage{489}
+  \item Boolean, \hyperpage{819}
+  \item boolean, \hyperpage{220}
+  \item boolean variables, \hyperpage{223}
+  \item booleans, \hyperpage{193}
+  \item boron, \hyperpage{786}
+  \item bough, \hyperpage{453}
+  \item Boyle's Law, \hyperpage{1694}
+  \item breadth-first search, \hyperpage{1427}
+  \item break, \hyperpage{202}
+  \item BTU, \hyperpage{131}
+  \item buoyant force, \hyperpage{121}
+  \item byte, \hyperpage{819}, \hyperpage{825}
+
+  \indexspace
+
+  \item C types, \hyperpage{1367}
+  \item calories, \hyperpage{132}
+  \item camber, \hyperpage{468}
+  \item camera, \hyperpage{793}
+  \item camera 
+    \subitem  lens, \hyperpage{797}
+    \subitem  lens 
+      \subsubitem  focal length, \hyperpage{798}
+    \subitem  pinhole, \hyperpage{796}
+  \item candidate key, \hyperpage{775}
+  \item capacitors, \hyperpage{237}
+    \subitem in parallel, \hyperpage{249}
+    \subitem in series, \hyperpage{249}
+  \item capsize, \hyperpage{470}
+  \item cardinality, \hyperpage{221}
+  \item career, \hyperpage{41}
+  \item carriage return, \hyperpage{1515}
+  \item carriers, \hyperpage{786}
+  \item carrying capacity, \hyperpage{1757}
+  \item casting, \hyperpage{198}
+  \item cataract, \hyperpage{805}
+  \item categorical, \hyperpage{480}
+  \item cathode, \hyperpage{787}
+  \item cation, \hyperpage{45}
+  \item ceiling function, \hyperpage{338}
+  \item cement, \hyperpage{257}
+  \item census, \hyperpage{757}
+  \item center, \hyperpage{309}
+  \item center of buoyancy, \hyperpage{456}
+  \item center of lateral resistance, \hyperpage{457}
+  \item Center of Mass, \hyperpage{70}
+  \item center of mass, \hyperpage{69}, \hyperpage{456}
+  \item centripetal 
+    \subitem  acceleration, \hyperpage{967}
+    \subitem  force, \hyperpage{968}
+  \item centripetal acceleration, \hyperpage{967}
+  \item centripetal force, \hyperpage{961}, \hyperpage{968}
+  \item centroid, \hyperpage{657}
+  \item chain rule, \hyperpage{1104}
+  \item chaos theory, \hyperpage{1051}
+  \item Charles's Law, \hyperpage{1693}
+  \item Chebyshev distance, \hyperpage{1449}
+  \item chemical energy, \hyperpage{119}, \hyperpage{132}
+  \item chemical reaction, \hyperpage{119}
+  \item choke value, \hyperpage{1731}
+  \item choose function, \hyperpage{1537}
+  \item cilia, \hyperpage{642}
+  \item circle
+    \subitem area of, \hyperpage{309}
+    \subitem reflections in, \hyperpage{723}
+  \item circular motion, \hyperpage{962}
+    \subitem equations, \hyperpage{961}
+    \subitem velocity, \hyperpage{964}
+  \item circumference, \hyperpage{310}
+  \item Clairaut's theorem, \hyperpage{1174}
+  \item class, \hyperpage{267}
+  \item class in python, \hyperpage{870}
+  \item classes, \hyperpage{267}, \hyperpage{867}, \hyperpage{1381}
+    \subitem child, \hyperpage{869}
+    \subitem defining, \hyperpage{268}
+    \subitem definition, \hyperpage{267}
+    \subitem parent, \hyperpage{869}
+  \item closed system, \hyperpage{60}
+  \item cluster sampling, \hyperpage{763}
+  \item Clusters, \hyperpage{764}
+  \item clusters, \hyperpage{764}
+  \item cmyk, \hyperpage{809}
+  \item coastline paradox, \hyperpage{565}
+  \item coefficient
+    \subitem polynomial, \hyperpage{833}
+  \item coefficient of determination, \hyperpage{660}
+  \item coefficient of friction, \hyperpage{89}
+  \item cofactor expansion, \hyperpage{1296}
+  \item cognitive biases, \hyperpage{741}
+  \item collection, \hyperpage{1478}
+  \item collective, \hyperpage{493}
+  \item collisions, \hyperpage{445}
+    \subitem elastic, \hyperpage{446}
+    \subitem perfectly inelastic, \hyperpage{447}
+  \item collisions in hash tables, \hyperpage{1419}
+  \item color, \hyperpage{806}
+  \item column space, \hyperpage{1282}
+  \item column-major order, \hyperpage{1227}
+  \item combinations
+    \subitem formula, \hyperpage{1537}
+  \item combinatorics, \hyperpage{879}, \hyperpage{1535}
+  \item comparative dotplot, \hyperpage{577}
+  \item comparison tests for series, \hyperpage{1815}
+  \item compiler, \hyperpage{1365}
+  \item complement, \hyperpage{221}
+  \item complementary angles, \hyperpage{288}
+  \item completely randomized design, \hyperpage{1137}
+  \item Complex Numbers, \hyperpage{525}
+  \item composite keys, \hyperpage{775}
+  \item compound interest, \hyperpage{539}
+  \item compound interest formula, \hyperpage{540}
+  \item compressions, \hyperpage{640}
+  \item compressive stress, \hyperpage{257}
+  \item computer architecture, \hyperpage{819}
+  \item Computer Numerical Control, \hyperpage{629}
+  \item concavity, \hyperpage{1121}
+    \subitem concave down, \hyperpage{1122}
+    \subitem concave up, \hyperpage{1122}
+  \item conclusion, \hyperpage{227}
+  \item concrete, \hyperpage{257}
+  \item condensation, \hyperpage{1718}
+  \item condensed, \hyperpage{1718}
+  \item conditional probability, \hyperpage{1589, 1590}
+    \subitem chain rule, \hyperpage{1591}
+  \item conditionally convergent, \hyperpage{1820}
+  \item conditionals, \hyperpage{200}
+  \item confidence interval, \hyperpage{1549}
+  \item confounding variable, \hyperpage{1129}
+  \item conic sections, \hyperpage{385}
+  \item connected, \hyperpage{612}
+  \item connected component, \hyperpage{612}
+  \item connected components, \hyperpage{612}
+  \item Conservation of Angular Momentum, \hyperpage{1022}
+  \item conservation of energy, \hyperpage{250}
+  \item constant rule, \hyperpage{1103}
+  \item continuity, \hyperpage{823}
+  \item continuous charge distributions, \hyperpage{681}
+  \item contradiction, \hyperpage{231}
+  \item contrapositive, \hyperpage{225}
+  \item Control, \hyperpage{1132}
+  \item control
+    \subitem in experiments, \hyperpage{1132}
+  \item Control group, \hyperpage{1131}
+  \item control group, \hyperpage{1131}
+  \item convenience sample, \hyperpage{760}
+  \item convenience sampling, \hyperpage{764}
+  \item converges, \hyperpage{1781}
+  \item conversion factors, \hyperpage{98}
+  \item cornea, \hyperpage{803}
+  \item corollary, \hyperpage{227}
+  \item correlation, \hyperpage{671}
+  \item correlation and causation, \hyperpage{1526}
+  \item correlation coefficient, \hyperpage{585}, \hyperpage{649}
+  \item coulombs, \hyperpage{236}, \hyperpage{673}
+    \subitem Coulomb's law, \hyperpage{673}
+  \item counterexample, \hyperpage{230}
+  \item covalent bond, \hyperpage{46}, \hyperpage{785}
+  \item covalent bonding, \hyperpage{785}
+  \item covariance, \hyperpage{1913}
+  \item creating charts in python, 
+		\hyperindexformat{\see{matplotlib}}{273}
+  \item crest, \hyperpage{638}
+  \item critical point, \hyperpage{1147}
+  \item critical value, \hyperpage{1549}
+  \item critical values, \hyperpage{1109}
+  \item cross product, \hyperpage{1305}
+  \item CRUD operations, \hyperpage{1467}
+  \item cumulative distribution function, \hyperpage{1679}
+    \subitem python, \hyperpage{1683}
+  \item cumulative probability, \hyperpage{1581}
+  \item cycle, \hyperpage{612}, \hyperpage{1455}
+  \item Cycle Error, \hyperpage{1455}
+  \item cyclic, \hyperpage{493}
+
+  \indexspace
+
+  \item damping factor, \hyperpage{1608}
+  \item data compression, \hyperpage{1481}
+  \item datatypes, \hyperpage{479}
+  \item debug, \hyperpage{278}
+  \item Decimal, \hyperpage{817}
+  \item decreasing, \hyperpage{1110}
+  \item defibrillator, \hyperpage{238}
+  \item definite integra;, \hyperpage{1645}
+  \item definite integral
+    \subitem riemann sum as a limit, \hyperpage{1645}
+  \item definite integrals
+    \subitem areas of, \hyperpage{1646}
+    \subitem properties of, \hyperpage{1647}
+    \subitem sums and differences, \hyperpage{1649}
+  \item degree, \hyperpage{612}
+    \subitem polynomial, \hyperpage{833}
+  \item degree of freedom, \hyperpage{1701}
+  \item degrees of freedom, \hyperpage{1551}
+  \item dependent event, \hyperpage{1526}
+  \item dependent variable, \hyperpage{655}
+  \item depletion region, \hyperpage{788}
+  \item depth, \hyperpage{1422}
+  \item depth-first search, \hyperpage{1427}
+  \item dereferencing, \hyperpage{1372}
+  \item derivative, \hyperpage{73}, \hyperpage{1087}
+    \subitem definition of, \hyperpage{861}, \hyperpage{1087}
+  \item Descendant, \hyperpage{1422}
+  \item determinant, \hyperpage{1291}
+    \subitem 2 by 2, \hyperpage{1292}
+    \subitem expansion by minors, \hyperpage{1295}
+    \subitem n by n, \hyperpage{1295}
+  \item determines, \hyperpage{777}
+  \item DFS, \hyperpage{1427}
+  \item Diacritical Marks, \hyperpage{1517}
+  \item diameter, \hyperpage{310}, \hyperpage{490}
+  \item dictionary, \hyperpage{193}
+  \item differentiable, \hyperpage{1085}
+  \item differential equations, \hyperpage{1755}
+  \item diffusion, \hyperpage{719}
+  \item Dijkstra's Algorithm, \hyperpage{1435, 1436}
+  \item Dijkstra, Edsger, \hyperpage{1436}
+  \item dimension, \hyperpage{1253}, \hyperpage{1275}
+  \item diminishing returns, \hyperpage{567}
+  \item diode, \hyperpage{785}
+  \item Diodes, \hyperpage{785}
+  \item Direct Comparison Test, \hyperpage{1816}
+  \item Direct Current, \hyperpage{691}
+  \item directed, \hyperpage{611}
+  \item Directed Acyclic Graph, \hyperpage{1455}
+  \item directed adjacency matrix, \hyperpage{1446}
+  \item directed graph, \hyperpage{611}
+  \item directional derivative, \hyperpage{1184}
+  \item directix, \hyperpage{731}
+  \item directory, \hyperpage{1424}
+  \item discrete-time Markov chains, \hyperpage{1599}
+  \item displacement, \hyperpage{73}, \hyperpage{1727}
+  \item disproof by counterexample, \hyperpage{230}
+  \item distance
+    \subitem in 3 dimensions, \hyperpage{300}
+  \item distance using Pythagorean theorem, \hyperpage{298}
+  \item diverges, \hyperpage{1781}
+  \item divide-and-conquer, \hyperpage{283}
+  \item divide-and-conquer algorithms, \hyperpage{282}
+  \item division, \hyperpage{195}
+  \item domain, \hyperpage{321}
+  \item doping, \hyperpage{785}
+  \item dot product, \hyperpage{619}
+  \item dotplot, \hyperpage{575}
+  \item double integral, \hyperpage{1870}
+  \item double precision, \hyperpage{829}
+  \item double-blind experiment, \hyperpage{1133}
+  \item doubly linked list, \hyperpage{1386}
+  \item drag, \hyperpage{473}
+  \item dynamical systems, \hyperpage{1051}
+
+  \indexspace
+
+  \item e, \hyperpage{547}
+  \item earth
+    \subitem shape of, \hyperpage{729}
+  \item ecliptic plane, \hyperpage{1058}
+  \item edges, \hyperpage{611}, \hyperpage{1421}
+  \item efficiency, \hyperpage{140}
+  \item eigenbasis, \hyperpage{1334}
+  \item eigenequation, \hyperpage{1330}
+  \item eigenvalue, \hyperpage{1329}
+    \subitem calculating, \hyperpage{1330}
+  \item eigenvector, \hyperpage{1329}
+  \item elastic collision, \hyperpage{446}
+  \item electric field, \hyperpage{677}
+    \subitem units, \hyperpage{677}
+  \item electric flux, \hyperpage{680}
+  \item electric force, \hyperpage{673}
+  \item Electric Motor, \hyperpage{701}
+  \item Electric Motor 
+    \subitem  Generator, \hyperpage{701}
+  \item electric potential energy, \hyperpage{683}
+  \item electrical charge, \hyperpage{673}
+  \item electricity, \hyperpage{131}
+  \item electromagnetic field, \hyperpage{43}
+  \item electromagnetic force, \hyperpage{43}
+  \item Electromagnetic Induction, \hyperpage{697}
+  \item electromagnetic induction, \hyperpage{701}
+  \item electronegativity, \hyperpage{47}
+  \item electrons, \hyperpage{43}, \hyperpage{673}
+  \item elementary charge, \hyperindexformat{\seealso{coulombs}}{673}
+  \item elementary row operations, \hyperpage{1244}
+  \item elements, \hyperpage{45}, \hyperpage{214}
+  \item elevator, \hyperpage{474}
+  \item ellipse, \hyperpage{724}
+    \subitem focus points, \hyperpage{725}
+    \subitem reflective property of, \hyperpage{727}
+  \item ellipsoid, \hyperpage{728}
+  \item elliptical
+    \subitem orbit, \hyperpage{728}
+  \item emission matrix, \hyperpage{1608}
+  \item emissions, \hyperpage{1608}
+  \item end
+    \subitem behavior, \hyperpage{905}
+  \item end behavior, \hyperpage{919}
+  \item endothermic, \hyperpage{119}
+  \item endpoint, \hyperpage{1467}
+  \item energy
+    \subitem conservation of, \hyperpage{134}
+    \subitem Forms of, \hyperpage{131}
+  \item Engine Control Module, \hyperpage{1731}
+  \item entity-relationship diagram, \hyperpage{781}
+  \item entropy, \hyperpage{1481}
+  \item equilateral triangle, \hyperpage{291}
+  \item equilibrium, \hyperpage{121, 122}
+  \item equilibrium distribution, \hyperpage{1606}
+  \item equilibrium solution, \hyperpage{1758}
+  \item ER diagram, 
+		\hyperindexformat{\see{entity-relationship diagram}}{781}
+  \item EROs, \hyperindexformat{\see{elementary row operations}}{1244}
+  \item error, \hyperpage{278}, \hyperpage{655}
+  \item Errors, \hyperpage{278}
+  \item Escape Velocity, \hyperpage{426}
+  \item escape velocity, \hyperpage{425}, \hyperpage{1007}
+  \item estimated regression line, \hyperpage{655}
+  \item Euclidean distance, \hyperpage{1449}
+  \item Euler's method, \hyperpage{1771}
+  \item even, \hyperpage{228}
+  \item exclusive OR, \hyperpage{225}
+  \item exothermic, \hyperpage{119}
+  \item expected value, \hyperpage{919}
+  \item experiment, \hyperpage{1129}
+  \item Experimental unit, \hyperpage{1131}
+  \item experimental unit, \hyperpage{1131}
+  \item Explanatory variable, \hyperpage{1131}
+  \item explanatory variable, \hyperpage{1131}
+  \item explored tree, \hyperpage{2101}
+  \item exponent, \hyperpage{824, 825}, \hyperpage{827}
+  \item exponent bounds, \hyperpage{827}
+  \item exponential decay, \hyperpage{551}
+  \item exponential growth, \hyperpage{540}
+  \item exponents, \hyperpage{535}
+    \subitem fractions, \hyperpage{536}
+    \subitem negative, \hyperpage{536}
+    \subitem zero, \hyperpage{536}
+  \item eye, \hyperpage{803}
+    \subitem astigmatism, \hyperpage{805}
+    \subitem cataract, \hyperpage{805}
+    \subitem farsightedness, \hyperpage{805}
+    \subitem glaucoma, \hyperpage{804}
+    \subitem iris, \hyperpage{803}
+    \subitem myopia, \hyperpage{805}
+    \subitem nearsightedness, \hyperpage{805}
+    \subitem pupil, \hyperpage{803}
+    \subitem retina, \hyperpage{804}
+    \subitem sclera, \hyperpage{803}
+
+  \indexspace
+
+  \item Factor, \hyperpage{1131}
+  \item factor, \hyperpage{1131}
+  \item factorial, \hyperpage{1535}
+  \item factoring polynomials, \hyperpage{881}
+  \item Faraday's Law of Induction, \hyperpage{697}
+  \item farsighted, \hyperpage{806}
+  \item fertilizer, \hyperpage{253}
+  \item fibonacci, \hyperpage{282}
+  \item FIFO, \hyperpage{1411}, \hyperpage{1428}
+  \item five-number summary, \hyperpage{607}
+  \item floating-point system, \hyperpage{823}
+  \item floats, \hyperpage{192}, \hyperpage{399}
+    \subitem formatting, \hyperpage{400}
+  \item floor division, \hyperpage{195}
+  \item floor function, \hyperpage{338}
+  \item flywheels, \hyperpage{1021}
+  \item focal length, \hyperpage{740}, \hyperpage{798}
+  \item focal point, \hyperpage{798}
+  \item foci, \hyperpage{725}
+  \item focus, \hyperpage{731}
+  \item folder, \hyperpage{1424}
+  \item for loops, \hyperpage{201}
+  \item foreign key, \hyperpage{783}
+  \item forest, \hyperpage{1421}
+  \item frame, \hyperpage{757}
+  \item free, \hyperpage{1376}
+  \item free body diagram, \hyperpage{149}
+  \item free variable, \hyperpage{1250}
+  \item frequency, \hyperpage{643}
+  \item friction, \hyperpage{89}
+  \item FTC, \hyperpage{1659}
+  \item full-wave rectifier, \hyperpage{790}
+  \item function, \hyperpage{263}, \hyperpage{321}
+  \item functional dependency, \hyperpage{777}
+  \item functions, \hyperpage{263}
+    \subitem argument, \hyperpage{264}
+    \subitem def, \hyperpage{264}
+    \subitem definition, \hyperpage{263}
+    \subitem parameter, \hyperpage{264}
+    \subitem parameters, \hyperpage{264}
+    \subitem return, \hyperpage{265}
+  \item fundamental theorem of calculus, \hyperpage{1659}
+    \subitem first part, \hyperpage{1659}
+    \subitem second part, \hyperpage{1659}
+  \item future value, \hyperpage{1985}
+
+  \indexspace
+
+  \item gapping, \hyperpage{1727}
+  \item Gauss's Law, \hyperpage{681}
+  \item Gaussian distribution, \hyperpage{1913}
+  \item gear train, \hyperpage{152}
+  \item gears, \hyperpage{152}
+  \item general binomial theorem, \hyperpage{1538}
+  \item geocoding, \hyperpage{1521}
+  \item geometric series, \hyperpage{561}, \hyperpage{1799}
+  \item geosynchronous orbits, \hyperpage{1004}
+  \item gimbaled engine, \hyperpage{1030}
+  \item glaucoma, \hyperpage{805}
+  \item gliders, \hyperpage{478}
+  \item global extrema, \hyperpage{1114}
+  \item global maximum, \hyperpage{1114}
+  \item global minimum, \hyperpage{1114}
+  \item gradient, \hyperpage{1167}, \hyperpage{1193}
+  \item Gram-Schmidt Process, \hyperpage{1343}
+  \item Gram-Schmidt process
+    \subitem python script for, \hyperpage{1346}
+  \item grandfather paradox, \hyperpage{563}
+  \item graph, \hyperpage{611}
+    \subitem connected, \hyperpage{612}
+    \subitem directed, \hyperpage{611}
+    \subitem undirected, \hyperpage{611}
+  \item Graph Databases, \hyperpage{614}
+  \item graph isomorphism, \hyperpage{1451}
+  \item Graph Theory, \hyperpage{612}
+  \item gravitation, \hyperpage{1037}
+  \item gravitational potential energy, \hyperpage{56}
+  \item Groupthink, \hyperpage{743}
+
+  \indexspace
+
+  \item Haber-Bosch process, \hyperpage{254}
+  \item half step, \hyperpage{643}
+  \item half-life, \hyperpage{550}
+  \item half-wave rectifier, \hyperpage{790}
+  \item Hans Moravec, \hyperpage{566}
+  \item hash function, \hyperpage{1419}
+  \item hash table, \hyperpage{1419}
+  \item Haversine formula, \hyperpage{753}
+  \item haversine formula, \hyperpage{753}
+  \item head, \hyperpage{1381}
+  \item headless flight, \hyperpage{490}
+  \item heap, \hyperpage{1376}
+    \subitem arrays, \hyperpage{1378}
+  \item heat, \hyperpage{131}
+  \item heat capacity
+    \subitem constant pressure, \hyperpage{1699}
+    \subitem constant volume, \hyperpage{1699}
+  \item heat pumps, \hyperpage{1709}
+  \item heeling, \hyperpage{469}
+  \item height, \hyperpage{1422}
+  \item helicopter, \hyperpage{493}
+  \item Hertz, \hyperpage{643}
+  \item heuristic, \hyperpage{1448}
+  \item hex colors, \hyperpage{821}
+  \item Hexadecimal, \hyperpage{820}
+  \item hexadecimal, \hyperpage{820, 821}, \hyperpage{1389}
+  \item Hidden Markov Models, \hyperpage{1608}
+  \item high octane, \hyperpage{1731}
+  \item high tide, \hyperpage{1060}
+  \item Hindu-Arabic, \hyperpage{817}
+  \item histograms, \hyperpage{169}
+  \item hole, \hyperpage{906}
+  \item homogeneous, \hyperpage{1273}
+  \item hooke's law, \hyperpage{984}
+  \item horizontal
+    \subitem asymptote, \hyperpage{905}
+  \item horizontal line test, \hyperpage{326}
+  \item horizontally launched projectiles, \hyperpage{423}
+  \item HTML, \hyperpage{1485}
+    \subitem attributes, \hyperpage{1485}
+    \subitem div, \hyperpage{1490}
+    \subitem elements of, \hyperpage{1485}
+    \subitem forms, \hyperpage{1508}
+    \subitem headings, \hyperpage{1494}
+    \subitem images, \hyperpage{1510}
+    \subitem links, \hyperpage{1498}
+    \subitem lists, \hyperpage{1498}
+    \subitem metadata, \hyperpage{1489}
+    \subitem navigation, \hyperpage{1502}
+    \subitem semantic elements, \hyperpage{1492}
+    \subitem structure of, \hyperpage{1486}
+    \subitem tables, \hyperpage{1504}
+    \subitem text formatting, \hyperpage{1496}
+  \item HTTP, \hyperpage{1461}, \hyperpage{1465}
+  \item hull, \hyperpage{453}
+  \item hydrostatic pressure, \hyperpage{123}
+  \item hyperopic, \hyperpage{806}
+  \item hypothesis, \hyperpage{227}
+
+  \indexspace
+
+  \item ideal gas law, \hyperpage{1695}
+  \item identity transformation, \hyperpage{1308}
+  \item IEEE 754, \hyperpage{828}
+  \item IEEE 754 standard, \hyperpage{829}
+  \item if and only if, \hyperpage{219}
+  \item implication, \hyperpage{227}
+  \item implicit differentiation, \hyperpage{1157}
+  \item implies, \hyperpage{219}
+  \item Impulse, \hyperpage{444}
+  \item in-degree, \hyperpage{614}
+  \item In-group favoritism, \hyperpage{742}
+  \item in-order, \hyperpage{1427}
+  \item incoming links, \hyperpage{1608}
+  \item inconsistent set, \hyperpage{1252}
+  \item increasing, \hyperpage{1110}
+  \item independence of motion, \hyperpage{421}
+  \item independent event, \hyperpage{1526}
+  \item independent variable, \hyperpage{655}
+  \item index, \hyperpage{205}, \hyperpage{246}
+  \item induction, \hyperpage{694}
+  \item inductive hypothesis, \hyperpage{232}
+  \item Inductive Step, \hyperpage{232}
+  \item inertia, \hyperpage{77}
+  \item infinite series, \hyperpage{561}
+  \item init, \hyperpage{268}
+  \item injection, \hyperpage{1450}
+  \item input, \hyperpage{197}
+  \item installing python, \hyperpage{189}
+  \item instance, \hyperpage{868}
+  \item integers, \hyperpage{192}
+  \item Integral Test, \hyperpage{1807}
+  \item integration, \hyperpage{406}
+  \item internal combustion engines, \hyperpage{1721}
+  \item interquartile range, \hyperpage{594}
+  \item intersection, \hyperpage{216}
+  \item interval of convergence, \hyperpage{1831}
+  \item inverse matrix, \hyperpage{1232}, \hyperpage{1298}
+  \item invertible, \hyperpage{1298}
+  \item involute gear, \hyperpage{152}
+  \item involute gear profile, \hyperpage{152}
+  \item ion, \hyperpage{45}
+  \item Ion propulsion, \hyperpage{1035}
+  \item iris, \hyperpage{803}
+  \item isometric, \hyperpage{488}
+  \item isometry, \hyperpage{488}
+  \item Isomorphism, \hyperpage{1451}
+  \item isoscelese triangle, \hyperpage{291}
+  \item isotopes, \hyperpage{110}
+  \item iterated integral, \hyperpage{1871}
+  \item iterative, \hyperpage{283}, \hyperpage{1432}
+
+  \indexspace
+
+  \item jamovi, \hyperpage{667}
+  \item jet engine, \hyperpage{477}
+  \item Joule, \hyperpage{129}
+  \item Joule's law, \hyperpage{240}
+  \item json, \hyperpage{1483}
+  \item Judgmental sampling, \hyperpage{760}
+  \item judgmental sampling, \hyperpage{760}
+
+  \indexspace
+
+  \item Kelvin, \hyperpage{1691}
+  \item Kinetic Energy, \hyperpage{50}
+  \item kinetic energy, \hyperpage{57}, \hyperpage{132}, 
+		\hyperpage{1689}
+  \item Kirchhoff's current law, \hyperpage{250}
+  \item Kirchhoff's voltage law, \hyperpage{246}
+  \item knots, \hyperpage{455}
+
+  \indexspace
+
+  \item l'H\^{o}pital's rule, \hyperpage{1093}
+  \item Laplace's equation, \hyperpage{1196}
+  \item latent heat, \hyperpage{1718}
+  \item lateral movement, \hyperpage{491}
+  \item latitude, \hyperpage{751}
+  \item Law of Large Numbers, \hyperpage{919}, \hyperpage{1780}
+  \item least-squares regression line, \hyperpage{656}
+  \item leaves, \hyperpage{1422}
+  \item leeward, \hyperpage{461}
+  \item left child, \hyperpage{1422}
+  \item left Riemann sum, \hyperpage{1631}
+  \item left riemann sums, \hyperpage{1631}
+  \item lemma, \hyperpage{227}
+  \item lemmatization, \hyperpage{1643}
+    \subitem applications of, \hyperpage{1643}
+  \item lens, \hyperpage{797}
+  \item lenses, \hyperpage{739}
+  \item level, \hyperpage{1422}
+  \item level-order, \hyperpage{1427}
+  \item Levels, \hyperpage{1131}
+  \item levels, \hyperpage{1131}
+  \item libraries, \hyperpage{272}
+  \item LIFO, \hyperpage{1407}
+  \item lift, \hyperpage{473}
+  \item lightning, \hyperpage{687}
+  \item likelihood, \hyperpage{1839}
+  \item Limit Comparison Test, \hyperpage{1817}
+  \item limits, \hyperpage{561}
+  \item linalg, \hyperpage{399}
+  \item line graph, \hyperpage{573}
+  \item line of best fit, \hyperpage{656}
+  \item line segment, \hyperpage{287}
+  \item Linear Algebra, \hyperpage{399}
+  \item linear algebra, \hyperpage{1203}
+  \item linear combination, \hyperpage{1233}
+  \item linear combination of vectors, \hyperpage{1233}
+  \item linear combinations, \hyperpage{1233}
+    \subitem graphing vectors of, \hyperpage{1237}
+  \item linear dependence, \hyperpage{1277}
+  \item linear image operations, \hyperpage{1204}
+  \item linear regression model, \hyperpage{654}
+  \item Linear velocity, \hyperpage{961}
+  \item linear velocity, \hyperpage{963}
+  \item linearly dependent, \hyperpage{1239}
+  \item lines, \hyperpage{287}
+  \item linked list, \hyperpage{1381}
+  \item Liquid Fuel Rocket, \hyperpage{1028}
+  \item lists, python, \hyperpage{409}
+  \item ln, \hyperpage{547}
+  \item local extrema, \hyperpage{1112}
+  \item local maximum, \hyperpage{1112}
+  \item local minimum, \hyperpage{1112}
+  \item log, \hyperpage{545}
+    \subitem in python, \hyperpage{545}
+  \item logarithm, \hyperpage{545}
+    \subitem change of base, \hyperpage{547}
+    \subitem identities, \hyperpage{546}
+    \subitem natural, \hyperpage{547}
+  \item logarithmic growth, \hyperpage{1757}
+  \item logic, \hyperpage{219}
+  \item logic table, \hyperpage{220}
+  \item logistic differential growth model, \hyperpage{1758}
+  \item Longitude and Latitude 
+    \subitem  coordinates of, \hyperpage{752}
+  \item longitudinal, \hyperpage{639}
+  \item loops, \hyperpage{200}
+  \item lossless, \hyperpage{1481}
+  \item lossy, \hyperpage{1481}
+  \item lunar eclipse, \hyperpage{1058}
+  \item lunar tide, \hyperpage{1060}
+  \item lurking variable, \hyperpage{1132}
+
+  \indexspace
+
+  \item machine epsilon, \hyperpage{830}
+  \item magnetorquer, \hyperpage{1032}
+  \item magnitude, \hyperpage{395}
+  \item main rotor, \hyperpage{493}
+  \item malloc, \hyperpage{1376}
+  \item margin of error, \hyperpage{1549}
+  \item marginalizing, \hyperpage{1590}
+  \item Markov chain, \hyperpage{1600}
+  \item Markov property, \hyperpage{1599, 1600}
+  \item Markovian, \hyperpage{1599}
+  \item mass of lamina, \hyperpage{1891}
+  \item mast, \hyperpage{454}
+  \item match-case, \hyperpage{200}, \hyperpage{203}
+  \item matched pairs, \hyperpage{1553}
+  \item matched-pairs design, \hyperpage{1140}
+  \item matplotlib, \hyperpage{273}, \hyperpage{409}, \hyperpage{1519}
+    \subitem subplots, \hyperpage{411}
+  \item matrices, \hyperpage{399}, \hyperpage{1206}, \hyperpage{1217}
+    \subitem normalization, \hyperpage{1211}
+    \subitem properties of, \hyperpage{1228}
+    \subitem shapes of, \hyperpage{1228}
+    \subitem vector in form of, \hyperpage{1217}
+  \item matrix, \hyperpage{1446}
+  \item matrix transpose, \hyperpage{1226}
+  \item Max Cut, \hyperpage{1361}
+    \subitem python script for , \hyperpage{1363}
+  \item mean, \hyperpage{165}, \hyperpage{589}, \hyperpage{919}
+  \item measure type, \hyperpage{668}
+  \item measures of     central tendency, \hyperpage{587}
+  \item Measures of central tendency, \hyperpage{587}
+  \item Measures of position, \hyperpage{587}
+  \item measures of position, \hyperpage{587}
+  \item Measures of variation, \hyperpage{587}
+  \item measures of variation, \hyperpage{587}
+  \item median, \hyperpage{168}, \hyperpage{590}
+  \item memory, \hyperpage{819}
+  \item memory leak, \hyperpage{1377}
+  \item Mermaid, \hyperpage{781}
+  \item metals, \hyperpage{259}
+  \item methods, \hyperpage{269}
+    \subitem definition, \hyperpage{269}
+  \item metric system
+    \subitem prefixes, \hyperpage{98}
+  \item midpoint riemann sums, \hyperpage{1632}
+  \item millimeters mercury, \hyperpage{513}
+  \item minor matrix, \hyperpage{1297}
+  \item mirror, \hyperpage{720}
+  \item missing values, \hyperpage{669}
+  \item MLE, \hyperpage{1680}
+  \item mobius strip, \hyperpage{565}
+  \item modf, \hyperpage{1373}
+  \item modulus, \hyperpage{195}
+  \item molar heat capacity, \hyperpage{1699}
+  \item mole, \hyperpage{108}
+  \item molecules, \hyperpage{46}
+  \item momentum, \hyperpage{441}
+    \subitem conservation of, \hyperpage{441}
+  \item monomial, \hyperpage{833}
+    \subitem coefficient, \hyperpage{833}
+    \subitem degree, \hyperpage{833}
+  \item monomials
+    \subitem adding, \hyperpage{845}
+    \subitem multiplication, \hyperpage{851}
+    \subitem multiplying polynomials by, \hyperpage{852}
+  \item Monty Hall Problem, \hyperpage{559}
+  \item moon
+    \subitem index
+      \subsubitem lunar, \hyperpage{1058}
+  \item moon 
+    \subitem  eclipse 
+      \subsubitem  solar, \hyperpage{1058}
+    \subitem  eclipses, \hyperpage{1058}
+    \subitem  phases of, \hyperpage{1054}
+  \item Moravec's Paradox, \hyperpage{566}
+  \item most likely estimator, \hyperpage{1680}
+  \item movable fins, \hyperpage{1030}
+  \item multiplication, \hyperpage{195}
+  \item multivariable function, \hyperpage{1165}
+    \subitem domain, \hyperpage{1165}
+    \subitem range, \hyperpage{1165}
+  \item multivariate normal, \hyperpage{1913}
+  \item multivariate normal distribution, \hyperpage{1913}
+  \item myopic, \hyperpage{806}
+
+  \indexspace
+
+  \item n-doped, \hyperpage{786}
+  \item n-doping, \hyperpage{786}
+  \item natural growth, \hyperpage{1757}
+  \item natural key, \hyperpage{776}
+  \item Nautical Mile, \hyperpage{753}
+  \item nautical mile, \hyperpage{455}, \hyperpage{753}
+  \item neap tide, \hyperpage{1061}
+  \item nearsighted, \hyperpage{806}
+  \item neighbor, \hyperpage{614}
+  \item net charge, \hyperpage{673}
+  \item net force, \hyperpage{81}
+  \item net torque, \hyperpage{1014}
+  \item neutron, \hyperpage{106}
+  \item neutrons, \hyperpage{43}
+  \item new, \hyperpage{1381}
+  \item newline, \hyperpage{1515}
+  \item Newton's First Law, \hyperpage{77}
+  \item Newton's Third Law, \hyperpage{87}
+  \item nitrogen, \hyperpage{253}
+  \item nitrogen cycle, \hyperpage{254}
+  \item nitrogen fixation, \hyperpage{253, 254}
+  \item no solution, \hyperpage{1252}
+  \item node, \hyperpage{1381}
+  \item nodes, \hyperpage{611}
+  \item non-polar bond, \hyperpage{47}
+  \item non-uniform circular motion, \hyperpage{977}
+  \item nonlinear operations, \hyperpage{1203}
+  \item Nonresponse bias, \hyperpage{767}
+  \item nonresponse bias, \hyperpage{767}
+  \item normal distribution, \hyperpage{170}, \hyperpage{1843}
+  \item normalization, \hyperpage{776}
+  \item not, \hyperpage{220}
+  \item np, \hyperpage{399}
+  \item NULL, \hyperpage{1373}
+  \item null, \hyperpage{479}
+  \item null pointer, \hyperpage{1382}
+  \item nullspace, \hyperpage{1276}
+    \subitem and linear independence, \hyperpage{1279}
+  \item number of blades, \hyperpage{490}
+  \item numerical integration, \hyperpage{1918}
+  \item NumPy, \hyperpage{399}
+
+  \indexspace
+
+  \item oar, \hyperpage{454}
+  \item object, \hyperpage{268}
+  \item Object-Oriented Programming, \hyperpage{267}
+  \item object-oriented programming, \hyperpage{267}
+  \item objects, \hyperpage{268}
+    \subitem definition, \hyperpage{268}
+  \item oblate spheroid, \hyperpage{729}
+  \item oblate spheroids, \hyperpage{729}
+  \item oblique
+    \subitem asymptote, \hyperpage{908}
+  \item oblique cylinder, \hyperpage{378}
+  \item observational study, \hyperpage{1129}
+  \item observations, \hyperpage{1608}
+  \item obtuse triangle, \hyperpage{293}
+  \item Octal, \hyperpage{821}
+  \item odd, \hyperpage{228}
+  \item ODEs, \hyperpage{1755}
+  \item Ohm's law, \hyperpage{239}
+  \item ohms, \hyperpage{239}
+  \item one-to-one relationship, \hyperpage{781}
+  \item open system, \hyperpage{59}
+  \item operations, \hyperpage{195}
+  \item optimization, \hyperpage{1147}
+  \item or, \hyperpage{215}
+  \item orbital paths, \hyperpage{1053}
+  \item ordinary differential equation, \hyperpage{1755}
+  \item origin, \hyperpage{73}
+  \item orthogonal, \hyperpage{1337}
+  \item out-degree, \hyperpage{614}
+  \item outgoing links, \hyperpage{1607}
+  \item outlier, \hyperpage{576}, \hyperpage{601}
+  \item overflow, \hyperpage{824}
+
+  \indexspace
+
+  \item p-doped, \hyperpage{786}
+  \item p-doping, \hyperpage{786}
+  \item p-series, \hyperpage{1803}
+  \item P-trap, \hyperpage{516}
+  \item padding, \hyperpage{1388}, \hyperpage{1392}
+  \item paddle, \hyperpage{454}
+  \item pandas, \hyperpage{480}
+  \item parabola, \hyperpage{407}, \hyperpage{731}
+  \item paradox, \hyperpage{555}
+  \item parallel, \hyperpage{307}
+  \item parallel-axis theorem, \hyperpage{1018}
+  \item parameter, \hyperpage{264}, \hyperpage{943}
+  \item parametrized, \hyperpage{827}
+  \item partial dependency, \hyperpage{777}
+  \item partial derivative, \hyperpage{1167}
+    \subitem chain rule for, \hyperpage{1176}
+    \subitem limits of, \hyperpage{1168}
+  \item partial differential equations, \hyperpage{1764}
+  \item partial fraction decomposition, \hyperpage{911}
+  \item partial solar eclipse, \hyperpage{1059}
+  \item partial sum, \hyperpage{1793}
+  \item pascals, \hyperpage{507}
+  \item pass-by-reference, \hyperpage{1373}
+  \item pass-by-value, \hyperpage{1371}
+  \item Path, \hyperpage{1422}
+  \item path, \hyperpage{612}
+  \item PDEs, \hyperpage{1764}
+  \item peak, \hyperpage{638}
+  \item Pearson's correlation coefficient, \hyperpage{649}
+  \item penrose steps, \hyperpage{564}
+  \item percentile, \hyperpage{606}
+  \item perfect correlation, \hyperpage{651}
+  \item perfect squares, \hyperpage{878}
+  \item Period, \hyperpage{961}
+  \item period, \hyperpage{643}
+  \item periodic table of elements, \hyperpage{112}
+  \item permutations, \hyperpage{1543}
+    \subitem composing, \hyperpage{1544}
+    \subitem cycles, \hyperpage{1546}
+    \subitem formula, \hyperpage{1536}
+    \subitem identity permutation, \hyperpage{1544}
+    \subitem inverses, \hyperpage{1545}
+  \item perpendicular, \hyperpage{307}, \hyperpage{640}
+  \item phase, \hyperpage{694}
+  \item phase change, \hyperpage{1697}
+  \item phosphorus, \hyperpage{253}, \hyperpage{785}
+  \item photoelectric effect, \hyperpage{718}
+  \item photon, \hyperpage{717}
+    \subitem colors of, \hyperpage{795}
+    \subitem wavelength, \hyperpage{795}
+  \item photons, \hyperpage{717}
+  \item photovoltaics, \hyperpage{791}
+  \item pie chart, \hyperpage{575}
+  \item piecewise functions, \hyperpage{335}
+  \item piston engine, \hyperpage{1721}
+    \subitem challenges, \hyperpage{1727}
+    \subitem four-stroke process, \hyperpage{1722}
+    \subitem inefficiencies, \hyperpage{1726}
+    \subitem lubrication, \hyperpage{1726}
+    \subitem parts, \hyperpage{1721}
+  \item pitch, \hyperpage{474, 475}, \hyperpage{490, 491}, 
+		\hyperpage{493}
+  \item Placebo, \hyperpage{1131}
+  \item placebo, \hyperpage{1131}
+  \item placebo effect, \hyperpage{1131}
+  \item plane, \hyperpage{1286}
+  \item plotly, \hyperpage{1523}
+  \item point charge, \hyperpage{675}
+  \item pointer, \hyperpage{1371, 1372}
+  \item polar bond, \hyperpage{47}
+  \item polar coordinates, \hyperpage{1741}
+  \item polar double integrals, \hyperpage{1884}
+  \item polar functions, \hyperpage{1743}
+    \subitem slope, \hyperpage{1743}
+  \item polynomial, \hyperpage{833}
+    \subitem definition of, \hyperpage{833}
+    \subitem graphing, \hyperpage{894}
+  \item polynomials
+    \subitem adding, \hyperpage{845}
+    \subitem differentiation, \hyperpage{861}
+    \subitem multiplication, \hyperpage{851}
+    \subitem subtracting, \hyperpage{846}
+  \item population, \hyperpage{589}, \hyperpage{757}
+  \item population regression equation, \hyperpage{655}
+  \item population regression model, \hyperpage{1567}
+  \item population variance, \hyperpage{594}
+  \item port, \hyperpage{453}
+  \item Position, \hyperpage{73}
+  \item post-order, \hyperpage{1427}
+  \item post-order number, \hyperpage{1433}
+  \item Postman, \hyperpage{1477}
+  \item potash, \hyperpage{253}
+  \item potassium, \hyperpage{253}
+  \item Potential Energy, \hyperpage{50}
+  \item potential energy, \hyperpage{56}
+    \subitem gravitational, \hyperpage{133}
+  \item power, \hyperpage{625}
+  \item power rule, \hyperpage{861}, \hyperpage{1091}, \hyperpage{1103}
+  \item power series, \hyperpage{1827}
+    \subitem calculus with, \hyperpage{1833}
+  \item power set, \hyperpage{223}
+  \item pre-order, \hyperpage{1427}
+  \item pre-order number, \hyperpage{1433}
+  \item precision, \hyperpage{827}
+  \item predecessor, \hyperpage{1386}
+  \item predecessor tree, \hyperpage{2101}
+  \item predicted value, \hyperpage{655}
+  \item premise, \hyperpage{227}
+  \item Pressure, \hyperpage{157}
+  \item pressure, \hyperpage{507}
+  \item pressure and volume, \hyperpage{1694}
+  \item primary key, \hyperpage{479}, \hyperpage{775, 776}
+  \item principle of superposition, \hyperpage{676}
+  \item print, \hyperpage{191}
+  \item printing objects, \hyperpage{270}
+  \item priority queue, \hyperpage{1413}
+  \item probability, \hyperpage{1525}
+  \item probability density function, \hyperpage{1680}
+  \item product rule, \hyperpage{1104}
+  \item projectile motion, \hyperpage{421}
+    \subitem at an angle, \hyperpage{426}
+    \subitem equations of, \hyperpage{422}
+  \item projections, \hyperpage{1337}
+    \subitem formula for, \hyperpage{1339}
+    \subitem visualization of, \hyperpage{1337}
+  \item prolate spheroid, \hyperpage{729}
+  \item proof by cases, \hyperpage{228}
+  \item proof by induction, \hyperpage{232}
+  \item proofs, \hyperpage{227}
+  \item propeller, \hyperpage{454}
+  \item proposition, \hyperpage{227}
+  \item proton, \hyperpage{106}
+  \item protons, \hyperpage{673}
+  \item punts, \hyperpage{454}
+  \item pupil, \hyperpage{803}
+  \item pure math, \hyperpage{213}
+  \item Pythagorean theorem, \hyperpage{297}
+  \item Pythagorean triples, \hyperpage{297}
+
+  \indexspace
+
+  \item quadcopter
+    \subitem propellers
+      \subsubitem numbers, \hyperpage{490}
+  \item quadratic functions, \hyperpage{407}
+  \item quadratic mean, \hyperpage{171}
+  \item quadruple precision, \hyperpage{831}
+  \item quantized, \hyperpage{673}
+  \item Quartiles, \hyperpage{607}
+  \item quartiles, \hyperpage{607}
+  \item queue, \hyperpage{1428}
+  \item quitting, \hyperpage{41}
+  \item quota sampling, \hyperpage{764}
+  \item quotient rule, \hyperpage{1104}
+
+  \indexspace
+
+  \item radians, \hyperpage{289}
+  \item radioactive decay, \hyperpage{550}
+  \item radius, \hyperpage{309}
+  \item radius of convergence, \hyperpage{1830}
+  \item radius of gyration, \hyperpage{1899}
+  \item radix, \hyperpage{817}
+  \item Random assignment, \hyperpage{1134}
+  \item random assignment, \hyperpage{1134}
+  \item random number generation, \hyperpage{1529}
+  \item Random selection, \hyperpage{1134}
+  \item random selection, \hyperpage{1134}
+  \item Randomization, \hyperpage{1132}
+  \item randomization, \hyperpage{1132}
+  \item randomized block design, \hyperpage{1138}
+  \item Range, \hyperpage{427}
+  \item range, \hyperpage{326}, \hyperpage{594}
+  \item rank, \hyperpage{1252}
+  \item rarefactions, \hyperpage{640}
+  \item ratio test, \hyperpage{1821}
+  \item rational
+    \subitem expression, \hyperpage{903}
+    \subitem function, \hyperpage{903}
+  \item ray, \hyperpage{287}
+  \item RCS thrusters, \hyperpage{1032}
+  \item reaction wheels, \hyperpage{1032}
+  \item read-only, \hyperpage{1467}
+  \item rebar, \hyperpage{257, 258}
+  \item rectifier, \hyperpage{790}
+  \item recursion, \hyperpage{232}, \hyperpage{281, 282}
+  \item recursive, \hyperpage{1421}, \hyperpage{1432}
+  \item recursive call, \hyperpage{281}
+  \item recursive function, \hyperpage{281}
+  \item recursive traversal, \hyperpage{1432}
+  \item reflection, \hyperpage{719}
+    \subitem Law of, \hyperpage{721}
+    \subitem law of, \hyperpage{721}
+  \item reflections, \hyperpage{302}, \hyperpage{325}, \hyperpage{1315}
+  \item refractive index, \hyperpage{740}
+  \item reindexing series, \hyperpage{1794}
+  \item related rates, \hyperpage{1163}
+  \item relational algebra, \hyperpage{782}
+  \item relative extrema, \hyperpage{1148}
+  \item relative maximum, \hyperpage{1148}
+  \item relative minimum, \hyperpage{1148}
+  \item remainder estimate for series, \hyperpage{1812}
+  \item repeated measures design, \hyperpage{1141}
+  \item repel, \hyperpage{673}
+  \item Replication, \hyperpage{1132}
+  \item replication, \hyperpage{1132}
+  \item residual, \hyperpage{655}
+  \item residual plot, \hyperpage{1573}
+  \item resistance, \hyperpage{237}
+    \subitem in parallel, \hyperpage{248}
+  \item resistant, \hyperpage{590}
+  \item resistant measure, \hyperpage{590}
+  \item resolution, \hyperpage{799}
+  \item Response bias, \hyperpage{767}
+  \item response bias, \hyperpage{767}
+  \item Response variable, \hyperpage{1131}
+  \item response variable, \hyperpage{1131}
+  \item RESTful API, \hyperpage{1466}
+  \item restoring force, \hyperpage{977}, \hyperpage{983}
+  \item results panel, \hyperpage{667}
+  \item retina, \hyperpage{804}
+  \item reverse geocoding, \hyperpage{1522}
+  \item rgb, \hyperpage{799}, \hyperpage{808}
+  \item rhizobia, \hyperpage{254}
+  \item riemann sums, \hyperpage{1621}
+    \subitem code, \hyperpage{1638}
+  \item right child, \hyperpage{1422}
+  \item right Riemann sum, \hyperpage{1630}
+  \item right riemann sums, \hyperpage{1630}
+  \item right triangle, \hyperpage{293}
+  \item rigid body, \hyperpage{1009}
+  \item RMS, \hyperpage{171}
+  \item rockets, \hyperpage{1027}
+  \item rockets 
+    \subitem  alternate propulsion methods of, \hyperpage{1033}
+    \subitem  in atmosphere, \hyperpage{1030}
+    \subitem  in space, \hyperpage{1031}
+    \subitem  liquid fuel based, \hyperpage{1028}
+    \subitem  staging, \hyperpage{1029}
+  \item roll, \hyperpage{474, 475}, \hyperpage{491}
+  \item root, \hyperpage{489}, \hyperpage{1421}
+  \item root test, \hyperpage{1823}
+  \item root-mean-squared, \hyperpage{171}
+  \item rotations, \hyperpage{302}
+  \item rotor, \hyperpage{487}
+  \item row space, \hyperpage{1280}
+  \item row-echelon form, \hyperpage{1242}
+  \item row-major order, \hyperpage{1227}
+  \item rudder, \hyperpage{458}, \hyperpage{476}
+  \item running, \hyperpage{463}
+  \item Russell's Paradox, \hyperpage{556}
+
+  \indexspace
+
+  \item sail, \hyperpage{454}
+  \item sample, \hyperpage{590}, \hyperpage{757}
+  \item sample survey, \hyperpage{757}
+  \item sample variance, \hyperpage{595}
+  \item samples, \hyperpage{165}
+  \item sampling
+    \subitem with replacement, \hyperpage{760}
+    \subitem without replacement, \hyperpage{760}
+  \item sampling distribution, \hyperpage{1570}
+    \subitem of the slope, \hyperpage{1570}
+  \item Sampling error, \hyperpage{767}
+  \item sampling error, \hyperpage{767}
+  \item sampling with replacement, \hyperpage{760}
+  \item sampling without replacement, \hyperpage{760}
+  \item scalar, \hyperpage{392}
+  \item Scalene Triangle, \hyperpage{292}
+  \item scaling, \hyperpage{1310}
+  \item scatter plot, \hyperpage{584}
+  \item Schrödinger's cat, \hyperpage{562}
+  \item sclera, \hyperpage{804}
+  \item scope, \hyperpage{266}
+  \item secant, \hyperpage{317}
+  \item second derivative test, \hyperpage{1149}
+  \item segmentation fault, \hyperpage{1392}
+  \item Self-serving bias, \hyperpage{742}
+  \item sensible heat, \hyperpage{1718}
+  \item sequence types, \hyperpage{193}
+  \item sequences, \hyperpage{1779}
+    \subitem applications of, \hyperpage{1789}
+    \subitem bounded, \hyperpage{1786}
+    \subitem continuous functions of, \hyperpage{1786}
+    \subitem convergence, \hyperpage{1781}
+    \subitem divergence, \hyperpage{1781}
+    \subitem limits of, \hyperpage{1783}
+    \subitem monotonic, \hyperpage{1786}
+  \item series, \hyperpage{1793}
+  \item set, \hyperpage{214}
+  \item set theory, \hyperpage{556}
+  \item sets of sets, \hyperpage{223}
+  \item SHM, \hyperindexformat{\see{simple harmonic motion}}{982}, 
+		\hyperpage{993}
+  \item SI units, \hyperpage{100}
+  \item siblings, \hyperpage{1421}
+  \item sign, \hyperpage{824, 825}
+  \item signed bits, \hyperpage{820}
+  \item significand, \hyperpage{824, 825}
+  \item silicon, \hyperpage{785}
+  \item simple harmonic motion, \hyperpage{982}, \hyperpage{993}
+    \subitem energy in, \hyperpage{983}
+  \item simple random sample, \hyperpage{760}
+  \item Simpson's paradox, \hyperpage{557}
+  \item single precision, \hyperpage{829}
+  \item single-blind experiment, \hyperpage{1133}
+  \item singular value decomposition, \hyperpage{1349}
+  \item siphon, \hyperpage{514}
+  \item skewed distribution, \hyperpage{592}
+  \item slope, \hyperpage{655}
+  \item slope field, \hyperpage{1765}
+  \item Snowball sampling, \hyperpage{764}
+  \item snowball sampling, \hyperpage{764}
+  \item solar cells, \hyperpage{791}
+  \item solar eclipse, \hyperpage{1058}
+  \item solar sail, \hyperpage{1033}
+  \item Solid Fuel Rocket, \hyperpage{1027}
+  \item solids of revolution, \hyperpage{1857}
+  \item sorting, \hyperpage{1544}
+  \item span, \hyperpage{1233}, \hyperpage{1285}
+  \item specific heat capacity, \hyperpage{125}
+  \item speed of light, \hyperpage{717}
+  \item Spreadsheet
+    \subitem Entering formula, \hyperpage{177}
+  \item spreadsheet, \hyperpage{175}, \hyperpage{667}
+    \subitem graphs, \hyperpage{185}
+  \item spring tide, \hyperpage{1060}
+  \item springs, \hyperpage{984}
+    \subitem spring potential energy, \hyperpage{986}
+  \item SQL, \hyperpage{769}
+  \item SQLite, \hyperpage{769}
+  \item stack, \hyperpage{1370}, \hyperpage{1407}
+  \item stack frame, \hyperpage{1370}
+  \item staging, \hyperpage{1029}
+  \item stainless steel, \hyperpage{259}
+  \item standard, \hyperpage{724}
+  \item standard deviation, \hyperpage{594}
+  \item standard error
+    \subitem of the slope, \hyperpage{1570}
+  \item standard error of the slope, \hyperpage{1570}
+  \item standard form
+    \subitem polynomial, \hyperpage{834}
+  \item standardized score, \hyperpage{603}
+  \item starboard, \hyperpage{453}
+  \item state diagram, \hyperpage{1600}
+  \item state space, \hyperpage{1599}
+  \item static typing, \hyperpage{1367}
+  \item Statistical inference, \hyperpage{1550}
+  \item statistically significant, \hyperpage{1134}
+  \item statute, \hyperpage{455}
+  \item steady-state distribution, \hyperpage{1606}
+  \item steel reinforced concrete, \hyperpage{257}
+  \item steel-reinforced concrete, \hyperpage{257}
+  \item stemming, \hyperpage{1643}
+    \subitem applications of, \hyperpage{1643}
+  \item stern, \hyperpage{453}
+  \item stochastic matrix, \hyperpage{1603}
+  \item Strata, \hyperpage{764}
+  \item strata, \hyperpage{764}
+  \item stratified random sampling, \hyperpage{762}
+  \item straw
+    \subitem drinking, \hyperpage{510}
+  \item string methods, \hyperpage{206}
+  \item strings, \hyperpage{192}, \hyperpage{204}
+    \subitem indexing, \hyperpage{205}
+    \subitem iterating, \hyperpage{206}
+    \subitem length, \hyperpage{205}
+  \item strongly connected, \hyperpage{1459}
+  \item strongly connected components, \hyperpage{1459}
+  \item struct, \hyperpage{1375}
+  \item subatomic particle, \hyperpage{43}
+  \item subclass, \hyperpage{869}
+  \item subgraphs, \hyperpage{612}
+  \item subjects, \hyperpage{1129}
+  \item subset, \hyperpage{216}
+  \item subtracting sets, \hyperpage{222}
+  \item subtraction, \hyperpage{195}
+  \item subtractive, \hyperpage{627}
+  \item subtree, \hyperpage{1421}
+  \item successor, \hyperpage{1381}
+  \item summation symbol, \hyperpage{166}
+  \item super keys, \hyperpage{775}
+  \item superposition, \hyperpage{562}
+  \item supplementary angles, \hyperpage{288}
+  \item surjection, \hyperpage{1450}
+  \item surrogate keys, \hyperpage{776}
+  \item svd, \hyperpage{1349}
+    \subitem python script for, \hyperpage{1353}
+  \item symbolic variable, \hyperpage{888}
+  \item symbolic vs. numeric solutions, \hyperpage{175}
+  \item symmetric distribution, \hyperpage{592}
+  \item symmetric matrices, \hyperpage{1230}
+  \item syntax, \hyperpage{278}
+  \item syntax errors, \hyperpage{279}
+  \item system of equations, \hyperpage{1241}
+  \item systematic sampling, \hyperpage{762}
+
+  \indexspace
+
+  \item t-distribution, \hyperpage{1551}
+  \item tacking, \hyperpage{468}
+  \item tail, \hyperpage{1381}
+  \item tail rotor, \hyperpage{493}
+  \item tangent, \hyperpage{317}
+  \item tangent line, \hyperpage{317}
+  \item taxicab distance, \hyperpage{1449}
+  \item temperature and volume, \hyperpage{1693}
+  \item tensile, \hyperpage{257}
+  \item terminal velocity, \hyperpage{709}
+  \item Test for Divergence, \hyperpage{1798}, \hyperpage{1807}
+  \item test of significance, \hyperpage{1550}
+  \item text, \hyperpage{1515}
+  \item tfd, \hyperindexformat{\see {Test for Divergence}}{1798}
+  \item The bandwagon effect, \hyperpage{743}
+  \item the bow, \hyperpage{453}
+  \item the center of effort, \hyperpage{462}
+  \item the deck, \hyperpage{453}
+  \item the fundamental frequency, \hyperpage{644}
+  \item the heat of fusion, \hyperpage{1713}
+  \item the hull, \hyperpage{453}
+  \item the latent heat of melting, \hyperpage{1713}
+  \item the latent heat of vaporization, \hyperpage{1713}
+  \item the null set, \hyperpage{214}
+  \item the stern, \hyperpage{453}
+  \item theorem, \hyperpage{227}
+  \item thermal equilibrium, \hyperpage{126}
+  \item thought experiments, \hyperpage{555}
+  \item Three-Body Problem, \hyperpage{1051}
+  \item Threshold Frequency, \hyperpage{718}
+  \item thrust, \hyperpage{473}
+  \item thrust vector, \hyperpage{455}
+  \item thrust vectoring, \hyperpage{1030}
+  \item tides, \hyperpage{1060}
+  \item time travel paradoxes, \hyperpage{563}
+  \item tip, \hyperpage{489}
+  \item top, \hyperpage{1407}
+  \item topological order, \hyperpage{1454}
+  \item Topological Sorting, \hyperpage{1454}
+  \item torque, \hyperpage{151}, \hyperpage{1010, 1011}
+  \item torques, \hyperpage{1011}
+    \subitem applied in opposite directions, \hyperpage{1013}
+  \item total charge, \hyperpage{1893}
+  \item transformations, \hyperpage{301}
+  \item transformer, \hyperpage{693}
+  \item transistors, \hyperpage{825}
+  \item transition matrix, \hyperpage{1600}, \hyperpage{1603}
+  \item transitive dependencies, \hyperpage{780}
+  \item transitive dependency, \hyperpage{777}
+  \item translations, \hyperpage{302}
+  \item translucent, \hyperpage{720}
+  \item transparent, \hyperpage{719}
+  \item transverse, \hyperpage{640}
+  \item Trapezoidal Rule, \hyperpage{1632}
+  \item traprule, \hyperindexformat{\seealso{Trapezoidal Rule}}{1634}
+  \item traversals, \hyperpage{1427}
+  \item Treatment, \hyperpage{1131}
+  \item treatment, \hyperpage{1131}
+  \item tree, \hyperpage{1421}
+  \item triangle, \hyperpage{291}
+  \item triangle inequality, \hyperpage{292}
+  \item trough, \hyperpage{638}
+  \item try-except, \hyperpage{280}
+  \item twist, \hyperpage{489}
+  \item type I region, \hyperpage{1875}
+  \item type II region, \hyperpage{1877}
+
+  \indexspace
+
+  \item u-sub, \hyperindexformat{\see{u-substitution}}{1733}
+  \item u-substitution, \hyperpage{1733}
+    \subitem changing the bounds, \hyperpage{1737}
+  \item undercoverage, \hyperpage{767}
+  \item Undercoverage bias, \hyperpage{767}
+  \item underflow, \hyperpage{824}
+  \item uniformly accelerated motion, \hyperpage{413}
+  \item union, \hyperpage{216}
+  \item unit vector, \hyperpage{397}
+  \item units table, \hyperpage{97}
+  \item urea, \hyperpage{254}
+  \item urine, \hyperpage{254}
+  \item UTF-8, \hyperpage{1515}
+  \item UUIDs, \hyperpage{776}
+
+  \indexspace
+
+  \item vacuum speed of light, \hyperpage{717}
+  \item valence electrons, \hyperpage{785}
+  \item valid, \hyperpage{227}
+  \item valley, \hyperpage{638}
+  \item Vantablack, \hyperpage{720}
+  \item variability, \hyperpage{1137}
+  \item variance, \hyperpage{166}, \hyperpage{594}
+  \item vector, \hyperpage{1217}
+  \item vector field, \hyperpage{70}
+  \item vector-valued, \hyperpage{957}
+  \item vectors, \hyperpage{389}
+    \subitem adding, \hyperpage{390}
+    \subitem angle between, \hyperpage{621}
+    \subitem in python, \hyperpage{398}
+    \subitem magnitude of, \hyperpage{395}
+    \subitem multiplying by a scalar, \hyperpage{392}
+    \subitem subtraction, \hyperpage{394}
+  \item Velocity, \hyperpage{73}
+  \item Venn diagrams, \hyperpage{217}
+  \item vernier engines, \hyperpage{1030}
+  \item vertex formula, \hyperpage{520}
+  \item vertical
+    \subitem asymptote, \hyperpage{905}
+  \item vertical line test, \hyperpage{325}
+  \item voltage, \hyperpage{237}
+  \item volts, \hyperpage{239}
+  \item volume 
+    \subitem  oblique cylinder, \hyperpage{378}
+    \subitem  pyramid, \hyperpage{380}
+    \subitem  rectangular solid, \hyperpage{375}
+    \subitem  right cylinder, \hyperpage{377}
+    \subitem  sphere, \hyperpage{376}
+    \subitem  triangular prism, \hyperpage{375}
+  \item Volume Single Integral, \hyperpage{1855}
+    \subitem volume of a sphere, \hyperpage{1855}
+  \item voluntary response sample, \hyperpage{760}
+
+  \indexspace
+
+  \item washer method, \hyperpage{1861}
+  \item watts, \hyperpage{131}, \hyperpage{240}
+  \item wavelength, \hyperpage{348}
+  \item Web APIs, \hyperpage{1465}
+  \item Web Development
+    \subitem HTML, \hyperpage{1489}
+  \item weighted edges, \hyperpage{614}
+  \item weighted graph, \hyperpage{614}
+  \item while loops, \hyperpage{202}
+  \item wind pressure, \hyperpage{462}
+  \item wind resistance, \hyperpage{705}
+  \item windward, \hyperpage{461}
+  \item Wording effect bias, \hyperpage{767}
+  \item wording effect bias, \hyperpage{767}
+  \item work, \hyperpage{49}, \hyperpage{129}, \hyperpage{625}
+  \item Work Function, \hyperpage{718}
+
+  \indexspace
+
+  \item xml, \hyperpage{1483}
+
+  \indexspace
+
+  \item y-intercept, \hyperpage{655}
+  \item yaw, \hyperpage{474}, \hyperpage{476}, \hyperpage{492}
+
+  \indexspace
+
+  \item z-score, \hyperpage{603}
+  \item zero matrix, \hyperpage{1218}
+  \item zero product property, \hyperpage{522}
+  \item zero-to-many relationship, \hyperpage{781}
+  \item ZFC, \hyperpage{213}
+
+\end{theindex}
